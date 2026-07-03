@@ -1,0 +1,30 @@
+URL: https://www.youtube.com/watch?v=Fp0WDF6jeI0
+Subject: POL2129
+Class date: 2026-06-30
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2129\2026-06-30\video-01
+Created at: 2026-07-03T15:00:40
+Status: task folder created
+Video id: Fp0WDF6jeI0
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (Fp0WDF6jeI0.th.vtt)
+Raw transcript characters: 572154
+Original transcript characters: 50111
+
+Status update:
+- Task folder created with scripts/init_task.py for POL2129 on 2026-06-30 as video-01.
+- Transcript fetch succeeded with yt-dlp using the Thai VTT caption track: Fp0WDF6jeI0.th.vtt.
+- yt-dlp also attempted English subtitles but received HTTP 429 for the English subtitle download; Thai captions were still fetched and used.
+- transcript-raw.txt stores the raw VTT payload.
+- transcript-original.txt stores readable Thai caption text without timestamps.
+- transcript-original.txt was split into 5 original chunks at about 12000 characters per chunk.
+- revised-chunk-001.txt through revised-chunk-005.txt were created from the original chunks with conservative transcript cleanup: recurring course terms, English technical terms, and obvious speech-to-text artifacts were normalized while preserving lecture order and detail.
+- transcript-revised.txt was combined from all 5 revised chunks and remains a transcript, not a summary.
+- lecture-summary.txt was written in Thai from the revised transcript as detailed lecture notes. It includes class agenda, grading policy, quiz dates, exam/quiz hints, and the main lecture on the modern Thai state, political economy, Bank of Thailand, development era, foreign capital, public debt, and infrastructure.
+- lecture-summary.txt was split into chunks/summary-chunk-001.txt and chunks/summary-chunk-002.txt.
+- Caveat: the source was YouTube auto-caption text, so some names and lecture-side comments may remain approximate where the audio caption was unclear.
