@@ -1,0 +1,26 @@
+URL: https://www.youtube.com/watch?v=ujWFLKszHXw
+Subject: POL2100
+Class date: 2026-07-02
+Task folder: C:\Users\Vachi\ram-sum\youtube-class-notes\classes\POL2100\2026-07-02\video-01
+Created at: 2026-07-03T20:10:22
+Status: task folder created
+Video id: ujWFLKszHXw
+yt-dlp: not installed
+Transcript method: youtube-transcript-api
+Raw transcript characters: 86365
+Original transcript characters: 24620
+Status: transcript fetched and processed
+Parsed command: process https://www.youtube.com/watch?v=ujWFLKszHXw as "POL2100" from 02.07.2026
+Normalized class date: 2026-07-02
+Output folder: classes/POL2100/2026-07-02/video-01
+Overwrite check: created new video-01 folder; no existing POL2100/2026-07-02 video folder was overwritten.
+Transcript fetch notes: yt-dlp was not installed, so the script used youtube-transcript-api successfully.
+Chunking: transcript-original.txt was split into 4 original chunks with scripts/split_text.py using max 7000 characters.
+Revision: revised all 4 original chunks with prompts/revise-transcript.md rules, preserving lecture order and keeping uncertain names conservative rather than inventing missing words.
+Combined revised transcript: chunks/revised-chunk-001.txt through chunks/revised-chunk-004.txt were combined into transcript-revised.txt.
+Summary: lecture-summary.txt was written from transcript-revised.txt via chunks/summary-chunk-001.txt using prompts/summarize-lecture.md rules.
+Summary review: summary is detailed Thai lecture-note prose, includes main lecture content, examples, course logistics, textbook notes, exam/grading rules, and critical items marked with ⚠️.
+Quality check: transcript-raw.txt, transcript-original.txt, transcript-revised.txt, lecture-summary.txt, processing-notes.txt, and chunks/ all exist.
+Quality check: transcript-original.txt is not empty; transcript-revised.txt is a corrected transcript rather than a summary.
+Quality check: lecture-summary.txt is about 18,045 characters of Thai prose, long enough for the 2000-word requirement under Thai word segmentation; whitespace token count is not meaningful for Thai text.
+Blockers: none after youtube-transcript-api succeeded.
