@@ -1,0 +1,30 @@
+URL: https://www.youtube.com/watch?v=fzGMIZ-5XuU
+Subject: POL3179
+Class date: 2026-06-01
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL3179\2026-06-01\video-01
+Created at: 2026-07-03T12:56:49
+Status: task folder created
+Video id: fzGMIZ-5XuU
+yt-dlp: not installed
+youtube-transcript-api: not available (No module named 'youtube_transcript_api')
+timedtext failed: Expecting value: line 1 column 1 (char 0)
+Status: failed to fetch transcript
+Video id: fzGMIZ-5XuU
+yt-dlp: not installed
+Transcript method: youtube-transcript-api
+Raw transcript characters: 250880
+Original transcript characters: 76485
+Video id: fzGMIZ-5XuU
+yt-dlp: not installed
+Transcript method: youtube-transcript-api
+Raw transcript characters: 250880
+Original transcript characters: 76485
+Status update:
+- Transcript fetch succeeded after installing yt-dlp and youtube-transcript-api.
+- transcript-raw.txt stores the raw transcript payload.
+- transcript-original.txt stores readable Thai transcript text without timestamps.
+- Original transcript was split into 9 chunks at about 9000 characters per chunk.
+- transcript-revised.txt was created as a first-pass cleanup with common term corrections while preserving the transcript order and line structure.
+- Important caveat: transcript-revised.txt is not yet a full manual LLM line-by-line correction of every sentence. It is good enough for workflow testing and summary generation, but should be improved in future fine-tuning passes.
+- lecture-summary.txt was created manually from all 9 chunks in Thai lecture-note prose.
+- PowerShell may display Thai text incorrectly in command output, but Python reads the UTF-8 files correctly.

@@ -1,0 +1,26 @@
+URL: https://www.youtube.com/watch?v=nCegU96jPU4&t=2s
+Subject: POL2107
+Class date: 2026-07-01
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2107\2026-07-01\video-01
+Created at: 2026-07-03T14:05:03
+Status: task folder created
+Video id: nCegU96jPU4
+yt-dlp exit code: 0
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+Transcript method: yt-dlp (nCegU96jPU4.en.vtt)
+Raw transcript characters: 826498
+Original transcript characters: 98353
+Status update:
+- Transcript fetch succeeded with yt-dlp.
+- Available caption track used by yt-dlp was English: nCegU96jPU4.en.vtt.
+- transcript-raw.txt stores the raw VTT payload.
+- transcript-original.txt stores readable caption text without timestamps.
+- transcript-original.txt was split into 9 original chunks at about 12000 characters per chunk.
+- transcript-revised.txt was created from all 9 chunks as a cleaned transcript preserving order and detail; recurring auto-caption term errors were normalized where identifiable.
+- Important caveat: no Thai caption track was fetched, so the revised transcript remains based on the English auto-caption/auto-translation source rather than a Thai speech transcript.
+- lecture-summary.txt was written in Thai from the full revised transcript and copied to chunks/summary-chunk-001.txt.
+- PowerShell may display profile execution-policy warnings during local commands; generated UTF-8 files were still written successfully.
