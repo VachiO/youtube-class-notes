@@ -1,0 +1,20 @@
+URL: https://www.youtube.com/watch?v=WJ1w1TfFOiM
+Subject: POL2102
+Class date: 2026-07-02
+Task folder: C:\Users\Vachi\ram-sum\youtube-class-notes\classes\POL2102\2026-07-02\video-01
+Created at: 2026-07-03T20:40:54
+Status: task folder created
+Video id: WJ1w1TfFOiM
+yt-dlp: not installed
+Transcript method: youtube-transcript-api
+Raw transcript characters: 226464
+Original transcript characters: 72151
+Processing completed at: 2026-07-03T20:50:28
+Status: completed
+Task folder version: video-01 (no existing folder for this POL2102 date/url was overwritten)
+Transcript fetch: scripts/get_youtube_transcript.py succeeded with youtube-transcript-api; yt-dlp was not installed and was skipped by the script.
+Chunking: scripts/split_text.py split transcript-original.txt into 7 original chunks before revision.
+Revision: created 7 revised chunks and transcript-revised.txt using the revise-transcript prompt rules; kept lecture order and transcript-level detail while correcting obvious STT artifacts, Thai mojibake fragments, and political-science terms.
+Summary: created 6 summary chunks and combined them into lecture-summary.txt using the summarize-lecture prompt rules.
+Quality check: transcript-raw.txt exists; transcript-original.txt exists and has 72151 characters; transcript-revised.txt exists and has 72204 characters, so it is not a short summary; lecture-summary.txt exists and has 2469 whitespace-counted words.
+Assumptions/notes: opening grading audio begins mid-context at "10 คะแนน", so the summary preserves the stated 10-point item cautiously and treats the exact scoring breakdown as something to confirm from the teacher/slides. Course logistics, exam guidance, quiz details, PowerPoint scope, and Line Official slide upload were preserved with warning markers.
