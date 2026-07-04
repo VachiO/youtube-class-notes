@@ -122,6 +122,7 @@ Style:
 
 - Thai prose.
 - Long continuous lecture-note style.
+- Do not use local Thai word segmentation, tokenization, or artificial spaces between Thai words to satisfy word-count checks. Keep the summary in natural Thai prose like normal study notes.
 - Paragraphs are allowed.
 - When an English technical term or proper concept is useful to keep, write the English term followed by a Thai explanation in parentheses on first use, such as `Democracy (ประชาธิปไตย)`, `Federalism (สหพันธรัฐนิยม)`, or `impeachment (กระบวนการถอดถอน)`.
 - After the first use, use either the English term, the Thai term, or both, depending on which is clearest in context.

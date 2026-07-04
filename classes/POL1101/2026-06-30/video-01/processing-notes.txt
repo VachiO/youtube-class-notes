@@ -23,3 +23,8 @@ Processing completed:
 Assumptions and notes:
 - Some names and the phone number were taken from YouTube auto-transcript audio and may need confirmation from official course announcements.
 - The 092-641-4441 contact number is kept as transcript-derived and should be verified before relying on it.
+
+Redone after user review:
+- Removed the Thai word-segmented summary format.
+- Rewrote lecture-summary.txt and chunks/summary-chunk-001.txt as natural Thai prose without local tokenization or artificial spaces between Thai words.
+- Added a project rule in AGENTS.md to keep future Thai summaries in the existing natural prose flow.
