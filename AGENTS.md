@@ -67,7 +67,10 @@ chunks/summary-chunk-001.txt
 10. Summarize from `transcript-revised.txt`, split into chunks when needed, using `prompts/summarize-lecture.md`.
 11. Combine summary chunks into `lecture-summary.txt`.
 12. Review the final summary. If it is too short or drops important class information, expand it before finishing.
-13. Update `processing-notes.txt` with what was done, what tools worked, and any problems.
+13. Update or create `readme-<SUBJECT>.md` with course logistics only, such as class schedule, quiz dates, score rules, submission instructions, and required materials. Do not copy ordinary lecture content into this file.
+14. Update or create `hint-<SUBJECT>.md` with exam hints only, such as likely exam topics, teacher statements about what will be tested, question formats, required memorization, and concrete preparation instructions.
+15. Update `processing-notes.txt` with what was done, what tools worked, and any problems.
+16. Run `scripts/build_site_index.py` so the new processed video appears on the static page.
 
 ## Transcript Revision Rules
 
@@ -136,6 +139,9 @@ Before final response, check:
 - `lecture-summary.txt` exists and is at least 2000 words unless the transcript itself is unusually short and this is documented.
 - No existing video folder was overwritten.
 - `processing-notes.txt` records blockers and assumptions.
+- `readme-<SUBJECT>.md` contains relevant course logistics from the new summary.
+- `hint-<SUBJECT>.md` contains relevant exam hints from the new summary.
+- `data/site-index.json` includes the newly processed video unless processing stopped before a usable summary existed.
 
 If YouTube blocks transcript access, stop after creating the task folder and record the blocker in `processing-notes.txt`.
 

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="หน้ารายวิชาสำหรับอ่านข้อมูลวิชา แนวสอบ วิดีโอ และสรุปย้อนหลัง">
+    <title>รายวิชา | RAM Class Notes</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="เมนูหลัก">
+        <a class="brand" href="index.html" aria-label="หน้าแรก">
+          <span class="brand-mark">R</span>
+          <span>RAM Class Notes</span>
+        </a>
+        <div class="nav-actions">
+          <a class="nav-link" href="index.html">หน้ารวม</a>
+          <button class="icon-button" id="themeToggle" type="button" aria-label="สลับโหมดสี" title="สลับโหมดสี">◐</button>
+          <button class="icon-button" type="button" onclick="window.print()" aria-label="พิมพ์หรือบันทึก PDF" title="พิมพ์หรือบันทึก PDF">⎙</button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="course-hero">
+        <p class="kicker" id="courseCode">รายวิชา</p>
+        <h1 id="courseTitle">กำลังโหลดรายวิชา...</h1>
+        <div class="course-hero-actions" id="courseActions"></div>
+      </section>
+
+      <section class="course-dossier" aria-label="ข้อมูลรายวิชาและแนวสอบ">
+        <article class="dossier-panel">
+          <div class="panel-head">
+            <p class="kicker">Course</p>
+            <h2>ข้อมูลวิชา</h2>
+          </div>
+          <div class="markdown-body" id="courseReadme">กำลังโหลด...</div>
+        </article>
+
+        <article class="dossier-panel is-dark">
+          <div class="panel-head">
+            <p class="kicker">Exam</p>
+            <h2>แนวสอบ</h2>
+          </div>
+          <div class="markdown-body" id="courseHints">กำลังโหลด...</div>
+        </article>
+      </section>
+
+      <section class="reader-shell" id="reader">
+        <div class="reader-toolbar">
+          <div>
+            <p class="kicker" id="readerMeta">เลือกสรุปเพื่ออ่าน</p>
+            <h2 id="readerTitle">ยังไม่ได้เลือกคาบ</h2>
+          </div>
+          <div class="reader-actions">
+            <label class="reader-search">
+              <span class="sr-only">ค้นหาในสรุปที่เปิดอยู่</span>
+              <input id="summarySearch" type="search" placeholder="ค้นหาในสรุปนี้">
+            </label>
+            <a class="open-button video-button" id="readerVideoLink" href="#" target="_blank" rel="noopener" hidden>วิดีโอ</a>
+          </div>
+        </div>
+
+        <div class="reader-layout">
+          <article class="reader">
+            <div class="reader-status" id="readerStatus">เลือกคาบจากรายการด้านบนเพื่อโหลดสรุป</div>
+            <div id="summaryContent"></div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="course.js"></script>
+  </body>
+</html>

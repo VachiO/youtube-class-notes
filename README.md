@@ -1,36 +1,92 @@
-# YouTube Class Notes Workflow
+# RAM Class Notes
 
-Use this project from Codex CLI.
+หน้านี้คือคลังสรุปภาษาไทยจากคลาสเรียนที่ถูกประมวลผลในโปรเจคนี้แล้ว โดยตั้งใจให้เปิดหน้าแรกแล้วไล่ดูสรุปจากในเว็บได้เลย ไม่ต้องเดินหาไฟล์ในโฟลเดอร์ `classes/` เอง
 
-Normal command:
+สรุปแต่ละรายการเป็นสรุปประจำคาบตามวันที่ระบุ ไม่ใช่สรุปครบทั้งรายวิชา ระบบนี้จัดทำสำหรับวิชาของนักศึกษาภาคพิเศษที่เข้าเรียนภาค 1/2569 ในกรณีโอนหน่วยกิตครบเท่านั้น วิชาอื่นที่ผู้จัดทำไม่ได้ลงเรียนจะไม่ถูกเพิ่มเข้ามาในระบบนี้
 
-```text
-process <youtube-url> as "<subject>" from <dd.mm.yyyy>
-```
+## สรุปมาจากไหน
 
-Example:
+แต่ละคาบเริ่มจาก YouTube class recording แล้วผ่าน workflow ของโปรเจคนี้:
 
-```text
-process https://www.youtube.com/watch?v=fzGMIZ-5XuU as "POL3179" from 01.06.2026
-```
+1. ดึง transcript จาก YouTube
+2. เก็บ transcript ดิบไว้เป็นหลักฐาน
+3. แปลงเป็น transcript อ่านง่ายโดยตัด timestamp
+4. แบ่ง transcript เป็น chunk
+5. แก้ speech-to-text error โดยพยายามรักษาคำบรรยายเดิม
+6. สรุปเป็น lecture-note ภาษาไทย โดยเก็บเนื้อหา ประกาศ คะแนน ควิส กำหนดส่ง และจุดที่อาจารย์ย้ำ
 
-Codex will create:
+ไฟล์ต้นทางของแต่ละคาบยังอยู่ในโครงสร้างเดิม:
 
 ```text
 classes/<SUBJECT>/<YYYY-MM-DD>/video-XX/
 ```
 
-Each video folder contains:
+ไฟล์ที่หน้าเว็บใช้เปิดอ่านคือ `lecture-summary.txt` ของแต่ละวิดีโอ
 
-```text
-source.txt
-transcript-raw.txt
-transcript-original.txt
-transcript-revised.txt
-lecture-summary.txt
-processing-notes.txt
-chunks/
+## วิธีดูในหน้าเว็บ
+
+หน้า `index.html` เป็นหน้ารวมสำหรับเลือกเข้าแต่ละรายวิชา มี 2 รูปแบบหลัก:
+
+- `รายวิชา` แสดง card ของแต่ละวิชา และกดเข้า `course.html?subject=<รหัสวิชา>`
+- `รายวัน` เรียงตามวันเรียน พร้อมวัน วันที่ เดือน และปี พ.ศ.
+
+หน้า `course.html` แสดงข้อมูลวิชา แนวสอบ และสรุปคาบล่าสุดหรือคาบที่เลือกจากหน้ารวม โดยโหลดสรุปจากไฟล์จริงใน `classes/` มาแสดงใน reader ด้านล่าง สามารถค้นหาในสรุปได้ และปุ่ม `วิดีโอ` ข้างช่องค้นหาจะเปิด YouTube ของคาบที่กำลังอ่านอยู่
+
+แต่ละคาบมีลิงก์วิดีโอจาก `source.txt` ถ้ามีเก็บไว้
+
+ข้อมูลวิชาและแนวสอบยังถูกเก็บเป็นไฟล์ Markdown แยก:
+
+- `readme-<รหัสวิชา>.md`
+- `hint-<รหัสวิชา>.md`
+
+## วิธีเพิ่มคาบใหม่เข้า page
+
+หลัง process วิดีโอใหม่จนได้ `lecture-summary.txt` แล้ว ให้ทำตามลำดับนี้:
+
+1. อัปเดต `readme-<รหัสวิชา>.md` ด้วยข้อมูลบริหารวิชา เช่น วันเวลาเรียน ควิซ คะแนน งาน กำหนดส่ง เอกสาร และประกาศสำคัญ
+2. อัปเดต `hint-<รหัสวิชา>.md` ด้วยแนวสอบเท่านั้น เช่น อาจารย์บอกว่าจะออกอะไร รูปแบบข้อสอบ สิ่งที่ต้องอ่านหรือจำ และหัวข้อที่ย้ำว่าออกสอบ
+3. Rebuild index:
+
+```bash
+python scripts/build_site_index.py
 ```
 
-The workflow is intentionally file-based so every run can be debugged and fine-tuned.
+คำสั่งนี้จะสแกน `classes/` แล้วสร้าง/อัปเดต:
 
+```text
+data/site-index.json
+data/course-meta.json
+```
+
+`site-index.json` เป็นไฟล์ generated สำหรับหน้าเว็บ ส่วน `course-meta.json` เป็นไฟล์ที่แก้เองได้ เช่น เปลี่ยนชื่อวิชาหรือ order การเรียงวิชา
+
+## แก้ชื่อวิชาและลำดับการแสดงผล
+
+แก้ไฟล์นี้:
+
+```text
+data/course-meta.json
+```
+
+ตัวอย่าง:
+
+```json
+{
+  "POL3179": {
+    "title": "การเมืองในอเมริกา",
+    "order": 3179
+  }
+}
+```
+
+หลังแก้ metadata ให้รัน `python scripts/build_site_index.py` อีกครั้ง เพื่อให้ `site-index.json` ใช้ค่าล่าสุด
+
+ทุกวิชาในโปรเจคนี้เป็นรัฐศาสตร์ จึงไม่แยกหมวดหมู่ในหน้าเว็บ
+
+## เปิดด้วย GitHub Pages
+
+ตั้งค่า GitHub Pages ให้ deploy จาก root ของ branch ที่ต้องการ หน้าแรกคือ:
+
+```text
+index.html
+```

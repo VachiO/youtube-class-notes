@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="หน้ารวมสรุปคลาสเรียนจาก YouTube transcript สำหรับอ่านตามรายวิชาหรือตามวันที่เรียน">
+    <title>RAM Class Notes</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="เมนูหลัก">
+        <a class="brand" href="index.html" aria-label="หน้าแรก">
+          <span class="brand-mark">R</span>
+          <span>RAM Class Notes</span>
+        </a>
+        <div class="nav-actions">
+          <a class="nav-link" href="README.md">README</a>
+          <button class="icon-button" id="themeToggle" type="button" aria-label="สลับโหมดสี" title="สลับโหมดสี">◐</button>
+          <button class="icon-button" type="button" onclick="window.print()" aria-label="พิมพ์หรือบันทึก PDF" title="พิมพ์หรือบันทึก PDF">⎙</button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="intro">
+        <p class="kicker">RAM Class Notes</p>
+        <h1>สรุปรายวิชา คณะรัฐศาสตร์ (ภาคพิเศษ) มหาวิทยาลัยรามคำแหง</h1>
+        <div class="intro-copy">
+          <p>สรุปนี้จัดทำโดย AI จาก Transcript วิดีโอย้อนหลัง ตัดคำพูดที่ไม่จำเป็น ปรับภาษาให้อ่านง่าย และคงลำดับการสอนเดิมของอาจารย์</p>
+          <p class="notice">สรุปแต่ละรายการเป็นสรุปประจำคาบตามวันที่ระบุ ไม่ใช่สรุปครบทั้งรายวิชา</p>
+          <h2>ข้อดี</h2>
+          <ul>
+            <li>เนื้อหาค่อนข้างครบ ไม่ได้ย่อจนเสียสาระ</li>
+            <li>เรียงตามลำดับการสอนจริง</li>
+            <li>Highlight จุดสำคัญ เช่น Quiz งาน และสิ่งที่อาจารย์ย้ำ</li>
+          </ul>
+          <h2>ข้อจำกัด</h2>
+          <ul>
+            <li>สรุปจากเสียงเท่านั้น ไม่รวมเนื้อหาบนสไลด์</li>
+            <li>อาจมีตกหล่นเล็กน้อย</li>
+          </ul>
+          <p class="notice">อย่างไรก็ตาม ทุกคนควรดูวิดีโอย้อนหลัง และเข้าเรียนด้วยนะจ้ะ</p>
+          <p class="scope-note">ระบบนี้จัดทำสำหรับวิชาของนักศึกษาภาคพิเศษที่เข้าเรียนภาค 1/2569 ในกรณีโอนหน่วยกิตครบเท่านั้น วิชาอื่นที่ผู้จัดทำไม่ได้ลงเรียนจะไม่ถูกเพิ่มเข้ามาในระบบนี้</p>
+        </div>
+        <div class="stats" aria-label="ภาพรวมคลังสรุป">
+          <div>
+            <span class="metric" id="lectureCount">-</span>
+            <span class="metric-label">วิดีโอที่สรุปแล้ว</span>
+          </div>
+          <div>
+            <span class="metric" id="subjectCount">-</span>
+            <span class="metric-label">รายวิชา</span>
+          </div>
+          <div>
+            <span class="metric" id="latestDate">-</span>
+            <span class="metric-label">คาบล่าสุด</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="controls" aria-label="ตัวเลือกการดู">
+        <label class="search-wrap">
+          <span class="sr-only">ค้นหารายวิชา วันที่ หรือคำในคำอธิบาย</span>
+          <input id="globalSearch" type="search" placeholder="ค้นหา เช่น POL3179, ควิส, รัฐธรรมนูญ, คะแนน">
+        </label>
+        <div class="segmented" role="tablist" aria-label="เลือกรูปแบบการดู">
+          <button class="segment is-active" type="button" data-view="subject" role="tab" aria-selected="true">รายวิชา</button>
+          <button class="segment" type="button" data-view="day" role="tab" aria-selected="false">รายวัน</button>
+        </div>
+      </section>
+
+      <section class="catalog" aria-live="polite">
+        <div class="catalog-head">
+          <p id="catalogStatus">กำลังโหลดรายการ...</p>
+        </div>
+        <div id="catalogContent"></div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
