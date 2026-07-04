@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-07-04T06:06:40+00:00",
-  "totalLectures": 5,
+  "generatedAt": "2026-07-04T11:04:44+00:00",
+  "totalLectures": 6,
   "subjects": [
+    {
+      "code": "POL1101",
+      "title": "การเมืองและการปกครองของไทย",
+      "order": 1101,
+      "lectureCount": 1,
+      "dates": [
+        "2026-06-30"
+      ],
+      "readmePath": "readme-POL1101.md",
+      "hintPath": "hint-POL1101.md"
+    },
     {
       "code": "POL2100",
       "title": "POL2100",
@@ -142,6 +153,27 @@
       "wordCount": 1009,
       "importantCount": 31,
       "excerpt": "คาบนี้เป็นคาบแรกของรายวิชา POL2129 ซึ่งอาจารย์เริ่มจากการทักทายนักศึกษาที่ลงทะเบียนเรียน และแนะนำตนเองว่าเป็นผู้รับผิดชอบรายวิชานี้ ห้องนี้จะมีผู้สอนหลักเพียงคนเดียว และอาจารย์จะอยู่กับนักศึกษาตลอดภาคเรียนประมาณ 15 ครั้ง..."
+    },
+    {
+      "id": "POL1101-2026-06-30-video-01",
+      "subject": "POL1101",
+      "courseTitle": "การเมืองและการปกครองของไทย",
+      "date": "2026-06-30",
+      "dateLabelTh": "วันอังคารที่ 30 มิถุนายน 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL1101/2026-06-30/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL1101/2026-06-30/video-01/source.txt",
+      "transcriptPath": "classes/POL1101/2026-06-30/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL1101.md",
+      "hintPath": "hint-POL1101.md",
+      "sourceUrl": "https://youtu.be/YVELrnKAI_o?si=cXQms0Ru5c9WtBfi",
+      "paragraphCount": 26,
+      "wordCount": 2602,
+      "importantCount": 18,
+      "excerpt": "สรุป นี้ เป็น สรุป ประจำ คาบ เรียน วันที่ 30 มิถุนายน 2569 ของ วิชา POL 1101 การเมือง และ การปกครอง ของ ไทย ไม่ ใช่ สรุป ทั้ง วิชา คาบ นี้ เป็น คาบ แรก หลัง การ ปฐมนิเทศ อาจารย์ เริ่ม จาก การ บอก บริบท ของ รายวิชา และ วิ..."
     },
     {
       "id": "POL3179-2026-06-01-video-01",

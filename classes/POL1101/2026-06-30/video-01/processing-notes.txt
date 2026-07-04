@@ -1,0 +1,25 @@
+URL: https://youtu.be/YVELrnKAI_o?si=cXQms0Ru5c9WtBfi
+Subject: POL1101
+Class date: 2026-06-30
+Task folder: C:\Users\Vachi\ram-sum\youtube-class-notes\classes\POL1101\2026-06-30\video-01
+Created at: 2026-07-04T17:57:05
+Status: task folder created
+Video id: YVELrnKAI_o
+yt-dlp: not installed
+Transcript method: youtube-transcript-api
+Raw transcript characters: 97546
+Original transcript characters: 31388
+
+Processing completed:
+- Created video folder without overwriting an existing folder: classes/POL1101/2026-06-30/video-01
+- Transcript fetched with youtube-transcript-api; yt-dlp was not installed.
+- Split transcript-original.txt into 4 original chunks before revision.
+- Created 4 revised chunks and combined them into transcript-revised.txt.
+- Created lecture-summary.txt from transcript-revised.txt and copied the same final summary to chunks/summary-chunk-001.txt.
+- Updated readme-POL1101.md with course logistics and non-lecture information.
+- Updated hint-POL1101.md with exam and preparation hints from the processed summary.
+- Rebuilt the static site index with scripts/build_site_index.py.
+
+Assumptions and notes:
+- Some names and the phone number were taken from YouTube auto-transcript audio and may need confirmation from official course announcements.
+- The 092-641-4441 contact number is kept as transcript-derived and should be verified before relying on it.

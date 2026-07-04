@@ -17,6 +17,10 @@ COURSE_META_PATH = DATA_DIR / "course-meta.json"
 SITE_INDEX_PATH = DATA_DIR / "site-index.json"
 
 DEFAULT_META: dict[str, dict[str, Any]] = {
+    "POL1101": {
+        "title": "การเมืองและการปกครองของไทย",
+        "order": 1101,
+    },
     "POL2100": {"title": "POL2100", "order": 2100},
     "POL2102": {
         "title": "หลักรัฐธรรมนูญและสถาบันทางการเมือง",
