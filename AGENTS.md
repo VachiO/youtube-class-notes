@@ -4,6 +4,14 @@
 
 This project turns one YouTube class recording into Thai study files.
 
+Before processing on any machine, follow `PROCESS.md` and run:
+
+```text
+python scripts/check_environment.py
+```
+
+If the environment check fails, fix the setup before processing.
+
 The normal user command is:
 
 ```text

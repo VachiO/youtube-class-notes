@@ -41,6 +41,12 @@ classes/<SUBJECT>/<YYYY-MM-DD>/video-XX/
 
 ## วิธีเพิ่มคาบใหม่เข้า page
 
+ก่อน process ในเครื่องใหม่ ให้ทำ setup ตาม `PROCESS.md` และรัน:
+
+```bash
+python scripts/check_environment.py
+```
+
 หลัง process วิดีโอใหม่จนได้ `lecture-summary.txt` แล้ว ให้ทำตามลำดับนี้:
 
 1. อัปเดต `readme-<รหัสวิชา>.md` ด้วยข้อมูลบริหารวิชา เช่น วันเวลาเรียน ควิซ คะแนน งาน กำหนดส่ง เอกสาร และประกาศสำคัญ
@@ -82,6 +88,20 @@ data/course-meta.json
 หลังแก้ metadata ให้รัน `python scripts/build_site_index.py` อีกครั้ง เพื่อให้ `site-index.json` ใช้ค่าล่าสุด
 
 ทุกวิชาในโปรเจคนี้เป็นรัฐศาสตร์ จึงไม่แยกหมวดหมู่ในหน้าเว็บ
+
+## ทำงานจากเครื่องอื่น
+
+ให้ clone repo แล้วใช้ workflow เดียวกันจาก `PROCESS.md` เท่านั้น เพื่อให้ผลลัพธ์เหมือนกันทุกเครื่อง:
+
+```bash
+git clone https://github.com/VachiO/youtube-class-notes.git
+cd youtube-class-notes
+python -m venv .venv
+python -m pip install -r requirements.txt
+python scripts/check_environment.py
+```
+
+ห้ามใช้ตัวตัดคำไทยหรือเติมช่องว่างระหว่างคำไทยใน `lecture-summary.txt` เพื่อให้ผ่านตัวนับคำ ให้เขียนสรุปเป็นภาษาไทยธรรมชาติแบบ lecture note ตาม prompt ของโปรเจค
 
 ## เปิดด้วย GitHub Pages
 
