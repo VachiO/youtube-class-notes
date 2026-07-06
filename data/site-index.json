@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-04T13:36:48+00:00",
-  "totalLectures": 6,
+  "generatedAt": "2026-07-06T12:17:57+00:00",
+  "totalLectures": 7,
   "subjects": [
     {
       "code": "POL1101",
@@ -56,6 +56,17 @@
       ],
       "readmePath": "readme-POL2129.md",
       "hintPath": "hint-POL2129.md"
+    },
+    {
+      "code": "POL3128",
+      "title": "แนววิเคราะห์ทฤษฎีการเมือง",
+      "order": 3128,
+      "lectureCount": 1,
+      "dates": [
+        "2026-01-06"
+      ],
+      "readmePath": "readme-POL3128.md",
+      "hintPath": "hint-POL3128.md"
     },
     {
       "code": "POL3179",
@@ -195,6 +206,27 @@
       "wordCount": 924,
       "importantCount": 22,
       "excerpt": "วิชานี้คือ POL3179 หรือการเมืองในอเมริกา อาจารย์เริ่มคาบแรกด้วยการบอกบรรยากาศของวิชาว่าจะเรียนกันตอนกลางคืนทุกวันพุธต่อเนื่องไปประมาณ 4 เดือน และโดยนิสัยของอาจารย์มักไม่ปล่อยก่อนเวลา ถ้าจะดึกหรือไม่ดึกขึ้นกับเนื้อหาในแต่..."
+    },
+    {
+      "id": "POL3128-2026-01-06-video-01",
+      "subject": "POL3128",
+      "courseTitle": "แนววิเคราะห์ทฤษฎีการเมือง",
+      "date": "2026-01-06",
+      "dateLabelTh": "วันอังคารที่ 6 มกราคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL3128/2026-01-06/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL3128/2026-01-06/video-01/source.txt",
+      "transcriptPath": "classes/POL3128/2026-01-06/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL3128.md",
+      "hintPath": "hint-POL3128.md",
+      "sourceUrl": "https://youtu.be/-jqgR6ltbyo?si=jowvh6bYLvyUsW_X",
+      "paragraphCount": 27,
+      "wordCount": 423,
+      "importantCount": 16,
+      "excerpt": "คาบนี้เป็นการเกริ่นนำวิชา POL 3128 ชื่อวิชา “แนววิเคราะห์ทฤษฎีการเมือง” ซึ่งอยู่ในหลักสูตรของคณะรัฐศาสตร์ ผู้บรรยายคืออาจารย์ศักดิ์ราช เจริญทรัพย์ อาจารย์เริ่มด้วยการอธิบายว่าวิชานี้ไม่ใช่วิชาที่เรียนการเมืองแบบเล่าเหตุก..."
     }
   ]
 }
