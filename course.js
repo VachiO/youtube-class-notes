@@ -9,6 +9,7 @@ const state = {
   index: null,
   subject: null,
   lectures: [],
+  activeLectureId: "",
   paragraphs: [],
   summaryQuery: "",
 };
@@ -19,6 +20,8 @@ const el = {
   courseActions: document.querySelector("#courseActions"),
   courseReadme: document.querySelector("#courseReadme"),
   courseHints: document.querySelector("#courseHints"),
+  lectureList: document.querySelector("#lectureList"),
+  lectureListMeta: document.querySelector("#lectureListMeta"),
   readerMeta: document.querySelector("#readerMeta"),
   readerTitle: document.querySelector("#readerTitle"),
   summarySearch: document.querySelector("#summarySearch"),
@@ -53,6 +56,7 @@ async function init() {
 
     renderCourseHeader();
     await renderDossier();
+    renderLectureList();
 
     const initial = state.lectures.find((lecture) => lecture.id === initialLectureId) || state.lectures[0];
     if (initial) openLecture(initial, false);
@@ -78,6 +82,8 @@ function renderFatal(message) {
   el.courseTitle.textContent = message;
   el.courseReadme.innerHTML = `<p class="empty-state">กลับไปที่ <a href="index.html">หน้ารวม</a></p>`;
   el.courseHints.textContent = "";
+  if (el.lectureList) el.lectureList.innerHTML = "";
+  if (el.lectureListMeta) el.lectureListMeta.textContent = "";
 }
 
 function renderCourseHeader() {
@@ -100,7 +106,39 @@ async function renderDossier() {
   el.courseHints.innerHTML = markdownToHtml(hints || `# แนวสอบ ${state.subject.code}\n\nยังไม่มีแนวสอบที่บันทึกไว้`);
 }
 
+function renderLectureList() {
+  el.lectureListMeta.textContent = `${state.lectures.length.toLocaleString("th-TH")} คาบ`;
+  el.lectureList.innerHTML = state.lectures
+    .map((lecture) => {
+      const isActive = lecture.id === state.activeLectureId;
+      const classes = isActive ? "lecture-row is-active" : "lecture-row";
+      return `
+        <article class="${classes}" data-lecture-id="${escapeHtml(lecture.id)}">
+          <div>
+            <h3>${escapeHtml(lecture.dateLabelTh)}</h3>
+            <p>${escapeHtml(lecture.video)} · ${lecture.paragraphCount.toLocaleString("th-TH")} ย่อหน้า · ${lecture.wordCount.toLocaleString("th-TH")} คำ</p>
+          </div>
+          <div class="lecture-row-actions">
+            <button class="open-button" type="button" data-open-lecture="${escapeHtml(lecture.id)}">
+              ${isActive ? "กำลังอ่าน" : "อ่านคาบนี้"}
+            </button>
+            <a class="open-button is-secondary" href="course.html?subject=${encodeURIComponent(lecture.subject)}&lecture=${encodeURIComponent(lecture.id)}">ลิงก์คาบ</a>
+          </div>
+        </article>
+      `;
+    })
+    .join("");
+
+  el.lectureList.querySelectorAll("[data-open-lecture]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const lecture = state.lectures.find((item) => item.id === button.dataset.openLecture);
+      if (lecture) openLecture(lecture, true);
+    });
+  });
+}
+
 async function openLecture(lecture, scrollToReader) {
+  state.activeLectureId = lecture.id;
   state.paragraphs = [];
   state.summaryQuery = "";
   el.summarySearch.value = "";
@@ -115,6 +153,8 @@ async function openLecture(lecture, scrollToReader) {
   }
   el.readerStatus.textContent = "กำลังโหลดสรุป...";
   el.summaryContent.innerHTML = "";
+  renderLectureList();
+  window.history.replaceState(null, "", `course.html?subject=${encodeURIComponent(lecture.subject)}&lecture=${encodeURIComponent(lecture.id)}`);
 
   try {
     const response = await fetch(lecture.summaryPath);
