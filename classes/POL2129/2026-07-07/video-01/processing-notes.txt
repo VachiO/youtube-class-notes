@@ -1,0 +1,27 @@
+URL: https://www.youtube.com/watch?v=kBHQCRtY210
+Subject: POL2129
+Class date: 2026-07-07
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2129\2026-07-07\video-01
+Created at: 2026-07-08T20:52:51
+Status: task folder created
+Video id: kBHQCRtY210
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (kBHQCRtY210.th.vtt)
+Raw transcript characters: 487429
+Original transcript characters: 42866
+
+Processing completed: 2026-07-08
+Environment check: passed before processing.
+Transcript fetch: Thai VTT subtitles were fetched with yt-dlp and written to transcript-raw.txt and transcript-original.txt.
+Transcript issue: yt-dlp reported HTTP 429 while trying English subtitles, but Thai subtitle extraction succeeded.
+Revision: transcript-original.txt was split into 5 original chunks; each chunk was conservatively revised into matching revised chunks and combined into transcript-revised.txt.
+Summary: lecture-summary.txt was created from transcript-revised.txt and split into 2 summary chunks.
+Course files updated: readme-POL2129.md and hint-POL2129.md were updated with the new file link, quiz 1 scope, next-class topic, and exam-answer guidance.
+Assumptions: The user command used "from POL2129"; this was treated as subject POL2129. The class date 07.07.2026 was converted to 2026-07-07.
+Quality notes: transcript-revised.txt remains a corrected transcript, not a summary. lecture-summary.txt is detailed Thai lecture-note prose and includes critical quiz/scope items marked with warning markers.

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-08T13:36:42+00:00",
-  "totalLectures": 8,
+  "generatedAt": "2026-07-08T14:06:56+00:00",
+  "totalLectures": 9,
   "subjects": [
     {
       "code": "POL1101",
@@ -51,8 +51,9 @@
       "code": "POL2129",
       "title": "รัฐและประชาสังคมในระบบการเมือง",
       "order": 2129,
-      "lectureCount": 1,
+      "lectureCount": 2,
       "dates": [
+        "2026-07-07",
         "2026-06-30"
       ],
       "readmePath": "readme-POL2129.md",
@@ -82,6 +83,27 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL2129-2026-07-07-video-01",
+      "subject": "POL2129",
+      "courseTitle": "รัฐและประชาสังคมในระบบการเมือง",
+      "date": "2026-07-07",
+      "dateLabelTh": "วันอังคารที่ 7 กรกฎาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2129/2026-07-07/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2129/2026-07-07/video-01/source.txt",
+      "transcriptPath": "classes/POL2129/2026-07-07/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2129.md",
+      "hintPath": "hint-POL2129.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=kBHQCRtY210",
+      "paragraphCount": 32,
+      "wordCount": 807,
+      "importantCount": 21,
+      "excerpt": "คาบนี้อาจารย์เริ่มด้วยการทักทายนักศึกษาที่ลงทะเบียนรายวิชา POL2129 และอธิบายเหตุผลว่าทำไมการสอนรุ่นนี้จึงจะไม่เดินตามเอกสารประกอบการสอนแบบตำราล้วนเหมือนบางรุ่นที่ผ่านมา เดิมทีอาจารย์อาจบรรยายเรื่องรัฐจารีต รัฐสมัยใหม่ แล..."
+    },
     {
       "id": "POL1101-2026-07-07-video-01",
       "subject": "POL1101",
