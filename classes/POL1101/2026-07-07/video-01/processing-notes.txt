@@ -1,0 +1,33 @@
+URL: https://www.youtube.com/watch?v=pYSDlwNc3kI
+Subject: POL1101
+Class date: 2026-07-07
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL1101\2026-07-07\video-01
+Created at: 2026-07-08T20:26:13
+Status: task folder created
+Video id: pYSDlwNc3kI
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (pYSDlwNc3kI.th.vtt)
+Raw transcript characters: 515715
+Original transcript characters: 44957
+
+Status update:
+- Environment check initially failed because youtube-transcript-api and yt-dlp were missing from the repo .venv.
+- Installed requirements.txt into .venv and reran scripts/check_environment.py successfully.
+- Initialized task folder with scripts/init_task.py; no existing POL1101/2026-07-07 video folder was overwritten.
+- Transcript fetch used yt-dlp. English subtitle fetch was blocked by HTTP 429, but the Thai VTT track pYSDlwNc3kI.th.vtt was downloaded and used.
+- transcript-raw.txt stores the raw VTT payload.
+- transcript-original.txt stores readable Thai caption text without timestamps.
+- transcript-original.txt was split into 6 original chunks using scripts/split_text.py with the workflow max-chars setting.
+- chunks/revised-chunk-001.txt through chunks/revised-chunk-006.txt were created as a conservative corrected transcript pass, preserving lecture order and detail while normalizing key Thai caption errors and English political science terms.
+- transcript-revised.txt was combined from all 6 revised chunks.
+- lecture-summary.txt was written in Thai from the revised transcript as detailed lecture notes and copied to chunks/summary-chunk-001.txt.
+- readme-POL1101.md was updated with course logistics from this lecture only.
+- hint-POL1101.md was updated with exam hints and likely tested terms from this lecture only.
+- scripts/build_site_index.py was run successfully; data/site-index.json includes the new POL1101 2026-07-07 video.
+- Final checks confirmed required task files, 6 original chunks, 6 revised chunks, 1 summary chunk, and a non-summary revised transcript.

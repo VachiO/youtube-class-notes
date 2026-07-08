@@ -1,13 +1,14 @@
 {
-  "generatedAt": "2026-07-06T14:20:55+00:00",
-  "totalLectures": 7,
+  "generatedAt": "2026-07-08T13:36:42+00:00",
+  "totalLectures": 8,
   "subjects": [
     {
       "code": "POL1101",
       "title": "การเมืองและการปกครองของไทย",
       "order": 1101,
-      "lectureCount": 1,
+      "lectureCount": 2,
       "dates": [
+        "2026-07-07",
         "2026-06-30"
       ],
       "readmePath": "readme-POL1101.md",
@@ -81,6 +82,27 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL1101-2026-07-07-video-01",
+      "subject": "POL1101",
+      "courseTitle": "การเมืองและการปกครองของไทย",
+      "date": "2026-07-07",
+      "dateLabelTh": "วันอังคารที่ 7 กรกฎาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL1101/2026-07-07/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL1101/2026-07-07/video-01/source.txt",
+      "transcriptPath": "classes/POL1101/2026-07-07/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL1101.md",
+      "hintPath": "hint-POL1101.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=pYSDlwNc3kI",
+      "paragraphCount": 23,
+      "wordCount": 641,
+      "importantCount": 16,
+      "excerpt": "วันนี้เป็นการบรรยายวิชา POL 1101 โดยอาจารย์เริ่มจากทบทวนภาพรวมของรายวิชาที่เคยพูดไว้ตั้งแต่เปิดเทอมว่าเนื้อหาในวิชานี้แบ่งเป็น 4 ภาคใหญ่ ได้แก่ ภาคความนำทั่วไป ภาคประวัติศาสตร์ ภาคสถาบัน และภาคเกี่ยวกับการราชการแผ่นดิน ภ..."
+    },
     {
       "id": "POL2102-2026-07-02-video-01",
       "subject": "POL2102",
