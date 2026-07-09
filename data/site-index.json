@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T14:06:56+00:00",
+  "generatedAt": "2026-07-09T05:34:30+00:00",
   "totalLectures": 9,
   "subjects": [
     {
@@ -65,7 +65,7 @@
       "order": 3128,
       "lectureCount": 1,
       "dates": [
-        "2026-01-06"
+        "2026-07-06"
       ],
       "readmePath": "readme-POL3128.md",
       "hintPath": "hint-POL3128.md"
@@ -76,7 +76,7 @@
       "order": 3179,
       "lectureCount": 1,
       "dates": [
-        "2026-06-01"
+        "2026-07-01"
       ],
       "readmePath": "readme-POL3179.md",
       "hintPath": "hint-POL3179.md"
@@ -126,6 +126,27 @@
       "excerpt": "วันนี้เป็นการบรรยายวิชา POL 1101 โดยอาจารย์เริ่มจากทบทวนภาพรวมของรายวิชาที่เคยพูดไว้ตั้งแต่เปิดเทอมว่าเนื้อหาในวิชานี้แบ่งเป็น 4 ภาคใหญ่ ได้แก่ ภาคความนำทั่วไป ภาคประวัติศาสตร์ ภาคสถาบัน และภาคเกี่ยวกับการราชการแผ่นดิน ภ..."
     },
     {
+      "id": "POL3128-2026-07-06-video-01",
+      "subject": "POL3128",
+      "courseTitle": "แนววิเคราะห์ทฤษฎีการเมือง",
+      "date": "2026-07-06",
+      "dateLabelTh": "วันจันทร์ที่ 6 กรกฎาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL3128/2026-07-06/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL3128/2026-07-06/video-01/source.txt",
+      "transcriptPath": "classes/POL3128/2026-07-06/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL3128.md",
+      "hintPath": "hint-POL3128.md",
+      "sourceUrl": "https://youtu.be/-jqgR6ltbyo?si=jowvh6bYLvyUsW_X",
+      "paragraphCount": 27,
+      "wordCount": 423,
+      "importantCount": 16,
+      "excerpt": "คาบนี้เป็นการเกริ่นนำวิชา POL 3128 ชื่อวิชา “แนววิเคราะห์ทฤษฎีการเมือง” ซึ่งอยู่ในหลักสูตรของคณะรัฐศาสตร์ ผู้บรรยายคืออาจารย์ศักดิ์ราช เจริญทรัพย์ อาจารย์เริ่มด้วยการอธิบายว่าวิชานี้ไม่ใช่วิชาที่เรียนการเมืองแบบเล่าเหตุก..."
+    },
+    {
       "id": "POL2102-2026-07-02-video-01",
       "subject": "POL2102",
       "courseTitle": "หลักรัฐธรรมนูญและสถาบันทางการเมือง",
@@ -166,6 +187,27 @@
       "wordCount": 657,
       "importantCount": 24,
       "excerpt": "คาบนี้เป็นคาบปูพื้นของวิชา POL2100 โดยอาจารย์เริ่มจากการแนะนำตัวและเล่าประสบการณ์ของตนกับรามคำแหงและโครงการภาคพิเศษ อาจารย์บอกว่าอยู่กับรามคำแหงมานานมาก ตั้งแต่ช่วงแรก ๆ ของโครงการ และเคยถูกมอบหมายให้สอนเรื่องการเมืองการ..."
+    },
+    {
+      "id": "POL3179-2026-07-01-video-01",
+      "subject": "POL3179",
+      "courseTitle": "การเมืองในอเมริกา",
+      "date": "2026-07-01",
+      "dateLabelTh": "วันพุธที่ 1 กรกฎาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL3179/2026-07-01/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL3179/2026-07-01/video-01/source.txt",
+      "transcriptPath": "classes/POL3179/2026-07-01/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL3179.md",
+      "hintPath": "hint-POL3179.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=fzGMIZ-5XuU",
+      "paragraphCount": 25,
+      "wordCount": 924,
+      "importantCount": 22,
+      "excerpt": "วิชานี้คือ POL3179 หรือการเมืองในอเมริกา อาจารย์เริ่มคาบแรกด้วยการบอกบรรยากาศของวิชาว่าจะเรียนกันตอนกลางคืนทุกวันพุธต่อเนื่องไปประมาณ 4 เดือน และโดยนิสัยของอาจารย์มักไม่ปล่อยก่อนเวลา ถ้าจะดึกหรือไม่ดึกขึ้นกับเนื้อหาในแต่..."
     },
     {
       "id": "POL2107-2026-07-01-video-01",
@@ -229,48 +271,6 @@
       "wordCount": 475,
       "importantCount": 18,
       "excerpt": "สรุปนี้เป็นสรุปประจำคาบเรียนวันที่ 30 มิถุนายน 2569 ของวิชา POL1101 การเมืองและการปกครองของไทย ไม่ใช่สรุปทั้งวิชา คาบนี้เป็นคาบแรกหลังการปฐมนิเทศ อาจารย์เริ่มจากการบอกบริบทของรายวิชาและวิธีเรียนโดยรวม ก่อนจะพาเข้าสู่กรอบ..."
-    },
-    {
-      "id": "POL3179-2026-06-01-video-01",
-      "subject": "POL3179",
-      "courseTitle": "การเมืองในอเมริกา",
-      "date": "2026-06-01",
-      "dateLabelTh": "วันจันทร์ที่ 1 มิถุนายน 2569",
-      "buddhistYear": 2569,
-      "video": "video-01",
-      "videoNumber": 1,
-      "version": 1,
-      "summaryPath": "classes/POL3179/2026-06-01/video-01/lecture-summary.txt",
-      "sourcePath": "classes/POL3179/2026-06-01/video-01/source.txt",
-      "transcriptPath": "classes/POL3179/2026-06-01/video-01/transcript-revised.txt",
-      "readmePath": "readme-POL3179.md",
-      "hintPath": "hint-POL3179.md",
-      "sourceUrl": "https://www.youtube.com/watch?v=fzGMIZ-5XuU",
-      "paragraphCount": 25,
-      "wordCount": 924,
-      "importantCount": 22,
-      "excerpt": "วิชานี้คือ POL3179 หรือการเมืองในอเมริกา อาจารย์เริ่มคาบแรกด้วยการบอกบรรยากาศของวิชาว่าจะเรียนกันตอนกลางคืนทุกวันพุธต่อเนื่องไปประมาณ 4 เดือน และโดยนิสัยของอาจารย์มักไม่ปล่อยก่อนเวลา ถ้าจะดึกหรือไม่ดึกขึ้นกับเนื้อหาในแต่..."
-    },
-    {
-      "id": "POL3128-2026-01-06-video-01",
-      "subject": "POL3128",
-      "courseTitle": "แนววิเคราะห์ทฤษฎีการเมือง",
-      "date": "2026-01-06",
-      "dateLabelTh": "วันอังคารที่ 6 มกราคม 2569",
-      "buddhistYear": 2569,
-      "video": "video-01",
-      "videoNumber": 1,
-      "version": 1,
-      "summaryPath": "classes/POL3128/2026-01-06/video-01/lecture-summary.txt",
-      "sourcePath": "classes/POL3128/2026-01-06/video-01/source.txt",
-      "transcriptPath": "classes/POL3128/2026-01-06/video-01/transcript-revised.txt",
-      "readmePath": "readme-POL3128.md",
-      "hintPath": "hint-POL3128.md",
-      "sourceUrl": "https://youtu.be/-jqgR6ltbyo?si=jowvh6bYLvyUsW_X",
-      "paragraphCount": 27,
-      "wordCount": 423,
-      "importantCount": 16,
-      "excerpt": "คาบนี้เป็นการเกริ่นนำวิชา POL 3128 ชื่อวิชา “แนววิเคราะห์ทฤษฎีการเมือง” ซึ่งอยู่ในหลักสูตรของคณะรัฐศาสตร์ ผู้บรรยายคืออาจารย์ศักดิ์ราช เจริญทรัพย์ อาจารย์เริ่มด้วยการอธิบายว่าวิชานี้ไม่ใช่วิชาที่เรียนการเมืองแบบเล่าเหตุก..."
     }
   ]
 }

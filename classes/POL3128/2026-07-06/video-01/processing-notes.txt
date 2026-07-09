@@ -1,7 +1,7 @@
 URL: https://youtu.be/-jqgR6ltbyo?si=jowvh6bYLvyUsW_X
 Subject: POL3128
-Class date: 2026-01-06
-Task folder: C:\Users\Admin\youtube-class-notes\classes\POL3128\2026-01-06\video-01
+Class date: 2026-07-06
+Task folder: classes/POL3128/2026-07-06/video-01
 Created at: 2026-07-06T19:08:38
 Status: completed
 Video id: -jqgR6ltbyo
@@ -32,5 +32,5 @@ Final quality check:
 - Original transcript is non-empty and was split into 4 original chunks.
 - Revised transcript was combined from 4 revised chunks and remains a corrected transcript, not a summary.
 - Lecture summary is detailed Thai prose with critical study/logistics points marked.
-- No existing video folder was overwritten; this was created as video-01 for POL3128 on 2026-01-06.
-- data/site-index.json includes POL3128-2026-01-06-video-01.
+- No existing video folder was overwritten; this was created as video-01 for POL3128 on 2026-07-06.
+- data/site-index.json includes POL3128-2026-07-06-video-01.

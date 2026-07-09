@@ -1,7 +1,7 @@
 URL: https://www.youtube.com/watch?v=fzGMIZ-5XuU
 Subject: POL3179
-Class date: 2026-06-01
-Task folder: C:\Users\Admin\youtube-class-notes\classes\POL3179\2026-06-01\video-01
+Class date: 2026-07-01
+Task folder: classes/POL3179/2026-07-01/video-01
 Created at: 2026-07-03T12:56:49
 Status: task folder created
 Video id: fzGMIZ-5XuU
