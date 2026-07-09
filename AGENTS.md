@@ -24,6 +24,20 @@ Example:
 process https://www.youtube.com/watch?v=fzGMIZ-5XuU as "POL3179" from 01.06.2026
 ```
 
+For เทอม 1/2569, the project focuses only on these subjects:
+
+```text
+POL3128
+POL1101
+POL2129
+POL2107
+POL3179
+POL2100
+POL2102
+```
+
+Call these `รายวิชาในเทอม 1/2569`. If the user asks to process, add, or update a subject that is not in this list, pause and ask the user to confirm whether the subject is correct before continuing.
+
 When this command is used, do the work end to end unless blocked by YouTube access, missing dependencies, or a transcript that cannot be obtained.
 
 ## Output Layout
@@ -64,21 +78,22 @@ chunks/summary-chunk-001.txt
 ## Processing Steps
 
 1. Parse the URL, subject, and date from the user's command.
-2. Convert `dd.mm.yyyy` to `yyyy-mm-dd`.
-3. Run `scripts/init_task.py` to create the correct target folder and write `source.txt`.
-4. Run `scripts/get_youtube_transcript.py` to fetch the transcript.
-5. Save the raw transcript output to `transcript-raw.txt`.
-6. Save the readable transcript, with timestamps removed, to `transcript-original.txt`.
-7. Always split `transcript-original.txt` into chunks before LLM revision.
-8. Revise every chunk using `prompts/revise-transcript.md`.
-9. Combine revised chunks into `transcript-revised.txt`.
-10. Summarize from `transcript-revised.txt`, split into chunks when needed, using `prompts/summarize-lecture.md`.
-11. Combine summary chunks into `lecture-summary.txt`.
-12. Review the final summary. If it is too short or drops important class information, expand it before finishing.
-13. Update or create `readme-<SUBJECT>.md` with course logistics only, such as class schedule, quiz dates, score rules, submission instructions, and required materials. Do not copy ordinary lecture content into this file.
-14. Update or create `hint-<SUBJECT>.md` with exam hints only, such as likely exam topics, teacher statements about what will be tested, question formats, required memorization, and concrete preparation instructions.
-15. Update `processing-notes.txt` with what was done, what tools worked, and any problems.
-16. Run `scripts/build_site_index.py` so the new processed video appears on the static page.
+2. Check whether the subject is one of the `รายวิชาในเทอม 1/2569`. If not, ask the user to confirm before continuing.
+3. Convert `dd.mm.yyyy` to `yyyy-mm-dd`.
+4. Run `scripts/init_task.py` to create the correct target folder and write `source.txt`.
+5. Run `scripts/get_youtube_transcript.py` to fetch the transcript.
+6. Save the raw transcript output to `transcript-raw.txt`.
+7. Save the readable transcript, with timestamps removed, to `transcript-original.txt`.
+8. Always split `transcript-original.txt` into chunks before LLM revision.
+9. Revise every chunk using `prompts/revise-transcript.md`.
+10. Combine revised chunks into `transcript-revised.txt`.
+11. Summarize from `transcript-revised.txt`, split into chunks when needed, using `prompts/summarize-lecture.md`.
+12. Combine summary chunks into `lecture-summary.txt`.
+13. Review the final summary. If it is too short or drops important class information, expand it before finishing.
+14. Update or create `readme-<SUBJECT>.md` with course logistics only, such as class schedule, quiz dates, score rules, submission instructions, and required materials. Do not copy ordinary lecture content into this file.
+15. Update or create `hint-<SUBJECT>.md` with exam hints only, such as likely exam topics, teacher statements about what will be tested, question formats, required memorization, and concrete preparation instructions.
+16. Update `processing-notes.txt` with what was done, what tools worked, and any problems.
+17. Run `scripts/build_site_index.py` so the new processed video appears on the static page.
 
 ## Transcript Revision Rules
 

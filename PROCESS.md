@@ -31,6 +31,20 @@ When the user says:
 process <youtube-url> as "<subject>" from <dd.mm.yyyy>
 ```
 
+For เทอม 1/2569, process only these `รายวิชาในเทอม 1/2569` by default:
+
+```text
+POL3128
+POL1101
+POL2129
+POL2107
+POL3179
+POL2100
+POL2102
+```
+
+If the requested subject is not in this list, ask the user to confirm whether the subject is correct before continuing.
+
 Process the video end to end using the same repo scripts and prompts:
 
 ```powershell
