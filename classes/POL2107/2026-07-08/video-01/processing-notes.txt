@@ -1,0 +1,23 @@
+URL: https://www.youtube.com/watch?v=ZLY-isiDKvk
+Subject: POL2107
+Class date: 2026-07-08
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2107\2026-07-08\video-01
+Created at: 2026-07-09T15:28:22
+Status: task folder created
+Video id: ZLY-isiDKvk
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (ZLY-isiDKvk.th.vtt)
+Raw transcript characters: 870801
+Original transcript characters: 76772
+Revision: applied prompts/revise-transcript.md conservatively to 9 chunks; kept transcript order and line-level detail.
+Revised transcript characters: 79065
+Summary: wrote detailed Thai lecture-note summary from transcript-revised.txt using prompts/summarize-lecture.md.
+Lecture summary characters: 9687
+Summary expanded for lecture-note depth; final characters: 15079
+Quality checks: required files exist; transcript-original.txt is non-empty; transcript-revised.txt is a corrected transcript, not a summary; lecture-summary.txt is detailed Thai prose; chunks directory contains original, revised, and summary chunks; data/site-index.json rebuilt.

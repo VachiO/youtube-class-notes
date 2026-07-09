@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-09T05:34:30+00:00",
-  "totalLectures": 9,
+  "generatedAt": "2026-07-09T08:44:17+00:00",
+  "totalLectures": 11,
   "subjects": [
     {
       "code": "POL1101",
@@ -40,8 +40,9 @@
       "code": "POL2107",
       "title": "การเมืองเปรียบเทียบ",
       "order": 2107,
-      "lectureCount": 1,
+      "lectureCount": 2,
       "dates": [
+        "2026-07-08",
         "2026-07-01"
       ],
       "readmePath": "readme-POL2107.md",
@@ -74,8 +75,9 @@
       "code": "POL3179",
       "title": "การเมืองในอเมริกา",
       "order": 3179,
-      "lectureCount": 1,
+      "lectureCount": 2,
       "dates": [
+        "2026-07-08",
         "2026-07-01"
       ],
       "readmePath": "readme-POL3179.md",
@@ -83,6 +85,48 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL3179-2026-07-08-video-01",
+      "subject": "POL3179",
+      "courseTitle": "การเมืองในอเมริกา",
+      "date": "2026-07-08",
+      "dateLabelTh": "วันพุธที่ 8 กรกฎาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL3179/2026-07-08/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL3179/2026-07-08/video-01/source.txt",
+      "transcriptPath": "classes/POL3179/2026-07-08/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL3179.md",
+      "hintPath": "hint-POL3179.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=LmqI0hUkv5Y",
+      "paragraphCount": 30,
+      "wordCount": 643,
+      "importantCount": 14,
+      "excerpt": "คาบวันที่ 8 กรกฎาคม 2026 ของวิชา POL3179 เป็นคาบที่สองของเนื้อหาจริง หลังจากคาบก่อนอาจารย์ใช้เวลาทั้งคาบแนะนำรายวิชาและวางภาพรวม คาบนี้อาจารย์บอกว่าสไลด์ชุดนี้อาจใช้เวลาประมาณ 2-3 ครั้ง หรืออาจยืดเป็น 4-5 ครั้งตามจังหวะก..."
+    },
+    {
+      "id": "POL2107-2026-07-08-video-01",
+      "subject": "POL2107",
+      "courseTitle": "การเมืองเปรียบเทียบ",
+      "date": "2026-07-08",
+      "dateLabelTh": "วันพุธที่ 8 กรกฎาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2107/2026-07-08/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2107/2026-07-08/video-01/source.txt",
+      "transcriptPath": "classes/POL2107/2026-07-08/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2107.md",
+      "hintPath": "hint-POL2107.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=ZLY-isiDKvk",
+      "paragraphCount": 26,
+      "wordCount": 460,
+      "importantCount": 18,
+      "excerpt": "คาบวันที่ 8 กรกฎาคม 2026 ของวิชา POL2107 ต่อเนื่องจากประเด็น “ยุคสถาบัน” ในการศึกษาการเมืองเปรียบเทียบ อาจารย์เริ่มคาบด้วยการทักทายนักศึกษาและถามว่าสัปดาห์ก่อนเรียนถึงตรงไหนแล้ว เพื่อดึงให้นักศึกษาทบทวนเนื้อหาเดิมก่อนเข้..."
+    },
     {
       "id": "POL2129-2026-07-07-video-01",
       "subject": "POL2129",
