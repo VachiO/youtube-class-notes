@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-09T08:44:17+00:00",
-  "totalLectures": 11,
+  "generatedAt": "2026-07-10T13:32:05+00:00",
+  "totalLectures": 13,
   "subjects": [
     {
       "code": "POL1101",
@@ -18,8 +18,9 @@
       "code": "POL2100",
       "title": "POL2100",
       "order": 2100,
-      "lectureCount": 1,
+      "lectureCount": 2,
       "dates": [
+        "2026-07-09",
         "2026-07-02"
       ],
       "readmePath": "readme-POL2100.md",
@@ -29,8 +30,9 @@
       "code": "POL2102",
       "title": "หลักรัฐธรรมนูญและสถาบันทางการเมือง",
       "order": 2102,
-      "lectureCount": 1,
+      "lectureCount": 2,
       "dates": [
+        "2026-07-09",
         "2026-07-02"
       ],
       "readmePath": "readme-POL2102.md",
@@ -85,6 +87,48 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL2102-2026-07-09-video-01",
+      "subject": "POL2102",
+      "courseTitle": "หลักรัฐธรรมนูญและสถาบันทางการเมือง",
+      "date": "2026-07-09",
+      "dateLabelTh": "วันพฤหัสบดีที่ 9 กรกฎาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2102/2026-07-09/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2102/2026-07-09/video-01/source.txt",
+      "transcriptPath": "classes/POL2102/2026-07-09/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2102.md",
+      "hintPath": "hint-POL2102.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=fi9nkxoKaTQ",
+      "paragraphCount": 30,
+      "wordCount": 626,
+      "importantCount": 20,
+      "excerpt": "คาบนี้ของ POL2102 เริ่มจากปัญหาทางเทคนิคเรื่องคอมพิวเตอร์และโปรเจกเตอร์ อาจารย์บอกนักศึกษาว่าวันนี้อาจต้องเรียนแบบ manual คือให้ดูจากตำรา หรือดูจากสไลด์ที่ส่งไว้ใน Line กลุ่ม โดยตำแหน่งเนื้อหาอยู่ในสไลด์ชุดแรกและชุดที่สอ..."
+    },
+    {
+      "id": "POL2100-2026-07-09-video-01",
+      "subject": "POL2100",
+      "courseTitle": "POL2100",
+      "date": "2026-07-09",
+      "dateLabelTh": "วันพฤหัสบดีที่ 9 กรกฎาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2100/2026-07-09/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2100/2026-07-09/video-01/source.txt",
+      "transcriptPath": "classes/POL2100/2026-07-09/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2100.md",
+      "hintPath": "hint-POL2100.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=yCtRejJrxS4",
+      "paragraphCount": 22,
+      "wordCount": 448,
+      "importantCount": 14,
+      "excerpt": "คาบนี้ของ POL2100 เริ่มจากอาจารย์คุยรอนักศึกษาและทบทวนสิ่งที่เกริ่นไว้ครั้งก่อนว่า “การเมืองการปกครองเปรียบเทียบ” หมายถึงการเรียนเรื่องการเมืองโดยใช้การเปรียบเทียบเป็นวิธีหลัก อาจเปรียบเทียบเป็นประเทศ เปรียบเทียบเป็นระบบ..."
+    },
     {
       "id": "POL3179-2026-07-08-video-01",
       "subject": "POL3179",

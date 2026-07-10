@@ -1,0 +1,31 @@
+URL: https://www.youtube.com/watch?v=yCtRejJrxS4
+Subject: POL2100
+Class date: 2026-07-09
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2100\2026-07-09\video-01
+Created at: 2026-07-10T20:09:56
+Status: task folder created
+Video id: yCtRejJrxS4
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (yCtRejJrxS4.th.vtt)
+Raw transcript characters: 331099
+Original transcript characters: 27740
+Processing completed at: 2026-07-10T21:35:00+07:00
+Status: completed
+Parsed item: POL2100 / 2026-07-09 / https://www.youtube.com/watch?v=yCtRejJrxS4
+Source archive page: https://sites.google.com/rumail.ru.ac.th/1-2569/%E0%B9%80%E0%B8%97%E0%B8%9B%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%A2%E0%B8%B2%E0%B8%A2%E0%B8%A2%E0%B8%AD%E0%B8%99%E0%B8%AB%E0%B8%A5%E0%B8%87/9769
+YouTube title: POL2100 9/7/69
+Task folder version: video-01 (no existing folder for this POL2100 date/url was overwritten)
+Transcript fetch: scripts/get_youtube_transcript.py recovered the Thai VTT transcript with yt-dlp and wrote transcript-raw.txt plus transcript-original.txt. yt-dlp also reported HTTP 429 while attempting an English subtitle track; the Thai transcript was usable.
+Chunking: scripts/split_text.py split transcript-original.txt into 4 original chunks before revision.
+Revision: created 4 revised chunks and transcript-revised.txt using prompts/revise-transcript.md rules; kept transcript order and detail while correcting repeated ASR errors in comparative-politics terms and empty filler.
+Summary: created 2 summary chunks and combined them into lecture-summary.txt using prompts/summarize-lecture.md rules.
+Course files: updated readme-POL2100.md with logistics only and hint-POL2100.md with exam/preparation hints only.
+Quality check: transcript-raw.txt exists; transcript-original.txt exists and has 27,741 characters; transcript-revised.txt exists and has 28,766 characters, so it is not a short summary; lecture-summary.txt exists and has 12,929 Thai characters with the emphasized exam-prep point about political parties versus interest groups marked.
+Quality check: original/revised/summary chunk files exist; no existing video folder was overwritten.
+Assumptions/notes: Thai word count by whitespace is not meaningful because summaries keep natural Thai prose without artificial word segmentation. The lecture did not add new score rules beyond prior course logistics; it emphasized reading the textbook and preparing for a later detailed democracy lecture.
