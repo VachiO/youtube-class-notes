@@ -1,0 +1,28 @@
+URL: https://www.youtube.com/watch?v=LmqI0hUkv5Y
+Subject: POL3179
+Class date: 2026-07-08
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL3179\2026-07-08\video-01-v2
+Created at: 2026-07-13T14:28:05
+Status: task folder created
+Video id: LmqI0hUkv5Y
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (LmqI0hUkv5Y.th.vtt)
+Raw transcript characters: 763170
+Original transcript characters: 66870
+Transcript fetch result: the Thai caption track was obtained successfully even though yt-dlp returned exit code 1 after an HTTP 429 error on the separate English subtitle request.
+Chunking: split transcript-original.txt into 8 original chunks with scripts/split_text.py at max 9000 characters per chunk.
+Controlled v2 comparison: reused the previously corrected transcript-revised.txt and 8 revised chunks from video-01 because this is the same YouTube URL and lecture. The v1 and v2 transcript-original fetches differed by only 45 lines due to auto-caption retrieval variation. The reused v1 and v2 transcript-revised.txt files have identical SHA-256 hashes, isolating the comparison to the new summary process.
+Revision basis: the reused revised transcript had already been corrected conservatively with prompts/revise-transcript.md while preserving lecture order and detail.
+Summary: created 8 new detailed summary chunks with prompts/summarize-lecture.md, explicitly retaining side knowledge, stories, anecdotes, personal experiences, meaningful teacher digressions, class logistics, exam guidance, and end-of-chunk details.
+Completeness audit: compared all 8 revised chunks sequentially against their matching summary chunks using the criteria in prompts/audit-summary-completeness.md. Key concepts, examples, side knowledge, announcements, exam statements, and teacher stories were present; no substantial omission remained after the audit.
+Per-chunk summary retention ratios: 47%, 53%, 46%, 50%, 45%, 44%, 49%, and 66% of revised chunk characters.
+Final revised transcript characters: 72652.
+Final lecture summary characters: 35767, approximately 49% of the revised transcript and 2.31 times the length of the v1 summary (15513 characters).
+Course files: updated readme-POL3179.md with the v2 link, activity details, and July 15/22 class schedule; updated hint-POL3179.md with the explicit 7-article/27-amendment exam instruction, important Declaration paragraph, and the stated non-exam Westphalia note.
+Blockers: none. Production behavior of GitHub Pages still requires verification after push.

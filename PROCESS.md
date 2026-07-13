@@ -57,6 +57,8 @@ Then revise every `chunks/original-chunk-*.txt` with `prompts/revise-transcript.
 
 Then summarize from `transcript-revised.txt` with `prompts/summarize-lecture.md`, write `chunks/summary-chunk-*.txt`, and combine them into `lecture-summary.txt`.
 
+Audit the combined `lecture-summary.txt` against `transcript-revised.txt` using `prompts/audit-summary-completeness.md`. Merge all recovered details into their appropriate positions and repeat the audit until no substantial omissions remain. Give special attention to side knowledge, stories, personal experiences, and meaningful teacher digressions; these are valuable class content and must not be discarded merely because they are outside the main topic.
+
 Finally update:
 
 - `readme-<SUBJECT>.md` with course logistics only.

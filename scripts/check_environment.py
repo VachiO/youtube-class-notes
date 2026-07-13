@@ -15,6 +15,7 @@ REQUIRED_FILES = [
     "PROCESS.md",
     "prompts/revise-transcript.md",
     "prompts/summarize-lecture.md",
+    "prompts/audit-summary-completeness.md",
     "scripts/init_task.py",
     "scripts/get_youtube_transcript.py",
     "scripts/split_text.py",

@@ -89,11 +89,13 @@ chunks/summary-chunk-001.txt
 10. Combine revised chunks into `transcript-revised.txt`.
 11. Summarize from `transcript-revised.txt`, split into chunks when needed, using `prompts/summarize-lecture.md`.
 12. Combine summary chunks into `lecture-summary.txt`.
-13. Review the final summary. If it is too short or drops important class information, expand it before finishing.
-14. Update or create `readme-<SUBJECT>.md` with course logistics only, such as class schedule, quiz dates, score rules, submission instructions, and required materials. Do not copy ordinary lecture content into this file.
-15. Update or create `hint-<SUBJECT>.md` with exam hints only, such as likely exam topics, teacher statements about what will be tested, question formats, required memorization, and concrete preparation instructions.
-16. Update `processing-notes.txt` with what was done, what tools worked, and any problems.
-17. Run `scripts/build_site_index.py` so the new processed video appears on the static page.
+13. Audit `lecture-summary.txt` against `transcript-revised.txt` using `prompts/audit-summary-completeness.md`.
+14. Merge every recovered detail into the appropriate position in `lecture-summary.txt`.
+15. Repeat the audit until no substantial omissions remain. Do not accept the summary based only on reaching 2000 words.
+16. Update or create `readme-<SUBJECT>.md` with course logistics only, such as class schedule, quiz dates, score rules, submission instructions, and required materials. Do not copy ordinary lecture content into this file.
+17. Update or create `hint-<SUBJECT>.md` with exam hints only, such as likely exam topics, teacher statements about what will be tested, question formats, required memorization, and concrete preparation instructions.
+18. Update `processing-notes.txt` with what was done, what tools worked, and any problems.
+19. Run `scripts/build_site_index.py` so the new processed video appears on the static page.
 
 ## Transcript Revision Rules
 
@@ -119,7 +121,7 @@ Rules:
 
 This is a detailed lecture-note style summary, not a short abstract.
 
-The minimum length is 2000 words. If the class contains more information, write more. Never compress only because the output is already long.
+The minimum length is 2000 words, but this is only a floor and never a completion target. The final notes should normally retain approximately 40–60% of the information-bearing text of the revised transcript and may exceed 60% for information-dense lectures. Never compress only because the output is already long.
 
 Think of the summary as dropping only unnecessary spoken filler from the revised transcript. The user did not attend the class, so the summary must preserve enough detail to understand the lecture, class experience, important side knowledge, and all practical announcements.
 
@@ -128,6 +130,7 @@ Must include:
 - Main lecture content.
 - Examples explained by the teacher.
 - Side knowledge and background comments.
+- Stories, anecdotes, personal experiences, and meaningful off-topic discussion from the teacher. Treat these as valuable class content, not disposable filler, when they add context, illustrate an idea, reveal the teacher's reasoning or experience, or provide useful general knowledge.
 - Class or university agenda.
 - Assignments, quizzes, meetings, training, deadlines, appointments, and instructions.
 - Any detail that may affect exams, homework, attendance, or understanding the course.
@@ -161,6 +164,8 @@ Before final response, check:
 - `transcript-original.txt` exists and is not empty.
 - `transcript-revised.txt` exists and is not a summary.
 - `lecture-summary.txt` exists and is at least 2000 words unless the transcript itself is unusually short and this is documented.
+- `lecture-summary.txt` has been audited against `transcript-revised.txt` with `prompts/audit-summary-completeness.md`, and all substantial omissions have been restored.
+- Side knowledge, stories, personal experiences, and meaningful teacher digressions have not been removed merely because they are outside the main topic.
 - No existing video folder was overwritten.
 - `processing-notes.txt` records blockers and assumptions.
 - `readme-<SUBJECT>.md` contains relevant course logistics from the new summary.
