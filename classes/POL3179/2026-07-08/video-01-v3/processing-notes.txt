@@ -1,0 +1,27 @@
+URL: https://www.youtube.com/watch?v=LmqI0hUkv5Y
+Subject: POL3179
+Class date: 2026-07-08
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL3179\2026-07-08\video-01-v3
+Created at: 2026-07-13T20:50:36
+Status: task folder created
+Video id: LmqI0hUkv5Y
+Transcript retrieval: yt-dlp downloaded the Thai caption track successfully.
+Chunking: split transcript-original.txt into 8 original chunks with scripts/split_text.py at max 9000 characters per chunk.
+Revision basis: the freshly retrieved original transcript is byte-for-byte identical to video-01-v2. Reused its conservatively corrected revised chunks and combined transcript, originally prepared under prompts/revise-transcript.md while preserving order and detail.
+Summary basis: reused the detailed audited summary chunks and combined lecture summary from video-01-v2 because both the source transcript and revised transcript are identical.
+Completeness audit: video-01-v2 had been audited sequentially against the matching revised chunks using prompts/audit-summary-completeness.md. Rechecked artifact hashes in this version; all 8 revised chunks, all 8 summary chunks, transcript-revised.txt, and lecture-summary.txt match the audited version. No further omissions were introduced.
+Course files: existing readme-POL3179.md and hint-POL3179.md already contain the relevant logistics and exam guidance extracted from this identical lecture; no duplicate entries were added.
+Blockers: none.
+Video id: LmqI0hUkv5Y
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (LmqI0hUkv5Y.th.vtt)
+Raw transcript characters: 763170
+Original transcript characters: 66870
+Final integrity check: all required files are present and non-empty; the original, revised, and summary artifacts all match the audited video-01-v2 equivalents exactly.
+Status: processing complete

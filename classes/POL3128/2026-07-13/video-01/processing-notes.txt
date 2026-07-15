@@ -1,0 +1,34 @@
+URL: https://www.youtube.com/watch?v=V9yBjtq_MvQ
+Source archive page: https://sites.google.com/rumail.ru.ac.th/1-2569/%E0%B9%80%E0%B8%97%E0%B8%9B%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%A3%E0%B8%A2%E0%B8%B2%E0%B8%A2%E0%B8%A2%E0%B8%AD%E0%B8%99%E0%B8%AB%E0%B8%A5%E0%B8%87/13769
+Subject: POL3128
+Class date: 2026-07-13
+Task folder: classes/POL3128/2026-07-13/video-01
+Created at: 2026-07-15T16:08:36+07:00
+Status: completed
+
+Transcript retrieval:
+- Environment check passed before processing with Python 3.12.7, youtube-transcript-api 1.2.4, and yt-dlp 2026.6.9.
+- scripts/get_youtube_transcript.py retrieved the Thai caption track V9yBjtq_MvQ.th.vtt successfully.
+- yt-dlp returned exit code 1 because the separate English subtitle request received HTTP 429. This did not block processing because the Thai track was downloaded and used.
+- transcript-raw.txt contains 295,073 characters; transcript-original.txt contains 24,884 characters and is non-empty.
+
+Processing:
+- scripts/init_task.py created video-01 without overwriting an existing folder.
+- scripts/split_text.py split transcript-original.txt into 3 original chunks before revision.
+- All 3 original chunks were corrected with prompts/revise-transcript.md and combined in order into transcript-revised.txt.
+- transcript-revised.txt contains 23,569 characters and remains a corrected transcript, not a summary.
+- All 3 revised chunks were summarized with prompts/summarize-lecture.md and combined in order into lecture-summary.txt.
+- Each summary chunk was audited sequentially against its revised chunk with prompts/audit-summary-completeness.md. Missing or over-compressed details found in the first pass were restored, and every chunk returned COMPLETE on the next pass.
+- A final whole-lecture sequential audit was run against the combined revised transcript to check chunk boundaries and end-of-lecture details.
+- lecture-summary.txt contains natural Thai prose with 19,130 non-whitespace characters, retaining approximately 86% of the corrected transcript's non-whitespace text because the lecture is information-dense. No Thai tokenizer, artificial spacing, or local word segmentation was used.
+- readme-POL3128.md was updated with course logistics only.
+- hint-POL3128.md was updated with study/exam guidance only and states that no exam format, score, quiz, assignment, or deadline was announced in this lecture.
+- scripts/build_site_index.py rebuilt data/site-index.json and added POL3128-2026-07-13-video-01.
+
+Quality and cautions:
+- Required files exist: source.txt, transcript-raw.txt, transcript-original.txt, transcript-revised.txt, lecture-summary.txt, processing-notes.txt, and chunks/.
+- The 3 original, 3 revised, and 3 summary chunks are present with meaningful names.
+- Side knowledge, examples, personal stories, teacher opinions, and practical announcements were retained.
+- The Thai caption track is machine-generated and may still contain uncertain wording. Corrections were limited to readings supported by lecture context.
+- Contemporary examples and evaluations are recorded as the teacher's classroom statements, not independently verified factual claims.
+- No production blocker remained after Thai transcript retrieval succeeded.

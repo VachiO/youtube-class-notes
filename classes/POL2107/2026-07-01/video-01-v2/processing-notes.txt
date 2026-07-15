@@ -1,0 +1,35 @@
+URL: https://www.youtube.com/watch?v=nCegU96jPU4&t=2s
+Subject: POL2107
+Class date: 2026-07-01
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2107\2026-07-01\video-01-v2
+Created at: 2026-07-13T17:23:59
+Status: task folder created
+Video id: nCegU96jPU4
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (nCegU96jPU4.th.vtt)
+Raw transcript characters: 747947
+Original transcript characters: 65536
+
+Processing completion:
+- Environment check passed with Python 3.12.7, youtube-transcript-api 1.2.4, and yt-dlp 2026.6.9.
+- The initial yt-dlp request for the English subtitle track received HTTP 429, but the script successfully recovered the Thai track `nCegU96jPU4.th.vtt`; this did not block processing.
+- `transcript-original.txt` was split before revision into 8 files at a maximum of about 9,000 characters each.
+- All 8 original chunks were reviewed with `prompts/revise-transcript.md` and written as matching `revised-chunk-001.txt` through `revised-chunk-008.txt`.
+- The revised chunks were combined in order into `transcript-revised.txt`. It remains a corrected Thai transcript rather than a summary.
+- The revised transcript was summarized in 8 matching summary chunks with `prompts/summarize-lecture.md`, then combined into `lecture-summary.txt`.
+- The first completeness audit restored details that had been compressed too aggressively, including exam logistics, source-selection logic in comparative method, qualifications about postmodernism, research-funding constraints, overlap among the five eras, Athenian inclusion/exclusion, electoral versus parliamentary power, the middle class, and civil–military compromise.
+- A second sequential audit against all 8 revised chunks found no substantial missing lecture topic, example, anecdote, teacher opinion, exam hint, score rule, or class announcement.
+- Final `lecture-summary.txt` contains 2,038 whitespace-counted words and 117 paragraphs. Thai prose uses natural spacing only; no Thai tokenizer or artificial word segmentation was used.
+- `readme-POL2107.md` was updated with course logistics from this version, and `hint-POL2107.md` was updated with exam hints and preparation instructions only.
+
+Assumptions and cautions:
+- The Thai subtitle track is an auto-caption source and may still contain uncertain proper names or unclear phrasing. Corrections were limited to readings supported by lecture context and identifiable references.
+- Political evaluations and contemporary examples in the transcript and summary are presented as the teacher's classroom opinions, not as independent factual endorsements.
+- Dates for course closure, the final non-lecture day, the exam, the faculty training, and the availability of recordings were tentative in the lecture. Students should follow current official faculty and university announcements.
+- No existing video folder was overwritten; this run was written to `video-01-v2`.

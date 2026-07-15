@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-13T07:38:02+00:00",
-  "totalLectures": 14,
+  "generatedAt": "2026-07-15T09:29:45+00:00",
+  "totalLectures": 17,
   "subjects": [
     {
       "code": "POL1101",
@@ -42,7 +42,7 @@
       "code": "POL2107",
       "title": "การเมืองเปรียบเทียบ",
       "order": 2107,
-      "lectureCount": 2,
+      "lectureCount": 3,
       "dates": [
         "2026-07-08",
         "2026-07-01"
@@ -66,8 +66,9 @@
       "code": "POL3128",
       "title": "แนววิเคราะห์ทฤษฎีการเมือง",
       "order": 3128,
-      "lectureCount": 1,
+      "lectureCount": 2,
       "dates": [
+        "2026-07-13",
         "2026-07-06"
       ],
       "readmePath": "readme-POL3128.md",
@@ -77,7 +78,7 @@
       "code": "POL3179",
       "title": "การเมืองในอเมริกา",
       "order": 3179,
-      "lectureCount": 3,
+      "lectureCount": 4,
       "dates": [
         "2026-07-08",
         "2026-07-01"
@@ -87,6 +88,27 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL3128-2026-07-13-video-01",
+      "subject": "POL3128",
+      "courseTitle": "แนววิเคราะห์ทฤษฎีการเมือง",
+      "date": "2026-07-13",
+      "dateLabelTh": "วันจันทร์ที่ 13 กรกฎาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL3128/2026-07-13/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL3128/2026-07-13/video-01/source.txt",
+      "transcriptPath": "classes/POL3128/2026-07-13/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL3128.md",
+      "hintPath": "hint-POL3128.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=V9yBjtq_MvQ",
+      "paragraphCount": 42,
+      "wordCount": 650,
+      "importantCount": 29,
+      "excerpt": "การเรียนเข้าสู่สัปดาห์ที่ 2 วิชานี้เป็นวิชาว่าด้วยการวิเคราะห์ โดยครั้งก่อนอาจารย์อธิบายประโยชน์ของการวิเคราะห์ไว้ 3 ข้อตามที่แสดงบนหน้าจอ ⚠️ อาจารย์ย้ำให้นักศึกษาทบทวนคำบรรยายและเปิดฟังหลายครั้ง เพราะการฟังครั้งแรกอาจทำ..."
+    },
     {
       "id": "POL2102-2026-07-09-video-01",
       "subject": "POL2102",
@@ -128,6 +150,27 @@
       "wordCount": 448,
       "importantCount": 14,
       "excerpt": "คาบนี้ของ POL2100 เริ่มจากอาจารย์คุยรอนักศึกษาและทบทวนสิ่งที่เกริ่นไว้ครั้งก่อนว่า “การเมืองการปกครองเปรียบเทียบ” หมายถึงการเรียนเรื่องการเมืองโดยใช้การเปรียบเทียบเป็นวิธีหลัก อาจเปรียบเทียบเป็นประเทศ เปรียบเทียบเป็นระบบ..."
+    },
+    {
+      "id": "POL3179-2026-07-08-video-01-v3",
+      "subject": "POL3179",
+      "courseTitle": "การเมืองในอเมริกา",
+      "date": "2026-07-08",
+      "dateLabelTh": "วันพุธที่ 8 กรกฎาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01-v3",
+      "videoNumber": 1,
+      "version": 3,
+      "summaryPath": "classes/POL3179/2026-07-08/video-01-v3/lecture-summary.txt",
+      "sourcePath": "classes/POL3179/2026-07-08/video-01-v3/source.txt",
+      "transcriptPath": "classes/POL3179/2026-07-08/video-01-v3/transcript-revised.txt",
+      "readmePath": "readme-POL3179.md",
+      "hintPath": "hint-POL3179.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=LmqI0hUkv5Y",
+      "paragraphCount": 80,
+      "wordCount": 1610,
+      "importantCount": 36,
+      "excerpt": "อาจารย์เริ่มการสอนครั้งที่ 2 หลังจากคาบก่อนเป็นการแนะนำภาพรวมของรายวิชา โดยบอกว่าสไลด์ชุดนี้อาจใช้เวลาสอนประมาณ 2–5 ครั้ง ขึ้นอยู่กับจังหวะและอารมณ์ในการเล่า เพราะถ้าอารมณ์ดีก็อาจขยายความนาน แต่ถ้าไม่ดีก็อาจเดินเนื้อหาเร..."
     },
     {
       "id": "POL3179-2026-07-08-video-01-v2",
@@ -317,6 +360,27 @@
       "wordCount": 924,
       "importantCount": 22,
       "excerpt": "วิชานี้คือ POL3179 หรือการเมืองในอเมริกา อาจารย์เริ่มคาบแรกด้วยการบอกบรรยากาศของวิชาว่าจะเรียนกันตอนกลางคืนทุกวันพุธต่อเนื่องไปประมาณ 4 เดือน และโดยนิสัยของอาจารย์มักไม่ปล่อยก่อนเวลา ถ้าจะดึกหรือไม่ดึกขึ้นกับเนื้อหาในแต่..."
+    },
+    {
+      "id": "POL2107-2026-07-01-video-01-v2",
+      "subject": "POL2107",
+      "courseTitle": "การเมืองเปรียบเทียบ",
+      "date": "2026-07-01",
+      "dateLabelTh": "วันพุธที่ 1 กรกฎาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01-v2",
+      "videoNumber": 1,
+      "version": 2,
+      "summaryPath": "classes/POL2107/2026-07-01/video-01-v2/lecture-summary.txt",
+      "sourcePath": "classes/POL2107/2026-07-01/video-01-v2/source.txt",
+      "transcriptPath": "classes/POL2107/2026-07-01/video-01-v2/transcript-revised.txt",
+      "readmePath": "readme-POL2107.md",
+      "hintPath": "hint-POL2107.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=nCegU96jPU4&t=2s",
+      "paragraphCount": 117,
+      "wordCount": 2038,
+      "importantCount": 73,
+      "excerpt": "คาบแรกของวิชา POL2107 การเมืองเปรียบเทียบเบื้องต้นเริ่มจากอาจารย์ตรวจสอบว่านักศึกษาเป็นชั้นปีใด เพราะตามลำดับหลักสูตรวิชานี้ควรอยู่ในปี 2 และนักศึกษาน่าจะได้เรียน RAM1302 การเมืองและกฎหมายในชีวิตประจำวันก่อน แต่กลุ่มนี้ก..."
     },
     {
       "id": "POL2107-2026-07-01-video-01",
