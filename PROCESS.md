@@ -23,6 +23,10 @@ source .venv/bin/activate
 
 The check command must pass before processing a video.
 
+## Scheduled automation state
+
+Scheduled Codex jobs use `scripts/automation_state.py` to keep a local lifecycle record and per-video lock. The generated state under `data/` is intentionally local and ignored by Git, so routine checks do not create commits. Do not delete it while an automated lecture task is active.
+
 ## Normal process command
 
 When the user says:

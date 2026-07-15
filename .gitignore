@@ -6,3 +6,5 @@ env/
 .env
 .DS_Store
 Thumbs.db
+data/automation-state.json
+data/automation-locks/

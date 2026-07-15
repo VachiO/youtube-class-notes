@@ -20,6 +20,7 @@ REQUIRED_FILES = [
     "scripts/get_youtube_transcript.py",
     "scripts/split_text.py",
     "scripts/build_site_index.py",
+    "scripts/automation_state.py",
 ]
 REQUIRED_PACKAGES = {
     "youtube-transcript-api": "1.2.4",
