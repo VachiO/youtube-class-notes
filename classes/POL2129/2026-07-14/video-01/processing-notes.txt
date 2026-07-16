@@ -1,0 +1,43 @@
+URL: https://www.youtube.com/watch?v=PR7ouqINby8
+Subject: POL2129
+Class date: 2026-07-14
+Original archive date: 14/7/69
+Archive page: https://sites.google.com/rumail.ru.ac.th/1-2569/%E0%B9%80%E0%B8%97%E0%B8%9B%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%A2%E0%B8%B2%E0%B8%A2%E0%B8%A2%E0%B8%AD%E0%B8%99%E0%B8%AB%E0%B8%A5%E0%B8%87/14769
+Task folder: classes/POL2129/2026-07-14/video-01
+Video ID: PR7ouqINby8
+Status: completed
+
+Environment and source retrieval:
+- scripts/check_environment.py passed before processing.
+- scripts/init_task.py created video-01; no existing video folder was overwritten.
+- yt-dlp first reported HTTP 429 while attempting English subtitles and also warned that a JavaScript runtime and ffmpeg were unavailable.
+- The transcript tool recovered successfully with the Thai VTT fallback (PR7ouqINby8.th.vtt).
+- transcript-raw.txt contains the raw VTT-derived transcript.
+- transcript-original.txt contains the readable transcript with timestamps removed.
+
+Transcript revision:
+- transcript-original.txt was split before revision with scripts/split_text.py at a maximum of 9,000 characters per chunk.
+- Created six original chunks and six matching revised chunks.
+- Corrected obvious Thai speech-to-text errors while preserving lecture order, meaning, detail, examples, stories, announcements, and line structure.
+- Combined all revised chunks into transcript-revised.txt; this file remains a corrected transcript, not a summary.
+- Conservative corrections were used for a few heavily garbled phrases. The unclear SET year was interpreted from context as พ.ศ. 2518 / ค.ศ. 1975, while uncertain jokes and spoken numbering were not expanded beyond the source.
+
+Lecture summary and audit:
+- Created six detailed Thai summary chunks from the matching revised chunks and combined them into lecture-summary.txt.
+- The combined summary contains 25,117 characters compared with 46,195 characters of revised chunk text, retaining approximately 54.4% by character count without artificial Thai word spacing.
+- Critical quiz, exam, grading, date, and required-action details are marked clearly with ⚠️.
+- Audited each summary chunk sequentially against its revised transcript chunk using prompts/audit-summary-completeness.md.
+- Restored omitted details in chunk 005, including the Chinese-settler example, the taxi-driver building story, the royal-representative advice, the teacher's quiz-scope remark, praise for the period's rulers, and the sequence for converting donated gold into international reserves.
+- Repeated the chunk audits until all six were COMPLETE.
+- Performed a final whole-lecture audit of lecture-summary.txt against transcript-revised.txt; result: COMPLETE, with no substantial omissions remaining.
+
+Course files and index:
+- Updated readme-POL2129.md with this lecture, quiz logistics, permitted resources, individual-work rule, and the next teaching plan.
+- Updated hint-POL2129.md with the refined quiz scope and exam-preparation topics from this lecture.
+- data/site-index.json is regenerated after all lecture files are complete.
+
+Quality checks:
+- Required output files are non-empty.
+- chunks/ contains meaningful original, revised, and summary chunk files for all six chunks.
+- transcript files and summary contain valid UTF-8 with no replacement characters.
+- The final automation verification is run after rebuilding data/site-index.json.

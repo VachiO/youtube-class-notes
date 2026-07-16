@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-16T02:29:56+00:00",
-  "totalLectures": 18,
+  "generatedAt": "2026-07-16T02:32:51+00:00",
+  "totalLectures": 19,
   "subjects": [
     {
       "code": "POL1101",
@@ -55,8 +55,9 @@
       "code": "POL2129",
       "title": "รัฐและประชาสังคมในระบบการเมือง",
       "order": 2129,
-      "lectureCount": 2,
+      "lectureCount": 3,
       "dates": [
+        "2026-07-14",
         "2026-07-07",
         "2026-06-30"
       ],
@@ -89,6 +90,27 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL2129-2026-07-14-video-01",
+      "subject": "POL2129",
+      "courseTitle": "รัฐและประชาสังคมในระบบการเมือง",
+      "date": "2026-07-14",
+      "dateLabelTh": "วันอังคารที่ 14 กรกฎาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2129/2026-07-14/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2129/2026-07-14/video-01/source.txt",
+      "transcriptPath": "classes/POL2129/2026-07-14/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2129.md",
+      "hintPath": "hint-POL2129.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=PR7ouqINby8",
+      "paragraphCount": 48,
+      "wordCount": 1042,
+      "importantCount": 29,
+      "excerpt": "อาจารย์กล่าวต้อนรับนักศึกษา POL 2129 และกำหนดหัวข้อบรรยายวันนี้เป็นประวัติศาสตร์เศรษฐกิจและการเงินของไทยที่รุนแรงมาก คือ “วิกฤตต้มยำกุ้ง” หรือวิกฤตเศรษฐกิจ พ.ศ. 2540 ซึ่งตรงกับ ค.ศ. 1997 อย่างไรก็ตาม ก่อนจะทำความเข้าใจเห..."
+    },
     {
       "id": "POL1101-2026-07-14-video-01",
       "subject": "POL1101",
