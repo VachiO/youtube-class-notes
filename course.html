@@ -69,6 +69,7 @@
               <span class="sr-only">ค้นหาในสรุปที่เปิดอยู่</span>
               <input id="summarySearch" type="search" placeholder="ค้นหาในสรุปนี้">
             </label>
+            <button class="open-button is-secondary copy-button" id="copySummary" type="button" disabled>คัดลอกสรุป</button>
             <a class="open-button video-button" id="readerVideoLink" href="#" target="_blank" rel="noopener" hidden>วิดีโอ</a>
           </div>
         </div>
@@ -81,6 +82,13 @@
         </div>
       </section>
     </main>
+
+    <aside class="reading-context" id="readingContext" aria-label="ข้อมูลสรุปที่กำลังอ่าน" hidden>
+      <strong id="readingCourseCode"></strong>
+      <span id="readingCourseTitle"></span>
+      <span id="readingLectureDate"></span>
+    </aside>
+    <button class="back-to-top" id="backToTop" type="button" aria-label="กลับไปด้านบน" title="กลับไปด้านบน" hidden>↑</button>
 
     <script src="course.js"></script>
   </body>

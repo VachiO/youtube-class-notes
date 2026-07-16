@@ -28,6 +28,12 @@ const el = {
   readerVideoLink: document.querySelector("#readerVideoLink"),
   readerStatus: document.querySelector("#readerStatus"),
   summaryContent: document.querySelector("#summaryContent"),
+  copySummary: document.querySelector("#copySummary"),
+  readingContext: document.querySelector("#readingContext"),
+  readingCourseCode: document.querySelector("#readingCourseCode"),
+  readingCourseTitle: document.querySelector("#readingCourseTitle"),
+  readingLectureDate: document.querySelector("#readingLectureDate"),
+  backToTop: document.querySelector("#backToTop"),
   themeToggle: document.querySelector("#themeToggle"),
 };
 
@@ -71,6 +77,21 @@ function bindEvents() {
     state.summaryQuery = el.summarySearch.value.trim();
     renderSummary();
   });
+
+  el.copySummary.addEventListener("click", copySummary);
+
+  el.backToTop.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+
+  window.addEventListener("scroll", () => {
+    el.backToTop.hidden = window.scrollY < 500;
+  }, { passive: true });
+
+  const readerObserver = new IntersectionObserver(([entry]) => {
+    el.readingContext.classList.toggle("is-visible", entry.isIntersecting);
+  });
+  readerObserver.observe(document.querySelector("#reader"));
 
   el.themeToggle.addEventListener("click", () => {
     const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
@@ -122,7 +143,7 @@ function renderLectureList() {
             <button class="open-button" type="button" data-open-lecture="${escapeHtml(lecture.id)}">
               ${isActive ? "กำลังอ่าน" : "อ่านคาบนี้"}
             </button>
-            <a class="open-button is-secondary" href="course.html?subject=${encodeURIComponent(lecture.subject)}&lecture=${encodeURIComponent(lecture.id)}">ลิงก์คาบ</a>
+            ${lecture.sourceUrl ? `<a class="open-button is-secondary" href="${escapeHtml(lecture.sourceUrl)}" target="_blank" rel="noopener">วิดิโอ</a>` : ""}
           </div>
         </article>
       `;
@@ -142,8 +163,13 @@ async function openLecture(lecture, scrollToReader) {
   state.paragraphs = [];
   state.summaryQuery = "";
   el.summarySearch.value = "";
+  el.copySummary.disabled = true;
   el.readerMeta.textContent = `${lecture.subject} · ${lecture.video}`;
   el.readerTitle.textContent = lecture.dateLabelTh;
+  el.readingCourseCode.textContent = lecture.subject;
+  el.readingCourseTitle.textContent = lecture.courseTitle;
+  el.readingLectureDate.textContent = `${lecture.dateLabelTh} · ${lecture.video}`;
+  el.readingContext.hidden = false;
   if (lecture.sourceUrl) {
     el.readerVideoLink.href = lecture.sourceUrl;
     el.readerVideoLink.hidden = false;
@@ -161,6 +187,7 @@ async function openLecture(lecture, scrollToReader) {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const text = await response.text();
     state.paragraphs = parseParagraphs(text);
+    el.copySummary.disabled = false;
     renderSummary();
     if (scrollToReader) document.querySelector("#reader").scrollIntoView({ behavior: "smooth", block: "start" });
   } catch (error) {
@@ -184,23 +211,53 @@ function parseParagraphs(text) {
 
 function renderSummary() {
   const query = state.summaryQuery.toLowerCase();
-  const filtered = state.paragraphs.filter((paragraph) => {
-    const matchesQuery = !query || paragraph.text.toLowerCase().includes(query);
-    return matchesQuery;
-  });
+  const matches = query
+    ? state.paragraphs.reduce((total, paragraph) => total + paragraph.text.toLowerCase().split(query).length - 1, 0)
+    : 0;
 
-  el.readerStatus.textContent = `แสดง ${filtered.length.toLocaleString("th-TH")} จาก ${state.paragraphs.length.toLocaleString("th-TH")} ย่อหน้า`;
-  if (!filtered.length) {
-    el.summaryContent.innerHTML = `<p class="empty-state">ไม่พบข้อความที่ตรงกับตัวกรองนี้</p>`;
-    return;
-  }
+  el.readerStatus.textContent = query
+    ? `พบ ${matches.toLocaleString("th-TH")} จุด · แสดงครบ ${state.paragraphs.length.toLocaleString("th-TH")} ย่อหน้า`
+    : `${state.paragraphs.length.toLocaleString("th-TH")} ย่อหน้า`;
 
-  el.summaryContent.innerHTML = filtered
+  el.summaryContent.innerHTML = state.paragraphs
     .map((paragraph) => {
       const classes = paragraph.important ? "summary-block is-important" : "summary-block";
       return `<p class="${classes}" id="${paragraph.id}">${highlight(paragraph.text, state.summaryQuery)}</p>`;
     })
     .join("");
+}
+
+async function copySummary() {
+  if (!state.paragraphs.length) return;
+  const label = el.copySummary.textContent;
+
+  try {
+    await writeClipboard(state.paragraphs.map((paragraph) => paragraph.text).join("\n\n"));
+    el.copySummary.textContent = "คัดลอกแล้ว";
+  } catch {
+    el.copySummary.textContent = "คัดลอกไม่สำเร็จ";
+  }
+
+  window.setTimeout(() => {
+    el.copySummary.textContent = label;
+  }, 1800);
+}
+
+async function writeClipboard(text) {
+  if (navigator.clipboard && window.isSecureContext) {
+    await navigator.clipboard.writeText(text);
+    return;
+  }
+
+  const textarea = document.createElement("textarea");
+  textarea.value = text;
+  textarea.style.position = "fixed";
+  textarea.style.opacity = "0";
+  document.body.append(textarea);
+  textarea.select();
+  const copied = document.execCommand("copy");
+  textarea.remove();
+  if (!copied) throw new Error("Clipboard unavailable");
 }
 
 async function fetchText(path) {

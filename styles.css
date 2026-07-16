@@ -282,6 +282,7 @@ h1 {
   font-size: 26px;
   font-weight: 500;
   letter-spacing: 0;
+  text-decoration: none;
   transition: background-color 140ms ease, border-color 140ms ease, transform 140ms ease;
 }
 
@@ -791,8 +792,13 @@ h1 {
 
 .reader-actions {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-columns: minmax(0, 1fr) auto auto;
   gap: 8px;
+}
+
+.copy-button:disabled {
+  cursor: wait;
+  opacity: 0.55;
 }
 
 .reader-layout {
@@ -841,6 +847,73 @@ mark {
   background: var(--mark);
   color: var(--ink);
   padding: 0 2px;
+}
+
+.reading-context {
+  position: fixed;
+  z-index: 20;
+  left: max(16px, calc((100vw - 1200px) / 2));
+  bottom: 16px;
+  max-width: min(680px, calc(100vw - 104px));
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 12px;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-pill);
+  background: color-mix(in srgb, var(--canvas) 92%, transparent);
+  color: var(--muted);
+  box-shadow: 0 8px 28px color-mix(in srgb, var(--ink) 12%, transparent);
+  font-size: 12px;
+  line-height: 1.3;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(8px);
+  transition: opacity 160ms ease, transform 160ms ease;
+  backdrop-filter: blur(10px);
+}
+
+.reading-context.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reading-context strong {
+  flex: 0 0 auto;
+  color: var(--primary);
+  font-size: 13px;
+}
+
+.reading-context span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.reading-context span + span {
+  padding-left: 10px;
+  border-left: 1px solid var(--hairline);
+}
+
+.back-to-top {
+  position: fixed;
+  z-index: 21;
+  right: 16px;
+  bottom: 16px;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--primary);
+  border-radius: 50%;
+  background: var(--primary);
+  color: var(--on-primary);
+  box-shadow: 0 8px 28px color-mix(in srgb, var(--ink) 18%, transparent);
+  font-size: 22px;
+  line-height: 1;
+}
+
+.back-to-top:hover,
+.back-to-top:focus-visible {
+  background: var(--primary-active);
 }
 
 .empty-state {
@@ -946,6 +1019,15 @@ mark {
   .summary-block {
     padding: 16px 20px;
   }
+
+  .reading-context {
+    right: 72px;
+    max-width: none;
+  }
+
+  .reading-context span:nth-child(2) {
+    display: none;
+  }
 }
 
 @media print {
@@ -953,6 +1035,11 @@ mark {
   .controls,
   .catalog-shell,
   .reader-actions {
+    display: none;
+  }
+
+  .reading-context,
+  .back-to-top {
     display: none;
   }
 

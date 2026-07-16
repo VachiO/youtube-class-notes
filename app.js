@@ -3,7 +3,7 @@ const INDEX_URL = "data/site-index.json";
 const state = {
   index: null,
   lectures: [],
-  view: "subject",
+  view: "day",
   query: "",
 };
 
