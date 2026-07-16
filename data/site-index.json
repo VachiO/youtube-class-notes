@@ -1,13 +1,14 @@
 {
-  "generatedAt": "2026-07-15T09:29:45+00:00",
-  "totalLectures": 17,
+  "generatedAt": "2026-07-16T02:29:56+00:00",
+  "totalLectures": 18,
   "subjects": [
     {
       "code": "POL1101",
       "title": "การเมืองและการปกครองของไทย",
       "order": 1101,
-      "lectureCount": 2,
+      "lectureCount": 3,
       "dates": [
+        "2026-07-14",
         "2026-07-07",
         "2026-06-30"
       ],
@@ -88,6 +89,27 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL1101-2026-07-14-video-01",
+      "subject": "POL1101",
+      "courseTitle": "การเมืองและการปกครองของไทย",
+      "date": "2026-07-14",
+      "dateLabelTh": "วันอังคารที่ 14 กรกฎาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL1101/2026-07-14/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL1101/2026-07-14/video-01/source.txt",
+      "transcriptPath": "classes/POL1101/2026-07-14/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL1101.md",
+      "hintPath": "hint-POL1101.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=2JNbrZOl4Yg",
+      "paragraphCount": 40,
+      "wordCount": 775,
+      "importantCount": 22,
+      "excerpt": "การบรรยายวิชา POL1101 ครั้งนี้เป็นการเปิดภาคเรียนครั้งที่ 3 ของปี 2569 โดยอาจารย์ย้อนจากภาคที่ 1 “ภาคความนำทั่วไป” ซึ่งมี 2 บท มาสานต่อบทที่ 2 เรื่องหลักประชาธิปไตย เหตุที่ต้องเรียนเรื่องนี้ก็เพราะวิชานี้ศึกษาการเมืองการ..."
+    },
     {
       "id": "POL3128-2026-07-13-video-01",
       "subject": "POL3128",

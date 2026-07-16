@@ -1,0 +1,47 @@
+URL: https://www.youtube.com/watch?v=2JNbrZOl4Yg
+Subject: POL1101
+Class date: 2026-07-14
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL1101\2026-07-14\video-01
+Created at: 2026-07-16T09:18:12
+Status: task folder created
+Video id: 2JNbrZOl4Yg
+yt-dlp exit code: 0
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+Transcript method: yt-dlp (2JNbrZOl4Yg.en.vtt)
+Raw transcript characters: 514530
+Original transcript characters: 60754
+yt-dlp exit code: 0
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+Transcript method: yt-dlp (2JNbrZOl4Yg.th-orig.vtt)
+Raw transcript characters: 494088
+Original transcript characters: 43609
+
+Processing completed for the assigned video only.
+
+Transcript handling:
+- The first yt-dlp selection returned the English auto-translation (`2JNbrZOl4Yg.en.vtt`) even though the lecture audio is Thai.
+- `yt-dlp --list-subs` confirmed that `th-orig` was available. The same task folder was retained and the required raw/original files were refetched from `2JNbrZOl4Yg.th-orig.vtt`; no version folder was created for this correction.
+- `transcript-original.txt` was split into 5 `original-chunk-*.txt` files before revision.
+- All 5 chunks were corrected in order with the transcript-revision rules. The matching `revised-chunk-*.txt` files were combined into `transcript-revised.txt` without summarizing or reordering the lecture.
+
+Summary handling:
+- The corrected transcript was summarized in 5 source-aligned `summary-chunk-*.txt` files and combined into `lecture-summary.txt`.
+- The final notes contain 19,677 natural Thai characters and retain 41.9% of the corrected transcript by character volume, within the normal 40–60% information-retention target. No Thai word segmentation or artificial spaces were used.
+- Completeness audit pass 1 compared the revised transcript sequentially with the combined notes and restored omitted background about the Chinese dynasty chronology and historical selection/patronage context.
+- Completeness audit pass 2 result: COMPLETE. The final notes retain the main concepts, constitutional examples, exam warnings, stories, current-event references, course roadmap, teacher scheduling note, and all five theories of Thai origins.
+
+Related updates:
+- Updated `readme-POL1101.md` only with the new lecture link, course sequence, handoff plan, and next-class scheduling information.
+- Updated `hint-POL1101.md` only with explicit or concrete exam-preparation points from this lecture.
+
+Environment and assumptions:
+- Required environment check passed with Python 3.12.7, youtube-transcript-api 1.2.4, and yt-dlp 2026.6.9.
+- yt-dlp warned that no JavaScript runtime and ffmpeg were available, but the Thai original caption fetch succeeded, so these warnings did not block transcript processing.
+- Proper names distorted by automatic captions were corrected where context was sufficiently clear; uncertain spoken wording was preserved rather than supplemented with unsupported facts.
