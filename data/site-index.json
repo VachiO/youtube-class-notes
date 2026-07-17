@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-17T06:05:16+00:00",
-  "totalLectures": 20,
+  "generatedAt": "2026-07-17T06:08:09+00:00",
+  "totalLectures": 21,
   "subjects": [
     {
       "code": "POL1101",
@@ -81,8 +81,9 @@
       "code": "POL3179",
       "title": "การเมืองในอเมริกา",
       "order": 3179,
-      "lectureCount": 4,
+      "lectureCount": 5,
       "dates": [
+        "2026-07-15",
         "2026-07-08",
         "2026-07-01"
       ],
@@ -91,6 +92,27 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL3179-2026-07-15-video-01",
+      "subject": "POL3179",
+      "courseTitle": "การเมืองในอเมริกา",
+      "date": "2026-07-15",
+      "dateLabelTh": "วันพุธที่ 15 กรกฎาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL3179/2026-07-15/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL3179/2026-07-15/video-01/source.txt",
+      "transcriptPath": "classes/POL3179/2026-07-15/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL3179.md",
+      "hintPath": "hint-POL3179.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=py_25vtJl68",
+      "paragraphCount": 89,
+      "wordCount": 1935,
+      "importantCount": 56,
+      "excerpt": "อาจารย์ทบทวนว่าครั้งก่อนเรียนถึงเรื่อง Declaration of Independence (คำประกาศอิสรภาพ) แต่ยังไม่ถึง Philadelphia และคาดว่าคาบนี้น่าจะสอนได้ถึงช่วง New Jersey Plan ระหว่างเตรียมสอนอาจารย์ปรับฟอนต์และสไลด์ให้เข้ากับห้องก่อนเ..."
+    },
     {
       "id": "POL2107-2026-07-15-video-01",
       "subject": "POL2107",

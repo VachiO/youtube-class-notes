@@ -1,0 +1,28 @@
+URL: https://www.youtube.com/watch?v=py_25vtJl68
+Subject: POL3179
+Class date: 2026-07-15
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL3179\2026-07-15\video-01
+Created at: 2026-07-17T12:54:25
+Status: task folder created
+Video id: py_25vtJl68
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (py_25vtJl68.th.vtt)
+Raw transcript characters: 738661
+Original transcript characters: 64476
+Transcript fetch result: the Thai caption track was obtained successfully even though yt-dlp returned exit code 1 after an HTTP 429 error on the separate English subtitle request.
+Chunking: split transcript-original.txt into 8 original chunks with scripts/split_text.py at max 9000 characters per chunk.
+Revision: corrected all 8 chunks conservatively with prompts/revise-transcript.md, preserving lecture order, detail, examples, stories, announcements, and technical English terms; combined them into transcript-revised.txt.
+Summary: created 8 detailed Thai lecture-note chunks with prompts/summarize-lecture.md, retaining side knowledge, teacher anecdotes, practical announcements, examples, and end-of-chunk details; combined them into lecture-summary.txt.
+Completeness audit: compared every revised chunk sequentially with its matching summary chunk using prompts/audit-summary-completeness.md. Missing details found during the audits were restored before combination, and no substantial omission remained after the final per-chunk audit.
+Per-chunk summary retention ratios: 65.8%, 68.1%, 68.5%, 54.2%, 56.2%, 60.7%, 60.2%, and 56.5% of revised chunk characters.
+Final revised transcript characters: 62243.
+Final lecture summary characters: 38138, approximately 61.3% of the revised transcript. The ratio is slightly above the normal range because this lecture is information-dense and the audit retained separate examples, stories, comparisons, and practical announcements.
+Course files: updated readme-POL3179.md with the new summary link, July 20 seminar logistics, and July 22 travel/weather class condition; updated hint-POL3179.md with the explicit plan-name instruction, assigned reading, structural comparisons, Electoral College figures, Federalist Paper No. 10, and Bill of Rights preparation points.
+Quality checks: all required output files are non-empty; all original, revised, and summary chunks exist; transcript-revised.txt remains a corrected transcript rather than a summary; lecture-summary.txt is natural Thai prose without artificial word segmentation; course logistics and exam hints are separated into the appropriate files.
+Blockers: none. GitHub Pages publication must be checked separately after push because deployment may lag behind the repository update.
