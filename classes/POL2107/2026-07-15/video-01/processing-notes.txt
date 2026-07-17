@@ -1,0 +1,46 @@
+Processing notes — POL2107 — 2026-07-15 — J8PSFYIuDUo
+
+Status: processing complete and locally verified
+Canonical URL: https://www.youtube.com/watch?v=J8PSFYIuDUo
+Task directory: classes/POL2107/2026-07-15/video-01
+
+Environment and initialization
+- Ran `python scripts/check_environment.py`; Python, git, workflow files, youtube-transcript-api, and yt-dlp checks passed.
+- Ran `scripts/init_task.py` with subject POL2107 and date 15.07.2026.
+- The new directory was `video-01`; no existing video directory was overwritten.
+
+Transcript retrieval
+- Ran `scripts/get_youtube_transcript.py` for the canonical YouTube URL.
+- yt-dlp first reported HTTP 429 while attempting English subtitles, plus warnings that no supported JavaScript runtime, ffmpeg, or impersonation target was available.
+- Despite that failed attempt, yt-dlp obtained the Thai VTT (`J8PSFYIuDUo.th.vtt`), and the repo script successfully produced both `transcript-raw.txt` and readable `transcript-original.txt`.
+- Raw transcript length recorded by the retrieval script: 835,620 characters.
+- Readable original transcript length recorded by the retrieval script: 73,699 characters.
+- Transcript access was therefore usable; the HTTP 429 warning was not a blocker.
+
+Transcript revision
+- Split `transcript-original.txt` before revision with `scripts/split_text.py --max-chars 9000`.
+- Created 9 `original-chunk-*.txt` files.
+- Reviewed all 9 chunks in order using `prompts/revise-transcript.md` and created matching 9 `revised-chunk-*.txt` files.
+- Corrected clear Thai speech-to-text errors, names, dates, and technical terms, including Rule of Law, civil disobedience, consensus, John Locke, Edmund Burke, Fordism, Erich Fromm, positivism, and empiricism.
+- Preserved lecture order, questions, side discussions, historical stories, class participation details, and the amount of information.
+- Combined revised chunks into `transcript-revised.txt`; it remains a corrected transcript, not a summary.
+
+Lecture summary and completeness audit
+- Wrote a detailed Thai lecture-note summary from the revised transcript using `prompts/summarize-lecture.md`.
+- Preserved the lecture sequence and included the ideology discussion, Thai political history, liberalism and capitalism, science and industrialization, academic values and approaches, welfare-state debate, Thammasat/Ramkhamhaeng/Pridi history, AI and labor, mass culture, Hitler and Escape from Freedom, and the rise of behavioralism after World War II.
+- Preserved teacher examples, anecdotes, comparisons, personal viewing comments, and meaningful digressions.
+- Marked the participation-score information with `⚠️`. No new exam date, assignment, submission deadline, or training date was announced in this lecture.
+- Audited the first combined summary sequentially against `transcript-revised.txt` using `prompts/audit-summary-completeness.md`.
+- Restored omissions found in the first audit, including the RM 1302 reference, the distinction between liberalism and doing whatever one wants, the academic/political use of values, the power steps needed to implement policy, the international context of the Yellow Cover Dossier, additional AI/labor reasoning, and the behavioralism timeline.
+- Repeated the audit after merging recovered details. No substantial topic, example, story, announcement, or end-of-section detail remained missing.
+- Final summary length: 27,484 characters of natural Thai prose. No Thai tokenizer, artificial word segmentation, or inserted spaces were used.
+- Split the final summary into 4 `summary-chunk-*.txt` files for the required chunk record.
+
+Course files and site index
+- Updated `readme-POL2107.md` only with the new lecture link and course logistics/participation information.
+- Updated `hint-POL2107.md` only with exam-relevant concepts and preparation points from this lecture.
+- Ran `python scripts/build_site_index.py`; it wrote `data/site-index.json` with 20 lectures.
+- Ran `python scripts/automation_state.py verify --video J8PSFYIuDUo`; verification reported `outputComplete: true`, `indexContainsVideo: true`, and `complete: true`.
+
+Production/publication note
+- Local processing and index verification succeeded. Git commit, push, and the separate GitHub Pages publication check are recorded by the worker lifecycle state after those steps complete.

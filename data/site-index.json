@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-16T02:32:51+00:00",
-  "totalLectures": 19,
+  "generatedAt": "2026-07-17T06:05:16+00:00",
+  "totalLectures": 20,
   "subjects": [
     {
       "code": "POL1101",
@@ -43,8 +43,9 @@
       "code": "POL2107",
       "title": "การเมืองเปรียบเทียบ",
       "order": 2107,
-      "lectureCount": 3,
+      "lectureCount": 4,
       "dates": [
+        "2026-07-15",
         "2026-07-08",
         "2026-07-01"
       ],
@@ -90,6 +91,27 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL2107-2026-07-15-video-01",
+      "subject": "POL2107",
+      "courseTitle": "การเมืองเปรียบเทียบ",
+      "date": "2026-07-15",
+      "dateLabelTh": "วันพุธที่ 15 กรกฎาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2107/2026-07-15/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2107/2026-07-15/video-01/source.txt",
+      "transcriptPath": "classes/POL2107/2026-07-15/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2107.md",
+      "hintPath": "hint-POL2107.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=J8PSFYIuDUo",
+      "paragraphCount": 42,
+      "wordCount": 935,
+      "importantCount": 30,
+      "excerpt": "คาบวันที่ 15 กรกฎาคม 2026 ของวิชา POL2107 เริ่มจากอาจารย์เปิดไฟล์ PDF และพยายามทบทวนว่าคาบก่อนหยุดไว้ตรงใด นักศึกษาช่วยตอบว่าอยู่ช่วง “ยุคเปลี่ยนผ่าน” แต่ก่อนกลับเข้าสู่สไลด์อาจารย์เปิดโอกาสให้ถามคำถามเช่นเดิม คำถามแรกขอ..."
+    },
     {
       "id": "POL2129-2026-07-14-video-01",
       "subject": "POL2129",
