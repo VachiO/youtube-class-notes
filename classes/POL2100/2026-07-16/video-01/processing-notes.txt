@@ -1,0 +1,35 @@
+URL: https://www.youtube.com/watch?v=ZfwIuMQFWJA
+Subject: POL2100
+Class date: 2026-07-16
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2100\2026-07-16\video-01
+Created at: 2026-07-18T09:36:47
+Status: task folder created
+Video id: ZfwIuMQFWJA
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (ZfwIuMQFWJA.th.vtt)
+Raw transcript characters: 401431
+Original transcript characters: 33719
+
+Processing completed:
+- Environment check passed with Python 3.12.7, git, youtube-transcript-api 1.2.4, and yt-dlp 2026.6.9.
+- The transcript was split into 4 original chunks before revision.
+- All 4 chunks were corrected with prompts/revise-transcript.md while preserving lecture order and detail.
+- The corrected chunks were combined into transcript-revised.txt (35,418 characters); this remains a transcript, not a summary.
+- All 4 revised chunks were summarized with prompts/summarize-lecture.md and combined into lecture-summary.txt.
+- Completeness audit round 1 found omissions in chunks 002-004; all recovered details were merged in lecture order.
+- Completeness audit round 2 returned COMPLETE for all 4 chunks.
+- The final lecture summary contains 38,387 characters and preserves substantive lecture content, examples, stories, teacher opinions, side knowledge, and practical information.
+- readme-POL2100.md was updated only with course logistics and the new lecture-file reference.
+- hint-POL2100.md was updated only with exam hints and preparation guidance.
+
+Assumptions and warnings:
+- yt-dlp reported a missing JavaScript runtime and ffmpeg, plus an HTTP 429 while attempting English subtitles. The Thai VTT transcript was still obtained successfully and was used for processing.
+- Local processing verifies file completeness and repository structure; production publication is checked separately after push.
+
+Quality status: summary audit complete; no substantial omissions remain.
