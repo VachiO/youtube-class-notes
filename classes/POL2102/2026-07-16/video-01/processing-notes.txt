@@ -1,0 +1,45 @@
+URL: https://www.youtube.com/watch?v=evoJcDUm9XU
+Subject: POL2102
+Class date: 2026-07-16
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2102\2026-07-16\video-01
+Created at: 2026-07-18T09:37:30
+Status: task folder created
+Video id: evoJcDUm9XU
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (evoJcDUm9XU.th.vtt)
+Raw transcript characters: 863379
+Original transcript characters: 77339
+
+Processing completed: 2026-07-18
+
+Workflow:
+- Environment check passed with Python 3.12.7, git, youtube-transcript-api 1.2.4, and yt-dlp 2026.6.9.
+- yt-dlp reported an HTTP 429 while attempting one subtitle route, but the repository transcript fetcher successfully obtained the Thai VTT fallback and produced both transcript-raw.txt and transcript-original.txt. This was not a transcript blocker.
+- transcript-original.txt was split into 9 original chunks before revision.
+- Every original chunk was revised in sequence with the transcript-revision rules. Obvious speech-to-text errors in names and recurring terms were corrected while lecture order, examples, announcements, and detail were retained.
+- The 9 revised chunks were combined into transcript-revised.txt.
+- Every revised chunk was summarized independently in Thai lecture-note prose, then combined into lecture-summary.txt.
+- Course logistics were merged into readme-POL2102.md and explicit exam/preparation hints into hint-POL2102.md.
+
+Completeness audit:
+- First sequential audit compared each revised chunk with its corresponding summary chunk under prompts/audit-summary-completeness.md.
+- Recovered details were merged at their original topic positions, including cross-agency responsibility, different powers of independent organizations, the historical stages behind Parliament, delegate/trustee trade-offs, electoral-system effects, the distinction between proposing and finally approving legislation, state/nation/country as different units of analysis, manpower and mandala-style authority in traditional states, and the combined economic/intellectual causes of the modern state.
+- Second sequential audit found no substantial remaining omission: COMPLETE.
+- Side knowledge, stories, classroom examples, dates, named thinkers, practical announcements, and exam emphasis were retained.
+
+Quality checks:
+- All required files are non-empty.
+- 9 original, 9 revised, and 9 summary chunks exist.
+- transcript-revised.txt remains a corrected full transcript rather than a summary.
+- lecture-summary.txt is natural Thai prose, exceeds the 2,000-word floor by ordinary reading length, and was not padded with artificial Thai word segmentation.
+- The lecture summary retains 40.2% of the revised transcript by Unicode character count, within the normal 40-60% information-retention target, and follows the source order.
+- No existing video folder was overwritten; this video was created as video-01.
+
+Production/publication note:
+- Local processing can verify repository outputs and the generated site index. GitHub Pages publication is checked separately after push; any deployment delay is recorded as a warning rather than a processing failure.

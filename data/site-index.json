@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-17T06:08:09+00:00",
-  "totalLectures": 21,
+  "generatedAt": "2026-07-18T02:54:05+00:00",
+  "totalLectures": 22,
   "subjects": [
     {
       "code": "POL1101",
@@ -31,8 +31,9 @@
       "code": "POL2102",
       "title": "หลักรัฐธรรมนูญและสถาบันทางการเมือง",
       "order": 2102,
-      "lectureCount": 2,
+      "lectureCount": 3,
       "dates": [
+        "2026-07-16",
         "2026-07-09",
         "2026-07-02"
       ],
@@ -92,6 +93,27 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL2102-2026-07-16-video-01",
+      "subject": "POL2102",
+      "courseTitle": "หลักรัฐธรรมนูญและสถาบันทางการเมือง",
+      "date": "2026-07-16",
+      "dateLabelTh": "วันพฤหัสบดีที่ 16 กรกฎาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2102/2026-07-16/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2102/2026-07-16/video-01/source.txt",
+      "transcriptPath": "classes/POL2102/2026-07-16/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2102.md",
+      "hintPath": "hint-POL2102.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=evoJcDUm9XU",
+      "paragraphCount": 74,
+      "wordCount": 1448,
+      "importantCount": 48,
+      "excerpt": "อาจารย์ทบทวนการนำหลักการแบ่งแยกอำนาจของ Montesquieu (มงแต็สกีเยอ) มาใช้ในสหรัฐอเมริกา หลักนี้เริ่มจากข้อเสนอว่าอำนาจบางชนิดไม่ควรรวมอยู่กับอำนาจอื่น จึงแยกอำนาจอธิปไตยเป็นนิติบัญญัติ บริหาร และตุลาการ สหรัฐฯ เป็นประเทศแร..."
+    },
     {
       "id": "POL3179-2026-07-15-video-01",
       "subject": "POL3179",
