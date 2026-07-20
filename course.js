@@ -4,6 +4,7 @@ const IMPORTANT_PATTERN = /⚠️|ข้อสอบ|สอบ|คะแนน|q
 const params = new URLSearchParams(window.location.search);
 const subjectCode = params.get("subject");
 const initialLectureId = params.get("lecture");
+const initialQuiz = params.get("quiz");
 
 const state = {
   index: null,
@@ -11,6 +12,7 @@ const state = {
   lectures: [],
   activeLectureId: "",
   paragraphs: [],
+  rawText: "",
   summaryQuery: "",
 };
 
@@ -64,8 +66,12 @@ async function init() {
     await renderDossier();
     renderLectureList();
 
-    const initial = state.lectures.find((lecture) => lecture.id === initialLectureId) || state.lectures[0];
-    if (initial) openLecture(initial, false);
+    if (initialQuiz === "1" && state.subject.code === "POL2129") {
+      openQuiz(false);
+    } else {
+      const initial = state.lectures.find((lecture) => lecture.id === initialLectureId) || state.lectures[0];
+      if (initial) openLecture(initial, false);
+    }
   } catch (error) {
     renderFatal("โหลดรายวิชาไม่สำเร็จ");
     console.error(error);
@@ -115,7 +121,9 @@ function renderCourseHeader() {
   el.courseActions.innerHTML = `
     <span class="count-pill">${state.lectures.length.toLocaleString("th-TH")} คาบ</span>
     <span class="count-pill">ล่าสุด ${escapeHtml(latest.dateLabelTh)}</span>
+    ${state.subject.code === "POL2129" ? '<button class="open-button" id="openQuiz1" type="button">Quiz 1</button>' : ""}
   `;
+  document.querySelector("#openQuiz1")?.addEventListener("click", () => openQuiz(true));
 }
 
 async function renderDossier() {
@@ -161,9 +169,12 @@ function renderLectureList() {
 async function openLecture(lecture, scrollToReader) {
   state.activeLectureId = lecture.id;
   state.paragraphs = [];
+  state.rawText = "";
   state.summaryQuery = "";
   el.summarySearch.value = "";
+  el.summarySearch.disabled = false;
   el.copySummary.disabled = true;
+  el.summaryContent.classList.remove("markdown-body", "quiz-notes");
   el.readerMeta.textContent = `${lecture.subject} · ${lecture.video}`;
   el.readerTitle.textContent = lecture.dateLabelTh;
   el.readingCourseCode.textContent = lecture.subject;
@@ -186,6 +197,7 @@ async function openLecture(lecture, scrollToReader) {
     const response = await fetch(lecture.summaryPath);
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const text = await response.text();
+    state.rawText = text;
     state.paragraphs = parseParagraphs(text);
     el.copySummary.disabled = false;
     renderSummary();
@@ -193,6 +205,43 @@ async function openLecture(lecture, scrollToReader) {
   } catch (error) {
     el.readerStatus.textContent = "โหลดสรุปไม่สำเร็จ";
     el.summaryContent.innerHTML = `<p class="empty-state">ไม่พบไฟล์ ${escapeHtml(lecture.summaryPath)}</p>`;
+    console.error(error);
+  }
+}
+
+async function openQuiz(scrollToReader) {
+  state.activeLectureId = "";
+  state.paragraphs = [];
+  state.rawText = "";
+  state.summaryQuery = "";
+  el.summarySearch.value = "";
+  el.summarySearch.disabled = true;
+  el.copySummary.disabled = true;
+  el.readerMeta.textContent = "POL2129 · Quiz 1";
+  el.readerTitle.textContent = "สรุปเตรียมสอบ Quiz 1";
+  el.readingCourseCode.textContent = "POL2129";
+  el.readingCourseTitle.textContent = state.subject.title;
+  el.readingLectureDate.textContent = "Quiz 1 · ครบ 3 คาบ";
+  el.readingContext.hidden = false;
+  el.readerVideoLink.removeAttribute("href");
+  el.readerVideoLink.hidden = true;
+  el.readerStatus.textContent = "กำลังโหลดสรุป Quiz 1...";
+  el.summaryContent.innerHTML = "";
+  el.summaryContent.classList.add("markdown-body", "quiz-notes");
+  renderLectureList();
+  window.history.replaceState(null, "", "course.html?subject=POL2129&quiz=1");
+
+  try {
+    const text = await fetchText("quiz-1-POL2129.md");
+    if (!text) throw new Error("Quiz notes unavailable");
+    state.rawText = text;
+    el.summaryContent.innerHTML = markdownToHtml(text);
+    el.readerStatus.textContent = "ครบ 3 คาบ · สรุปจาก transcript ฉบับเกลาคำ";
+    el.copySummary.disabled = false;
+    if (scrollToReader) document.querySelector("#reader").scrollIntoView({ behavior: "smooth", block: "start" });
+  } catch (error) {
+    el.readerStatus.textContent = "โหลดสรุป Quiz 1 ไม่สำเร็จ";
+    el.summaryContent.innerHTML = '<p class="empty-state">ไม่พบไฟล์ quiz-1-POL2129.md</p>';
     console.error(error);
   }
 }
@@ -228,11 +277,11 @@ function renderSummary() {
 }
 
 async function copySummary() {
-  if (!state.paragraphs.length) return;
+  if (!state.rawText && !state.paragraphs.length) return;
   const label = el.copySummary.textContent;
 
   try {
-    await writeClipboard(state.paragraphs.map((paragraph) => paragraph.text).join("\n\n"));
+    await writeClipboard(state.rawText || state.paragraphs.map((paragraph) => paragraph.text).join("\n\n"));
     el.copySummary.textContent = "คัดลอกแล้ว";
   } catch {
     el.copySummary.textContent = "คัดลอกไม่สำเร็จ";
