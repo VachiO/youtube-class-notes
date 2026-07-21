@@ -16,6 +16,8 @@
   --on-primary: #ffffff;
   --warning: #d4a017;
   --warning-bg: #fbecd0;
+  --success: #24734a;
+  --success-bg: #dcefe3;
   --mark: #e8a55a;
   --radius-md: 8px;
   --radius-lg: 12px;
@@ -38,6 +40,8 @@
   --primary: #cc785c;
   --primary-active: #e08c70;
   --warning-bg: #31271c;
+  --success: #78d5a4;
+  --success-bg: #173526;
   --mark: #e8a55a;
 }
 
@@ -277,7 +281,9 @@ h1 {
 .update-card {
   min-height: 74px;
   display: grid;
-  place-items: center;
+  place-content: center;
+  justify-items: center;
+  gap: 7px;
   border: 1px solid var(--hairline);
   border-radius: var(--radius-md);
   background: var(--canvas);
@@ -498,6 +504,36 @@ h1 {
   letter-spacing: -0.02em;
 }
 
+.course-code-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.status-badge {
+  display: inline-flex;
+  width: max-content;
+  align-items: center;
+  border: 1px solid color-mix(in srgb, var(--success) 38%, transparent);
+  border-radius: var(--radius-pill);
+  padding: 4px 10px;
+  background: var(--success-bg);
+  color: var(--success);
+  font-family: system-ui, sans-serif;
+  font-size: 12px;
+  font-weight: 650;
+  line-height: 1.2;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.status-badge-on-dark {
+  border-color: color-mix(in srgb, #78d5a4 45%, transparent);
+  background: #173526;
+  color: #8de0b3;
+}
+
 .course-title {
   margin: 0;
   color: var(--ink);
@@ -648,6 +684,17 @@ h1 {
 
 .panel-head {
   margin-bottom: 20px;
+}
+
+.panel-head-with-status {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: 0 12px;
+}
+
+.panel-head-with-status .kicker {
+  grid-column: 1 / -1;
 }
 
 .panel-head h2,
@@ -928,6 +975,13 @@ mark {
 .reading-context span + span {
   padding-left: 10px;
   border-left: 1px solid var(--hairline);
+}
+
+.reading-context .status-badge {
+  flex: 0 0 auto;
+  overflow: visible;
+  padding: 3px 8px;
+  border-left: 1px solid color-mix(in srgb, var(--success) 38%, transparent);
 }
 
 .back-to-top {

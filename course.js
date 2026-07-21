@@ -22,6 +22,7 @@ const el = {
   courseActions: document.querySelector("#courseActions"),
   courseReadme: document.querySelector("#courseReadme"),
   courseHints: document.querySelector("#courseHints"),
+  examStatus: document.querySelector("#examStatus"),
   lectureList: document.querySelector("#lectureList"),
   lectureListMeta: document.querySelector("#lectureListMeta"),
   readerMeta: document.querySelector("#readerMeta"),
@@ -33,6 +34,7 @@ const el = {
   copySummary: document.querySelector("#copySummary"),
   readingContext: document.querySelector("#readingContext"),
   readingCourseCode: document.querySelector("#readingCourseCode"),
+  readingExamStatus: document.querySelector("#readingExamStatus"),
   readingCourseTitle: document.querySelector("#readingCourseTitle"),
   readingLectureDate: document.querySelector("#readingLectureDate"),
   backToTop: document.querySelector("#backToTop"),
@@ -119,10 +121,13 @@ function renderCourseHeader() {
   el.courseCode.textContent = state.subject.code;
   el.courseTitle.textContent = state.subject.title;
   el.courseActions.innerHTML = `
+    ${state.subject.noExam ? '<span class="status-badge">ไม่ต้องสอบ</span>' : ""}
     <span class="count-pill">${state.lectures.length.toLocaleString("th-TH")} คาบ</span>
     <span class="count-pill">ล่าสุด ${escapeHtml(latest.dateLabelTh)}</span>
     ${state.subject.code === "POL2129" ? '<button class="open-button" id="openQuiz1" type="button">Quiz 1</button>' : ""}
   `;
+  el.examStatus.hidden = !state.subject.noExam;
+  el.readingExamStatus.hidden = !state.subject.noExam;
   document.querySelector("#openQuiz1")?.addEventListener("click", () => openQuiz(true));
 }
 

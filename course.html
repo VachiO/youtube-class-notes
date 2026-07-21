@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="หน้ารายวิชาสำหรับอ่านข้อมูลวิชา แนวสอบ วิดีโอ และสรุปย้อนหลัง">
     <title>รายวิชา | RAM Class Notes</title>
-    <link rel="stylesheet" href="styles.css?v=quiz1">
+    <link rel="stylesheet" href="styles.css?v=quiz1-no-exam">
   </head>
   <body>
     <header class="site-header">
@@ -39,9 +39,10 @@
         </article>
 
         <article class="dossier-panel is-dark">
-          <div class="panel-head">
+          <div class="panel-head panel-head-with-status">
             <p class="kicker">Exam</p>
             <h2>แนวสอบ</h2>
+            <span class="status-badge status-badge-on-dark" id="examStatus" hidden>ไม่ต้องสอบ</span>
           </div>
           <div class="markdown-body" id="courseHints">กำลังโหลด...</div>
         </article>
@@ -85,11 +86,12 @@
 
     <aside class="reading-context" id="readingContext" aria-label="ข้อมูลสรุปที่กำลังอ่าน" hidden>
       <strong id="readingCourseCode"></strong>
+      <span class="status-badge" id="readingExamStatus" hidden>ไม่ต้องสอบ</span>
       <span id="readingCourseTitle"></span>
       <span id="readingLectureDate"></span>
     </aside>
     <button class="back-to-top" id="backToTop" type="button" aria-label="กลับไปด้านบน" title="กลับไปด้านบน" hidden>↑</button>
 
-    <script src="course.js?v=quiz1"></script>
+    <script src="course.js?v=quiz1-no-exam"></script>
   </body>
 </html>

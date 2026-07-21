@@ -131,7 +131,10 @@ function renderCourseCard(subject) {
   return `
     <article class="course-card clickable-card" data-href="${escapeHtml(href)}" tabindex="0" role="link" aria-label="ไปยังรายวิชา ${escapeHtml(subject.code)}">
       <p class="kicker">${subject.lectures.length.toLocaleString("th-TH")} คาบ</p>
-      <h2>${escapeHtml(subject.code)}</h2>
+      <div class="course-code-line">
+        <h2>${escapeHtml(subject.code)}</h2>
+        ${renderExamStatus(subject.noExam)}
+      </div>
       <p class="course-title">${escapeHtml(subject.title)}</p>
       <p class="course-latest">${escapeHtml(latest.dateLabelTh)}</p>
     </article>
@@ -169,6 +172,7 @@ function renderDayLectureCard(lecture) {
     <article class="lecture-card clickable-card" data-href="${escapeHtml(href)}" tabindex="0" role="link" aria-label="อ่านสรุป ${escapeHtml(lecture.subject)} ${escapeHtml(lecture.dateLabelTh)}">
       <div class="lecture-topline">
         <span>${escapeHtml(lecture.subject)}</span>
+        ${renderExamStatus(lecture.noExam)}
         <span>${escapeHtml(lecture.video)}</span>
       </div>
       <h3>${escapeHtml(lecture.courseTitle)}</h3>
@@ -187,6 +191,10 @@ function groupBy(items, getKey) {
     groups[key].push(item);
     return groups;
   }, {});
+}
+
+function renderExamStatus(noExam) {
+  return noExam ? '<span class="status-badge">ไม่ต้องสอบ</span>' : "";
 }
 
 function setTheme(theme) {
