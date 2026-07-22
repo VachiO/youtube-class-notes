@@ -1,0 +1,32 @@
+URL: https://www.youtube.com/watch?v=sQaqZ_xwEjA
+Subject: POL3128
+Class date: 2026-07-20
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL3128\2026-07-20\video-01
+Created at: 2026-07-22T13:55:10
+Status: processing complete; awaiting repository verification and publication checks
+Video id: sQaqZ_xwEjA
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (sQaqZ_xwEjA.th.vtt)
+Raw transcript characters: 295724
+Original transcript characters: 25023
+
+Processing completed:
+- Ran scripts/check_environment.py successfully before processing.
+- Ran scripts/init_task.py for POL3128, class date 20.07.2026, and video sQaqZ_xwEjA.
+- Transcript retrieval produced transcript-raw.txt and transcript-original.txt. yt-dlp reported an HTTP 429 while requesting English subtitles, but the script successfully obtained and processed the Thai VTT track (sQaqZ_xwEjA.th.vtt), so transcript processing was not blocked.
+- Split transcript-original.txt into three original chunks with scripts/split_text.py and max-chars 9000.
+- Revised every chunk using prompts/revise-transcript.md, preserving lecture order, examples, side stories, and practical information. Corrected recurring ASR errors in names and terms including Charles Darwin, On the Origin of Species, Evolutionary Theory, Galápagos, Homo sapiens, National Geographic, carbon dating, and Stephen Hawking.
+- Combined the three revised chunks into transcript-revised.txt.
+- Summarized every revised chunk using prompts/summarize-lecture.md and combined the three summary chunks into lecture-summary.txt.
+- Audited lecture-summary.txt sequentially against transcript-revised.txt using prompts/audit-summary-completeness.md. The final audit was COMPLETE: no substantial omissions remained. The Darwin/giraffe causal example, Western creation-versus-evolution dispute, National Geographic research process, Stephen Hawking quotation and biography, teacher's study-abroad anecdote, Karen long-neck tourism story, Sakai child/diplomat story, ethics discussion, and next-class agenda are retained.
+- Updated readme-POL3128.md with the absence of new work/testing/deadline announcements and updated hint-POL3128.md with emphasized study points from this lecture.
+
+Assumptions and cautions:
+- Transcript revision corrects speech-to-text errors rather than fact-checking or rewriting the teacher's claims. Statements made during the lecture are preserved as lecture content even when external historical or scientific verification was not part of this workflow.
+- The lecture did not announce a new exam format, score rule, assignment, quiz, or submission deadline.

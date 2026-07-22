@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-21T10:11:31+00:00",
-  "totalLectures": 23,
+  "generatedAt": "2026-07-22T07:04:11+00:00",
+  "totalLectures": 24,
   "subjects": [
     {
       "code": "POL1101",
@@ -77,8 +77,9 @@
       "title": "แนววิเคราะห์ทฤษฎีการเมือง",
       "order": 3128,
       "noExam": true,
-      "lectureCount": 2,
+      "lectureCount": 3,
       "dates": [
+        "2026-07-20",
         "2026-07-13",
         "2026-07-06"
       ],
@@ -101,6 +102,28 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL3128-2026-07-20-video-01",
+      "subject": "POL3128",
+      "courseTitle": "แนววิเคราะห์ทฤษฎีการเมือง",
+      "noExam": true,
+      "date": "2026-07-20",
+      "dateLabelTh": "วันจันทร์ที่ 20 กรกฎาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL3128/2026-07-20/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL3128/2026-07-20/video-01/source.txt",
+      "transcriptPath": "classes/POL3128/2026-07-20/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL3128.md",
+      "hintPath": "hint-POL3128.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=sQaqZ_xwEjA",
+      "paragraphCount": 31,
+      "wordCount": 451,
+      "importantCount": 16,
+      "excerpt": "การบรรยาย POL 3128 แนววิเคราะห์ทฤษฎีการเมืองครั้งที่ 4 เริ่มจากการทบทวนเหตุผลว่าทำไมการศึกษาทางการเมืองต้องอาศัย “การวิเคราะห์” และเหตุใดสามัญสำนึกเพียงอย่างเดียวจึงไม่พอ สามัญสำนึกอาจช่วยให้เราเห็นข้อเท็จจริงที่ปรากฏอยู..."
+    },
     {
       "id": "POL2102-2026-07-16-video-01",
       "subject": "POL2102",
