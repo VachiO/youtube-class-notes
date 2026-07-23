@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-07-22T07:04:11+00:00",
-  "totalLectures": 24,
+  "generatedAt": "2026-07-23T01:58:21+00:00",
+  "totalLectures": 25,
   "subjects": [
     {
       "code": "POL1101",
       "title": "การเมืองและการปกครองของไทย",
       "order": 1101,
       "noExam": true,
-      "lectureCount": 3,
+      "lectureCount": 4,
       "dates": [
+        "2026-07-21",
         "2026-07-14",
         "2026-07-07",
         "2026-06-30"
@@ -102,6 +103,28 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL1101-2026-07-21-video-01",
+      "subject": "POL1101",
+      "courseTitle": "การเมืองและการปกครองของไทย",
+      "noExam": true,
+      "date": "2026-07-21",
+      "dateLabelTh": "วันอังคารที่ 21 กรกฎาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL1101/2026-07-21/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL1101/2026-07-21/video-01/source.txt",
+      "transcriptPath": "classes/POL1101/2026-07-21/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL1101.md",
+      "hintPath": "hint-POL1101.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=HA5tMAbfv70",
+      "paragraphCount": 26,
+      "wordCount": 529,
+      "importantCount": 11,
+      "excerpt": "คาบนี้อาจารย์เริ่มด้วยการขออภัยที่ระบบอินเทอร์เน็ตและสื่อประกอบมีปัญหา จึงไม่สามารถเปิด PowerPoint ตามลำดับได้และต้องอธิบายจากหนังสือกับความจำ อาจมีการย้อนหรือข้ามประเด็นบ้าง แต่กรอบของคาบคือการทำความเข้าใจรากฐาน ประวัติ..."
+    },
     {
       "id": "POL3128-2026-07-20-video-01",
       "subject": "POL3128",

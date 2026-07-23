@@ -1,0 +1,44 @@
+URL: https://www.youtube.com/watch?v=HA5tMAbfv70
+Subject: POL1101
+Class date: 2026-07-21
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL1101\2026-07-21\video-01
+Created at: 2026-07-23T08:47:43
+Status: task folder created
+Video id: HA5tMAbfv70
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (HA5tMAbfv70.th.vtt)
+Raw transcript characters: 399907
+Original transcript characters: 35294
+
+Processing completed: 2026-07-23 (Asia/Bangkok)
+
+Tools and workflow:
+- `scripts/check_environment.py` passed before processing.
+- `scripts/init_task.py` created this new `video-01` folder; no existing video folder was overwritten.
+- `scripts/get_youtube_transcript.py` obtained the Thai VTT transcript. The initial yt-dlp subtitle request reported HTTP 429 for English subtitles, no JavaScript runtime, and no ffmpeg, but the script successfully used the available Thai VTT and produced both required transcript files.
+- `scripts/split_text.py` split `transcript-original.txt` into 5 original chunks before revision.
+- Every original chunk was revised against `prompts/revise-transcript.md`; matching revised chunks were combined into `transcript-revised.txt`.
+- Every revised section was summarized in Thai against `prompts/summarize-lecture.md`; 5 summary chunks were combined into `lecture-summary.txt`.
+
+Transcript assumptions and cautions:
+- Obvious speech-to-text errors in historical names and technical terms were corrected from lecture context, including ศรีนาวนำถุม, ขอมสบาดโขลญลำพง, พ่อขุนบางกลางหาว, พ่อขุนผาเมือง, พ่อขุนศรีอินทราทิตย์, พระยาเลอไทย, พระยางั่วนำถุม, Reginald Le May, เงินพดด้วง, and the three branches of sovereign power.
+- The transcript near the end contains an unclear historical year rendered as “1893” and a phrase about two additional years. Because the audio-derived text does not make the era or exact number reliable, the summary preserves the ambiguity and advises checking the course text rather than silently inventing a correction.
+- The closing schedule is internally corrected by the teacher: the first mention of a quiz on 4 August was withdrawn; 4 August 2026 is a teaching day and 11 August 2026 is the written one-question, non-open-book quiz for participation/continuous-assessment points.
+
+Completeness audit:
+- Audit pass 1 compared the revised transcript and combined summary sequentially using `prompts/audit-summary-completeness.md`.
+- The audit checked origin theories, founding narrative, all nine rulers and the two governing periods, religion and royal ideology, regional relations, state/nation distinctions, teacher stories about Koh Kong and Battambang, agricultural and kinship life, campus-name examples, language and religious transmission, economy and currency, rituals, sovereignty, decline, the Ayutthaya transition, holidays, teaching schedule, and quiz conditions.
+- One materially underrepresented detail was restored: the unclear “1893” chronology and the need to verify it against the assigned text.
+- Audit pass 2 found no remaining substantial omission. The final summary retains approximately 42% of the revised transcript by Unicode character count, within the expected 40–60% range, while removing speech filler.
+
+Quality checks completed:
+- `transcript-raw.txt`, `transcript-original.txt`, `transcript-revised.txt`, `lecture-summary.txt`, and all chunk sets are non-empty.
+- `transcript-revised.txt` remains a corrected transcript rather than a summary.
+- `lecture-summary.txt` is natural Thai lecture-note prose and clearly marks the quiz, dates, and required actions with `⚠️`.
+- `readme-POL1101.md` and `hint-POL1101.md` were updated only with logistics and exam information from this lecture.
