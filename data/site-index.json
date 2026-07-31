@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-31T03:01:17+00:00",
-  "totalLectures": 27,
+  "generatedAt": "2026-07-31T03:05:28+00:00",
+  "totalLectures": 28,
   "subjects": [
     {
       "code": "POL1101",
@@ -79,8 +79,9 @@
       "title": "แนววิเคราะห์ทฤษฎีการเมือง",
       "order": 3128,
       "noExam": true,
-      "lectureCount": 3,
+      "lectureCount": 4,
       "dates": [
+        "2026-07-27",
         "2026-07-20",
         "2026-07-13",
         "2026-07-06"
@@ -105,6 +106,28 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL3128-2026-07-27-video-01",
+      "subject": "POL3128",
+      "courseTitle": "แนววิเคราะห์ทฤษฎีการเมือง",
+      "noExam": true,
+      "date": "2026-07-27",
+      "dateLabelTh": "วันจันทร์ที่ 27 กรกฎาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL3128/2026-07-27/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL3128/2026-07-27/video-01/source.txt",
+      "transcriptPath": "classes/POL3128/2026-07-27/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL3128.md",
+      "hintPath": "hint-POL3128.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=1yt79HA2fcI",
+      "paragraphCount": 35,
+      "wordCount": 452,
+      "importantCount": 26,
+      "excerpt": "อาจารย์เริ่มชั้นเรียน POL 3128 โดยทบทวนเนื้อหาจากสัปดาห์ก่อนว่า การค้นหาเหตุและผลหรือ Causality (ความเป็นเหตุเป็นผล) เป็นเรื่องที่ต้องระมัดระวัง เพราะสิ่งสองสิ่งที่เกิดร่วมกันหรือเห็นต่อเนื่องกันไม่ได้แปลว่าสิ่งหนึ่งเป็น..."
+    },
     {
       "id": "POL3179-2026-07-22-video-01",
       "subject": "POL3179",

@@ -1,0 +1,31 @@
+URL: https://www.youtube.com/watch?v=1yt79HA2fcI
+Subject: POL3128
+Class date: 2026-07-27
+Task folder: classes/POL3128/2026-07-27/video-01
+Video id: 1yt79HA2fcI
+Status: processing complete; awaiting repository verification and publication checks
+Transcript method: YouTube English VTT caption track retrieved by scripts/get_youtube_transcript.py
+Raw transcript characters: 240498
+Original transcript characters: 27427
+Revised transcript characters: 17547
+Lecture summary characters: 14076
+
+Processing completed:
+- Acquired the per-video automation lock and set the automation state to running before processing.
+- Ran scripts/check_environment.py successfully before processing.
+- Ran scripts/init_task.py for POL3128, class date 27.07.2026, and video 1yt79HA2fcI.
+- Transcript retrieval produced non-empty transcript-raw.txt and transcript-original.txt.
+- The available VTT track was labeled Language: en. It appears to be an automatically generated or translated English caption track for the Thai lecture. This caption-language limitation was preserved rather than inventing a Thai verbatim transcript.
+- Split transcript-original.txt into four original chunks with scripts/split_text.py and max-chars 9000.
+- Revised all four chunks using prompts/revise-transcript.md, preserving lecture order, explanations, examples, political commentary, side stories, and practical information. Obvious caption errors were corrected, including causality, Charles Darwin, carbon monoxide, Golden Gate Bridge, census, ICE, Immigration and Customs Enforcement, and empirical data.
+- Combined the four revised chunks into transcript-revised.txt. The result remains a corrected transcript-style record and is not the Thai lecture summary.
+- Summarized all four revised chunks in Thai using prompts/summarize-lecture.md and combined them into lecture-summary.txt.
+- Audited lecture-summary.txt sequentially against transcript-revised.txt using prompts/audit-summary-completeness.md. The final audit result was COMPLETE: no substantial omissions remained. The giraffe, cooking-gas, and Golden Gate causal examples; four analysis components; primary, secondary, empirical, and non-empirical data; speaker-credibility cautions; Trump and ICE discussion; local-exam cheating; Ramkhamhaeng graduation-rate example; research-reading method; election-collusion evidence; travel story; and holiday announcement are retained.
+- Updated readme-POL3128.md with the July 27 holiday/next-class logistics and the absence of new assessment announcements.
+- Updated hint-POL3128.md with the absence of a new exam announcement and the analytical concepts emphasized in this lecture.
+
+Assumptions and cautions:
+- Transcript revision corrects caption and speech-to-text errors rather than independently fact-checking or rewriting the teacher's claims. Political, historical, and scientific statements are retained as lecture content.
+- Because the retrievable source captions were English, uncertain phrases were corrected conservatively. The incomplete final reference to a Kathin ceremony was documented without inventing details.
+- The lecture did not announce a new exam format, score rule, assignment, quiz, or submission deadline.
+- Publication on GitHub Pages must be checked separately after the commit is pushed; a deployment delay is a warning rather than a processing failure.
