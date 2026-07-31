@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-23T01:58:21+00:00",
-  "totalLectures": 25,
+  "generatedAt": "2026-07-31T02:00:40+00:00",
+  "totalLectures": 26,
   "subjects": [
     {
       "code": "POL1101",
@@ -50,8 +50,9 @@
       "title": "การเมืองเปรียบเทียบ",
       "order": 2107,
       "noExam": true,
-      "lectureCount": 4,
+      "lectureCount": 5,
       "dates": [
+        "2026-07-22",
         "2026-07-15",
         "2026-07-08",
         "2026-07-01"
@@ -103,6 +104,28 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL2107-2026-07-22-video-01",
+      "subject": "POL2107",
+      "courseTitle": "การเมืองเปรียบเทียบ",
+      "noExam": true,
+      "date": "2026-07-22",
+      "dateLabelTh": "วันพุธที่ 22 กรกฎาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2107/2026-07-22/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2107/2026-07-22/video-01/source.txt",
+      "transcriptPath": "classes/POL2107/2026-07-22/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2107.md",
+      "hintPath": "hint-POL2107.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=y3sRerhkvks",
+      "paragraphCount": 60,
+      "wordCount": 972,
+      "importantCount": 34,
+      "excerpt": "อาจารย์เริ่มคาบด้วยการทักว่าวันนี้นักศึกษาหายไปหลายคน บางคนยืนรวมกันหรือรับประทานอาหารอยู่ด้านนอก ทั้งที่เวลา 17.15 น. แล้ว จากนั้นเปิดโอกาสให้ถามคำถามก่อนเรียนเหมือนสัปดาห์ก่อน โดยรับได้ทั้งคำถามเกี่ยวกับยุคพฤติกรรมศาสต..."
+    },
     {
       "id": "POL1101-2026-07-21-video-01",
       "subject": "POL1101",

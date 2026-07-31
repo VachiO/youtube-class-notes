@@ -1,0 +1,50 @@
+Processing notes — POL2107 — 2026-07-22 — y3sRerhkvks
+
+Status: processing complete and locally verified
+Canonical URL: https://www.youtube.com/watch?v=y3sRerhkvks
+Archive date: 22/7/69
+Task directory: classes/POL2107/2026-07-22/video-01
+
+Environment and initialization
+- Acquired the per-video automation lock before changing task files.
+- Set the automation lifecycle state to `running` while preserving worker task ID `019fb5da-ab67-7290-830b-83a63caa2b55`.
+- Ran `python scripts/check_environment.py`; Python, git, workflow files, youtube-transcript-api, and yt-dlp checks passed.
+- Ran `scripts/init_task.py` with subject POL2107 and date 22.07.2026.
+- The new directory was `video-01`; no existing video directory was overwritten.
+
+Transcript retrieval
+- Ran `scripts/get_youtube_transcript.py` for the canonical YouTube URL.
+- yt-dlp reported HTTP 429 while attempting English subtitles, plus warnings that no supported JavaScript runtime, ffmpeg, or impersonation target was available.
+- Despite that failed English-subtitle attempt, yt-dlp obtained the Thai VTT (`y3sRerhkvks.th.vtt`), and the repo script successfully produced both `transcript-raw.txt` and readable `transcript-original.txt`.
+- Raw transcript length recorded by the retrieval script: 766,310 characters.
+- Readable original transcript length recorded by the retrieval script: 68,322 characters.
+- Transcript access was usable; the HTTP 429 warning was not a blocker.
+
+Transcript revision
+- Split `transcript-original.txt` before revision with `scripts/split_text.py --max-chars 9000`.
+- Created 8 `original-chunk-*.txt` files.
+- Reviewed all 8 chunks in order using `prompts/revise-transcript.md` and created matching 8 `revised-chunk-*.txt` files.
+- Corrected clear Thai speech-to-text errors and important names/terms, including Positivism, Empiricism, Marxism, John Locke, Thomas Piketty, Francis Bacon, Karl Popper, Seymour Martin Lipset, Gabriel Almond, Max Weber, Adorno, Jürgen Habermas, Albert Einstein, Erich Fromm, Michel Foucault, จอมพล ป. พิบูลสงคราม, จอมพลสฤษดิ์ ธนะรัชต์, ถนอม กิตติขจร, คณะราษฎร และจิตร ภูมิศักดิ์.
+- Preserved lecture order, student questions, teacher examples, historical stories, political opinions, side discussions, exam guidance, and the end-of-class announcement.
+- Combined revised chunks into `transcript-revised.txt`; it remains a corrected transcript, not a summary.
+- One initial bulk-replacement command stopped before writing because its in-memory replacement table contained a duplicate key. The duplicate was removed and the command was rerun successfully; no task output was damaged or lost.
+
+Lecture summary and completeness audit
+- Wrote a detailed Thai lecture-note summary from the revised transcript using `prompts/summarize-lecture.md`.
+- Preserved the lecture sequence across all 8 chunks and included the Cold War/US influence explanation, hard and soft power, comparative method, capitalism/socialism and welfare-state debate, Piketty and inequality, the 8 behavioralist assumptions, verification/falsification examples, Pure Science and value-free knowledge, dependency critiques, Frankfurt School, Einstein/context, post-behavioralism, Foucault/discourse, and the democratic purpose of Comparative Politics.
+- Preserved teacher stories and digressions, including Scandinavian daily life, Japanese property costs, the church/garrison legitimacy example, exam-answering advice, the scholar who farms and joins demonstrations, and the field-research/sak-yant anecdote.
+- Marked the explicit multiple-choice exam warning, essay-answering technique, and next-Wednesday holiday with `⚠️`.
+- Audited the summary sequentially against `transcript-revised.txt` using `prompts/audit-summary-completeness.md`, then repeated a final topic/announcement pass after assembling all chunks.
+- The repeated audit found no substantial topic, example, story, exam instruction, or end-of-lecture announcement still missing.
+- Final summary length: 26,512 characters of natural Thai prose. No Thai tokenizer, artificial word segmentation, or inserted spaces were used.
+- Kept 8 `summary-chunk-*.txt` files as the chunk-level summary record.
+
+Course files and site index
+- Updated `readme-POL2107.md` only with the new lecture link and course logistics: the holiday, next chapter, optional Piketty book information, and the absence of a new assignment/exam date.
+- Updated `hint-POL2107.md` only with exam-relevant concepts and preparation guidance from this lecture.
+- Ran `python scripts/build_site_index.py` after completing the task outputs; it wrote `data/site-index.json` with 26 lectures.
+- Ran `python scripts/automation_state.py verify --video y3sRerhkvks` after the site index build; it reported `outputComplete: true`, `indexContainsVideo: true`, and `complete: true`.
+
+Production/publication note
+- Offline processing and repository verification were completed locally.
+- Git commit, push, and the separate GitHub Pages/index publication check are recorded in the worker lifecycle state after those steps complete.
