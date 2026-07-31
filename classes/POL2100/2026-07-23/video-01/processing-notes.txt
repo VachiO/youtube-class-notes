@@ -1,0 +1,42 @@
+URL: https://www.youtube.com/watch?v=UkldylOXPKE
+Subject: POL2100
+Class date: 2026-07-23
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2100\2026-07-23\video-01
+Created at: 2026-07-31T09:53:21
+Status: task folder created
+Video id: UkldylOXPKE
+yt-dlp exit code: 0
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+Transcript method: yt-dlp (UkldylOXPKE.en.vtt)
+Raw transcript characters: 382477
+Original transcript characters: 44376
+yt-dlp exit code: 0
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+Transcript method: yt-dlp (UkldylOXPKE.th-orig.vtt)
+Raw transcript characters: 362984
+Original transcript characters: 30367
+Source correction: replaced English auto-translation with YouTube Thai (Original) track before revision
+
+Processing completed:
+- Environment check passed with Python 3.12.7, git, youtube-transcript-api 1.2.4, and yt-dlp 2026.6.9.
+- The initial general transcript command selected the English auto-translation. The task was corrected before revision by fetching YouTube's th-orig caption track through the same project transcript functions.
+- transcript-original.txt was split into 4 original chunks before revision.
+- All 4 original chunks were corrected with prompts/revise-transcript.md and saved as matching revised chunks.
+- Revised chunks were combined into transcript-revised.txt. The result remains a corrected transcript, not a summary.
+- All 4 revised chunks were summarized with prompts/summarize-lecture.md and saved as matching summary chunks.
+- Summary chunks were combined into lecture-summary.txt (18,382 characters of natural Thai lecture-note prose).
+- Completeness audit: compared lecture-summary.txt sequentially against transcript-revised.txt with prompts/audit-summary-completeness.md. The audit covered the weather and travel digressions, British history and constitutional structure, parliament and local government examples, the lecturer's opinions and personal stories, the introductory comparison with America, citizenship, and all score-collection instructions. Result: COMPLETE; no substantial omission remained.
+- Updated readme-POL2100.md with course logistics only and hint-POL2100.md with exam/score preparation only.
+- Ran scripts/build_site_index.py; the generated index contains exactly one entry for video UkldylOXPKE.
+- Final quality checks confirmed all 6 required files are non-empty; 4 original, 4 revised, and 4 summary chunks are non-empty; and scripts/automation_state.py verify --video UkldylOXPKE returned complete=true.
+
+Assumptions and source limitations:
+- A prime-minister name and associated slide details near the end were unclear in the Thai automatic captions. The revised transcript marks the name as unclear instead of inventing a correction; the summary preserves only the supported teaching point about party and parliamentary transition.
+- yt-dlp warned that no supported JavaScript runtime, ffmpeg, or impersonation target was available. These warnings did not block the Thai-original caption download.

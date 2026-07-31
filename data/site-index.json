@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-31T03:05:28+00:00",
-  "totalLectures": 28,
+  "generatedAt": "2026-07-31T03:07:44+00:00",
+  "totalLectures": 29,
   "subjects": [
     {
       "code": "POL1101",
@@ -22,8 +22,9 @@
       "title": "POL2100",
       "order": 2100,
       "noExam": false,
-      "lectureCount": 3,
+      "lectureCount": 4,
       "dates": [
+        "2026-07-23",
         "2026-07-16",
         "2026-07-09",
         "2026-07-02"
@@ -127,6 +128,28 @@
       "wordCount": 452,
       "importantCount": 26,
       "excerpt": "อาจารย์เริ่มชั้นเรียน POL 3128 โดยทบทวนเนื้อหาจากสัปดาห์ก่อนว่า การค้นหาเหตุและผลหรือ Causality (ความเป็นเหตุเป็นผล) เป็นเรื่องที่ต้องระมัดระวัง เพราะสิ่งสองสิ่งที่เกิดร่วมกันหรือเห็นต่อเนื่องกันไม่ได้แปลว่าสิ่งหนึ่งเป็น..."
+    },
+    {
+      "id": "POL2100-2026-07-23-video-01",
+      "subject": "POL2100",
+      "courseTitle": "POL2100",
+      "noExam": false,
+      "date": "2026-07-23",
+      "dateLabelTh": "วันพฤหัสบดีที่ 23 กรกฎาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2100/2026-07-23/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2100/2026-07-23/video-01/source.txt",
+      "transcriptPath": "classes/POL2100/2026-07-23/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2100.md",
+      "hintPath": "hint-POL2100.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=UkldylOXPKE",
+      "paragraphCount": 55,
+      "wordCount": 679,
+      "importantCount": 19,
+      "excerpt": "อาจารย์เปิดชั้นเรียนด้วยความกังวลเรื่องฝน เพราะเมื่อคืนมีต้นไม้ล้มหลายต้น ข่าวพยากรณ์อากาศระบุว่าโอกาสฝนตกเพิ่มจาก 40% เมื่อวานเป็น 60% วันนี้ และพูดติดตลกว่าถ้าฝนตกอย่างเดียวคงไม่เป็นไร แต่บางครั้งมี “ของแถม” คือน้ำท่วม..."
     },
     {
       "id": "POL3179-2026-07-22-video-01",
