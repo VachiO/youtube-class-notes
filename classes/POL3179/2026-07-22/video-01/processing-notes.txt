@@ -1,0 +1,35 @@
+URL: https://www.youtube.com/watch?v=-E65PUYC7Zk
+Subject: POL3179
+Class date: 2026-07-22
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL3179\2026-07-22\video-01
+Created at: 2026-07-31T09:52:24
+Status: task folder created
+Video id: -E65PUYC7Zk
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (-E65PUYC7Zk.th.vtt)
+Raw transcript characters: 577808
+Original transcript characters: 50715
+
+Processing completion:
+- Environment check passed with Python 3.12.7, git, youtube-transcript-api 1.2.4, and yt-dlp 2026.6.9.
+- yt-dlp reported an HTTP 429 while also leaving a complete Thai VTT file; the workflow successfully parsed that VTT into non-empty raw and readable transcripts.
+- transcript-original.txt was split before revision into 6 original chunks.
+- All 6 chunks received a conservative transcript-correction pass using prompts/revise-transcript.md. The pass preserved lecture order and detail, corrected recurring names and concepts, and removed only empty audio/filler markers.
+- The 6 revised chunks were combined into transcript-revised.txt. It remains a full corrected transcript, not a summary.
+- Six detailed Thai lecture-note chunks were written with prompts/summarize-lecture.md and combined into lecture-summary.txt.
+- The final lecture summary is 23,686 Unicode characters versus 52,208 characters in the revised transcript, approximately 45% retention by character count.
+- Completeness was audited twice against transcript-revised.txt using prompts/audit-summary-completeness.md. The audit record is chunks/audit-completeness.txt and ends COMPLETE.
+- The audit specifically retained the opening weather/flight context, teacher anecdotes, the medical analogy, all three institutional design questions, Congress/lobbying/Executive Order examples, classical political theory, election-versus-sortition discussion, institutional representation, comparative courts, and the next-class lead-in.
+- The explicit exam cue that the U.S. Senate represents the states was marked with ⚠️ and added to hint-POL3179.md.
+- readme-POL3179.md was updated only with the processed-video reference and course logistics/next-class topic.
+- No existing video folder was overwritten; this assignment created classes/POL3179/2026-07-22/video-01.
+
+Assumptions and production-only checks:
+- The Thai VTT produced during the yt-dlp attempt was treated as usable because both transcript files are substantial and continuous through the teacher's closing remarks.
+- YouTube subtitle availability and GitHub Pages publication timing can only be confirmed against the external services.

@@ -1,0 +1,7 @@
+Summary completeness audit
+Prompt: prompts/audit-summary-completeness.md
+Pass 1: compared transcript-revised.txt sequentially against summary-chunk-001.txt through summary-chunk-006.txt.
+Coverage confirmed: opening weather/flight context; Federalist and Anti-Federalist campaign; Federalist No. 10; three causes of faction; medical analogy and palliative treatment; authoritarianism/totalitarianism examples; large, slow, hard-to-change government; Congress and amendment examples; lobbying and district interests; Executive Orders and civil service; Republic versus Democracy; Aristotle and mixed constitution; Socrates/Athens; election versus sortition; representative institutions; explicit Senate exam cue; Electoral College; Washington precedent; Supreme Court appointment, tenure, ideology and comparative courts; separation of powers; checks-and-balances lead-in.
+Recovered during audit: clarified that “large government” first means inclusivity of differing interests, not indiscriminate intervention; preserved the teacher’s distinction between a lawful Executive Order and a statute; marked the Senate-as-state-representative statement as an explicit exam item.
+Pass 2: rechecked the final portions of all six revised chunks for announcements, examples, anecdotes, and forward references.
+COMPLETE
