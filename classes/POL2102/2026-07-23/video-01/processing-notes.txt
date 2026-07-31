@@ -1,0 +1,46 @@
+URL: https://www.youtube.com/watch?v=2s2tJSSvV4Y
+Subject: POL2102
+Class date: 2026-07-23
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2102\2026-07-23\video-01
+Created at: 2026-07-31T09:54:17
+Status: task folder created
+Video id: 2s2tJSSvV4Y
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (2s2tJSSvV4Y.th.vtt)
+Raw transcript characters: 883934
+Original transcript characters: 79420
+
+Processing completed: 2026-07-31
+
+Workflow:
+- The required environment check passed with Python 3.12.7, git, youtube-transcript-api 1.2.4, and yt-dlp 2026.6.9.
+- yt-dlp reported an HTTP 429 while attempting one subtitle route, but the repository transcript fetcher successfully obtained the Thai VTT fallback and produced both transcript-raw.txt and transcript-original.txt. This was not a transcript blocker.
+- transcript-original.txt was split into 10 original chunks before revision.
+- Every original chunk was revised under prompts/revise-transcript.md. Obvious speech-to-text errors, names, and English or French terms were corrected while lecture order, line structure, examples, classroom questions, side comments, and detail were retained.
+- The 10 revised chunks were combined into transcript-revised.txt.
+- Every revised chunk was summarized independently under prompts/summarize-lecture.md, and the 10 summary chunks were combined into lecture-summary.txt.
+- readme-POL2102.md was updated with the new study-file entry and the teacher's instruction that students who missed the prior class can obtain the state-topic file from Line.
+- The new lecture contained no explicit exam hint, exam scope, scoring rule, quiz, deadline, or mandatory preparation instruction, so hint-POL2102.md was intentionally left unchanged.
+
+Completeness audit:
+- A first sequential audit compared each revised chunk with its corresponding summary chunk under prompts/audit-summary-completeness.md.
+- Recovered details were merged at their original topic positions in summary chunks 001, 002, 004, 005, 006, and 008. Summary chunks 003, 007, 009, and 010 required no additions.
+- Each of the 10 revised/summary chunk pairs was re-audited after merging and returned COMPLETE with no substantial omission remaining.
+- Main concepts, chains of reasoning, examples, names and dates, classroom questions, teacher opinions, side knowledge, historical stories, and meaningful digressions were retained.
+
+Quality checks:
+- All required files are non-empty.
+- 10 original, 10 revised, and 10 summary chunks exist.
+- transcript-revised.txt remains a corrected full transcript rather than a summary and retains 98.48% of the original chunk bytes.
+- lecture-summary.txt is natural Thai lecture-note prose, substantially exceeds the 2,000-word floor by ordinary reading length, and was not padded with artificial Thai word segmentation.
+- The audited lecture summary retains 58.16% of the revised transcript by UTF-8 byte count, within the normal 40-60% information-retention target.
+- No existing video folder was overwritten; this video was created as video-01.
+
+Production/publication note:
+- Local processing can verify repository outputs and the generated site index. GitHub Pages publication is checked separately after push; any deployment delay is recorded as a warning rather than a processing failure.

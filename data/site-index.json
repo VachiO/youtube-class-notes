@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-31T03:07:44+00:00",
-  "totalLectures": 29,
+  "generatedAt": "2026-07-31T03:33:20+00:00",
+  "totalLectures": 30,
   "subjects": [
     {
       "code": "POL1101",
@@ -37,8 +37,9 @@
       "title": "หลักรัฐธรรมนูญและสถาบันทางการเมือง",
       "order": 2102,
       "noExam": true,
-      "lectureCount": 3,
+      "lectureCount": 4,
       "dates": [
+        "2026-07-23",
         "2026-07-16",
         "2026-07-09",
         "2026-07-02"
@@ -128,6 +129,28 @@
       "wordCount": 452,
       "importantCount": 26,
       "excerpt": "อาจารย์เริ่มชั้นเรียน POL 3128 โดยทบทวนเนื้อหาจากสัปดาห์ก่อนว่า การค้นหาเหตุและผลหรือ Causality (ความเป็นเหตุเป็นผล) เป็นเรื่องที่ต้องระมัดระวัง เพราะสิ่งสองสิ่งที่เกิดร่วมกันหรือเห็นต่อเนื่องกันไม่ได้แปลว่าสิ่งหนึ่งเป็น..."
+    },
+    {
+      "id": "POL2102-2026-07-23-video-01",
+      "subject": "POL2102",
+      "courseTitle": "หลักรัฐธรรมนูญและสถาบันทางการเมือง",
+      "noExam": true,
+      "date": "2026-07-23",
+      "dateLabelTh": "วันพฤหัสบดีที่ 23 กรกฎาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2102/2026-07-23/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2102/2026-07-23/video-01/source.txt",
+      "transcriptPath": "classes/POL2102/2026-07-23/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2102.md",
+      "hintPath": "hint-POL2102.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=2s2tJSSvV4Y",
+      "paragraphCount": 103,
+      "wordCount": 1607,
+      "importantCount": 50,
+      "excerpt": "อาจารย์เริ่มด้วยการทบทวนบทเรียนสัปดาห์ก่อนเรื่องรัฐ หรือ State (รัฐ) โดยแยกระหว่างรัฐจารีตหรือรัฐโบราณกับรัฐสมัยใหม่ นักศึกษาที่ไม่ได้เข้าเรียนครั้งก่อนสามารถตามไฟล์ได้จาก Line เพราะเนื้อหาส่วนนี้ไม่ได้อยู่ในเอกสารประกอบ..."
     },
     {
       "id": "POL2100-2026-07-23-video-01",
