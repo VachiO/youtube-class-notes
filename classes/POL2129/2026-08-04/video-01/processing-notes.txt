@@ -1,0 +1,40 @@
+URL: https://www.youtube.com/watch?v=_wF0S9qFDsA
+Subject: POL2129
+Class date: 2026-08-04
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2129\2026-08-04\video-01
+Created at: 2026-08-17T13:05:33
+Status: completed
+Video id: _wF0S9qFDsA
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (_wF0S9qFDsA.th.vtt)
+Raw transcript characters: 428132
+Original transcript characters: 36915
+
+Processing completed on 2026-08-17:
+- Followed PROCESS.md and ran scripts/check_environment.py successfully before processing.
+- Used the already initialized task and existing raw/original transcript files; no transcript download or task initialization was repeated.
+- Reviewed all five original chunks sequentially with prompts/revise-transcript.md.
+- Created five matching revised chunks, correcting obvious Thai/English speech-to-text errors while preserving lecture order, detail, examples, teacher opinions, quiz instructions, and meaningful digressions.
+- Combined revised chunks into transcript-revised.txt; it remains a corrected transcript rather than a summary.
+- Created five matching detailed Thai summary chunks with prompts/summarize-lecture.md and combined them into lecture-summary.txt.
+- The combined revised transcript contains 40,243 characters and the final summary contains 17,471 characters, retaining approximately 43.4% by character count without artificial Thai word spacing.
+- Critical quiz, deadline, required-action, and preparation details are marked with ⚠️.
+- Audited the summary sequentially against the revised transcript with prompts/audit-summary-completeness.md.
+- The first audit recovered details about systemic bank risk, IMF conditionality and practical sovereignty, reserve-rebuilding flows, external timing, supply-chain dependence, Basel buffers, interaction among domestic policies, CEO/civil-service conflict, and political polarization.
+- Merged every recovered detail into the corresponding summary chunks, rebuilt lecture-summary.txt, and repeated the audit; round 2 result was COMPLETE.
+- Saved the audit history in audit-completeness.txt.
+- Updated only readme-POL2129.md and hint-POL2129.md with newly learned course logistics and exam/quiz hints.
+- data/site-index.json is regenerated after both requested POL2129 tasks are complete.
+
+Quality checks:
+- Required source, raw, original, revised, summary, notes, audit, and chunks outputs are present and non-empty.
+- chunks/ contains five original, five revised, and five summary chunk files with matching numbering.
+- transcript-revised.txt is not a summary, and lecture-summary.txt is detailed Thai lecture-note prose.
+- Existing task folders were used as explicitly requested; no video folder was overwritten or recreated.
+- No unrelated data/archive* files were altered or deleted.

@@ -1,0 +1,11 @@
+Completeness audit record
+
+Round 1
+
+The sequential comparison against transcript-revised.txt found substantive compression in these areas: the system-wide consequence of bank failures; IMF conditionality as a limitation on practical state autonomy; the full path by which export, tourism, tax, and donated-gold proceeds become international reserves; the distinction between domestic policy and favorable global timing; supply-chain dependence; the risk-buffer logic behind Basel Standard; the way the domestic-policy instruments operate as one system; the conflict between CEO administration and civil-service procedure; and the distinction between economic results and later political polarization.
+
+All recovered material was merged into the corresponding positions in summary-chunk-001.txt through summary-chunk-005.txt and lecture-summary.txt was rebuilt.
+
+Round 2
+
+COMPLETE

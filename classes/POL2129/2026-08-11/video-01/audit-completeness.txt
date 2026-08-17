@@ -1,0 +1,11 @@
+Completeness audit record
+
+Round 1
+
+The sequential comparison against transcript-revised.txt found substantive compression in these areas: the change in civil servants' working culture; the expanded commercial role of ambassadors; market diversification and the function of Business Forum; the difference between formal FTA rules and China's practical bargaining power; hub requirements; the teacher's foreign-company employment story and what it illustrates; the two-way distributional effects of FTA; the production-capacity example of fulfilling only 65% of a 100% quota; the conditions needed for subregional inequality reduction; accountability questions when businesspeople become diplomatic actors; and the relationship between energy volatility and CEO Diplomacy.
+
+All recovered material was merged into the corresponding positions in summary-chunk-001.txt through summary-chunk-005.txt and lecture-summary.txt was rebuilt.
+
+Round 2
+
+COMPLETE

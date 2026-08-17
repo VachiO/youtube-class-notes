@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-31T03:33:20+00:00",
-  "totalLectures": 30,
+  "generatedAt": "2026-08-17T06:23:45+00:00",
+  "totalLectures": 32,
   "subjects": [
     {
       "code": "POL1101",
@@ -67,8 +67,10 @@
       "title": "รัฐและประชาสังคมในระบบการเมือง",
       "order": 2129,
       "noExam": false,
-      "lectureCount": 3,
+      "lectureCount": 5,
       "dates": [
+        "2026-08-11",
+        "2026-08-04",
         "2026-07-14",
         "2026-07-07",
         "2026-06-30"
@@ -108,6 +110,50 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL2129-2026-08-11-video-01",
+      "subject": "POL2129",
+      "courseTitle": "รัฐและประชาสังคมในระบบการเมือง",
+      "noExam": false,
+      "date": "2026-08-11",
+      "dateLabelTh": "วันอังคารที่ 11 สิงหาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2129/2026-08-11/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2129/2026-08-11/video-01/source.txt",
+      "transcriptPath": "classes/POL2129/2026-08-11/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2129.md",
+      "hintPath": "hint-POL2129.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=F_VEIoL83eY",
+      "paragraphCount": 44,
+      "wordCount": 735,
+      "importantCount": 29,
+      "excerpt": "⚠️ อาจารย์ประชาสัมพันธ์ว่าอาทิตย์หน้าจะมีควิสครั้งที่ 2 กติกาคือเป็นควิสแบบ open book สามารถเปิดเอกสารและใช้เครื่องมือสื่อสารได้ แต่ควรอิงเนื้อหาที่สอน ผู้ที่มาเรียนในห้องได้เปรียบตรงที่ฟังคำอธิบายมาแล้วหนึ่งรอบ ส่วนผู้ต..."
+    },
+    {
+      "id": "POL2129-2026-08-04-video-01",
+      "subject": "POL2129",
+      "courseTitle": "รัฐและประชาสังคมในระบบการเมือง",
+      "noExam": false,
+      "date": "2026-08-04",
+      "dateLabelTh": "วันอังคารที่ 4 สิงหาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2129/2026-08-04/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2129/2026-08-04/video-01/source.txt",
+      "transcriptPath": "classes/POL2129/2026-08-04/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2129.md",
+      "hintPath": "hint-POL2129.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=_wF0S9qFDsA",
+      "paragraphCount": 43,
+      "wordCount": 644,
+      "importantCount": 29,
+      "excerpt": "อาจารย์เริ่มชั้นเรียน POL2129 ด้วยการทบทวนว่าในสองครั้งก่อนหน้าได้อธิบายวิกฤต IMF หรือวิกฤตต้มยำกุ้ง และนักศึกษาได้ทำควิสครั้งที่ 1 ไปแล้ว วันนี้จะเรียนต่อและครั้งถัดไปจะมีควิสรอบที่ 2 ⚠️ อาจารย์กำหนดชัดเจนว่า ผู้ที่ทำคว..."
+    },
     {
       "id": "POL3128-2026-07-27-video-01",
       "subject": "POL3128",
