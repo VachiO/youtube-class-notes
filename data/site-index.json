@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-17T06:23:45+00:00",
-  "totalLectures": 32,
+  "generatedAt": "2026-08-20T06:34:22+00:00",
+  "totalLectures": 33,
   "subjects": [
     {
       "code": "POL1101",
@@ -83,8 +83,9 @@
       "title": "แนววิเคราะห์ทฤษฎีการเมือง",
       "order": 3128,
       "noExam": true,
-      "lectureCount": 4,
+      "lectureCount": 5,
       "dates": [
+        "2026-08-03",
         "2026-07-27",
         "2026-07-20",
         "2026-07-13",
@@ -153,6 +154,28 @@
       "wordCount": 644,
       "importantCount": 29,
       "excerpt": "อาจารย์เริ่มชั้นเรียน POL2129 ด้วยการทบทวนว่าในสองครั้งก่อนหน้าได้อธิบายวิกฤต IMF หรือวิกฤตต้มยำกุ้ง และนักศึกษาได้ทำควิสครั้งที่ 1 ไปแล้ว วันนี้จะเรียนต่อและครั้งถัดไปจะมีควิสรอบที่ 2 ⚠️ อาจารย์กำหนดชัดเจนว่า ผู้ที่ทำคว..."
+    },
+    {
+      "id": "POL3128-2026-08-03-video-01",
+      "subject": "POL3128",
+      "courseTitle": "แนววิเคราะห์ทฤษฎีการเมือง",
+      "noExam": true,
+      "date": "2026-08-03",
+      "dateLabelTh": "วันจันทร์ที่ 3 สิงหาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL3128/2026-08-03/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL3128/2026-08-03/video-01/source.txt",
+      "transcriptPath": "classes/POL3128/2026-08-03/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL3128.md",
+      "hintPath": "hint-POL3128.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=IZECg2Q6xhY",
+      "paragraphCount": 31,
+      "wordCount": 558,
+      "importantCount": 16,
+      "excerpt": "อาจารย์กลับเข้าสู่วิชา POL3128 โดยเชื่อมจากครั้งก่อนว่า วิชานี้มุ่งให้หลักการสำหรับวิเคราะห์ปรากฏการณ์ทางการเมือง และในคาบนี้จะสาธิตอย่างเป็นรูปธรรมว่าข้อมูลที่มีอยู่ในมือสามารถนำมาใช้ในการวิเคราะห์ได้อย่างไร โจทย์ตัวอย่..."
     },
     {
       "id": "POL3128-2026-07-27-video-01",

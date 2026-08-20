@@ -1,0 +1,31 @@
+URL: https://www.youtube.com/watch?v=IZECg2Q6xhY
+Subject: POL3128
+Class date: 2026-08-03
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL3128\2026-08-03\video-01
+Created at: 2026-08-20T13:26:23
+Status: task folder created
+Video id: IZECg2Q6xhY
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (IZECg2Q6xhY.th.vtt)
+Raw transcript characters: 294990
+Original transcript characters: 24857
+
+Processing completed: 2026-08-20
+Environment check: passed with Python 3.12.7, git, youtube-transcript-api 1.2.4, and yt-dlp 2026.6.9.
+Transcript acquisition: usable Thai VTT captions were recovered by yt-dlp even though yt-dlp also returned an HTTP 429 while attempting English subtitles. The successful Thai transcript was retained; no video download was required.
+Transcript preparation: transcript-original.txt was split into 3 original chunks before revision.
+Transcript revision: all 3 chunks were corrected in lecture order and combined into transcript-revised.txt. The revised transcript remains a detailed transcript, not a summary.
+Uncertain audio: two cited scholar names were not intelligible enough to identify safely and are explicitly marked as unclear rather than guessed.
+Lecture summary: summarized from all 3 revised chunks into 3 matching summary chunks and combined into lecture-summary.txt.
+Completeness audit: compared lecture-summary.txt sequentially against transcript-revised.txt using prompts/audit-summary-completeness.md. The audit retained the three economic measures, numerical comparisons, infrastructure examples, teacher stories, political counterexamples, causal cautions, industry/service discussion, and end-of-lecture emphasis. A second pass found no substantial omissions (COMPLETE).
+Course files: updated readme-POL3128.md only with the 3 August schedule/status and updated hint-POL3128.md with emphasized study topics; no unsupported exam claim was added.
+Quality note: Thai prose uses natural spacing and was not artificially segmented for word-count inflation. The lecture summary contains 13,251 characters across 31 substantive paragraphs, appropriate for the approximately 20,911-character revised transcript.
+Site index: scripts/build_site_index.py completed successfully and added POL3128-2026-08-03-video-01; total indexed lectures is 33.
+Verification: scripts/automation_state.py verify --video=IZECg2Q6xhY returned outputComplete=true, indexContainsVideo=true, and complete=true. Environment recheck and git diff check also passed.
+Status: processing and offline verification complete; pending commit, push, and published GitHub Pages check.
