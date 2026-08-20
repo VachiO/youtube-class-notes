@@ -28,4 +28,6 @@ Course files: updated readme-POL3128.md only with the 3 August schedule/status a
 Quality note: Thai prose uses natural spacing and was not artificially segmented for word-count inflation. The lecture summary contains 13,251 characters across 31 substantive paragraphs, appropriate for the approximately 20,911-character revised transcript.
 Site index: scripts/build_site_index.py completed successfully and added POL3128-2026-08-03-video-01; total indexed lectures is 33.
 Verification: scripts/automation_state.py verify --video=IZECg2Q6xhY returned outputComplete=true, indexContainsVideo=true, and complete=true. Environment recheck and git diff check also passed.
-Status: processing and offline verification complete; pending commit, push, and published GitHub Pages check.
+Repository handoff: assigned files were committed and pushed to origin/main.
+Published site check: GitHub Pages returned HTTP 200 for both the site and data/site-index.json; the published index reports 33 lectures and contains video ID IZECg2Q6xhY.
+Status: completed.
