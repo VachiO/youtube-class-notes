@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-20T06:34:22+00:00",
-  "totalLectures": 33,
+  "generatedAt": "2026-08-21T16:09:47+00:00",
+  "totalLectures": 34,
   "subjects": [
     {
       "code": "POL1101",
@@ -22,8 +22,9 @@
       "title": "POL2100",
       "order": 2100,
       "noExam": false,
-      "lectureCount": 4,
+      "lectureCount": 5,
       "dates": [
+        "2026-08-20",
         "2026-07-23",
         "2026-07-16",
         "2026-07-09",
@@ -111,6 +112,28 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL2100-2026-08-20-video-01",
+      "subject": "POL2100",
+      "courseTitle": "POL2100",
+      "noExam": false,
+      "date": "2026-08-20",
+      "dateLabelTh": "วันพฤหัสบดีที่ 20 สิงหาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2100/2026-08-20/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2100/2026-08-20/video-01/source.txt",
+      "transcriptPath": "classes/POL2100/2026-08-20/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2100.md",
+      "hintPath": "hint-POL2100.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=JUtzOu1qpxo",
+      "paragraphCount": 27,
+      "wordCount": 493,
+      "importantCount": 15,
+      "excerpt": "⚠️ ช่วงต้นคาบอาจารย์กล่าวถึงคะแนนจากการเข้าเรียน โดยผู้ที่มาเรียนจะมีคะแนนเพิ่มประมาณ 1–2 คะแนน และเมื่อรวมคะแนนปลายภาคแล้ว อาจารย์จะพิจารณาให้อีกครั้ง โดยเฉพาะผู้ที่มีคะแนนใกล้เกณฑ์ A การมาเรียนจึงอาจช่วยขยับผลการเรียนไ..."
+    },
     {
       "id": "POL2129-2026-08-11-video-01",
       "subject": "POL2129",
