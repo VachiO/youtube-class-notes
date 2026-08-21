@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-08-21T16:09:47+00:00",
-  "totalLectures": 34,
+  "generatedAt": "2026-08-21T16:15:25+00:00",
+  "totalLectures": 35,
   "subjects": [
     {
       "code": "POL1101",
       "title": "การเมืองและการปกครองของไทย",
       "order": 1101,
       "noExam": true,
-      "lectureCount": 4,
+      "lectureCount": 5,
       "dates": [
+        "2026-08-18",
         "2026-07-21",
         "2026-07-14",
         "2026-07-07",
@@ -133,6 +134,28 @@
       "wordCount": 493,
       "importantCount": 15,
       "excerpt": "⚠️ ช่วงต้นคาบอาจารย์กล่าวถึงคะแนนจากการเข้าเรียน โดยผู้ที่มาเรียนจะมีคะแนนเพิ่มประมาณ 1–2 คะแนน และเมื่อรวมคะแนนปลายภาคแล้ว อาจารย์จะพิจารณาให้อีกครั้ง โดยเฉพาะผู้ที่มีคะแนนใกล้เกณฑ์ A การมาเรียนจึงอาจช่วยขยับผลการเรียนไ..."
+    },
+    {
+      "id": "POL1101-2026-08-18-video-01",
+      "subject": "POL1101",
+      "courseTitle": "การเมืองและการปกครองของไทย",
+      "noExam": true,
+      "date": "2026-08-18",
+      "dateLabelTh": "วันอังคารที่ 18 สิงหาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL1101/2026-08-18/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL1101/2026-08-18/video-01/source.txt",
+      "transcriptPath": "classes/POL1101/2026-08-18/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL1101.md",
+      "hintPath": "hint-POL1101.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=eFA8FFgfsIQ",
+      "paragraphCount": 34,
+      "wordCount": 646,
+      "importantCount": 14,
+      "excerpt": "⚠️ อาจารย์เปิดคาบด้วยการเตือนว่าเปิดเทอมมาแล้วประมาณหนึ่งเดือน นักศึกษาควรเริ่มอ่านหนังสือ และจะมีการเก็บคะแนนอีกครั้งในช่วงที่อาจารย์วิทยามาบรรยายช่วงที่ 2 ของรายวิชา ส่วนคาบนี้เข้าสู่การเมืองไทยยุค Contemporary (ร่วมสม..."
     },
     {
       "id": "POL2129-2026-08-11-video-01",
