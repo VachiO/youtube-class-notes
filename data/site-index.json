@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-21T16:16:07+00:00",
-  "totalLectures": 35,
+  "generatedAt": "2026-08-22T16:19:36+00:00",
+  "totalLectures": 36,
   "subjects": [
     {
       "code": "POL1101",
@@ -39,8 +39,9 @@
       "title": "หลักรัฐธรรมนูญและสถาบันทางการเมือง",
       "order": 2102,
       "noExam": true,
-      "lectureCount": 4,
+      "lectureCount": 5,
       "dates": [
+        "2026-08-20",
         "2026-07-23",
         "2026-07-16",
         "2026-07-09",
@@ -113,6 +114,28 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL2102-2026-08-20-video-01",
+      "subject": "POL2102",
+      "courseTitle": "หลักรัฐธรรมนูญและสถาบันทางการเมือง",
+      "noExam": true,
+      "date": "2026-08-20",
+      "dateLabelTh": "วันพฤหัสบดีที่ 20 สิงหาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2102/2026-08-20/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2102/2026-08-20/video-01/source.txt",
+      "transcriptPath": "classes/POL2102/2026-08-20/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2102.md",
+      "hintPath": "hint-POL2102.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=lYLQsPER2wk",
+      "paragraphCount": 22,
+      "wordCount": 609,
+      "importantCount": 17,
+      "excerpt": "การบรรยายวันนี้เริ่มจากการทบทวนองค์กรฝ่ายบริหารหรือรัฐบาล ซึ่งเป็นหนึ่งในสามส่วนของอำนาจอธิปไตยควบคู่กับฝ่ายนิติบัญญัติและฝ่ายตุลาการ คำภาษาอังกฤษที่ใช้คือ Executive (ฝ่ายบริหาร), Legislature หรือ Legislative (ฝ่ายนิติบั..."
+    },
     {
       "id": "POL2100-2026-08-20-video-01",
       "subject": "POL2100",
