@@ -1,0 +1,25 @@
+URL: https://www.youtube.com/watch?v=-7A8paWUxsQ
+Subject: POL2129
+Class date: 2026-08-18
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2129\2026-08-18\video-01
+Created at: 2026-08-22T23:20:02
+Status: task folder created
+Video id: -7A8paWUxsQ
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (-7A8paWUxsQ.th.vtt)
+Raw transcript characters: 364461
+Original transcript characters: 32117
+
+Processing completed: 2026-08-22T23:29:00+07:00
+Transcript status: obtained successfully through yt-dlp Thai VTT despite the subtitle downloader reporting an English-track HTTP 429 warning.
+Revision: transcript-original.txt was split into 4 original chunks; every chunk was corrected under prompts/revise-transcript.md and recombined without summarizing or changing lecture order.
+Summary: created as detailed Thai lecture notes from transcript-revised.txt, preserving historical examples, the colonialism and world-war background, classroom analogies, the teacher's Mexico/Spanish anecdote, and the distinction among liberal, conservative, and expansionist nationalism.
+Completeness audit: compared sequentially under prompts/audit-summary-completeness.md. No substantial omission remained after review. The notes explicitly preserve that fascism was introduced only as a bridge and deferred to the following class.
+Course files: updated readme-POL2129.md with the new lecture and next-class logistics. No new direct exam, quiz, score, or preparation instruction appeared, so hint-POL2129.md was intentionally left unchanged.
+Quality note: local checks verify the required files and index entry; production Pages availability can only be confirmed after push and publication delay.

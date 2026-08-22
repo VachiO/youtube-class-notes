@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-22T16:19:36+00:00",
-  "totalLectures": 36,
+  "generatedAt": "2026-08-22T16:24:09+00:00",
+  "totalLectures": 37,
   "subjects": [
     {
       "code": "POL1101",
@@ -70,8 +70,9 @@
       "title": "รัฐและประชาสังคมในระบบการเมือง",
       "order": 2129,
       "noExam": false,
-      "lectureCount": 5,
+      "lectureCount": 6,
       "dates": [
+        "2026-08-18",
         "2026-08-11",
         "2026-08-04",
         "2026-07-14",
@@ -157,6 +158,28 @@
       "wordCount": 493,
       "importantCount": 15,
       "excerpt": "⚠️ ช่วงต้นคาบอาจารย์กล่าวถึงคะแนนจากการเข้าเรียน โดยผู้ที่มาเรียนจะมีคะแนนเพิ่มประมาณ 1–2 คะแนน และเมื่อรวมคะแนนปลายภาคแล้ว อาจารย์จะพิจารณาให้อีกครั้ง โดยเฉพาะผู้ที่มีคะแนนใกล้เกณฑ์ A การมาเรียนจึงอาจช่วยขยับผลการเรียนไ..."
+    },
+    {
+      "id": "POL2129-2026-08-18-video-01",
+      "subject": "POL2129",
+      "courseTitle": "รัฐและประชาสังคมในระบบการเมือง",
+      "noExam": false,
+      "date": "2026-08-18",
+      "dateLabelTh": "วันอังคารที่ 18 สิงหาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2129/2026-08-18/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2129/2026-08-18/video-01/source.txt",
+      "transcriptPath": "classes/POL2129/2026-08-18/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2129.md",
+      "hintPath": "hint-POL2129.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=-7A8paWUxsQ",
+      "paragraphCount": 16,
+      "wordCount": 392,
+      "importantCount": 10,
+      "excerpt": "การบรรยายวันนี้เป็นการเริ่มหัวข้อ Nationalism (ชาตินิยม) และปูทางไปสู่ Fascism (ฟาสซิสต์) ต่อจากอุดมการณ์เสรีนิยมและอนุรักษ์นิยมที่เรียนมาแล้ว อาจารย์บอกตั้งแต่ต้นว่าเนื้อหาสองเรื่องนี้พูดในคาบเดียวไม่จบ จึงจะแยกชาตินิยม..."
     },
     {
       "id": "POL1101-2026-08-18-video-01",
