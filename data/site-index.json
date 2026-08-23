@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-23T16:09:36+00:00",
-  "totalLectures": 38,
+  "generatedAt": "2026-08-23T16:13:45+00:00",
+  "totalLectures": 39,
   "subjects": [
     {
       "code": "POL1101",
@@ -88,8 +88,9 @@
       "title": "แนววิเคราะห์ทฤษฎีการเมือง",
       "order": 3128,
       "noExam": true,
-      "lectureCount": 5,
+      "lectureCount": 6,
       "dates": [
+        "2026-08-17",
         "2026-08-03",
         "2026-07-27",
         "2026-07-20",
@@ -225,6 +226,28 @@
       "wordCount": 646,
       "importantCount": 14,
       "excerpt": "⚠️ อาจารย์เปิดคาบด้วยการเตือนว่าเปิดเทอมมาแล้วประมาณหนึ่งเดือน นักศึกษาควรเริ่มอ่านหนังสือ และจะมีการเก็บคะแนนอีกครั้งในช่วงที่อาจารย์วิทยามาบรรยายช่วงที่ 2 ของรายวิชา ส่วนคาบนี้เข้าสู่การเมืองไทยยุค Contemporary (ร่วมสม..."
+    },
+    {
+      "id": "POL3128-2026-08-17-video-01",
+      "subject": "POL3128",
+      "courseTitle": "แนววิเคราะห์ทฤษฎีการเมือง",
+      "noExam": true,
+      "date": "2026-08-17",
+      "dateLabelTh": "วันจันทร์ที่ 17 สิงหาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL3128/2026-08-17/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL3128/2026-08-17/video-01/source.txt",
+      "transcriptPath": "classes/POL3128/2026-08-17/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL3128.md",
+      "hintPath": "hint-POL3128.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=idWR9Fe-5j0",
+      "paragraphCount": 18,
+      "wordCount": 442,
+      "importantCount": 13,
+      "excerpt": "การบรรยาย POL3128 แนววิเคราะห์ทฤษฎีการเมืองครั้งนี้ทบทวนเป้าหมายของการวิเคราะห์ว่าเป็นการค้นหาความเป็นเหตุเป็นผลของเรื่องที่สนใจ องค์ประกอบแรกที่ใช้เวลาหลายคาบคือ “ข้อมูล” แต่ข้อมูลไม่ได้มีความหมายโดยตัวมันเอง นักวิจัยต้..."
     },
     {
       "id": "POL2129-2026-08-11-video-01",

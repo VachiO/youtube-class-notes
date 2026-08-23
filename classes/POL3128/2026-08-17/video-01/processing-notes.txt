@@ -1,0 +1,29 @@
+URL: https://www.youtube.com/watch?v=idWR9Fe-5j0
+Subject: POL3128
+Class date: 2026-08-17
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL3128\2026-08-17\video-01
+Created at: 2026-08-23T23:10:22
+Status: task folder created
+Video id: idWR9Fe-5j0
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (idWR9Fe-5j0.th.vtt)
+Raw transcript characters: 337024
+Original transcript characters: 28424
+
+Processing completed by daily automation on 2026-08-23.
+- Environment check passed before processing.
+- Transcript was obtained from the Thai VTT fallback after the first yt-dlp subtitle request reported HTTP 429 for another subtitle track.
+- Split transcript-original.txt into 4 original chunks before revision.
+- Revised all 4 chunks conservatively, preserving sequence and detail while correcting recurring names and research-method terms.
+- Combined revised chunks into transcript-revised.txt; it remains a corrected transcript rather than a summary.
+- Built 3 detailed Thai summary chunks and combined them into lecture-summary.txt.
+- Completeness audit pass 1 restored the turnout comparisons, AI demonstration, 1960s context, compulsory voting, David Easton and hyperfactualism, the Michigan dissertation story, the Cultural Imperialism paper and critique, intelligence/soft-power examples, World Assembly of Youth experience, two levels of conceptual framework, Lipset, and X–D notation.
+- Completeness audit pass 2 found no substantial topic-level omission in the sequential comparison.
+- Updated readme-POL3128.md with course logistics only and hint-POL3128.md with study/exam preparation points only.
+- Production-only caveat: YouTube availability and the published static page still require verification after push.
