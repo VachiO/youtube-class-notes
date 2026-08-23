@@ -1,0 +1,30 @@
+URL: https://www.youtube.com/watch?v=7ac8G-oxUgI
+Subject: POL2107
+Class date: 2026-08-19
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2107\2026-08-19\video-01
+Created at: 2026-08-23T23:03:44
+Status: task folder created
+Video id: 7ac8G-oxUgI
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (7ac8G-oxUgI.th.vtt)
+Raw transcript characters: 846896
+Original transcript characters: 74801
+
+Processing completed by daily automation on 2026-08-23.
+- Environment check passed before processing.
+- Transcript was obtained from the Thai VTT fallback after the first yt-dlp subtitle request reported HTTP 429 for another subtitle track.
+- Split transcript-original.txt into 9 original chunks before revision.
+- Revised all 9 chunks conservatively, preserving sequence and detail while correcting recurring research-method and political-science terms.
+- Combined revised chunks into transcript-revised.txt; it remains a corrected transcript rather than a summary.
+- Built 4 detailed Thai summary chunks and combined them into lecture-summary.txt.
+- Completeness audit pass 1 restored the quantitative/qualitative exam distinctions, Easton and Almond models, all institution-function mappings, Civic Culture choice conditions, language/accent and beauty-standard examples, Cultural Politics, Birmingham School, Stuart Hall, and the recording-tail announcements.
+- Completeness audit pass 2 found no substantial topic-level omission in the sampled sequential comparison.
+- The final audio continues into a different class taught by “อาจารย์อ้อย”. Its five-work/assessment announcement is preserved in the lecture summary with a warning, but was not added as POL2107 course logistics or an exam rule because the next class code is not identified.
+- Updated readme-POL2107.md with logistics only and hint-POL2107.md with exam hints only.
+- Production-only caveat: YouTube availability and the published static page still require verification after push.

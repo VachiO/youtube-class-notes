@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-22T16:24:09+00:00",
-  "totalLectures": 37,
+  "generatedAt": "2026-08-23T16:09:36+00:00",
+  "totalLectures": 38,
   "subjects": [
     {
       "code": "POL1101",
@@ -55,8 +55,9 @@
       "title": "การเมืองเปรียบเทียบ",
       "order": 2107,
       "noExam": true,
-      "lectureCount": 5,
+      "lectureCount": 6,
       "dates": [
+        "2026-08-19",
         "2026-07-22",
         "2026-07-15",
         "2026-07-08",
@@ -158,6 +159,28 @@
       "wordCount": 493,
       "importantCount": 15,
       "excerpt": "⚠️ ช่วงต้นคาบอาจารย์กล่าวถึงคะแนนจากการเข้าเรียน โดยผู้ที่มาเรียนจะมีคะแนนเพิ่มประมาณ 1–2 คะแนน และเมื่อรวมคะแนนปลายภาคแล้ว อาจารย์จะพิจารณาให้อีกครั้ง โดยเฉพาะผู้ที่มีคะแนนใกล้เกณฑ์ A การมาเรียนจึงอาจช่วยขยับผลการเรียนไ..."
+    },
+    {
+      "id": "POL2107-2026-08-19-video-01",
+      "subject": "POL2107",
+      "courseTitle": "การเมืองเปรียบเทียบ",
+      "noExam": true,
+      "date": "2026-08-19",
+      "dateLabelTh": "วันพุธที่ 19 สิงหาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2107/2026-08-19/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2107/2026-08-19/video-01/source.txt",
+      "transcriptPath": "classes/POL2107/2026-08-19/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2107.md",
+      "hintPath": "hint-POL2107.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=7ac8G-oxUgI",
+      "paragraphCount": 26,
+      "wordCount": 716,
+      "importantCount": 18,
+      "excerpt": "คาบนี้เริ่มจากอาจารย์แจ้งว่าเหลือเวลาเรียนอีกประมาณ 6 ครั้ง ขณะที่เนื้อหายังอยู่บทที่ 2 จากทั้งหมด 7 บท อาจารย์เปิดโอกาสให้นักศึกษาถามคำถามตามที่เคยนัดไว้ แต่เมื่อยังไม่มีคำถามจึงให้ยกมือถามภายหลังได้ แล้วเข้าสู่ส่วนท้าย..."
     },
     {
       "id": "POL2129-2026-08-18-video-01",
