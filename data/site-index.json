@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-24T16:13:40+00:00",
-  "totalLectures": 40,
+  "generatedAt": "2026-08-24T16:18:58+00:00",
+  "totalLectures": 41,
   "subjects": [
     {
       "code": "POL1101",
@@ -23,9 +23,10 @@
       "title": "POL2100",
       "order": 2100,
       "noExam": false,
-      "lectureCount": 5,
+      "lectureCount": 6,
       "dates": [
         "2026-08-20",
+        "2026-08-13",
         "2026-07-23",
         "2026-07-16",
         "2026-07-09",
@@ -271,6 +272,28 @@
       "wordCount": 442,
       "importantCount": 13,
       "excerpt": "การบรรยาย POL3128 แนววิเคราะห์ทฤษฎีการเมืองครั้งนี้ทบทวนเป้าหมายของการวิเคราะห์ว่าเป็นการค้นหาความเป็นเหตุเป็นผลของเรื่องที่สนใจ องค์ประกอบแรกที่ใช้เวลาหลายคาบคือ “ข้อมูล” แต่ข้อมูลไม่ได้มีความหมายโดยตัวมันเอง นักวิจัยต้..."
+    },
+    {
+      "id": "POL2100-2026-08-13-video-01",
+      "subject": "POL2100",
+      "courseTitle": "POL2100",
+      "noExam": false,
+      "date": "2026-08-13",
+      "dateLabelTh": "วันพฤหัสบดีที่ 13 สิงหาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2100/2026-08-13/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2100/2026-08-13/video-01/source.txt",
+      "transcriptPath": "classes/POL2100/2026-08-13/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2100.md",
+      "hintPath": "hint-POL2100.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=96LYWCVkiC4",
+      "paragraphCount": 37,
+      "wordCount": 714,
+      "importantCount": 19,
+      "excerpt": "อาจารย์เริ่มคาบด้วยการถามว่านักศึกษาจำเนื้อหาครั้งก่อนได้หรือไม่ และพูดถึงลักษณะของวิชาเศรษฐศาสตร์ว่าอาจดูยากเพราะใช้ตัวเลข สมการ และคณิตศาสตร์ แต่แก่นแท้คือ logic (ตรรกะ) และความเป็นเหตุเป็นผลคล้ายรัฐศาสตร์ การนำคณิตศาส..."
     },
     {
       "id": "POL2129-2026-08-11-video-01",
