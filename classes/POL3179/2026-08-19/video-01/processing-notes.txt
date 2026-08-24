@@ -1,0 +1,27 @@
+URL: https://www.youtube.com/watch?v=jEZJobNUelw
+Subject: POL3179
+Class date: 2026-08-19
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL3179\2026-08-19\video-01
+Created at: 2026-08-24T23:05:34
+Status: task folder created
+Video id: jEZJobNUelw
+yt-dlp exit code: 0
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+Transcript method: yt-dlp (jEZJobNUelw.en.vtt)
+Raw transcript characters: 692449
+Original transcript characters: 80994
+
+Processing completed by daily automation on 2026-08-24.
+- Environment check passed before lecture processing.
+- Transcript was obtained with yt-dlp from the available English VTT track. The source is an automatic English rendering of the Thai lecture rather than a Thai transcript; this limitation was preserved and documented rather than inventing unavailable Thai wording.
+- Split transcript-original.txt into 10 original chunks before revision.
+- Created 10 revised chunks in the original sequence and conservatively corrected recurring political-science names and terms, including Bill of Rights, Judicial Review, Capitol Hill, Library of Congress, Congressional Research Service, Reapportionment, Census, gerrymandering, Elbridge Gerry, Massachusetts, Senate, Joint Committee, and J.D. Vance. The revised file remains a transcript, not a summary.
+- Created 5 detailed Thai summary chunks and combined them into lecture-summary.txt.
+- Completeness audit pass 1 checked the corrected transcript sequentially and restored all major examples and side knowledge: small/large government, Amendments 3–10, punishment methods, Trump tariff litigation, institutional power competition, Library of Congress research story, CRS exam signal, Thai/U.S. legislative-process comparison, apportionment mathematics, 2020/2030 Census cycles, district-density examples, full gerrymandering numerical example, party branding anecdote, Speaker selection/succession, Trump–Vance comments, Senate structure, hearings, and committee types.
+- Completeness audit pass 2 found no substantial topic-level omission. The final notes retain the lecture order, examples, teacher opinions, humor, health/class-ending remarks, and all detected exam or logistics signals.
+- Updated readme-POL3179.md with logistics only and hint-POL3179.md with exam preparation points only.
+- Production-only caveat: YouTube availability and the published static page still require verification after push.

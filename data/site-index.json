@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-23T16:14:31+00:00",
-  "totalLectures": 39,
+  "generatedAt": "2026-08-24T16:13:40+00:00",
+  "totalLectures": 40,
   "subjects": [
     {
       "code": "POL1101",
@@ -105,8 +105,9 @@
       "title": "การเมืองในอเมริกา",
       "order": 3179,
       "noExam": false,
-      "lectureCount": 6,
+      "lectureCount": 7,
       "dates": [
+        "2026-08-19",
         "2026-07-22",
         "2026-07-15",
         "2026-07-08",
@@ -160,6 +161,28 @@
       "wordCount": 493,
       "importantCount": 15,
       "excerpt": "⚠️ ช่วงต้นคาบอาจารย์กล่าวถึงคะแนนจากการเข้าเรียน โดยผู้ที่มาเรียนจะมีคะแนนเพิ่มประมาณ 1–2 คะแนน และเมื่อรวมคะแนนปลายภาคแล้ว อาจารย์จะพิจารณาให้อีกครั้ง โดยเฉพาะผู้ที่มีคะแนนใกล้เกณฑ์ A การมาเรียนจึงอาจช่วยขยับผลการเรียนไ..."
+    },
+    {
+      "id": "POL3179-2026-08-19-video-01",
+      "subject": "POL3179",
+      "courseTitle": "การเมืองในอเมริกา",
+      "noExam": false,
+      "date": "2026-08-19",
+      "dateLabelTh": "วันพุธที่ 19 สิงหาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL3179/2026-08-19/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL3179/2026-08-19/video-01/source.txt",
+      "transcriptPath": "classes/POL3179/2026-08-19/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL3179.md",
+      "hintPath": "hint-POL3179.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=jEZJobNUelw",
+      "paragraphCount": 50,
+      "wordCount": 1194,
+      "importantCount": 36,
+      "excerpt": "อาจารย์เริ่มจากทบทวนข้อถกเถียงสำคัญในสังคมการเมืองอเมริกันว่า รัฐบาลควรมีขนาดเล็กหรือขนาดใหญ่ และเชื่อมกับข้อถกเถียงทางเศรษฐกิจการเมืองที่ดำเนินมาตั้งแต่ Adam Smith และปี 1776 ว่าการพัฒนาประเทศควรนำโดยตลาดหรือโดยรัฐ ประเ..."
     },
     {
       "id": "POL2107-2026-08-19-video-01",
