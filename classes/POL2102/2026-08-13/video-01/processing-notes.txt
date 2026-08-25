@@ -1,0 +1,40 @@
+URL: https://www.youtube.com/watch?v=BC9DOvS1VCg
+Subject: POL2102
+Class date: 2026-08-13
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2102\2026-08-13\video-01
+Created at: 2026-08-25T23:05:27
+Status: task folder created
+Video id: BC9DOvS1VCg
+yt-dlp exit code: 0
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+Transcript method: yt-dlp (BC9DOvS1VCg.en.vtt)
+Raw transcript characters: 964677
+Original transcript characters: 117957
+
+Processing completed: 2026-08-25T23:18:00+07:00
+
+Transcript revision:
+- Split transcript-original.txt into 14 original chunks before revision.
+- Reviewed every chunk in sequence with prompts/revise-transcript.md.
+- Wrote 14 matching revised chunks and combined them into transcript-revised.txt.
+- Corrected clear translated terminology errors, including PDRC, extraordinary parliamentary session, whip terminology, the 2014 coup date, House dissolution wording, and selected legislative time limits.
+- The only transcript track obtainable from YouTube was BC9DOvS1VCg.en.vtt. It is an English auto-rendering of a Thai lecture and contains mistranslations that cannot be fully reconstructed without a Thai audio transcript. The revised transcript therefore preserves the source track's order and detail instead of inventing missing Thai wording.
+
+Lecture summary:
+- Summarized the revised transcript into 5 Thai lecture-note chunks and combined them into lecture-summary.txt.
+- Preserved the lecture order: constitutional background, House structure, lawmaking and oversight, House positions and whips, Senate, parliamentary sessions and protections, then the executive-branch introduction.
+- Marked exam-relevant rules and distinctions with ⚠️.
+- Audit pass 1 using prompts/audit-summary-completeness.md recovered the role of constitutional organizations in initiating organic-law drafts and the academic attributions in the executive definitions.
+- Audit pass 2 checked all transcript sections sequentially; no substantial omissions remained across the 16 topic checks.
+
+Course files and index:
+- Created readme-POL2102.md with the live course-page logistics verified on 2026-08-25: final examination on 2026-10-08, 3 questions choose 2 for 80 points, open book, and a 20-point quiz due on the examination date.
+- Created hint-POL2102.md with exam preparation points from this lecture and the verified examination format.
+- Site index rebuilt after all required outputs were complete.
+
+Production note:
+- Offline file and index verification completed locally. Public hosting availability can only be confirmed after the pushed commit is published by the production site.

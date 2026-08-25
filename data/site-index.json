@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-24T16:18:58+00:00",
-  "totalLectures": 41,
+  "generatedAt": "2026-08-25T16:16:07+00:00",
+  "totalLectures": 42,
   "subjects": [
     {
       "code": "POL1101",
@@ -40,9 +40,10 @@
       "title": "หลักรัฐธรรมนูญและสถาบันทางการเมือง",
       "order": 2102,
       "noExam": true,
-      "lectureCount": 5,
+      "lectureCount": 6,
       "dates": [
         "2026-08-20",
+        "2026-08-13",
         "2026-07-23",
         "2026-07-16",
         "2026-07-09",
@@ -272,6 +273,28 @@
       "wordCount": 442,
       "importantCount": 13,
       "excerpt": "การบรรยาย POL3128 แนววิเคราะห์ทฤษฎีการเมืองครั้งนี้ทบทวนเป้าหมายของการวิเคราะห์ว่าเป็นการค้นหาความเป็นเหตุเป็นผลของเรื่องที่สนใจ องค์ประกอบแรกที่ใช้เวลาหลายคาบคือ “ข้อมูล” แต่ข้อมูลไม่ได้มีความหมายโดยตัวมันเอง นักวิจัยต้..."
+    },
+    {
+      "id": "POL2102-2026-08-13-video-01",
+      "subject": "POL2102",
+      "courseTitle": "หลักรัฐธรรมนูญและสถาบันทางการเมือง",
+      "noExam": true,
+      "date": "2026-08-13",
+      "dateLabelTh": "วันพฤหัสบดีที่ 13 สิงหาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2102/2026-08-13/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2102/2026-08-13/video-01/source.txt",
+      "transcriptPath": "classes/POL2102/2026-08-13/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2102.md",
+      "hintPath": "hint-POL2102.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=BC9DOvS1VCg",
+      "paragraphCount": 60,
+      "wordCount": 964,
+      "importantCount": 48,
+      "excerpt": "การบรรยายครั้งนี้ต่อจากหัวข้อฝ่ายนิติบัญญัติ โดยลงรายละเอียดโครงสร้าง อำนาจ หน้าที่ และตำแหน่งสำคัญของรัฐสภาไทย อาจารย์เกริ่นว่ารัฐสภาแบบสมัยใหม่มีพัฒนาการจากโลกตะวันตก โดยเฉพาะอังกฤษ ก่อนจะเชื่อมเข้าสู่กรณีไทย ประเด็นที..."
     },
     {
       "id": "POL2100-2026-08-13-video-01",
