@@ -1,0 +1,34 @@
+URL: https://www.youtube.com/watch?v=0hyNWz0Mlts
+Subject: POL1101
+Class date: 2026-08-25
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL1101\2026-08-25\video-01
+Created at: 2026-08-26T23:04:24
+Status: task folder created
+Video id: 0hyNWz0Mlts
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (0hyNWz0Mlts.th.vtt)
+Raw transcript characters: 345371
+Original transcript characters: 29115
+
+Processing completed:
+- Split transcript-original.txt into 4 original chunks before revision.
+- Revised all 4 chunks while preserving lecture order, detail, announcements, examples, and teacher commentary; combined them into transcript-revised.txt.
+- Created 4 Thai lecture-summary chunks and combined them into lecture-summary.txt.
+- Audited the summary sequentially against the revised transcript twice. The second pass found no substantial omitted topic, example, anecdote, exam instruction, score instruction, or closing announcement.
+- Updated readme-POL1101.md with course logistics and hint-POL1101.md with exam-focused guidance only.
+
+Transcript observations:
+- The Thai auto-transcript was available even though yt-dlp also reported an HTTP 429 while attempting an English subtitle track.
+- Several names and technical terms were distorted. Clear contextual errors were corrected, including Aristotle, David Easton, input/process/output/feedback, Government, Parliamentary System, and constitutional/legal terms. Ambiguous wording was preserved rather than guessed.
+
+Quality checks:
+- All required files are present and non-empty.
+- Original, revised, and summary chunks exist for all 4 parts.
+- transcript-revised.txt remains a corrected transcript, not a summary.
+- lecture-summary.txt is detailed Thai lecture-note prose with critical exam and grading information marked with ⚠️.

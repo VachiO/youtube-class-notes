@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-08-25T16:16:07+00:00",
-  "totalLectures": 42,
+  "generatedAt": "2026-08-26T16:09:13+00:00",
+  "totalLectures": 43,
   "subjects": [
     {
       "code": "POL1101",
       "title": "การเมืองและการปกครองของไทย",
       "order": 1101,
       "noExam": true,
-      "lectureCount": 5,
+      "lectureCount": 6,
       "dates": [
+        "2026-08-25",
         "2026-08-18",
         "2026-07-21",
         "2026-07-14",
@@ -120,6 +121,28 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL1101-2026-08-25-video-01",
+      "subject": "POL1101",
+      "courseTitle": "การเมืองและการปกครองของไทย",
+      "noExam": true,
+      "date": "2026-08-25",
+      "dateLabelTh": "วันอังคารที่ 25 สิงหาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL1101/2026-08-25/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL1101/2026-08-25/video-01/source.txt",
+      "transcriptPath": "classes/POL1101/2026-08-25/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL1101.md",
+      "hintPath": "hint-POL1101.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=0hyNWz0Mlts",
+      "paragraphCount": 35,
+      "wordCount": 463,
+      "importantCount": 21,
+      "excerpt": "อาจารย์เริ่มด้วยการแนะนำประสบการณ์ว่าอยู่กับวิชา “การเมืองและการปกครองไทย” มานาน และเป็นผู้สอนวิชานี้ในภาคพิเศษรุ่นแรก ๆ สมัยที่ยังสอนที่รามคำแหงบางนาแล้วต้องนั่งรถตู้กลับมาสอนภาคค่ำที่หัวหมาก ห้องเรียนในเวลานั้นเต็มไปด้..."
+    },
     {
       "id": "POL2102-2026-08-20-video-01",
       "subject": "POL2102",
