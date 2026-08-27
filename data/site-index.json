@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-26T16:09:13+00:00",
-  "totalLectures": 43,
+  "generatedAt": "2026-08-27T16:07:06+00:00",
+  "totalLectures": 44,
   "subjects": [
     {
       "code": "POL1101",
@@ -74,8 +74,9 @@
       "title": "รัฐและประชาสังคมในระบบการเมือง",
       "order": 2129,
       "noExam": false,
-      "lectureCount": 6,
+      "lectureCount": 7,
       "dates": [
+        "2026-08-25",
         "2026-08-18",
         "2026-08-11",
         "2026-08-04",
@@ -121,6 +122,28 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL2129-2026-08-25-video-01",
+      "subject": "POL2129",
+      "courseTitle": "รัฐและประชาสังคมในระบบการเมือง",
+      "noExam": false,
+      "date": "2026-08-25",
+      "dateLabelTh": "วันอังคารที่ 25 สิงหาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2129/2026-08-25/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2129/2026-08-25/video-01/source.txt",
+      "transcriptPath": "classes/POL2129/2026-08-25/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2129.md",
+      "hintPath": "hint-POL2129.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=bffaPdPFfXs",
+      "paragraphCount": 15,
+      "wordCount": 320,
+      "importantCount": 9,
+      "excerpt": "คาบนี้เริ่มครึ่งหลังของรายวิชา POL2129 หลังจาก Quiz 1 และ Quiz 2 เนื้อหาที่ผ่านมามุ่งศึกษารัฐ (State) เป็นหลัก แต่ตั้งแต่คาบนี้ไปจนถึง Quiz 3 และ Quiz 4 จะเปลี่ยนแกนไปที่ Civil Society (ประชาสังคม) โดยอาจแตะเรื่องรัฐบ้าง..."
+    },
     {
       "id": "POL1101-2026-08-25-video-01",
       "subject": "POL1101",
