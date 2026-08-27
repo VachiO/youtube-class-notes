@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-27T16:07:06+00:00",
-  "totalLectures": 44,
+  "generatedAt": "2026-08-27T16:11:13+00:00",
+  "totalLectures": 45,
   "subjects": [
     {
       "code": "POL1101",
@@ -92,9 +92,10 @@
       "title": "แนววิเคราะห์ทฤษฎีการเมือง",
       "order": 3128,
       "noExam": true,
-      "lectureCount": 6,
+      "lectureCount": 7,
       "dates": [
         "2026-08-17",
+        "2026-08-10",
         "2026-08-03",
         "2026-07-27",
         "2026-07-20",
@@ -385,6 +386,28 @@
       "wordCount": 735,
       "importantCount": 29,
       "excerpt": "⚠️ อาจารย์ประชาสัมพันธ์ว่าอาทิตย์หน้าจะมีควิสครั้งที่ 2 กติกาคือเป็นควิสแบบ open book สามารถเปิดเอกสารและใช้เครื่องมือสื่อสารได้ แต่ควรอิงเนื้อหาที่สอน ผู้ที่มาเรียนในห้องได้เปรียบตรงที่ฟังคำอธิบายมาแล้วหนึ่งรอบ ส่วนผู้ต..."
+    },
+    {
+      "id": "POL3128-2026-08-10-video-01",
+      "subject": "POL3128",
+      "courseTitle": "แนววิเคราะห์ทฤษฎีการเมือง",
+      "noExam": true,
+      "date": "2026-08-10",
+      "dateLabelTh": "วันจันทร์ที่ 10 สิงหาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL3128/2026-08-10/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL3128/2026-08-10/video-01/source.txt",
+      "transcriptPath": "classes/POL3128/2026-08-10/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL3128.md",
+      "hintPath": "hint-POL3128.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=GDdNLgaNS0A",
+      "paragraphCount": 20,
+      "wordCount": 430,
+      "importantCount": 13,
+      "excerpt": "คาบนี้ทบทวนองค์ประกอบข้อแรกของการวิเคราะห์ คือ “ข้อมูล” ทั้งข้อมูลปฐมภูมิ ทุติยภูมิ เชิงปริมาณ และเชิงคุณภาพ แล้วสาธิตว่าการมีตัวเลขยังไม่เท่ากับมีคำอธิบาย อาจารย์ใช้สมมุติฐานว่าการพัฒนาเศรษฐกิจสัมพันธ์กับประชาธิปไตยเป็น..."
     },
     {
       "id": "POL2129-2026-08-04-video-01",

@@ -1,0 +1,10 @@
+ประมวลผลเมื่อ 2026-08-27 (Asia/Bangkok)
+
+- ตรวจสภาพแวดล้อมด้วย scripts/check_environment.py แล้วผ่านครบทุกข้อ
+- สร้างงานด้วย scripts/init_task.py และดึงคำบรรยาย YouTube ด้วย scripts/get_youtube_transcript.py สำเร็จ
+- เก็บ transcript-raw.txt และ transcript-original.txt แล้วแบ่ง transcript-original.txt เป็น 4 ส่วนด้วย scripts/split_text.py ก่อนปรับถอดความ
+- ตรวจแก้ transcript ทีละส่วนโดยรักษาลำดับ เนื้อหา ตัวอย่าง ชื่อแนวคิด และเรื่องเล่าของอาจารย์ไว้ จากนั้นรวมเป็น transcript-revised.txt ซึ่งยังเป็นถอดความเต็ม ไม่ใช่สรุป
+- สรุปจาก transcript-revised.txt ทีละส่วนเป็นบันทึกการบรรยายภาษาไทยและรวมเป็น lecture-summary.txt โดยไม่แทรกช่องว่างเทียมในภาษาไทย
+- ตรวจเทียบสรุปกับ transcript-revised.txt ตามลำดับสองรอบ ประเด็นที่ตรวจเป็นพิเศษ ได้แก่ Time Series/aggregate data, garbage in–garbage out, Lipset และ Przeworski, เรื่องคนขับแท็กซี่สิงคโปร์, ฟิลิปปินส์–อินโดนีเซีย–ไทย, Qatar–India, ภาคอุตสาหกรรม, Ways of Seeing และ Blink ไม่พบสาระสำคัญที่ยังขาดหลังรอบสุดท้าย
+- อัปเดต readme-POL3128.md เฉพาะกำหนดการ และ hint-POL3128.md เฉพาะประเด็นทบทวน; คาบนี้ไม่มีประกาศคะแนน งาน หรือกำหนดส่งใหม่
+- สิ่งที่ต้องตรวจบนระบบจริงภายหลังการ push คือระยะเวลาที่หน้า Pages ใช้ในการเผยแพร่เท่านั้น
