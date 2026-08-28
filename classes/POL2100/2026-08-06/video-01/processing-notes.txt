@@ -1,0 +1,30 @@
+URL: https://www.youtube.com/watch?v=otQlT5enBgg
+Subject: POL2100
+Class date: 2026-08-06
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2100\2026-08-06\video-01
+Created at: 2026-08-28T23:16:29
+Status: task folder created
+Video id: otQlT5enBgg
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (otQlT5enBgg.th.vtt)
+Raw transcript characters: 293183
+Original transcript characters: 24664
+Replaced generic Thai caption with Thai original caption track (th-orig) before revision.
+
+ประมวลผลเมื่อ 2026-08-28 (Asia/Bangkok)
+
+- ตรวจสภาพแวดล้อมด้วย scripts/check_environment.py แล้วผ่านครบทุกข้อ
+- สร้างงานด้วย scripts/init_task.py และดึงคำบรรยายด้วย scripts/get_youtube_transcript.py สำเร็จ แม้ yt-dlp แจ้ง HTTP 429 ขณะพยายามดาวน์โหลดบางภาษา แต่ยังได้คำบรรยายไทย จากนั้นตรวจรายการแทร็กและเปลี่ยนเป็นคำบรรยายต้นฉบับภาษาไทย `th-orig`
+- เก็บ transcript-raw.txt และ transcript-original.txt แล้วแบ่ง transcript-original.txt เป็น 3 ส่วนด้วย scripts/split_text.py ก่อนปรับถอดความ
+- ตรวจแก้ทุกส่วนโดยรักษาลำดับ รายละเอียด ตัวอย่างประเทศ ความเห็น และประกาศสอบ พร้อมแก้ศัพท์ระบบอเมริกัน ชื่อบุคคล สถาบัน และเหตุการณ์ที่ถอดผิด จากนั้นรวมเป็น transcript-revised.txt ซึ่งยังเป็นถอดความเต็ม
+- สรุป transcript-revised.txt ทีละส่วนเป็นบันทึกภาษาไทย 3 ส่วนและรวมเป็น lecture-summary.txt โดยทำเครื่องหมายข้อมูลสอบและเกรดที่มีผลต่อนักศึกษาอย่างชัดเจน
+- ตรวจเทียบรอบแรกและคืนรายละเอียดเรื่องเสรีภาพกับกฎหมาย พหุนิยม ชนชั้นนำ กลุ่มผลประโยชน์ โครงสร้างสหพันธรัฐ การกระจายอำนาจ สงครามกลางเมือง และระบบประธานาธิบดี
+- ตรวจเทียบรอบที่สองแล้วคืนเรื่องเล่าหมู่เกาะใกล้พม่า เหตุผลเรื่องวาระผู้ว่าการ ประสบการณ์เดินทาง Niagara–Washington–New York คนไร้บ้าน และเงื่อนไขซื้อเสียง ไม่พบสาระสำคัญที่ยังตกหล่น
+- อัปเดต readme-POL2100.md เฉพาะไฟล์เรียนและเงื่อนไขสอบ และอัปเดต hint-POL2100.md เฉพาะแนวสอบกับหัวข้อที่อาจารย์ให้เข้าใจเป็นภาพรวม
+- สิ่งที่ตรวจได้เฉพาะหลัง push คือระยะเวลาที่หน้า Pages ใช้ในการเผยแพร่

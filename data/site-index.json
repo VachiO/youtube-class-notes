@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-28T16:15:52+00:00",
-  "totalLectures": 46,
+  "generatedAt": "2026-08-28T16:21:42+00:00",
+  "totalLectures": 47,
   "subjects": [
     {
       "code": "POL1101",
@@ -24,10 +24,11 @@
       "title": "POL2100",
       "order": 2100,
       "noExam": false,
-      "lectureCount": 6,
+      "lectureCount": 7,
       "dates": [
         "2026-08-20",
         "2026-08-13",
+        "2026-08-06",
         "2026-07-23",
         "2026-07-16",
         "2026-07-09",
@@ -431,6 +432,28 @@
       "wordCount": 430,
       "importantCount": 13,
       "excerpt": "คาบนี้ทบทวนองค์ประกอบข้อแรกของการวิเคราะห์ คือ “ข้อมูล” ทั้งข้อมูลปฐมภูมิ ทุติยภูมิ เชิงปริมาณ และเชิงคุณภาพ แล้วสาธิตว่าการมีตัวเลขยังไม่เท่ากับมีคำอธิบาย อาจารย์ใช้สมมุติฐานว่าการพัฒนาเศรษฐกิจสัมพันธ์กับประชาธิปไตยเป็น..."
+    },
+    {
+      "id": "POL2100-2026-08-06-video-01",
+      "subject": "POL2100",
+      "courseTitle": "POL2100",
+      "noExam": false,
+      "date": "2026-08-06",
+      "dateLabelTh": "วันพฤหัสบดีที่ 6 สิงหาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2100/2026-08-06/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2100/2026-08-06/video-01/source.txt",
+      "transcriptPath": "classes/POL2100/2026-08-06/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2100.md",
+      "hintPath": "hint-POL2100.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=otQlT5enBgg",
+      "paragraphCount": 27,
+      "wordCount": 435,
+      "importantCount": 18,
+      "excerpt": "คาบนี้ต่อจากการเปรียบเทียบอังกฤษและย้อนมาศึกษาสหรัฐอเมริกา อาจารย์เริ่มจากภูมิหลังว่าอเมริกาเป็นประเทศใหม่ที่ไม่ได้มีสถาบันกษัตริย์เป็นฐานการปกครองแบบหลายประเทศยุโรป ผู้อพยพจำนวนหนึ่งออกจากยุโรปเพราะไม่พอใจกับการข่มเหง อ..."
     },
     {
       "id": "POL2129-2026-08-04-video-01",
