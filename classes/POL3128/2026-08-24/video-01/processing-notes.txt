@@ -1,0 +1,29 @@
+URL: https://www.youtube.com/watch?v=DFCf18_cARc
+Subject: POL3128
+Class date: 2026-08-24
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL3128\2026-08-24\video-01
+Created at: 2026-08-28T23:07:11
+Status: task folder created
+Video id: DFCf18_cARc
+yt-dlp exit code: 0
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+Transcript method: yt-dlp (DFCf18_cARc.en.vtt)
+Raw transcript characters: 374334
+Original transcript characters: 43333
+Replaced yt-dlp English auto-translation with Thai original caption track (th-orig) before revision.
+
+ประมวลผลเมื่อ 2026-08-28 (Asia/Bangkok)
+
+- ตรวจสภาพแวดล้อมด้วย scripts/check_environment.py แล้วผ่านครบทุกข้อ
+- สร้างงานด้วย scripts/init_task.py และดึงคำบรรยายด้วย scripts/get_youtube_transcript.py สำเร็จ แต่ผลเริ่มต้นเลือกไฟล์แปลอัตโนมัติภาษาอังกฤษ จึงตรวจรายการคำบรรยายและเปลี่ยนเป็นแทร็กต้นฉบับภาษาไทย `th-orig` ก่อนดำเนินงานต่อ
+- เก็บ transcript-raw.txt และ transcript-original.txt จากคำบรรยายภาษาไทย แล้วแบ่ง transcript-original.txt เป็น 4 ส่วนด้วย scripts/split_text.py ก่อนปรับถอดความ
+- ตรวจแก้ทุกส่วนโดยรักษาลำดับและรายละเอียดของการบรรยาย พร้อมแก้ศัพท์ ชื่อบุคคล เหตุการณ์ และแนวคิดที่คำบรรยายอัตโนมัติถอดผิด จากนั้นรวมเป็น transcript-revised.txt ซึ่งยังเป็นถอดความเต็ม ไม่ใช่สรุป
+- สรุป transcript-revised.txt ทีละส่วนเป็นบันทึกภาษาไทย 4 ส่วน และรวมเป็น lecture-summary.txt โดยรักษาตัวอย่าง เรื่องเล่า ประสบการณ์ส่วนตัว ข้อเสนอให้อ่าน และกำหนดการคาบถัดไป
+- ตรวจเทียบสรุปกับ transcript-revised.txt ตามลำดับรอบแรก แล้วคืนรายละเอียดเรื่องสมการ Y = f(X) กับ time lag, ปี 14 ตุลาคม–6 ตุลาคม, การรณรงค์ไม่ทนต่อการทุจริต และความต่างระหว่าง Fundamental กับ Theoretical Conceptual Framework
+- ตรวจเทียบรอบที่สองโดยเน้นกาฬสินธุ์ สิงคโปร์ สุพรรณบุรี รัฐอำมาตยาธิปไตย Arab Spring บทบาทรามคำแหง Ira Katznelson หนังสือ “เกิด พ.ศ. 1” ท้าวสุรนารี และสมมติฐานการแทรกแซงของทหาร ไม่พบสาระสำคัญที่ยังตกหล่น
+- อัปเดต readme-POL3128.md เฉพาะกำหนดคาบถัดไปและคำแนะนำการอ่าน และอัปเดต hint-POL3128.md เฉพาะหัวข้อทบทวน; คาบนี้ไม่มีประกาศคะแนน แบบทดสอบ หรืองานส่งใหม่
+- สิ่งที่ตรวจได้เฉพาะหลัง push คือระยะเวลาที่หน้า Pages ใช้ในการเผยแพร่

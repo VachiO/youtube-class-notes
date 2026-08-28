@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-27T16:11:13+00:00",
-  "totalLectures": 45,
+  "generatedAt": "2026-08-28T16:15:52+00:00",
+  "totalLectures": 46,
   "subjects": [
     {
       "code": "POL1101",
@@ -92,8 +92,9 @@
       "title": "แนววิเคราะห์ทฤษฎีการเมือง",
       "order": 3128,
       "noExam": true,
-      "lectureCount": 7,
+      "lectureCount": 8,
       "dates": [
+        "2026-08-24",
         "2026-08-17",
         "2026-08-10",
         "2026-08-03",
@@ -166,6 +167,28 @@
       "wordCount": 463,
       "importantCount": 21,
       "excerpt": "อาจารย์เริ่มด้วยการแนะนำประสบการณ์ว่าอยู่กับวิชา “การเมืองและการปกครองไทย” มานาน และเป็นผู้สอนวิชานี้ในภาคพิเศษรุ่นแรก ๆ สมัยที่ยังสอนที่รามคำแหงบางนาแล้วต้องนั่งรถตู้กลับมาสอนภาคค่ำที่หัวหมาก ห้องเรียนในเวลานั้นเต็มไปด้..."
+    },
+    {
+      "id": "POL3128-2026-08-24-video-01",
+      "subject": "POL3128",
+      "courseTitle": "แนววิเคราะห์ทฤษฎีการเมือง",
+      "noExam": true,
+      "date": "2026-08-24",
+      "dateLabelTh": "วันจันทร์ที่ 24 สิงหาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL3128/2026-08-24/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL3128/2026-08-24/video-01/source.txt",
+      "transcriptPath": "classes/POL3128/2026-08-24/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL3128.md",
+      "hintPath": "hint-POL3128.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=DFCf18_cARc",
+      "paragraphCount": 33,
+      "wordCount": 567,
+      "importantCount": 22,
+      "excerpt": "คาบวันที่ 24 สิงหาคม 2569 เริ่มจากการทบทวนว่าองค์ประกอบของการวิเคราะห์ข้อแรกคือ “ข้อมูล” และองค์ประกอบข้อที่สองคือ “กรอบทางความคิด” อาจารย์ย้ำว่ากรอบทำหน้าที่กำหนดทิศทางและตีวงเรื่องที่จะศึกษาให้ชัด ทั้งประเด็น พื้นที่ แ..."
     },
     {
       "id": "POL2102-2026-08-20-video-01",
