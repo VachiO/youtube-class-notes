@@ -1,0 +1,27 @@
+URL: https://www.youtube.com/watch?v=ukE50abqgHw
+Subject: POL2102
+Class date: 2026-08-06
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2102\2026-08-06\video-01
+Created at: 2026-08-29T23:16:16
+Status: task folder created
+Video id: ukE50abqgHw
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (ukE50abqgHw.th.vtt)
+Raw transcript characters: 831303
+Original transcript characters: 74132
+
+Processing completed: 2026-08-29
+Environment check: passed before lecture processing.
+Transcript result: Thai VTT fallback succeeded. The initial English subtitle request received HTTP 429, but this did not block the available Thai transcript.
+Chunking: transcript-original.txt was split into 9 original chunks before revision; all 9 were revised and combined into transcript-revised.txt. The revised transcript preserves the lecture sequence and detail while correcting clear transcription errors and terminology.
+Summary: 5 summary chunks were written from the revised transcript and combined into lecture-summary.txt.
+Completeness audit pass 1: checked definitions and functions of legislatures; unicameral and bicameral structures; parliamentary, presidential, and semi-presidential systems; the English, United States, and Thai historical sequences; dates, examples, class announcements, and exam-relevant warnings. Missing or compressed details were restored in their lecture-order positions.
+Completeness audit pass 2: compared the complete summary again with transcript-revised.txt; no substantial information-bearing omission remained. Empty speech filler and repeated classroom audio were not carried into the notes.
+Course files: updated readme-POL2102.md with course logistics and hint-POL2102.md with exam-focused material from this lecture.
+Production note: transcript retrieval and file checks were completed locally; publication availability still depends on the production/static-site deployment after push.

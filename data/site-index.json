@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-29T16:15:48+00:00",
-  "totalLectures": 48,
+  "generatedAt": "2026-08-29T16:24:32+00:00",
+  "totalLectures": 49,
   "subjects": [
     {
       "code": "POL1101",
@@ -42,10 +42,11 @@
       "title": "หลักรัฐธรรมนูญและสถาบันทางการเมือง",
       "order": 2102,
       "noExam": true,
-      "lectureCount": 6,
+      "lectureCount": 7,
       "dates": [
         "2026-08-20",
         "2026-08-13",
+        "2026-08-06",
         "2026-07-23",
         "2026-07-16",
         "2026-07-09",
@@ -455,6 +456,28 @@
       "wordCount": 430,
       "importantCount": 13,
       "excerpt": "คาบนี้ทบทวนองค์ประกอบข้อแรกของการวิเคราะห์ คือ “ข้อมูล” ทั้งข้อมูลปฐมภูมิ ทุติยภูมิ เชิงปริมาณ และเชิงคุณภาพ แล้วสาธิตว่าการมีตัวเลขยังไม่เท่ากับมีคำอธิบาย อาจารย์ใช้สมมุติฐานว่าการพัฒนาเศรษฐกิจสัมพันธ์กับประชาธิปไตยเป็น..."
+    },
+    {
+      "id": "POL2102-2026-08-06-video-01",
+      "subject": "POL2102",
+      "courseTitle": "หลักรัฐธรรมนูญและสถาบันทางการเมือง",
+      "noExam": true,
+      "date": "2026-08-06",
+      "dateLabelTh": "วันพฤหัสบดีที่ 6 สิงหาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2102/2026-08-06/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2102/2026-08-06/video-01/source.txt",
+      "transcriptPath": "classes/POL2102/2026-08-06/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2102.md",
+      "hintPath": "hint-POL2102.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=ukE50abqgHw",
+      "paragraphCount": 46,
+      "wordCount": 1018,
+      "importantCount": 32,
+      "excerpt": "คาบนี้เริ่มหัวข้อองค์กรฝ่ายนิติบัญญัติ ซึ่งเป็นสถาบันการเมืองฝ่ายแรกในสามฝ่าย ก่อนจะเรียนฝ่ายบริหารและฝ่ายตุลาการ อาจารย์แบ่งเนื้อหาเป็นสี่ส่วน ได้แก่ แนวคิดและที่มาของรัฐสภา พัฒนาการรัฐสภาในประเทศตะวันตก พัฒนาการรัฐสภาไ..."
     },
     {
       "id": "POL2100-2026-08-06-video-01",
