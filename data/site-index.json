@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-28T16:21:42+00:00",
-  "totalLectures": 47,
+  "generatedAt": "2026-08-29T16:15:48+00:00",
+  "totalLectures": 48,
   "subjects": [
     {
       "code": "POL1101",
@@ -59,8 +59,9 @@
       "title": "การเมืองเปรียบเทียบ",
       "order": 2107,
       "noExam": true,
-      "lectureCount": 6,
+      "lectureCount": 7,
       "dates": [
+        "2026-08-26",
         "2026-08-19",
         "2026-07-22",
         "2026-07-15",
@@ -125,6 +126,28 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL2107-2026-08-26-video-01",
+      "subject": "POL2107",
+      "courseTitle": "การเมืองเปรียบเทียบ",
+      "noExam": true,
+      "date": "2026-08-26",
+      "dateLabelTh": "วันพุธที่ 26 สิงหาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2107/2026-08-26/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2107/2026-08-26/video-01/source.txt",
+      "transcriptPath": "classes/POL2107/2026-08-26/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2107.md",
+      "hintPath": "hint-POL2107.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=VVpaJyg8aEQ",
+      "paragraphCount": 42,
+      "wordCount": 936,
+      "importantCount": 18,
+      "excerpt": "อาจารย์เริ่มจากเปิดโอกาสให้นักศึกษาถามคำถาม และย้ำวิธีอ่านงานทฤษฎีว่า แม้เราจะยังจำรายละเอียดข้อเสนอของนักวิชาการแต่ละคนไม่ได้ทั้งหมด แต่ถ้ารู้ว่าเขายืนอยู่บน “ฐานคิด” ใด เราจะคาดทิศทางของคำอธิบายและตั้งคำถามกับเขาได้ถูก..."
+    },
     {
       "id": "POL2129-2026-08-25-video-01",
       "subject": "POL2129",

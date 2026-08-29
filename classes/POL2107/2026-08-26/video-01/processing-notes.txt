@@ -1,0 +1,29 @@
+URL: https://www.youtube.com/watch?v=VVpaJyg8aEQ
+Subject: POL2107
+Class date: 2026-08-26
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2107\2026-08-26\video-01
+Created at: 2026-08-29T23:06:03
+Status: task folder created
+Video id: VVpaJyg8aEQ
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (VVpaJyg8aEQ.th.vtt)
+Raw transcript characters: 731028
+Original transcript characters: 65068
+
+Processing completed by daily automation on 2026-08-29.
+- Environment check passed before lecture processing.
+- The initial yt-dlp request reported HTTP 429 for the English subtitle track, but the Thai VTT fallback succeeded and supplied the usable transcript.
+- Split transcript-original.txt into 8 original chunks before revision.
+- Revised all 8 chunks conservatively in sequence, preserving lecture detail and line structure while correcting recurring political-science names and terms such as Rational Choice, Utilitarianism, institutionalization, New Institutionalism, Marxism, globalization, Skocpol, Poulantzas, Huntington, and Keynes.
+- Combined the revised chunks into transcript-revised.txt; it remains a corrected transcript rather than a summary.
+- Built 4 detailed Thai summary chunks and combined them into lecture-summary.txt.
+- Completeness audit pass 1 restored the Almond/Easton democratic-development basis, old/new Marxism comparison, Thaksin and capitalist-group example, Rational Choice origins, Bentham/Mill majority-minority distinction, the 1997 and 2008 crisis chain, all four Huntington criteria and Thai party examples, six old/new institutionalism shifts, Tilly/Skocpol/Poulantzas, Keynesian crisis spending, teacher anecdotes, class schedule, reading instruction, and every explicit exam warning.
+- Completeness audit pass 2 compared the revised transcript sequentially against the combined notes and found no substantial topic, example, announcement, or exam-related omission.
+- Updated readme-POL2107.md with course logistics only and hint-POL2107.md with exam and preparation guidance only.
+- Production-only caveat: YouTube availability and the published static page still require verification after push.
