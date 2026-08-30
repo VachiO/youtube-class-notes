@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-29T16:24:32+00:00",
-  "totalLectures": 49,
+  "generatedAt": "2026-08-30T16:12:49+00:00",
+  "totalLectures": 50,
   "subjects": [
     {
       "code": "POL1101",
@@ -114,8 +114,9 @@
       "title": "การเมืองในอเมริกา",
       "order": 3179,
       "noExam": false,
-      "lectureCount": 7,
+      "lectureCount": 8,
       "dates": [
+        "2026-08-26",
         "2026-08-19",
         "2026-07-22",
         "2026-07-15",
@@ -127,6 +128,28 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL3179-2026-08-26-video-01",
+      "subject": "POL3179",
+      "courseTitle": "การเมืองในอเมริกา",
+      "noExam": false,
+      "date": "2026-08-26",
+      "dateLabelTh": "วันพุธที่ 26 สิงหาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL3179/2026-08-26/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL3179/2026-08-26/video-01/source.txt",
+      "transcriptPath": "classes/POL3179/2026-08-26/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL3179.md",
+      "hintPath": "hint-POL3179.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=8U4Ici0Zkuo",
+      "paragraphCount": 41,
+      "wordCount": 1110,
+      "importantCount": 35,
+      "excerpt": "อาจารย์เริ่มชั้นเรียนด้วยการบอกว่าวันนี้สุขภาพและพลังดีขึ้นกว่าครั้งก่อน จากนั้นทบทวนเนื้อหาเดิมเรื่อง Congress (รัฐสภาสหรัฐฯ) โดยกล่าวถึงองค์ประกอบของสองสภา สัดส่วนสมาชิก House of Representatives (สภาผู้แทนราษฎร) และ Se..."
+    },
     {
       "id": "POL2107-2026-08-26-video-01",
       "subject": "POL2107",

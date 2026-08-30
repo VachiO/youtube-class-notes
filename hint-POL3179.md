@@ -78,3 +78,15 @@
 - จำว่า Speaker of the House มาจากพรรคเสียงข้างมากและเป็นตำแหน่งสำคัญใน presidential succession; รองประธานาธิบดีเป็น President of the Senate โดยตำแหน่ง
 - แยกประเภท committee ให้ได้: Standing, Special/Select, Joint และ Subcommittee พร้อมอธิบาย hearing ว่าใช้รับข้อมูลเพื่อออกกฎหมายและตรวจสอบฝ่ายบริหาร
 - ภาพที่ควรเตรียมเป็นพิเศษ ได้แก่ ห้องประชุม House และตำแหน่ง Speaker, แผนที่จัดสรรที่นั่งตามประชากร, แผนภาพ gerrymandering, ภาพ congressional hearing และแผนผังคณะกรรมาธิการ
+
+## เพิ่มจากคาบ 2026-08-26
+
+- ⚠️ อาจารย์ประกาศตรง ๆ ว่า Library of Congress และ Congressional Research Service (CRS) “ออกสอบแน่นอน” และจะเป็นหนึ่งข้อในข้อสอบ
+- ต้องอธิบายหน้าที่หลักของ Library of Congress ให้ได้: บันทึกวาระและเอกสารรัฐสภา รักษาเอกสาร/วัตถุประวัติศาสตร์ และสนับสนุนงานวิจัยผ่าน CRS
+- ต้องรู้ว่า CRS ก่อตั้งในปี 1914 ผลิตทั้ง In Focus แบบสั้นและรายงานเชิงลึก ใช้ผู้เชี่ยวชาญจริง เปิดให้สาธารณชนเข้าถึง และช่วยสมาชิก Congress ตัดสินใจในเรื่องที่ตนไม่เชี่ยวชาญ
+- อาจารย์ย้ำว่าไม่ต้องจำรายชื่อคณะกรรมาธิการทุกชุด เพียงเข้าใจหน้าที่ของ committee, public hearing, markup session และ committee action
+- ทบทวนลำดับกระบวนการนิติบัญญัติ: เสนอร่าง → committee → hearing/markup → calendar และ House vote → Senate ทำกระบวนการซ้ำ → ประสานร่างต่างกัน → enrollment → ประธานาธิบดีลงนาม ปล่อยผ่าน หรือ veto
+- แยก bill, joint resolution, concurrent resolution และ simple resolution รวมทั้งความต่างระหว่าง bill กับ act
+- เข้าใจบทบาท calendar และ filibuster ว่าเป็นจุดที่การต่อรองและผลประโยชน์สามารถทำให้ร่างล่าช้าหรือตกไปได้
+- ⚠️ จำเกณฑ์ impeachment: House ผ่านข้อกล่าวหาด้วยเสียงเกินกึ่งหนึ่ง; Senate พิจารณาคดีโดยมี Chief Justice เป็นประธานและสมาชิก Senate เป็นคณะลูกขุน; การถอดออกจากตำแหน่งต้องใช้เสียง 2 ใน 3 หรืออย่างน้อย 67 จาก 100
+- จำฐานความผิด impeachment ได้แก่ treason, bribery และ high crimes and misdemeanors พร้อมตัวอย่าง Nixon/Watergate, Clinton และ Trump
