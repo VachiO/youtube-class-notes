@@ -1,0 +1,14 @@
+สถานะ: ประมวลผลสำเร็จ
+
+- แหล่งข้อมูล: https://www.youtube.com/watch?v=19Dbaeofj6Q
+- รายวิชา: POL3179
+- วันที่เรียน: 2026-08-05
+- ดึงคำบรรยายด้วย scripts/get_youtube_transcript.py สำเร็จ และบันทึก transcript-raw.txt กับ transcript-original.txt
+- แบ่ง transcript-original.txt เป็น 9 ส่วนด้วย scripts/split_text.py ก่อนแก้ไข
+- สร้าง revised-chunk ครบทั้ง 9 ส่วน โดยรักษาลำดับและรายละเอียดของคำบรรยาย พร้อมแก้คำเทคนิคที่ถอดผิดอย่างชัดเจน เช่น รัฐธรรมนูญ, Montesquieu, Aristotle, Mixed Constitution, polity และการตรวจสอบถ่วงดุล
+- รวม revised-chunk เป็น transcript-revised.txt ซึ่งยังคงเป็นฉบับถอดคำบรรยาย ไม่ใช่บทสรุป
+- สรุปจาก revised-chunk ทุกส่วนเป็น summary-chunk 9 ส่วนตาม prompts/summarize-lecture.md แล้วรวมเป็น lecture-summary.txt
+- ตรวจความครบถ้วนรอบที่ 1 ตามลำดับเนื้อหาและคืนตัวอย่าง/ประกาศสำคัญ ได้แก่ Line Official, State of the Union, Watergate, Executive Order ภาษี, ระบบลูกขุน, เงินเลือกตั้ง, สิทธิปืน, mass shooting, Military-Industrial Complex และ Miranda Rights
+- ตรวจความครบถ้วนรอบที่ 2 ไม่พบหัวข้อสาระสำคัญตกหล่นเพิ่มเติม
+- อัปเดต readme-POL3179.md เฉพาะข้อมูลสไลด์และหัวข้อคาบถัดไป และ hint-POL3179.md เฉพาะแนวทบทวนสอบ
+- ข้อจำกัด: ชื่อบุคคล ตัวเลข และสถานการณ์การเมืองร่วมสมัยคงไว้ตามคำบรรยายของอาจารย์ ไม่ได้ปรับให้เป็นข่าวปัจจุบัน

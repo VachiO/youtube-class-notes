@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-31T16:18:55+00:00",
-  "totalLectures": 52,
+  "generatedAt": "2026-08-31T16:29:07+00:00",
+  "totalLectures": 53,
   "subjects": [
     {
       "code": "POL1101",
@@ -116,10 +116,11 @@
       "title": "การเมืองในอเมริกา",
       "order": 3179,
       "noExam": false,
-      "lectureCount": 8,
+      "lectureCount": 9,
       "dates": [
         "2026-08-26",
         "2026-08-19",
+        "2026-08-05",
         "2026-07-22",
         "2026-07-15",
         "2026-07-08",
@@ -547,6 +548,28 @@
       "wordCount": 435,
       "importantCount": 18,
       "excerpt": "คาบนี้ต่อจากการเปรียบเทียบอังกฤษและย้อนมาศึกษาสหรัฐอเมริกา อาจารย์เริ่มจากภูมิหลังว่าอเมริกาเป็นประเทศใหม่ที่ไม่ได้มีสถาบันกษัตริย์เป็นฐานการปกครองแบบหลายประเทศยุโรป ผู้อพยพจำนวนหนึ่งออกจากยุโรปเพราะไม่พอใจกับการข่มเหง อ..."
+    },
+    {
+      "id": "POL3179-2026-08-05-video-01",
+      "subject": "POL3179",
+      "courseTitle": "การเมืองในอเมริกา",
+      "noExam": false,
+      "date": "2026-08-05",
+      "dateLabelTh": "วันพุธที่ 5 สิงหาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL3179/2026-08-05/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL3179/2026-08-05/video-01/source.txt",
+      "transcriptPath": "classes/POL3179/2026-08-05/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL3179.md",
+      "hintPath": "hint-POL3179.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=19Dbaeofj6Q",
+      "paragraphCount": 58,
+      "wordCount": 888,
+      "importantCount": 25,
+      "excerpt": "อาจารย์เริ่มสอนตรงเวลา 19.00 น. และแจ้งว่าส่งสไลด์ให้คุณนุกแล้ว นักศึกษาสามารถเปิดดูใน Line Official ของรายวิชาได้ ไฟล์ต้นทางที่อาจารย์ส่งเป็น Word จึงอาจมีตัวอักษรหรือรูปแบบเพี้ยน แต่คาดว่าคุณนุกจะแปลงเป็น PDF ให้ก่อนเผ..."
     },
     {
       "id": "POL2107-2026-08-05-video-01",

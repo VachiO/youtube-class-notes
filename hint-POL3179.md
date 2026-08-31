@@ -90,3 +90,13 @@
 - เข้าใจบทบาท calendar และ filibuster ว่าเป็นจุดที่การต่อรองและผลประโยชน์สามารถทำให้ร่างล่าช้าหรือตกไปได้
 - ⚠️ จำเกณฑ์ impeachment: House ผ่านข้อกล่าวหาด้วยเสียงเกินกึ่งหนึ่ง; Senate พิจารณาคดีโดยมี Chief Justice เป็นประธานและสมาชิก Senate เป็นคณะลูกขุน; การถอดออกจากตำแหน่งต้องใช้เสียง 2 ใน 3 หรืออย่างน้อย 67 จาก 100
 - จำฐานความผิด impeachment ได้แก่ treason, bribery และ high crimes and misdemeanors พร้อมตัวอย่าง Nixon/Watergate, Clinton และ Trump
+
+## เพิ่มจากคาบ 2026-08-05
+
+- ⚠️ ทบทวนสี่หลักของรัฐธรรมนูญสหรัฐเป็นลำดับ โดยคาบนี้ลงรายละเอียด separation/checks and balances, federalism และ limited government ส่วนคาบหน้าจะต่อ judicial review
+- อธิบายได้ว่าถ้าบริหาร นิติบัญญัติ หรือตุลาการรวบอำนาจของอีกสองฝ่าย ระบบจะเสียสมดุลและกลายเป็นเผด็จการจากฝ่ายนั้น พร้อมตัวอย่าง absolute monarchy, parliamentary supremacy และ judicialization ในยุค John Marshall
+- เชื่อมการถ่วงดุลรายคู่ให้ได้: ประธานาธิบดีลงนาม/ปล่อยผ่าน/veto ร่างกฎหมาย; Congress คุมงบประมาณและ impeachment; ศาลตรวจความชอบด้วยรัฐธรรมนูญ; Senate รับรองผู้พิพากษาศาลสูง
+- จำความต่างระหว่าง State of the Union Address ซึ่งกล่าวต่อ Congress เพื่อรายงานผลงานและของบ กับ Inauguration Speech ในปีแรกที่ประกาศนโยบายเมื่อเข้ารับตำแหน่ง
+- ทบทวน Federalism ว่ามีทั้งการแบ่งงานและถ่วงดุลแนวดิ่ง มลรัฐจัดการเลือกตั้ง พรรค กฎหมายอาญา และเรื่องภายใน ส่วนรัฐบาลกลางดูแลเศรษฐกิจมหภาคกับต่างประเทศ; ข้อพิพาทจบที่ Supreme Court
+- เข้าใจ Bill of Rights ว่ามีไว้จำกัดรัฐบาล ไม่ใช่เพียงแจกสิทธิ: First Amendment เชื่อมเงินหาเสียง/Super PAC, Second Amendment เชื่อมสิทธิปืนกับ mass shooting และ Fifth Amendment เชื่อมสิทธิไม่ให้การกับ Miranda Rights
+- เตรียมกรณีศึกษา Nixon/Watergate, Trump tariff Executive Orders, John Marshall, Elon Musk กับเงินสนับสนุนเลือกตั้ง และปัญหา Military-Industrial Complex เพื่อใช้ตอบเชิงอธิบาย
