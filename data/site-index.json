@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-30T16:18:46+00:00",
-  "totalLectures": 51,
+  "generatedAt": "2026-08-31T16:18:55+00:00",
+  "totalLectures": 52,
   "subjects": [
     {
       "code": "POL1101",
@@ -24,8 +24,9 @@
       "title": "POL2100",
       "order": 2100,
       "noExam": false,
-      "lectureCount": 7,
+      "lectureCount": 8,
       "dates": [
+        "2026-08-27",
         "2026-08-20",
         "2026-08-13",
         "2026-08-06",
@@ -129,6 +130,28 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL2100-2026-08-27-video-01",
+      "subject": "POL2100",
+      "courseTitle": "POL2100",
+      "noExam": false,
+      "date": "2026-08-27",
+      "dateLabelTh": "วันพฤหัสบดีที่ 27 สิงหาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2100/2026-08-27/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2100/2026-08-27/video-01/source.txt",
+      "transcriptPath": "classes/POL2100/2026-08-27/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2100.md",
+      "hintPath": "hint-POL2100.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=UGTWyc2NrAI",
+      "paragraphCount": 38,
+      "wordCount": 469,
+      "importantCount": 23,
+      "excerpt": "อาจารย์พักเรื่องประเทศฝรั่งเศสไว้ก่อนแล้วเริ่มอธิบายญี่ปุ่น โดยชี้ว่าญี่ปุ่นกับไทยมีส่วนคล้ายกันหลายอย่าง โดยเฉพาะต่างก็มีสถาบันกษัตริย์และใช้ระบบรัฐสภา แต่ผลลัพธ์ของการพัฒนาประเทศต่างกันมาก ญี่ปุ่นแพ้สงครามและให้อเมริกา..."
+    },
     {
       "id": "POL3179-2026-08-26-video-01",
       "subject": "POL3179",
