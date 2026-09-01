@@ -8,6 +8,8 @@ import datetime as dt
 import re
 from pathlib import Path
 
+from video_identity import validate_video_identity
+
 
 def parse_class_date(value: str) -> str:
     match = re.fullmatch(r"(\d{1,2})\.(\d{1,2})\.(\d{4})", value.strip())
@@ -83,6 +85,10 @@ def main() -> None:
     project_root = Path(__file__).resolve().parents[1]
     subject = normalize_subject(args.subject)
     class_date = parse_class_date(args.date)
+    try:
+        video_title = validate_video_identity(args.url.strip(), subject, class_date)
+    except ValueError as exc:
+        raise SystemExit(str(exc)) from exc
     day_dir = project_root / "classes" / subject / class_date
     video_dir = target_dir_for(day_dir, args.url.strip())
     chunks_dir = video_dir / "chunks"
@@ -93,6 +99,7 @@ def main() -> None:
         "\n".join(
             [
                 f"URL: {args.url.strip()}",
+                f"Video title: {video_title}",
                 f"Subject: {subject}",
                 f"Class date: {class_date}",
                 f"Created at: {created_at}",
@@ -105,6 +112,7 @@ def main() -> None:
         "\n".join(
             [
                 f"URL: {args.url.strip()}",
+                f"Video title: {video_title}",
                 f"Subject: {subject}",
                 f"Class date: {class_date}",
                 f"Task folder: {video_dir}",

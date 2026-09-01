@@ -17,6 +17,8 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import parse_qs, urlparse
 
+from video_identity import validate_video_identity
+
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 STATE_PATH = PROJECT_ROOT / "data" / "automation-state.json"
@@ -116,12 +118,17 @@ def index_contains(item: dict[str, Any]) -> bool:
 def command_upsert(args: argparse.Namespace) -> None:
     state = load_state()
     key = video_id(args.url)
+    try:
+        video_title = validate_video_identity(args.url, args.subject, args.class_date)
+    except ValueError as exc:
+        raise SystemExit(str(exc)) from exc
     item = state["videos"].get(key, {"videoId": key, "discoveredAt": now(), "attempts": 0})
     item.update({
         "subject": args.subject,
         "classDate": args.class_date,
         "archiveDateRaw": args.archive_date_raw,
         "url": args.url,
+        "videoTitle": video_title,
         "archiveUrl": args.archive_url,
         "lastSeenAt": now(),
     })

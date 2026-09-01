@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-31T16:29:07+00:00",
-  "totalLectures": 53,
+  "generatedAt": "2026-09-01T03:23:50+00:00",
+  "totalLectures": 51,
   "subjects": [
     {
       "code": "POL1101",
@@ -24,11 +24,10 @@
       "title": "POL2100",
       "order": 2100,
       "noExam": false,
-      "lectureCount": 8,
+      "lectureCount": 7,
       "dates": [
         "2026-08-27",
         "2026-08-20",
-        "2026-08-13",
         "2026-08-06",
         "2026-07-23",
         "2026-07-16",
@@ -79,10 +78,9 @@
       "title": "รัฐและประชาสังคมในระบบการเมือง",
       "order": 2129,
       "noExam": false,
-      "lectureCount": 7,
+      "lectureCount": 6,
       "dates": [
         "2026-08-25",
-        "2026-08-18",
         "2026-08-11",
         "2026-08-04",
         "2026-07-14",
@@ -352,28 +350,6 @@
       "excerpt": "คาบนี้เริ่มจากอาจารย์แจ้งว่าเหลือเวลาเรียนอีกประมาณ 6 ครั้ง ขณะที่เนื้อหายังอยู่บทที่ 2 จากทั้งหมด 7 บท อาจารย์เปิดโอกาสให้นักศึกษาถามคำถามตามที่เคยนัดไว้ แต่เมื่อยังไม่มีคำถามจึงให้ยกมือถามภายหลังได้ แล้วเข้าสู่ส่วนท้าย..."
     },
     {
-      "id": "POL2129-2026-08-18-video-01",
-      "subject": "POL2129",
-      "courseTitle": "รัฐและประชาสังคมในระบบการเมือง",
-      "noExam": false,
-      "date": "2026-08-18",
-      "dateLabelTh": "วันอังคารที่ 18 สิงหาคม 2569",
-      "buddhistYear": 2569,
-      "video": "video-01",
-      "videoNumber": 1,
-      "version": 1,
-      "summaryPath": "classes/POL2129/2026-08-18/video-01/lecture-summary.txt",
-      "sourcePath": "classes/POL2129/2026-08-18/video-01/source.txt",
-      "transcriptPath": "classes/POL2129/2026-08-18/video-01/transcript-revised.txt",
-      "readmePath": "readme-POL2129.md",
-      "hintPath": "hint-POL2129.md",
-      "sourceUrl": "https://www.youtube.com/watch?v=-7A8paWUxsQ",
-      "paragraphCount": 16,
-      "wordCount": 392,
-      "importantCount": 10,
-      "excerpt": "การบรรยายวันนี้เป็นการเริ่มหัวข้อ Nationalism (ชาตินิยม) และปูทางไปสู่ Fascism (ฟาสซิสต์) ต่อจากอุดมการณ์เสรีนิยมและอนุรักษ์นิยมที่เรียนมาแล้ว อาจารย์บอกตั้งแต่ต้นว่าเนื้อหาสองเรื่องนี้พูดในคาบเดียวไม่จบ จึงจะแยกชาตินิยม..."
-    },
-    {
       "id": "POL1101-2026-08-18-video-01",
       "subject": "POL1101",
       "courseTitle": "การเมืองและการปกครองของไทย",
@@ -438,28 +414,6 @@
       "wordCount": 964,
       "importantCount": 48,
       "excerpt": "การบรรยายครั้งนี้ต่อจากหัวข้อฝ่ายนิติบัญญัติ โดยลงรายละเอียดโครงสร้าง อำนาจ หน้าที่ และตำแหน่งสำคัญของรัฐสภาไทย อาจารย์เกริ่นว่ารัฐสภาแบบสมัยใหม่มีพัฒนาการจากโลกตะวันตก โดยเฉพาะอังกฤษ ก่อนจะเชื่อมเข้าสู่กรณีไทย ประเด็นที..."
-    },
-    {
-      "id": "POL2100-2026-08-13-video-01",
-      "subject": "POL2100",
-      "courseTitle": "POL2100",
-      "noExam": false,
-      "date": "2026-08-13",
-      "dateLabelTh": "วันพฤหัสบดีที่ 13 สิงหาคม 2569",
-      "buddhistYear": 2569,
-      "video": "video-01",
-      "videoNumber": 1,
-      "version": 1,
-      "summaryPath": "classes/POL2100/2026-08-13/video-01/lecture-summary.txt",
-      "sourcePath": "classes/POL2100/2026-08-13/video-01/source.txt",
-      "transcriptPath": "classes/POL2100/2026-08-13/video-01/transcript-revised.txt",
-      "readmePath": "readme-POL2100.md",
-      "hintPath": "hint-POL2100.md",
-      "sourceUrl": "https://www.youtube.com/watch?v=96LYWCVkiC4",
-      "paragraphCount": 37,
-      "wordCount": 714,
-      "importantCount": 19,
-      "excerpt": "อาจารย์เริ่มคาบด้วยการถามว่านักศึกษาจำเนื้อหาครั้งก่อนได้หรือไม่ และพูดถึงลักษณะของวิชาเศรษฐศาสตร์ว่าอาจดูยากเพราะใช้ตัวเลข สมการ และคณิตศาสตร์ แต่แก่นแท้คือ logic (ตรรกะ) และความเป็นเหตุเป็นผลคล้ายรัฐศาสตร์ การนำคณิตศาส..."
     },
     {
       "id": "POL2129-2026-08-11-video-01",
