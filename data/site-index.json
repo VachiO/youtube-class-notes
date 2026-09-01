@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T16:16:31+00:00",
-  "totalLectures": 52,
+  "generatedAt": "2026-09-01T16:22:55+00:00",
+  "totalLectures": 53,
   "subjects": [
     {
       "code": "POL1101",
@@ -79,7 +79,7 @@
       "title": "รัฐและประชาสังคมในระบบการเมือง",
       "order": 2129,
       "noExam": false,
-      "lectureCount": 6,
+      "lectureCount": 7,
       "dates": [
         "2026-08-25",
         "2026-08-11",
@@ -569,6 +569,28 @@
       "wordCount": 1020,
       "importantCount": 28,
       "excerpt": "อาจารย์เปิดคาบครั้งที่ 5 โดยทักทายและถามว่านักศึกษามีคำถามหรือไม่ พร้อมแซวนักศึกษาหลายคนที่คุ้นเคยกันจากคาบก่อน เนื้อหาของรายวิชาเกือบถึงครึ่งภาคแล้วแต่เพิ่งจบบทที่ 1 อาจารย์จึงคาดว่าช่วงหลังอาจต้องเดินเนื้อหาเร็วขึ้น บท..."
+    },
+    {
+      "id": "POL2129-2026-08-04-video-01-v2",
+      "subject": "POL2129",
+      "courseTitle": "รัฐและประชาสังคมในระบบการเมือง",
+      "noExam": false,
+      "date": "2026-08-04",
+      "dateLabelTh": "วันอังคารที่ 4 สิงหาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01-v2",
+      "videoNumber": 1,
+      "version": 2,
+      "summaryPath": "classes/POL2129/2026-08-04/video-01-v2/lecture-summary.txt",
+      "sourcePath": "classes/POL2129/2026-08-04/video-01-v2/source.txt",
+      "transcriptPath": "classes/POL2129/2026-08-04/video-01-v2/transcript-revised.txt",
+      "readmePath": "readme-POL2129.md",
+      "hintPath": "hint-POL2129.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=_wF0S9qFDsA",
+      "paragraphCount": 43,
+      "wordCount": 608,
+      "importantCount": 28,
+      "excerpt": "⚠️ คาบ POL2129 วันที่ 4 สิงหาคม 2569 เริ่มด้วยประกาศเรื่องควิส อาจารย์ทบทวนว่าห้องได้ทำควิสครั้งที่ 1 ไปแล้ว และแจ้งว่าหลังเรียนคาบนี้กับเนื้อหาช่วงถัดไปจะเข้าสู่ควิสรอบที่ 2 ผู้ที่ทำควิสในห้องใช้การเขียนตามปกติ ส่วนผู้ท..."
     },
     {
       "id": "POL2129-2026-08-04-video-01",

@@ -1,0 +1,25 @@
+URL: https://www.youtube.com/watch?v=_wF0S9qFDsA
+Video title: POL2129  04/8/69
+Subject: POL2129
+Class date: 2026-08-04
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2129\2026-08-04\video-01-v2
+Created at: 2026-09-01T23:17:08
+Status: task folder created
+Video id: _wF0S9qFDsA
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (_wF0S9qFDsA.th.vtt)
+Raw transcript characters: 428132
+Original transcript characters: 36915
+
+Processing completed in the scheduled automation on 2026-09-01 (Asia/Bangkok).
+Transcript acquisition fell back from an English subtitle HTTP 429 to the available Thai VTT track and succeeded.
+The readable transcript was split into 5 original chunks before revision. All 5 chunks were revised in sequence and combined into transcript-revised.txt.
+The first summary audit corrected an over-specific interpretation of the Quiz 2 timing and restored causal examples, policy qualifications, teacher analogies, and the debate between supporters and critics. A second sequential audit found no substantial omission.
+This run used video-01-v2 because an earlier video-01 folder already existed; no existing video folder was overwritten.
+Course logistics and the versioned study-file link were checked against readme-POL2129.md. Existing exam-hint coverage for the 2026-08-04 lecture was already complete and was preserved.
