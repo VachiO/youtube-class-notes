@@ -1,0 +1,25 @@
+URL: https://www.youtube.com/watch?v=3EdiFjI97h0
+Video title: POL 2102  27/8/69
+Subject: POL2102
+Class date: 2026-08-27
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2102\2026-08-27\video-01
+Created at: 2026-09-01T23:05:00
+Status: task folder created
+Video id: 3EdiFjI97h0
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (3EdiFjI97h0.th.vtt)
+Raw transcript characters: 875695
+Original transcript characters: 78391
+
+Processing completed in the scheduled automation on 2026-09-01 (Asia/Bangkok).
+Transcript acquisition fell back from an English subtitle HTTP 429 to the available Thai VTT track and succeeded.
+The readable transcript was split into 9 original chunks before revision. All 9 chunks were revised in sequence with the transcript-revision rules and combined into transcript-revised.txt.
+The revised transcript was summarized into 4 primary summary chunks plus 4 in-order completeness-recovery chunks. The first audit found the draft too compressed; omitted conditions, examples, institutional counts, teacher caveats, and side discussions were restored. A second sequential audit found no substantial omission. The final summary retains approximately 41.5% of revised-transcript characters and preserves lecture order.
+Course logistics were added to readme-POL2102.md, and explicit preparation/exam-relevant guidance was added to hint-POL2102.md.
+No production-only configuration or local-only runtime dependency was added to the output.

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T03:23:50+00:00",
-  "totalLectures": 51,
+  "generatedAt": "2026-09-01T16:16:31+00:00",
+  "totalLectures": 52,
   "subjects": [
     {
       "code": "POL1101",
@@ -42,8 +42,9 @@
       "title": "หลักรัฐธรรมนูญและสถาบันทางการเมือง",
       "order": 2102,
       "noExam": true,
-      "lectureCount": 7,
+      "lectureCount": 8,
       "dates": [
+        "2026-08-27",
         "2026-08-20",
         "2026-08-13",
         "2026-08-06",
@@ -129,6 +130,28 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL2102-2026-08-27-video-01",
+      "subject": "POL2102",
+      "courseTitle": "หลักรัฐธรรมนูญและสถาบันทางการเมือง",
+      "noExam": true,
+      "date": "2026-08-27",
+      "dateLabelTh": "วันพฤหัสบดีที่ 27 สิงหาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2102/2026-08-27/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2102/2026-08-27/video-01/source.txt",
+      "transcriptPath": "classes/POL2102/2026-08-27/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2102.md",
+      "hintPath": "hint-POL2102.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=3EdiFjI97h0",
+      "paragraphCount": 75,
+      "wordCount": 1279,
+      "importantCount": 52,
+      "excerpt": "คาบวันที่ 27 สิงหาคม 2569 เริ่มจากการทบทวนฝ่ายตุลาการและระบบศาล อาจารย์ย้ำว่าอำนาจอธิปไตยประกอบด้วยฝ่ายนิติบัญญัติ ฝ่ายบริหาร และฝ่ายตุลาการ ระบบศาลหลักแบ่งได้เป็นระบบศาลเดี่ยวกับระบบศาลคู่ ระบบศาลเดี่ยวให้ศาลยุติธรรมพิจ..."
+    },
     {
       "id": "POL2100-2026-08-27-video-01",
       "subject": "POL2100",
