@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-03T02:33:07+00:00",
-  "totalLectures": 54,
+  "generatedAt": "2026-09-03T16:18:09+00:00",
+  "totalLectures": 55,
   "subjects": [
     {
       "code": "POL1101",
@@ -62,8 +62,9 @@
       "title": "การเมืองเปรียบเทียบ",
       "order": 2107,
       "noExam": true,
-      "lectureCount": 8,
+      "lectureCount": 9,
       "dates": [
+        "2026-09-02",
         "2026-08-26",
         "2026-08-19",
         "2026-08-05",
@@ -131,6 +132,28 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL2107-2026-09-02-video-01",
+      "subject": "POL2107",
+      "courseTitle": "การเมืองเปรียบเทียบ",
+      "noExam": true,
+      "date": "2026-09-02",
+      "dateLabelTh": "วันพุธที่ 2 กันยายน 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2107/2026-09-02/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2107/2026-09-02/video-01/source.txt",
+      "transcriptPath": "classes/POL2107/2026-09-02/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2107.md",
+      "hintPath": "hint-POL2107.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=ded1Paa5vG4",
+      "paragraphCount": 45,
+      "wordCount": 894,
+      "importantCount": 21,
+      "excerpt": "อาจารย์เริ่มต่อจากสัปดาห์ก่อนซึ่งจบเรื่องเศรษฐศาสตร์การเมืองทุนนิยม แล้วเข้าสู่เศรษฐศาสตร์การเมืองแนววิพากษ์ โดยวางฐานที่ความคิดของ Karl Marx (คาร์ล มาร์กซ์) ผู้เป็นทั้งนักปรัชญา นักเศรษฐศาสตร์ และนักคิดทางการเมือง มาร์ก..."
+    },
     {
       "id": "POL2102-2026-08-27-video-01",
       "subject": "POL2102",

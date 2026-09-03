@@ -1,0 +1,37 @@
+URL: https://www.youtube.com/watch?v=ded1Paa5vG4
+Video title: POL2107   2/9/69
+Subject: POL2107
+Class date: 2026-09-02
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2107\2026-09-02\video-01
+Created at: 2026-09-03T23:07:45
+Status: task folder created
+Video id: ded1Paa5vG4
+yt-dlp exit code: 0
+yt-dlp stderr:
+WARNING: [youtube] unable to extract yt initial data; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+WARNING: [youtube] Incomplete data received in embedded initial data; re-fetching using API.
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+Transcript method: yt-dlp (ded1Paa5vG4.en.vtt)
+Raw transcript characters: 797542
+Original transcript characters: 95300
+Thai-only yt-dlp exit code: 0
+Thai-only yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+Transcript method override: yt-dlp Thai-original (ded1Paa5vG4.th.vtt)
+Raw transcript characters: 740495
+Original transcript characters: 65335
+
+Processing completed: 2026-09-03T23:17:44+07:00
+Transcript selection: The first yt-dlp pass selected an English auto-translation, so it was replaced with the Thai-original caption track before revision. The incorrect English-derived chunks were removed and the Thai transcript was split again.
+Chunking: 8 original chunks, 8 revised chunks, and 8 summary chunks.
+Transcript revision: Corrected recurring speech-to-text errors and normalized key names/terms including Karl Marx, Hegel, Marxism, Gramsci, hegemony, historic bloc, Postmodernism, Nietzsche, Foucault, Laclau, Mouffe, surplus value, and labor terminology. The revised transcript preserves lecture order and detail and is not a summary.
+Summary: Detailed Thai lecture notes were written in lecture order. Main theory, examples, historical context, teacher anecdotes, meaningful digressions, class questions, score information, and course scheduling were retained.
+Completeness audit pass 1: Compared all eight revised chunks against their matching summary chunks. Restored the copyright-duration example, the transcript's stated 1947 China date, Original Sin context, the stated 4–5 million Jewish victims, and corrected the Laclau name.
+Completeness audit pass 2: Rechecked the transcript sequentially and searched all exam/score/date lines and key concepts against the combined summary. The base/superstructure exam hint, historic bloc 5-point question, Piketty/inequality discussion, discourse examples, teacher's personal cultural background, four remaining classes, and the 20-point question opportunity are present. No substantial omissions remain.
+Course files: Updated readme-POL2107.md with logistics and hint-POL2107.md with exam-focused material from this lecture.
+Production assumption: YouTube caption availability and the published site update can only be confirmed against the live services; the Thai caption and video identity were successfully verified during this run.
