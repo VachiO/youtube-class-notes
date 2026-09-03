@@ -1,16 +1,17 @@
 {
-  "generatedAt": "2026-09-01T16:22:55+00:00",
-  "totalLectures": 53,
+  "generatedAt": "2026-09-03T02:33:07+00:00",
+  "totalLectures": 54,
   "subjects": [
     {
       "code": "POL1101",
       "title": "การเมืองและการปกครองของไทย",
       "order": 1101,
       "noExam": true,
-      "lectureCount": 6,
+      "lectureCount": 7,
       "dates": [
         "2026-08-25",
         "2026-08-18",
+        "2026-08-04",
         "2026-07-21",
         "2026-07-14",
         "2026-07-07",
@@ -613,6 +614,28 @@
       "wordCount": 644,
       "importantCount": 29,
       "excerpt": "อาจารย์เริ่มชั้นเรียน POL2129 ด้วยการทบทวนว่าในสองครั้งก่อนหน้าได้อธิบายวิกฤต IMF หรือวิกฤตต้มยำกุ้ง และนักศึกษาได้ทำควิสครั้งที่ 1 ไปแล้ว วันนี้จะเรียนต่อและครั้งถัดไปจะมีควิสรอบที่ 2 ⚠️ อาจารย์กำหนดชัดเจนว่า ผู้ที่ทำคว..."
+    },
+    {
+      "id": "POL1101-2026-08-04-video-01",
+      "subject": "POL1101",
+      "courseTitle": "การเมืองและการปกครองของไทย",
+      "noExam": true,
+      "date": "2026-08-04",
+      "dateLabelTh": "วันอังคารที่ 4 สิงหาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL1101/2026-08-04/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL1101/2026-08-04/video-01/source.txt",
+      "transcriptPath": "classes/POL1101/2026-08-04/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL1101.md",
+      "hintPath": "hint-POL1101.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=-P76DbpyEXI",
+      "paragraphCount": 45,
+      "wordCount": 740,
+      "importantCount": 26,
+      "excerpt": "อาจารย์เริ่มคาบด้วยการทบทวนว่า ครั้งก่อนระบบอินเทอร์เน็ตมีปัญหาจึงต้องเขียนอธิบายแทนการใช้จอ วันนี้ระบบกลับมาใช้งานได้แล้ว เนื้อหายังอยู่ในภาคประวัติศาสตร์การเมืองการปกครองไทย โดยอาจารย์ย้ำว่าแม้วิชานี้ไม่ใช่วิชาประวัติศ..."
     },
     {
       "id": "POL3128-2026-08-03-video-01",

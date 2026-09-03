@@ -8,6 +8,7 @@
 - 2026-07-07 / video-01: `classes/POL1101/2026-07-07/video-01/lecture-summary.txt`
 - 2026-07-14 / video-01: `classes/POL1101/2026-07-14/video-01/lecture-summary.txt`
 - 2026-07-21 / video-01: `classes/POL1101/2026-07-21/video-01/lecture-summary.txt`
+- 2026-08-04 / video-01: `classes/POL1101/2026-08-04/video-01/lecture-summary.txt`
 - 2026-08-18 / video-01: `classes/POL1101/2026-08-18/video-01/lecture-summary.txt`
 - 2026-08-25 / video-01: `classes/POL1101/2026-08-25/video-01/lecture-summary.txt`
 

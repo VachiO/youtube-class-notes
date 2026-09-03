@@ -1,0 +1,24 @@
+URL: https://www.youtube.com/watch?v=-P76DbpyEXI
+Video title: POL1101  4/8/69
+Subject: POL1101
+Class date: 2026-08-04
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL1101\2026-08-04\video-01
+Created at: 2026-09-03T09:26:15
+Status: task folder created
+Video id: -P76DbpyEXI
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (-P76DbpyEXI.th.vtt)
+Raw transcript characters: 547466
+Original transcript characters: 49124
+
+Processing completed in the scheduled automation on 2026-09-03 (Asia/Bangkok).
+Transcript acquisition fell back from an English subtitle HTTP 429 to the available Thai VTT track and succeeded.
+The readable transcript was split into 6 original chunks before revision. All 6 chunks were revised in sequence with the transcript-revision prompt and combined into transcript-revised.txt; historical names, dynastic terms, place names, religious concepts, and English political terminology were corrected while preserving lecture order and detail.
+The detailed Thai lecture notes were written as 6 ordered summary chunks. The first sequential completeness audit restored administrative-distance context, the political role of divine-kingship, tributary-trade nuance, Nakhon Si Thammarat's network role, evidence-method cautions, and the concrete 11 August quiz interpretation. The combined notes retain approximately 40.8% of the revised transcript by character count. A second sequential audit found no substantial omissions.
+Critical quiz instructions, scoring consequences, expected explanatory answer style, the David Easton definition, and the prior direct exam hint about M.R. Seni Pramoj are marked or preserved. Existing POL1101 logistics and exam-hint coverage were checked; readme-POL1101.md was updated with this lecture link, while hint-POL1101.md already contained the applicable exam guidance and did not require duplication.
