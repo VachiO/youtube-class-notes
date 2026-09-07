@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-03T16:18:09+00:00",
-  "totalLectures": 55,
+  "generatedAt": "2026-09-07T16:09:29+00:00",
+  "totalLectures": 56,
   "subjects": [
     {
       "code": "POL1101",
@@ -117,8 +117,9 @@
       "title": "การเมืองในอเมริกา",
       "order": 3179,
       "noExam": false,
-      "lectureCount": 9,
+      "lectureCount": 10,
       "dates": [
+        "2026-09-02",
         "2026-08-26",
         "2026-08-19",
         "2026-08-05",
@@ -132,6 +133,28 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL3179-2026-09-02-video-01",
+      "subject": "POL3179",
+      "courseTitle": "การเมืองในอเมริกา",
+      "noExam": false,
+      "date": "2026-09-02",
+      "dateLabelTh": "วันพุธที่ 2 กันยายน 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL3179/2026-09-02/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL3179/2026-09-02/video-01/source.txt",
+      "transcriptPath": "classes/POL3179/2026-09-02/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL3179.md",
+      "hintPath": "hint-POL3179.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=lQyDJOlHWL0",
+      "paragraphCount": 64,
+      "wordCount": 2455,
+      "importantCount": 44,
+      "excerpt": "รายวิชา POL3179 การเมืองในอเมริกาเรียนช่วงกลางคืนทุกวันพุธต่อเนื่องประมาณ 4 เดือน อาจารย์แจ้งว่าปกติสอนค่อนข้างเร็วและอาจเลิกดึก โดยยกประสบการณ์ตั้งแต่วันสอบสอนว่าอาจารย์สาธินซึ่งขณะนั้นเป็นคณบดีและประธานหลักสูตรชมว่าสอน..."
+    },
     {
       "id": "POL2107-2026-09-02-video-01",
       "subject": "POL2107",

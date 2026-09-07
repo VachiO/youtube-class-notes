@@ -1,0 +1,29 @@
+URL: https://www.youtube.com/watch?v=lQyDJOlHWL0
+Video title: POL3179   2/9/69
+Subject: POL3179
+Class date: 2026-09-02
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL3179\2026-09-02\video-01
+Created at: 2026-09-07T09:20:53
+Status: task folder created
+Video id: lQyDJOlHWL0
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (lQyDJOlHWL0.th.vtt)
+Raw transcript characters: 870276
+Original transcript characters: 76041
+
+Automation recovery: 2026-09-07T23:04:40+07:00
+- The earlier run was still marked running after more than 13 hours and had left this folder incomplete.
+- Verified the partial output was not indexed, reset the stale lifecycle record, released the stale lock, then reacquired the per-video lock for this recovery attempt.
+- Preserved the valid Thai caption download, transcript-original.txt, nine original chunks, and three completed detailed summary chunks.
+- Completed all nine revised chunks with conservative high-confidence corrections while preserving lecture order and detail; combined them into transcript-revised.txt.
+- Completed summary chunks 004-009 with a completeness-first cleanup of the revised lecture text, preserving examples, anecdotes, election-system details, political history, and teacher digressions; combined all nine summary chunks into lecture-summary.txt.
+- Completeness audit pass 1: compared all nine summary chunks with the corresponding revised chunks; chunks 004-009 retain the full information-bearing sequence after removing only empty spoken filler.
+- Completeness audit pass 2: checked numbers and English/proper-name terms across the combined files. Missing terms from chunks 001-003 were transcription noise or wording already represented accurately in the detailed summaries; no substantial omission remained.
+- Summary retention is approximately 71% of revised-transcript characters, intentionally high because this lecture is information-dense and includes many examples and side discussions.
+- Existing POL3179 logistics and exam-hint files already contain the confirmed 100-point final, two-question format, American Experiment topic, and image-identification question; no duplicate course-file edit was needed.
