@@ -5,12 +5,14 @@ const params = new URLSearchParams(window.location.search);
 const subjectCode = params.get("subject");
 const initialLectureId = params.get("lecture");
 const initialQuiz = params.get("quiz");
+const initialView = params.get("view") === "script" ? "script" : "summary";
 
 const state = {
   index: null,
   subject: null,
   lectures: [],
   activeLectureId: "",
+  activeView: "summary",
   paragraphs: [],
   rawText: "",
   summaryQuery: "",
@@ -72,7 +74,7 @@ async function init() {
       openQuiz(false);
     } else {
       const initial = state.lectures.find((lecture) => lecture.id === initialLectureId) || state.lectures[0];
-      if (initial) openLecture(initial, false);
+      if (initial) openLecture(initial, false, initialView);
     }
   } catch (error) {
     renderFatal("โหลดรายวิชาไม่สำเร็จ");
@@ -145,6 +147,8 @@ function renderLectureList() {
   el.lectureList.innerHTML = state.lectures
     .map((lecture) => {
       const isActive = lecture.id === state.activeLectureId;
+      const isSummaryActive = isActive && state.activeView === "summary";
+      const isScriptActive = isActive && state.activeView === "script";
       const classes = isActive ? "lecture-row is-active" : "lecture-row";
       return `
         <article class="${classes}" data-lecture-id="${escapeHtml(lecture.id)}">
@@ -154,7 +158,10 @@ function renderLectureList() {
           </div>
           <div class="lecture-row-actions">
             <button class="open-button" type="button" data-open-lecture="${escapeHtml(lecture.id)}">
-              ${isActive ? "กำลังอ่าน" : "อ่านคาบนี้"}
+              ${isSummaryActive ? "กำลังอ่าน" : "อ่านคาบนี้"}
+            </button>
+            <button class="open-button is-secondary" type="button" data-open-script="${escapeHtml(lecture.id)}">
+              ${isScriptActive ? "กำลังดู Full Script" : "Full Script"}
             </button>
             ${lecture.sourceUrl ? `<a class="open-button is-secondary" href="${escapeHtml(lecture.sourceUrl)}" target="_blank" rel="noopener">วิดิโอ</a>` : ""}
           </div>
@@ -169,18 +176,29 @@ function renderLectureList() {
       if (lecture) openLecture(lecture, true);
     });
   });
+
+  el.lectureList.querySelectorAll("[data-open-script]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const lecture = state.lectures.find((item) => item.id === button.dataset.openScript);
+      if (lecture) openLecture(lecture, true, "script");
+    });
+  });
 }
 
-async function openLecture(lecture, scrollToReader) {
+async function openLecture(lecture, scrollToReader, view = "summary") {
+  const isScript = view === "script";
   state.activeLectureId = lecture.id;
+  state.activeView = view;
   state.paragraphs = [];
   state.rawText = "";
   state.summaryQuery = "";
   el.summarySearch.value = "";
+  el.summarySearch.placeholder = isScript ? "ค้นหาใน Full Script" : "ค้นหาในสรุปนี้";
   el.summarySearch.disabled = false;
   el.copySummary.disabled = true;
+  el.copySummary.textContent = isScript ? "คัดลอก Full Script" : "คัดลอกสรุป";
   el.summaryContent.classList.remove("markdown-body", "quiz-notes");
-  el.readerMeta.textContent = `${lecture.subject} · ${lecture.video}`;
+  el.readerMeta.textContent = `${lecture.subject} · ${lecture.video} · ${isScript ? "Full Script ฉบับเกลาคำ" : "สรุปคาบ"}`;
   el.readerTitle.textContent = lecture.dateLabelTh;
   el.readingCourseCode.textContent = lecture.subject;
   el.readingCourseTitle.textContent = lecture.courseTitle;
@@ -193,13 +211,15 @@ async function openLecture(lecture, scrollToReader) {
     el.readerVideoLink.removeAttribute("href");
     el.readerVideoLink.hidden = true;
   }
-  el.readerStatus.textContent = "กำลังโหลดสรุป...";
+  el.readerStatus.textContent = isScript ? "กำลังโหลด Full Script..." : "กำลังโหลดสรุป...";
   el.summaryContent.innerHTML = "";
   renderLectureList();
-  window.history.replaceState(null, "", `course.html?subject=${encodeURIComponent(lecture.subject)}&lecture=${encodeURIComponent(lecture.id)}`);
+  const viewParam = isScript ? "&view=script" : "";
+  window.history.replaceState(null, "", `course.html?subject=${encodeURIComponent(lecture.subject)}&lecture=${encodeURIComponent(lecture.id)}${viewParam}`);
 
   try {
-    const response = await fetch(lecture.summaryPath);
+    const contentPath = isScript ? lecture.transcriptPath : lecture.summaryPath;
+    const response = await fetch(contentPath);
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const text = await response.text();
     state.rawText = text;
@@ -208,20 +228,24 @@ async function openLecture(lecture, scrollToReader) {
     renderSummary();
     if (scrollToReader) document.querySelector("#reader").scrollIntoView({ behavior: "smooth", block: "start" });
   } catch (error) {
-    el.readerStatus.textContent = "โหลดสรุปไม่สำเร็จ";
-    el.summaryContent.innerHTML = `<p class="empty-state">ไม่พบไฟล์ ${escapeHtml(lecture.summaryPath)}</p>`;
+    const contentPath = isScript ? lecture.transcriptPath : lecture.summaryPath;
+    el.readerStatus.textContent = isScript ? "โหลด Full Script ไม่สำเร็จ" : "โหลดสรุปไม่สำเร็จ";
+    el.summaryContent.innerHTML = `<p class="empty-state">ไม่พบไฟล์ ${escapeHtml(contentPath)}</p>`;
     console.error(error);
   }
 }
 
 async function openQuiz(scrollToReader) {
   state.activeLectureId = "";
+  state.activeView = "quiz";
   state.paragraphs = [];
   state.rawText = "";
   state.summaryQuery = "";
   el.summarySearch.value = "";
+  el.summarySearch.placeholder = "ค้นหาในสรุปนี้";
   el.summarySearch.disabled = true;
   el.copySummary.disabled = true;
+  el.copySummary.textContent = "คัดลอกสรุป";
   el.readerMeta.textContent = "POL2129 · Quiz 1";
   el.readerTitle.textContent = "สรุปเตรียมสอบ Quiz 1";
   el.readingCourseCode.textContent = "POL2129";
@@ -265,17 +289,18 @@ function parseParagraphs(text) {
 
 function renderSummary() {
   const query = state.summaryQuery.toLowerCase();
+  const unit = state.activeView === "script" ? "ช่วงข้อความ" : "ย่อหน้า";
   const matches = query
     ? state.paragraphs.reduce((total, paragraph) => total + paragraph.text.toLowerCase().split(query).length - 1, 0)
     : 0;
 
   el.readerStatus.textContent = query
-    ? `พบ ${matches.toLocaleString("th-TH")} จุด · แสดงครบ ${state.paragraphs.length.toLocaleString("th-TH")} ย่อหน้า`
-    : `${state.paragraphs.length.toLocaleString("th-TH")} ย่อหน้า`;
+    ? `พบ ${matches.toLocaleString("th-TH")} จุด · แสดงครบ ${state.paragraphs.length.toLocaleString("th-TH")} ${unit}`
+    : `${state.paragraphs.length.toLocaleString("th-TH")} ${unit}`;
 
   el.summaryContent.innerHTML = state.paragraphs
     .map((paragraph) => {
-      const classes = paragraph.important ? "summary-block is-important" : "summary-block";
+      const classes = paragraph.important && state.activeView === "summary" ? "summary-block is-important" : "summary-block";
       return `<p class="${classes}" id="${paragraph.id}">${highlight(paragraph.text, state.summaryQuery)}</p>`;
     })
     .join("");
