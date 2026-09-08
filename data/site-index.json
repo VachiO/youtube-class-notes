@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-09-07T16:09:29+00:00",
-  "totalLectures": 56,
+  "generatedAt": "2026-09-08T16:16:13+00:00",
+  "totalLectures": 57,
   "subjects": [
     {
       "code": "POL1101",
       "title": "การเมืองและการปกครองของไทย",
       "order": 1101,
       "noExam": true,
-      "lectureCount": 7,
+      "lectureCount": 8,
       "dates": [
+        "2026-09-01",
         "2026-08-25",
         "2026-08-18",
         "2026-08-04",
@@ -176,6 +177,28 @@
       "wordCount": 894,
       "importantCount": 21,
       "excerpt": "อาจารย์เริ่มต่อจากสัปดาห์ก่อนซึ่งจบเรื่องเศรษฐศาสตร์การเมืองทุนนิยม แล้วเข้าสู่เศรษฐศาสตร์การเมืองแนววิพากษ์ โดยวางฐานที่ความคิดของ Karl Marx (คาร์ล มาร์กซ์) ผู้เป็นทั้งนักปรัชญา นักเศรษฐศาสตร์ และนักคิดทางการเมือง มาร์ก..."
+    },
+    {
+      "id": "POL1101-2026-09-01-video-01",
+      "subject": "POL1101",
+      "courseTitle": "การเมืองและการปกครองของไทย",
+      "noExam": true,
+      "date": "2026-09-01",
+      "dateLabelTh": "วันอังคารที่ 1 กันยายน 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL1101/2026-09-01/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL1101/2026-09-01/video-01/source.txt",
+      "transcriptPath": "classes/POL1101/2026-09-01/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL1101.md",
+      "hintPath": "hint-POL1101.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=Gmkqlmq4FdI",
+      "paragraphCount": 33,
+      "wordCount": 531,
+      "importantCount": 23,
+      "excerpt": "⚠️ ช่วงต้นคาบอาจารย์ประกาศเรื่องคะแนนเก็บครั้งถัดไป โดยตอบผู้ประสานงานว่ากำหนดไว้ “วันที่ 22” และขอให้หัวหน้าห้องช่วยแจ้งโครงการกับกระจายข่าวให้เพื่อนทราบ จากบริบทของคาบวันที่ 1 กันยายน หมายถึงวันที่ 22 กันยายน 2569 แต่ค..."
     },
     {
       "id": "POL2102-2026-08-27-video-01",

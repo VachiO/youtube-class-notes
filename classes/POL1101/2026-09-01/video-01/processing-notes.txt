@@ -1,0 +1,27 @@
+Processing status: complete
+
+Source identity
+- YouTube ID: Gmkqlmq4FdI
+- Live title validated by init_task.py: POL 1101   1/9/69
+- Subject/date: POL1101 / 2026-09-01
+- Archive date: 1/9/69
+
+Tools and workflow
+- scripts/check_environment.py passed before processing.
+- scripts/init_task.py created this new task directory after live title validation.
+- scripts/get_youtube_transcript.py retrieved the available Thai transcript and wrote transcript-raw.txt and transcript-original.txt.
+- scripts/split_text.py split transcript-original.txt into four original chunks before revision.
+- Each chunk was conservatively revised to correct obvious speech-to-text errors while preserving sequence, detail, announcements, examples, and speaker changes.
+- Four detailed Thai summary chunks were written and combined into lecture-summary.txt.
+
+Completeness audits
+- Audit pass 1 compared the revised transcript and notes sequentially. It confirmed coverage of the 22 September score collection, all parliamentary structures and figures, political-party duties, interest-group categories, infrastructure and corruption examples, meaningful digressions, and the closing student question. It also corrected the officeholder name to โสภณ ซารัมย์ and added the new logistics/exam guidance to the course files.
+- Audit pass 2 repeated the comparison from beginning to end and found no substantial omissions. The final notes retain approximately 52% of the revised transcript by character count.
+
+Important interpretation
+- The teacher said only “วันที่ 22”. Because this is the 1 September 2569 class and the regular class is Tuesday, the notes record 22 September 2569 but mark it for confirmation with the project announcement.
+- The project memory says this learner personally does not have to take the POL1101 exam. The teacher's exam instructions are retained as general course information, and the action item is to confirm whether the no-exam status also covers the second score collection.
+
+Blockers and production assumptions
+- No transcript or dependency blocker occurred.
+- YouTube and archive availability can change; live production behavior cannot be guaranteed from the local clone.
