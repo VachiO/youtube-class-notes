@@ -1,0 +1,31 @@
+URL: https://www.youtube.com/watch?v=OBKB8qnM3b4
+Video title: POL2129   1/9/69
+Subject: POL2129
+Class date: 2026-09-01
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2129\2026-09-01\video-01
+Created at: 2026-09-10T10:28:01
+Status: task folder created
+Video id: OBKB8qnM3b4
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: Your yt-dlp version (2026.06.09) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from PyPi; Use that to update.
+         To suppress this warning, add --no-update to your command/config.
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (OBKB8qnM3b4.th.vtt)
+Raw transcript characters: 520446
+Original transcript characters: 45325
+
+Resumed at: 2026-09-10T23:05:30+07:00
+Recovery: lifecycle item was running for more than 6 hours; verification showed incomplete output and no site-index entry. The stale lock was released and reacquired before resuming the same oldest new-queue item.
+Transcript revision: preserved the readable Thai caption transcript in six revised chunks and corrected evident recognition errors in the course code and English terms such as Group Action, Me Too, and Black Lives Matter. Ambiguous spoken names were not silently rewritten.
+Summary: created detailed Thai lecture notes preserving lecture order, definitions, the six defining points, symbolic-action examples, all four Social Movement forms, country cases, teacher stories, and the next-class announcement.
+Completeness audit 1: compared the summary against the revised transcript and restored the Harvard protest location, the Park Geun-hye example, and the Squid Game LGBT+ media aside.
+Completeness audit 2: checked the revised transcript again for definitions, conditions, examples, stories, and practical announcements; no substantial omission remained.
+Course files: updated readme-POL2129.md and hint-POL2129.md. No new exam, quiz, score, deadline, or required-action fact was announced, so exam-and-events-1-2569.md did not require a content change.
+Status: ready for site-index build, project-memory rebuild, lifecycle verification, commit, and push.

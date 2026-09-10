@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-08T16:17:21+00:00",
-  "totalLectures": 57,
+  "generatedAt": "2026-09-10T16:34:12+00:00",
+  "totalLectures": 58,
   "subjects": [
     {
       "code": "POL1101",
@@ -82,8 +82,9 @@
       "title": "รัฐและประชาสังคมในระบบการเมือง",
       "order": 2129,
       "noExam": false,
-      "lectureCount": 7,
+      "lectureCount": 8,
       "dates": [
+        "2026-09-01",
         "2026-08-25",
         "2026-08-11",
         "2026-08-04",
@@ -177,6 +178,28 @@
       "wordCount": 894,
       "importantCount": 21,
       "excerpt": "อาจารย์เริ่มต่อจากสัปดาห์ก่อนซึ่งจบเรื่องเศรษฐศาสตร์การเมืองทุนนิยม แล้วเข้าสู่เศรษฐศาสตร์การเมืองแนววิพากษ์ โดยวางฐานที่ความคิดของ Karl Marx (คาร์ล มาร์กซ์) ผู้เป็นทั้งนักปรัชญา นักเศรษฐศาสตร์ และนักคิดทางการเมือง มาร์ก..."
+    },
+    {
+      "id": "POL2129-2026-09-01-video-01",
+      "subject": "POL2129",
+      "courseTitle": "รัฐและประชาสังคมในระบบการเมือง",
+      "noExam": false,
+      "date": "2026-09-01",
+      "dateLabelTh": "วันอังคารที่ 1 กันยายน 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2129/2026-09-01/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2129/2026-09-01/video-01/source.txt",
+      "transcriptPath": "classes/POL2129/2026-09-01/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2129.md",
+      "hintPath": "hint-POL2129.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=OBKB8qnM3b4",
+      "paragraphCount": 21,
+      "wordCount": 295,
+      "importantCount": 10,
+      "excerpt": "คาบนี้เป็นการเรียนต่อจากเรื่อง Civil Society (ประชาสังคม) ในครั้งก่อน โดยขยายไปสู่ Social Movement (ขบวนการเคลื่อนไหวทางสังคม) อาจารย์ทบทวนว่าประชาชนมีส่วนร่วมทางการเมืองได้หลายรูปแบบ เช่น ทำงานผ่าน NGO องค์กรไม่แสวงหากำ..."
     },
     {
       "id": "POL1101-2026-09-01-video-01",
