@@ -1,0 +1,74 @@
+URL: https://www.youtube.com/watch?v=VrChsSUoRxE
+Video title: POL2129   08/9/69
+Subject: POL2129
+Class date: 2026-09-08
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2129\2026-09-08\video-01
+Created at: 2026-09-14T09:16:21
+Status: task folder created
+Video id: VrChsSUoRxE
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: Your yt-dlp version (2026.06.09) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from PyPi; Use that to update.
+         To suppress this warning, add --no-update to your command/config.
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (VrChsSUoRxE.th.vtt)
+Raw transcript characters: 484687
+Original transcript characters: 42823
+
+Restart processing record — 2026-09-14
+LLM requirement: gpt-5.6-sol, reasoning high only. The task was switched using the Codex task model/thinking override before this restart. All revision and summary work in this restart was performed after that switch.
+Location: main repository C:/Users/Admin/youtube-class-notes, not worktree f238.
+Input: newly initialized source, newly fetched Thai VTT/readable transcript, and original chunks 001–005 in the main repository. No revised transcript or summary from the previous worktree attempt was read or reused.
+Task initialization, fresh retrieval, and split were completed by the coordinating task before this worker began. Environment check was repeated here and passed. The coordinator holds the video lock; this worker did not modify locks or automation state.
+Previous worktree drafts remain in f238 because automatic approval review rejected the requested deletion without a specific reason. No deletion workaround was attempted. These drafts are excluded from this restart's inputs and are not merged.
+
+Video identity/completeness:
+Re-read the exact supplied Google Sites 8969 URL by Python HTTP and checked all four embedded IDs using YouTube oEmbed. F6ReEEcBaPU = POL1101 08/9/69; pYI13XfxyCM = POL4286 08/9/69; MF5Z7h9Fbog = POL4115 8/9/69; VrChsSUoRxE = POL2129 08/9/69. Only one POL2129 video is present on this date page. No second POL2129 part was found there.
+Do not normalize the Google Sites path by guessing its Thai spelling: a guessed path returned 404, while the exact supplied URL worked.
+Transcript access succeeded despite yt-dlp exit 1 from English subtitle HTTP 429: the complete Thai VTT was returned and used. No dependency changes were necessary for this workflow. Missing ffmpeg/JS runtime warnings did not prevent obtaining Thai subtitles.
+Thai VTT last cue: 01:18:33.639 --> 01:18:38.520. Readable/revised transcript reaches the final quiz instruction and closing greeting, not an abrupt mid-lecture stop.
+
+Revision method and original → revised completeness audit:
+Read every newly fetched original chunk sequentially and applied prompts/revise-transcript.md. Reviewed Thai spelling, English technical words, names, dates, and context. An initial more edited draft of the restart was replaced with minimal corrections directly from these new originals to keep spoken detail and line order near the source. This was not a reuse of the old worktree text.
+Final corrections were applied using a short inline Python standard-library operation containing reviewed replacements. Sound-only tags and subtitle speaker markers were removed; ordinary speech, repeated explanations, anecdotes, and meaningful asides were retained. No permanent processing script or new dependency was added.
+Chunk 001 original/revised nonblank-layout characters 8749/8663, lines 248/247. Retained Quiz 3 next week, four quizzes/40 points plus Final 60, qualification that full points require full performance, generous marking/jokes about 0/10/20, unchanged open-note/online-handwriting rules, concern about fairness, Final uncertainty/no notebook or lecture notes, topic naming, connection to civil society/people's politics, direct democracy, Greek male/18+ citizenship exclusions, Boule/Troy majority-vote example, broadened rights and ancestral-slave example, access condition, and political maturity warning/red star.
+Chunk 002 characters 8739/8738, lines 251/248. Retained unequal quality of online opinions, links between maturity and fake news, both terms as the teacher explained them, both border-patrol examples, the teacher's Hun Manet/cyber-space opinion, state→people/people→state/people→people misinformation, belief through liking, bottom-up definition and political outcomes, top-down contrast, legitimacy condition, truth-only red-star principle versus reality, criticism of activist IO, and the white-knight/student-life recollection continuing into 003.
+Chunk 003 characters 8721/8731, lines 259/259. Retained alleged political sponsorship/buying circa 20 years ago as the teacher's account without invented names, funding disillusionment, paper interruption, present-becomes-future-history quotation, online classroom/smartphone/50-year examples, Email/Web Activism 2546/2003, chain email/unknown account/anti-government signing example, webboard political-post-versus-personal-attack contrast, Chula political-science thread detail, unwanted autobiography/no-energy-to-go-home anecdotes, 2010-as-the-teacher's-view, both technology and Arab Spring reasons, seven-year contrast, clear burning-death imagery, emotion/consciousness/mobilization causal chain, email-image versus real-time comparison, and the transition question to other events.
+Chunk 004 characters 8750/8746, lines 247/246. Retained the student question distinguishing 6 October 2519/1976, Black May 2535/1992 and early mobile calls among Bangkok middle class, age/2000/2003/seven-year-old/iPad generational discussion, Colombia/Pakistan/India/Nepal examples, inequality→online messages→emotion→protest explanation, smartphones/news participation, emphasis on crowd number and hypothetical 100,000, crowd size versus political reasoning, real-time video/text/faces/emoticons, all sponsor/fake-news/morality/fairness checks, democratic diversity principle, teacher's differing-comment/correcting-information/blocking story, Cambodia/Hun/Phnom Penh Post contrast, Thai regime wording, hypothetical anti-Trump/supporter example, the qualification 'sometimes', and transition to strengths.
+Chunk 005 characters 7865/7876, lines 215/215. Retained all five strengths with their conditions/examples (local access/foreign researchers/anti-Prayut activists/Thai-language access, staying home versus bus routes/Lumphini/parliament, retweet/retrieve/deletion footprints, Gen Z Thai–Hong Kong/Joshua Wong, Lat Phrao→Nonthaburi real-time tactical change), English Strength/Weakness instructions, all four weaknesses (fake news; elite defined here as knowledgeable/educated with unequal follower knowledge; unequal Digital Literacy/video editing/light-sound skill; state monitoring and Computer Act/other legal response), ongoing conflict/platform changes/street→email→webboard→internet/post-digital metaphor, duty to learn, final Quiz 3 review scope and actual-question uncertainty, and closing greeting.
+The above original→revised audit was checked against line-diff blocks. No substantive source passage was intentionally deleted or converted to essay prose. Combining the five files did not change their order.
+Unclear fragments were left or marked conservatively; five explicit unclear markers concern an introductory phrase, sample email address, a transition phrase, transport-cost fragment, and a fragment before weakness 2. They do not establish missing dates, scores, named sponsors, or quiz questions. No audio re-listening was performed; these outputs correct captions, not an independently verified verbatim audio transcription.
+The teacher's misinformation/disinformation descriptions and Greek/Troy/Boule illustration were preserved as lecture content. No outside factual correction was substituted. Opinions and allegations about political actors are attributed to the teacher in the summary.
+
+Summary method:
+Applied prompts/summarize-lecture.md to revised chunks 001–005 and wrote five new summary chunks. Combined in lecture order as continuous natural Thai paragraphs. Included examples, chains of reasoning, teacher viewpoints, anecdotes, generation discussion, practical announcements, and final quiz instruction. Used warning markers for grade/exam and explicit preparation emphasis.
+Length: original 42824 characters; revised 42758 characters; summary 27481 characters; summary/revised ratio 64.27%; 52 paragraphs. This is a detailed lecture record with a little more than 60% retention because it preserves information-dense examples, stories, and conditions rather than compressing to a floor.
+Thai length review: the natural prose is assessed as exceeding the 2000-word floor. No Thai tokenizer, local word segmentation, or artificial inter-word spaces were used. No exact segmented Thai word count is claimed. A whitespace-based wordCount in the existing generated site index counts whitespace groups and does not measure Thai words accurately.
+
+Sequential summary completeness audit (prompts/audit-summary-completeness.md):
+Round 1 compared revised and summary in lecture order and also revisited original chunks so errors/omissions in revision could not hide summary omissions. Recovered the teacher's specific distinction 'not starting from digital, starting from email and webboard' into the history paragraph; preserved the deletion-footprint wording as the teacher's statement; tightened attribution and removed editorial/legal-advice language from the study prose. All recovered material was merged into its own summary chunk and recombined.
+Round 2 checked all five chunks again in order, including their final paragraphs. Covered every substantive unit listed in the original→revised audit above: no main definition, distinct causal step, country/name/date example, personal account, meaningful aside, student question, score condition, attendance/online action, or teacher exam emphasis remains substantially omitted. Result: COMPLETE.
+No new assignment, training, meeting, special-credit event, or Final date was announced in this recording. No omission was dismissed merely because it was outside the headline Digital Activism topic.
+
+Confirmed facts and uncertainty:
+Quiz 3 is next week after 8 September, corresponding to 15 September 2569. Open notes and online handwritten submission remain; do not type online answers. Four quizzes total 40 and Final is 60.
+Final no notebook/lecture-note rule was stated; its questions, number of questions, details, and date are not established here.
+The teacher says to review what was discussed 'today' for the next quiz but also says the question is not yet decided. Therefore Digital Activism is a confirmed preparation scope; exact question, number of questions, duration, and extent of linking earlier Civil Society/Social Movement lessons remain unconfirmed.
+Five practice questions with short answer guides were added to hint-POL2129.md and explicitly marked as predictions for practice, not an announced exam.
+Updated readme-POL2129.md (logistics only), hint-POL2129.md (exam/preparation only), and exam-and-events-1-2569.md (new evidence and coverage, replacing the outdated claim that 8 September is missing).
+No commit, merge, or website publication was performed. Main-repository outputs require no worktree merge; the coordinating task will review and release its lock.
+
+Final verification:
+Environment check passed again. All six required files exist and are nonempty; all five original, five revised, and five summary chunks exist and are nonempty. Combined revised and summary files were checked for exact equality with their respective ordered chunk concatenations. Closing greeting and all critical concept/example inventory terms are present. No introduced 'digDigital' spelling remains.
+build_site_index.py succeeded with 60 lectures; POL2129-2026-09-08-video-01 is present exactly once with the correct source URL and 52 summary paragraphs.
+project_memory.py build succeeded with 61 tasks/60 complete; POL2129 has 9 tasks and 9 complete, latest class date 2026-09-08. video VrChsSUoRxE returns only this one main-repository folder. The single repository-health issue is the unrelated existing POL3128/2026-08-31/video-01-v2 draft, which was not changed here.
+git status was reviewed. This task changed only the new main-repository POL2129/2026-09-08/video-01 output tree, readme-POL2129.md, hint-POL2129.md, exam-and-events-1-2569.md, data/site-index.json, and generated data/project-memory.json. Other pre-existing modifications/untracked files were left in place.
+Status: completed fresh processing; sequential original/revised and summary audit COMPLETE; ready for coordinating task review and lock release.
+
+2026-09-14 handoff update: User explicitly requested commit and push. Recorded durable preferences in AGENTS.md: gpt-5.6-sol/high for processing; preserve extra supported lecture detail when uncertain; commit/push completed verified outputs without waiting for a separate request. The no-commit statement above describes the earlier handoff before this instruction. Imported raw VTT whitespace is preserved unchanged; whitespace checks exclude only that raw source artifact.

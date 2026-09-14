@@ -40,6 +40,13 @@ Call these `รายวิชาในเทอม 1/2569`. If the user asks to
 
 When this command is used, do the work end to end unless blocked by YouTube access, missing dependencies, or a transcript that cannot be obtained.
 
+## User Processing Preferences
+
+- Use `gpt-5.6-sol` with reasoning effort `high` for video processing.
+- When deciding whether lecture detail is useful or excessive, preserve the extra supported detail first. Do not invent facts or treat uncertain claims as confirmed.
+- After processing and verification are complete, commit and push the finished task outputs without waiting for a separate request. Keep unrelated unfinished work outside the task commit.
+
+
 ## Output Layout
 
 Create outputs under:

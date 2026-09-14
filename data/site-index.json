@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-14T01:43:33+00:00",
-  "totalLectures": 59,
+  "generatedAt": "2026-09-14T02:31:42+00:00",
+  "totalLectures": 60,
   "subjects": [
     {
       "code": "POL1101",
@@ -82,8 +82,9 @@
       "title": "รัฐและประชาสังคมในระบบการเมือง",
       "order": 2129,
       "noExam": false,
-      "lectureCount": 8,
+      "lectureCount": 9,
       "dates": [
+        "2026-09-08",
         "2026-09-01",
         "2026-08-25",
         "2026-08-11",
@@ -136,6 +137,28 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL2129-2026-09-08-video-01",
+      "subject": "POL2129",
+      "courseTitle": "รัฐและประชาสังคมในระบบการเมือง",
+      "noExam": false,
+      "date": "2026-09-08",
+      "dateLabelTh": "วันอังคารที่ 8 กันยายน 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2129/2026-09-08/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2129/2026-09-08/video-01/source.txt",
+      "transcriptPath": "classes/POL2129/2026-09-08/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2129.md",
+      "hintPath": "hint-POL2129.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=VrChsSUoRxE",
+      "paragraphCount": 52,
+      "wordCount": 871,
+      "importantCount": 33,
+      "excerpt": "⚠️ ในคาบ POL2129 วันที่ 8 กันยายน 2569 อาจารย์เริ่มจากแจ้งว่าอาทิตย์หน้าจะมี Quiz ครั้งที่ 3 เป็นการเก็บคะแนนครั้งที่สามของรายวิชา เมื่อเทียบกับวันบรรยายจึงหมายถึงวันที่ 15 กันยายน 2569 อาจารย์เห็นว่าการมีควิสเป็นประโยชน..."
+    },
     {
       "id": "POL3179-2026-09-02-video-01",
       "subject": "POL3179",
