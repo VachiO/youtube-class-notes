@@ -1,0 +1,36 @@
+URL: https://www.youtube.com/watch?v=v6PaJ96u5TE
+Video title: POL3128  วันที่ 31/08/69  (EP.1)
+Subject: POL3128
+Class date: 2026-08-31
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL3128\2026-08-31\video-01
+Created at: 2026-09-14T08:37:52
+Status: task folder created
+Video id: v6PaJ96u5TE
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: Your yt-dlp version (2026.06.09) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from PyPi; Use that to update.
+         To suppress this warning, add --no-update to your command/config.
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (v6PaJ96u5TE.th.vtt)
+Raw transcript characters: 292203
+Original transcript characters: 24634
+
+Processing run: 2026-09-14 Asia/Bangkok
+Automation new slot: v6PaJ96u5TE, POL3128 2026-08-31 EP.1. Backlog queue has no eligible item; no substitution.
+Live YouTube oEmbed title/subject/date validation passed before folder creation. Created a new video-01 folder; no existing folder was overwritten.
+Environment check passed. yt-dlp downloaded Thai-original captions despite an English subtitle HTTP 429; used the Thai track, not English translation. Warnings about older yt-dlp, missing JS runtime and ffmpeg did not prevent transcript acquisition.
+Split readable transcript into 3 original chunks before revision. Reviewed every chunk directly in this automation and corrected evident Thai recognition errors and proper terms; kept original order and spoken detail. Wrote 3 matching revised chunks and combined transcript-revised.txt. Unclear fragments retained or explicitly marked instead of guessed. Raw and original sources preserved.
+Wrote 3 detailed Thai continuous-prose lecture-note chunks and combined lecture-summary.txt. Around 18,900 natural Thai characters, roughly 69% of revised text including line breaks. Thai word count is an approximate reading-length estimate above 2,000, not a tokenizer-verified count; no Thai tokenizer or artificial spacing used. Acceptance is based on sequential substantive-detail coverage, not this estimate.
+Completed two sequential audits using prompts/audit-summary-completeness.md. Pass 1 restored organic/inorganic detail in the microscope story; pass 2 found no substantial omissions. Audit records are in chunks/audit-pass-001.txt and chunks/audit-pass-002.txt.
+Preserved the teacher's personal railway-student story, Viking and turtle anecdotes, sailboat explanation, microscope and 30-second documentary, Mona Lisa and Brussels experiences, volleyball enthusiasm, and US tuition illustration. Distinguished teacher stories/estimates from verified historical, scientific, or sports facts. Did not invent unclear museum/group names or contradictory chronology.
+Updated readme-POL3128.md with absence of new announcements limited to EP.1, hint-POL3128.md with teacher emphasis rather than promised exam topics, and local canonical exam-and-events-1-2569.md with coverage through EP.1. EP.2 remains unprocessed.
+No transcript blocker. Required course facts are local in canonical exam/event file; automation commit allowlist excludes that pre-existing untracked file and generated project-memory.json. Unrelated user changes remain untouched.
+
+Repository health warning: a separate overlapping run created video-01-v2 at 08:37:56 without acquiring this run's 08:37:52 lock. Its notes explicitly record a lock collision and no transcript processing. Left that unrelated incomplete duplicate untouched and excluded it from the commit. This run owns and completes video-01. The shared lifecycle attempts count was increased by the overlapping run; preserved rather than rewriting its history.
+Final offline checks: all six required files non-empty; 3 original, 3 revised and 3 summary chunks non-empty; two audit records present; generated site index has 59 lectures and includes this ID; project memory rebuilt. automation_state.py verify passed. Ready for scoped commit and push; completion state will be set only after successful push.

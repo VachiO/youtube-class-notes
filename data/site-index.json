@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-10T16:34:12+00:00",
-  "totalLectures": 58,
+  "generatedAt": "2026-09-14T01:43:33+00:00",
+  "totalLectures": 59,
   "subjects": [
     {
       "code": "POL1101",
@@ -100,8 +100,9 @@
       "title": "แนววิเคราะห์ทฤษฎีการเมือง",
       "order": 3128,
       "noExam": true,
-      "lectureCount": 8,
+      "lectureCount": 9,
       "dates": [
+        "2026-08-31",
         "2026-08-24",
         "2026-08-17",
         "2026-08-10",
@@ -222,6 +223,28 @@
       "wordCount": 531,
       "importantCount": 23,
       "excerpt": "⚠️ ช่วงต้นคาบอาจารย์ประกาศเรื่องคะแนนเก็บครั้งถัดไป โดยตอบผู้ประสานงานว่ากำหนดไว้ “วันที่ 22” และขอให้หัวหน้าห้องช่วยแจ้งโครงการกับกระจายข่าวให้เพื่อนทราบ จากบริบทของคาบวันที่ 1 กันยายน หมายถึงวันที่ 22 กันยายน 2569 แต่ค..."
+    },
+    {
+      "id": "POL3128-2026-08-31-video-01",
+      "subject": "POL3128",
+      "courseTitle": "แนววิเคราะห์ทฤษฎีการเมือง",
+      "noExam": true,
+      "date": "2026-08-31",
+      "dateLabelTh": "วันจันทร์ที่ 31 สิงหาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL3128/2026-08-31/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL3128/2026-08-31/video-01/source.txt",
+      "transcriptPath": "classes/POL3128/2026-08-31/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL3128.md",
+      "hintPath": "hint-POL3128.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=v6PaJ96u5TE",
+      "paragraphCount": 35,
+      "wordCount": 558,
+      "importantCount": 21,
+      "excerpt": "คำบรรยาย POL3128 วันที่ 31 สิงหาคม 2569 ตอนที่ 1 เรียนต่อเรื่ององค์ประกอบข้อที่ 3 ของการวิเคราะห์ คือ Methodology (วิธีการศึกษา) ซึ่งค้างมาจากครั้งก่อน เมื่อจะวิเคราะห์โจทย์ ปัญหา หรือประเด็นใด การมีข้อมูลกับกรอบความคิดย..."
     },
     {
       "id": "POL2102-2026-08-27-video-01",
