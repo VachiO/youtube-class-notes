@@ -140,6 +140,12 @@ async function renderDossier() {
   ]);
   el.courseReadme.innerHTML = markdownToHtml(readme || `# ${state.subject.code}\n\nยังไม่มีข้อมูลวิชา`);
   el.courseHints.innerHTML = markdownToHtml(hints || `# แนวสอบ ${state.subject.code}\n\nยังไม่มีแนวสอบที่บันทึกไว้`);
+  if (state.subject.code === "POL2129") {
+    const notes = await fetchText("notes-POL2129-2026-09-01.md");
+    document.querySelector("#personalNotesContent").innerHTML = markdownToHtml(notes)
+      || '<p class="empty-state">โหลดบันทึกไม่สำเร็จ กรุณาลองใหม่อีกครั้ง</p>';
+    document.querySelector("#personalNotes").hidden = false;
+  }
 }
 
 function renderLectureList() {
