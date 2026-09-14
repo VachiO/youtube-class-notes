@@ -1,0 +1,34 @@
+URL: https://www.youtube.com/watch?v=Tt9j_ek6KWE
+Video title: POL3128  วันที่ 31/08/69  (EP.2)
+Subject: POL3128
+Class date: 2026-08-31
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL3128\2026-08-31\video-02
+Created at: 2026-09-14T23:02:36
+Status: task folder created
+Video id: Tt9j_ek6KWE
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: Your yt-dlp version (2026.06.09) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from PyPi; Use that to update.
+         To suppress this warning, add --no-update to your command/config.
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (Tt9j_ek6KWE.th.vtt)
+Raw transcript characters: 75479
+Original transcript characters: 6595
+
+Processing completed by daily automation, directly in the same task.
+New queue slot: Tt9j_ek6KWE; backlog slot not allocated because no eligible backlog exists.
+Live YouTube title independently validated by upsert and init_task before folder creation.
+Thai-original VTT fallback succeeded after English subtitle HTTP 429.
+Original transcript split into one chunk before LLM correction. Corrected all source passages in sequence; preserved detail and meaningful digressions. Brief unrelated telephone conversation reduced to interruption marker.
+Uncertain historian name was not guessed. Budget-direction sentence is incomplete in source; no missing result inferred. Statistical vocabulary was corrected by context; first analysis term remains caveated, since the spoken explanation does not establish a precise statistical definition.
+Detailed Thai prose notes written from revised transcript; two sequential completeness audits COMPLETE, recorded separately in chunks/audit-summary-pass-*.txt.
+Length exception: this EP.2 is an unusually short continuation/closing segment, only 6595 original Thai characters. Notes preserve all substantive content; fewer than 2000 words accepted under AGENTS.md short-transcript exception. No Thai tokenizer, artificial spaces, or unsupported padding used.
+Course readme/hint and canonical exam/events coverage updated: final lecture will provide exam hints; final two/three lectures focus on theories; next lecture covers summarizing and question formulation. No new quiz, assignment, scoring rule, actual exam topic or exam date. Personal no-exam status preserved.
+Canonical exam/events and generated project memory remain local under automation strict commit allowlist.
+Final checks: environment PASS; all six required outputs non-empty; one original/revised/summary chunk and two audit records present; combined outputs match chunks; site index includes video; project memory rebuilt; automation verify PASS.
