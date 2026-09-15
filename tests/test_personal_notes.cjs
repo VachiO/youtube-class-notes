@@ -35,9 +35,15 @@ async function render(subject, missing = false) {
     assert.ok(html.includes(text), `Missing note content: ${text}`);
   }
   const other = await render("POL1101");
+  const september8 = elements.get("#personalNotesSeptember8Content").innerHTML;
+  for (const text of ["8 กันยายน 2569", "Digital Activism", "Direct Democracy", "Misinformation", "Disinformation", "2546 (2003)", "2010", "Arab Spring", "โคลอมเบีย", "ปากีสถาน", "อินเดีย", "เนปาล", "ความย้อนแย้ง", "5.5", "Digital Literacy", "6.4 การตอบโต้อย่างรุนแรง"]) {
+    assert.ok(september8.includes(text), `Missing September 8 note content: ${text}`);
+  }
+  assert.ok(!other.requested.includes("notes-POL2129-2026-09-08.md"));
   assert.ok(!other.requested.includes("notes-POL2129-2026-09-01.md"));
   assert.ok(!other.elements.has("#personalNotes"));
   const missing = await render("POL2129", true);
   assert.ok(missing.elements.get("#personalNotesContent").innerHTML.includes("โหลดบันทึกไม่สำเร็จ"));
+  assert.ok(missing.elements.get("#personalNotesSeptember8Content").innerHTML.includes("โหลดบันทึกไม่สำเร็จ"));
   console.log("Personal notes: content, course visibility, and load failure checks passed.");
 })().catch(error => { console.error(error); process.exitCode = 1; });
