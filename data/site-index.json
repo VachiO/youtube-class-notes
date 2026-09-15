@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-14T16:05:33+00:00",
-  "totalLectures": 61,
+  "generatedAt": "2026-09-15T16:14:26+00:00",
+  "totalLectures": 62,
   "subjects": [
     {
       "code": "POL1101",
@@ -121,7 +121,7 @@
       "title": "การเมืองในอเมริกา",
       "order": 3179,
       "noExam": false,
-      "lectureCount": 10,
+      "lectureCount": 11,
       "dates": [
         "2026-09-02",
         "2026-08-26",
@@ -158,6 +158,28 @@
       "wordCount": 871,
       "importantCount": 33,
       "excerpt": "⚠️ ในคาบ POL2129 วันที่ 8 กันยายน 2569 อาจารย์เริ่มจากแจ้งว่าอาทิตย์หน้าจะมี Quiz ครั้งที่ 3 เป็นการเก็บคะแนนครั้งที่สามของรายวิชา เมื่อเทียบกับวันบรรยายจึงหมายถึงวันที่ 15 กันยายน 2569 อาจารย์เห็นว่าการมีควิสเป็นประโยชน..."
+    },
+    {
+      "id": "POL3179-2026-09-02-video-02",
+      "subject": "POL3179",
+      "courseTitle": "การเมืองในอเมริกา",
+      "noExam": false,
+      "date": "2026-09-02",
+      "dateLabelTh": "วันพุธที่ 2 กันยายน 2569",
+      "buddhistYear": 2569,
+      "video": "video-02",
+      "videoNumber": 2,
+      "version": 1,
+      "summaryPath": "classes/POL3179/2026-09-02/video-02/lecture-summary.txt",
+      "sourcePath": "classes/POL3179/2026-09-02/video-02/source.txt",
+      "transcriptPath": "classes/POL3179/2026-09-02/video-02/transcript-revised.txt",
+      "readmePath": "readme-POL3179.md",
+      "hintPath": "hint-POL3179.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=wdjNwHXcF3k",
+      "paragraphCount": 63,
+      "wordCount": 1239,
+      "importantCount": 40,
+      "excerpt": "อาจารย์เปิดชั้นเรียนด้วยการแจ้งว่า หลังจากครั้งนี้เหลือเวลาเรียนอีกเพียง 4 ครั้ง และย้ำกำหนดสอบวันที่ 7 ตุลาคม 2569 การสอบมีคำถามใหญ่ 2 ข้อ โดยข้อหนึ่งเกี่ยวกับ “การทดลอง” ของสหรัฐอเมริกา ส่วนรายละเอียดคำถามอาจารย์จะบอกเ..."
     },
     {
       "id": "POL3179-2026-09-02-video-01",
