@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T16:14:26+00:00",
-  "totalLectures": 62,
+  "generatedAt": "2026-09-16T16:14:51+00:00",
+  "totalLectures": 63,
   "subjects": [
     {
       "code": "POL1101",
@@ -26,8 +26,9 @@
       "title": "POL2100",
       "order": 2100,
       "noExam": false,
-      "lectureCount": 7,
+      "lectureCount": 8,
       "dates": [
+        "2026-09-03",
         "2026-08-27",
         "2026-08-20",
         "2026-08-06",
@@ -158,6 +159,28 @@
       "wordCount": 871,
       "importantCount": 33,
       "excerpt": "⚠️ ในคาบ POL2129 วันที่ 8 กันยายน 2569 อาจารย์เริ่มจากแจ้งว่าอาทิตย์หน้าจะมี Quiz ครั้งที่ 3 เป็นการเก็บคะแนนครั้งที่สามของรายวิชา เมื่อเทียบกับวันบรรยายจึงหมายถึงวันที่ 15 กันยายน 2569 อาจารย์เห็นว่าการมีควิสเป็นประโยชน..."
+    },
+    {
+      "id": "POL2100-2026-09-03-video-01",
+      "subject": "POL2100",
+      "courseTitle": "POL2100",
+      "noExam": false,
+      "date": "2026-09-03",
+      "dateLabelTh": "วันพฤหัสบดีที่ 3 กันยายน 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2100/2026-09-03/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2100/2026-09-03/video-01/source.txt",
+      "transcriptPath": "classes/POL2100/2026-09-03/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2100.md",
+      "hintPath": "hint-POL2100.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=yV8-w7r-uGI",
+      "paragraphCount": 53,
+      "wordCount": 693,
+      "importantCount": 23,
+      "excerpt": "⚠️ ช่วงต้นคาบอาจารย์แจ้งว่าเหลือการเรียนอีกประมาณ 5 ครั้งก่อนสอบ จึงถือว่าเข้าสู่ช่วงท้ายภาคแล้ว เนื้อหาคาบนี้ต่อจากการเมืองการปกครองญี่ปุ่น โดยเน้นการปกครองท้องถิ่น และจะต่อด้วยกรณีสิงคโปร์ อาจารย์สนใจญี่ปุ่นมากเพราะระบ..."
     },
     {
       "id": "POL3179-2026-09-02-video-02",
