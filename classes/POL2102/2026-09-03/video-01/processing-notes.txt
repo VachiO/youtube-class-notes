@@ -1,0 +1,35 @@
+URL: https://www.youtube.com/watch?v=YCW2w11NClY
+Video title: POL2102  03/9/69
+Subject: POL2102
+Class date: 2026-09-03
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2102\2026-09-03\video-01
+Created at: 2026-09-17T23:03:16
+Status: task folder created
+Video id: YCW2w11NClY
+yt-dlp exit code: 0
+yt-dlp stderr:
+WARNING: Your yt-dlp version (2026.06.09) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from PyPi; Use that to update.
+         To suppress this warning, add --no-update to your command/config.
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+Transcript method: yt-dlp (YCW2w11NClY.en.vtt)
+Raw transcript characters: 1033922
+Original transcript characters: 126784
+Transcript method: youtube-transcript-api
+Raw transcript characters: 261960
+Original transcript characters: 84617
+Transcript selection: replaced the initial English auto-translation with the Thai auto-generated track before chunking and revision.
+Transcript revision: split the Thai original into 10 chunks; preserved lecture order and detail while correcting recurring obvious ASR errors and key names/terms.
+Summary: produced 9 ordered summary/audit chunks and combined them into detailed Thai lecture notes.
+Completeness audit 1: restored distinctions among lobbying, public-opinion campaigns, donations, litigation, protest, and bribery; restored Thai interest-group history and mass-politics context.
+Completeness audit 2: checked the revised transcript sequentially and restored party linkage, institutionalization, Duverger effects, four party systems, party structures/functions, and the military-local-boss-faction stages of Thai party development. Result: COMPLETE; no substantial omission remained.
+Course files: no new exam, quiz, score, assignment, deadline, or attendance announcement appeared. The course logistics file and canonical exam/event file therefore did not require a factual update. Added non-predictive study-index topics to hint-POL2102.md.
+Archive check: live Google Sites navigation exposed 42 dates through 16/9/69, but date pages returned the site's 404 body during this run; no new embed could be trusted for lifecycle upsert. The assigned video's YouTube title/date identity was freshly revalidated through oEmbed before task creation.
+Final checks: environment ready; 6 automated tests passed; 10 original chunks, 10 revised chunks, and 9 summary/audit chunks are non-empty; the combined notes contain 27,077 natural Thai characters without artificial word spacing.
+Index and memory: site index rebuilt to 64 lectures; project memory rebuilt to 65 task folders. The only health issue is the pre-existing unrelated incomplete POL3128 lock-collision folder video-01-v2.
+Lifecycle verification: output folder complete and site index contains video YCW2w11NClY.
+Status: processing complete pending scoped commit and push.
