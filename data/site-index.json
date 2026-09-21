@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T16:10:49+00:00",
-  "totalLectures": 64,
+  "generatedAt": "2026-09-21T01:59:08+00:00",
+  "totalLectures": 65,
   "subjects": [
     {
       "code": "POL1101",
@@ -65,8 +65,9 @@
       "title": "การเมืองเปรียบเทียบ",
       "order": 2107,
       "noExam": true,
-      "lectureCount": 9,
+      "lectureCount": 10,
       "dates": [
+        "2026-09-09",
         "2026-09-02",
         "2026-08-26",
         "2026-08-19",
@@ -139,6 +140,28 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL2107-2026-09-09-video-01",
+      "subject": "POL2107",
+      "courseTitle": "การเมืองเปรียบเทียบ",
+      "noExam": true,
+      "date": "2026-09-09",
+      "dateLabelTh": "วันพุธที่ 9 กันยายน 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2107/2026-09-09/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2107/2026-09-09/video-01/source.txt",
+      "transcriptPath": "classes/POL2107/2026-09-09/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2107.md",
+      "hintPath": "hint-POL2107.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=u--759FpI-U",
+      "paragraphCount": 11,
+      "wordCount": 2003,
+      "importantCount": 10,
+      "excerpt": "บันทึกการบรรยายรายวิชา POL2107 วันที่ 9 กันยายน 2569"
+    },
     {
       "id": "POL2129-2026-09-08-video-01",
       "subject": "POL2129",

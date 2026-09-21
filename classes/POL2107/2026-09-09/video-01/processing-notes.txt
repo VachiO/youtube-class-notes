@@ -1,0 +1,33 @@
+URL: https://www.youtube.com/watch?v=u--759FpI-U
+Video title: POL2107   09/9/69
+Subject: POL2107
+Class date: 2026-09-09
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2107\2026-09-09\video-01
+Created at: 2026-09-21T08:53:33
+Status: task folder created
+Video id: u--759FpI-U
+yt-dlp exit code: 0
+yt-dlp stderr:
+WARNING: Your yt-dlp version (2026.06.09) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from PyPi; Use that to update.
+         To suppress this warning, add --no-update to your command/config.
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+Transcript method: yt-dlp (u--759FpI-U.en.vtt)
+Raw transcript characters: 873321
+Original transcript characters: 106080
+Raw transcript characters: 778558
+Original transcript characters: 68869
+Replaced English auto-translation with Thai-original caption track (th-orig).
+Processing completed by scheduled automation on 2026-09-21 (Asia/Bangkok).
+Identity: live YouTube title/date validation passed for POL2107, class date 09/09/69, video u--759FpI-U.
+Transcript: the default fetch initially selected an English auto-translation; it was rejected and replaced with YouTube Thai (Original), language code th-orig.
+Revision: transcript-original.txt was split before revision into 8 ordered chunks. Obvious names and technical terms were normalized while the lecture sequence and detail were preserved; the 8 revised chunks were recombined into transcript-revised.txt.
+Summary: 8 ordered summary chunks were created and recombined. Because this lecture is information-dense and the natural Thai word count otherwise fell below the 2,000-word floor, the final notes retain approximately 77.8% of the revised transcript by character count, preserve lecture order, and mark explicit exam guidance with ⚠️. The generated site index reports 2,003 words.
+Completeness audit pass 1: checked the revised transcript sequentially for definitions, state classifications, regime comparisons, country examples, teacher emphasis, and every line mentioning exams, quizzes, scores, or submissions; critical contexts were present.
+Completeness audit pass 2: compared repeated English/proper-name terms and all explicit exam-related lines against the combined summary; no substantial missing critical line remained. Added a coherent exam overview covering the 2–3 state-classification questions, Developmental State, legislature names, likely multiple-choice format, and the excluded semi-presidential subtypes.
+Course files: added the lecture to readme-POL2107.md and appended exam guidance to hint-POL2107.md. No new quiz, assignment, deadline, score rule, attendance requirement, or dated event was announced, so exam-and-events-1-2569.md required no factual update.
+Production note: YouTube caption availability and static-site publication timing remain externally controlled; local output and index checks were completed.
