@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-21T01:59:08+00:00",
-  "totalLectures": 65,
+  "generatedAt": "2026-09-21T02:42:34+00:00",
+  "totalLectures": 67,
   "subjects": [
     {
       "code": "POL1101",
@@ -26,8 +26,10 @@
       "title": "POL2100",
       "order": 2100,
       "noExam": false,
-      "lectureCount": 8,
+      "lectureCount": 10,
       "dates": [
+        "2026-09-17",
+        "2026-09-10",
         "2026-09-03",
         "2026-08-27",
         "2026-08-20",
@@ -140,6 +142,50 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL2100-2026-09-17-video-01",
+      "subject": "POL2100",
+      "courseTitle": "POL2100",
+      "noExam": false,
+      "date": "2026-09-17",
+      "dateLabelTh": "วันพฤหัสบดีที่ 17 กันยายน 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2100/2026-09-17/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2100/2026-09-17/video-01/source.txt",
+      "transcriptPath": "classes/POL2100/2026-09-17/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2100.md",
+      "hintPath": "hint-POL2100.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=RJ7_JeujSvg",
+      "paragraphCount": 37,
+      "wordCount": 461,
+      "importantCount": 21,
+      "excerpt": "คาบเริ่มจากการทบทวนอำนาจประธานาธิบดีในเกาหลีใต้ การประกาศสงคราม การอภัยโทษ การประกาศสถานการณ์ฉุกเฉิน และกฎอัยการศึก แม้ประธานาธิบดีเป็นผู้ประกาศ แต่การตัดสินใจสำคัญต้องผ่านรัฐสภา หากสภาไม่เห็นชอบ คำสั่งก็เป็นโมฆะ กลไกนี้..."
+    },
+    {
+      "id": "POL2100-2026-09-10-video-01",
+      "subject": "POL2100",
+      "courseTitle": "POL2100",
+      "noExam": false,
+      "date": "2026-09-10",
+      "dateLabelTh": "วันพฤหัสบดีที่ 10 กันยายน 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2100/2026-09-10/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2100/2026-09-10/video-01/source.txt",
+      "transcriptPath": "classes/POL2100/2026-09-10/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2100.md",
+      "hintPath": "hint-POL2100.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=LXZb-_S6Qic",
+      "paragraphCount": 39,
+      "wordCount": 556,
+      "importantCount": 13,
+      "excerpt": "การบรรยายต่อจากคาบก่อนยังอยู่ที่ประเทศสิงคโปร์ อาจารย์ใช้สิงคโปร์เป็นตัวอย่างของประเทศที่จัดระบบบ้านเมืองได้ดีมาก แม้ภายในจะมีปัญหาและข่าวทุจริตอยู่บ้าง แต่เมื่อรัฐบาลและผู้รับผิดชอบบ้านเมืองโดยรวมสะอาด ปัญหาก็ไม่กลายเป็..."
+    },
     {
       "id": "POL2107-2026-09-09-video-01",
       "subject": "POL2107",

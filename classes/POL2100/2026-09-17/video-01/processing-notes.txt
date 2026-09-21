@@ -1,0 +1,35 @@
+URL: https://www.youtube.com/watch?v=RJ7_JeujSvg
+Video title: POL2100   17/9/69
+Subject: POL2100
+Class date: 2026-09-17
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2100\2026-09-17\video-01
+Created at: 2026-09-21T09:27:47
+Status: task folder created
+Video id: RJ7_JeujSvg
+yt-dlp exit code: 0
+yt-dlp stderr:
+WARNING: Your yt-dlp version (2026.06.09) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from PyPi; Use that to update.
+         To suppress this warning, add --no-update to your command/config.
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+Transcript method: yt-dlp (RJ7_JeujSvg.en.vtt)
+Raw transcript characters: 270307
+Original transcript characters: 31671
+
+สรุปการประมวลผลเพิ่มเติม
+- ตรวจสภาพแวดล้อมด้วย `scripts/check_environment.py` สำเร็จก่อนเริ่มงาน
+- สร้างโฟลเดอร์ใหม่ `video-01` โดยไม่เขียนทับวิดีโอเดิม
+- การดึงอัตโนมัติครั้งแรกเลือกคำบรรยายแปลภาษาอังกฤษ `RJ7_JeujSvg.en.vtt` แม้มีคำบรรยายต้นฉบับภาษาไทย จึงดึง `th-orig` โดยตรง แล้วแทนที่ `transcript-raw.txt` และ `transcript-original.txt` ด้วยแทร็กภาษาไทยก่อนแก้ไขเนื้อหา
+- หลังแก้แหล่งคำบรรยาย แบ่ง `transcript-original.txt` ใหม่เป็น 3 ส่วนตามเกณฑ์ 9,000 ตัวอักษร และลบส่วนที่ 4 เก่าซึ่งเป็นเศษจากการแบ่งคำบรรยายอังกฤษ
+- แก้คำถอดเสียงครบทุกส่วนตาม `prompts/revise-transcript.md` และรวมเป็น `transcript-revised.txt` โดยคงเนื้อหาเกาหลีใต้ ฝรั่งเศส ญี่ปุ่น โครงสร้างท้องถิ่น และประกาศคะแนนเก็บ
+- สรุปจากคำบรรยายแก้ไขเป็น 3 ส่วนตาม `prompts/summarize-lecture.md` แล้วรวมเป็น `lecture-summary.txt` ภาษาไทยแบบบันทึกการบรรยาย
+- สรุปมีความยาวประมาณ 70% ของคำบรรยายแก้ไข เพราะคาบนี้ให้รายละเอียดเนื้อหาญี่ปุ่นและแนวคะแนนเก็บต่อเนื่อง
+- ตรวจความครบถ้วนตาม `prompts/audit-summary-completeness.md` สองรอบ ผลทั้งสองรอบเป็น `COMPLETE` ไม่พบสาระสำคัญที่ตกหล่น
+- ยืนยันคะแนนเก็บครั้งที่ 2 วันพฤหัสบดีที่ 24 กันยายน 2569 เวลาเรียน หัวข้อญี่ปุ่นพร้อมเปรียบเทียบไทยแบบสั้น ๆ เปิดตำรา/เอกสารได้ และให้ร่างคำตอบก่อนเขียน
+- ยืนยันว่าหลังคะแนนเก็บเหลือเรียนประมาณ 2 ครั้ง และคาบสุดท้ายจะบอกแนวสอบปลายภาค
+- อัปเดต `readme-POL2100.md`, `hint-POL2100.md` และ `exam-and-events-1-2569.md`
+- ไม่พบตัวบล็อกระหว่างการประมวลผล
