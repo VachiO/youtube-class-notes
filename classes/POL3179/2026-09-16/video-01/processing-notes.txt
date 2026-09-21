@@ -1,0 +1,33 @@
+URL: https://www.youtube.com/watch?v=4iLOKy9UUlQ
+Video title: POL3179   16/9/69
+Subject: POL3179
+Class date: 2026-09-16
+Task folder: classes/POL3179/2026-09-16/video-01
+Created at: 2026-09-21T14:11:35
+Status: task folder created
+Video id: 4iLOKy9UUlQ
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: Your yt-dlp version (2026.06.09) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from PyPi; Use that to update.
+         To suppress this warning, add --no-update to your command/config.
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (4iLOKy9UUlQ.th.vtt)
+Raw transcript characters: 715386
+Original transcript characters: 62797
+
+Status: complete
+Environment: scripts/check_environment.py passed before processing.
+Identity: YouTube title verified against requested subject and class date before task creation.
+Transcript: Thai VTT was obtained by yt-dlp despite an exit code of 1 caused by an English subtitle HTTP 429; raw and readable Thai transcripts were saved.
+Revision: original transcript was split before revision; each original chunk has a matching revised chunk. High-confidence speech-to-text corrections and audio-cue cleanup were applied, preserving lecture order and uncertain claims as spoken.
+Summary: Thai lecture-note chunks were combined in source order; claims that were uncertain or subjective were attributed to the lecturer.
+Completeness audit (prompts/audit-summary-completeness.md): compared source and notes chunk by chunk from beginning to end; เงินหาเสียง, หน่วยงานฝ่ายบริหาร, Executive Order, บทบาทประธานาธิบดีหกด้าน; ตรวจเรื่องเล่า CIA/เอกสารปลดชั้น, Guantánamo, Trump–Kim, สินค้าพรรค, shutdown และการต่อพาสปอร์ต; เติมรายละเอียดศาลตรวจคำสั่ง เอกสารข่าวกรอง และแบรนด์พรรค. A second sequential pass found no remaining substantial omissions.
+Quality: original chunks=8, revised chunks=8, summary chunks=8; revised characters=62916; summary characters=26161; summary/revised ratio=41.6%. Thai prose was not artificially segmented for word counting.
+Course files: readme, hint, and semester exam/events facts updated where new logistics or exam hints occurred.
+Blockers: none. Production video/audio and any transcript nuance beyond the acquired captions cannot be independently verified offline.
