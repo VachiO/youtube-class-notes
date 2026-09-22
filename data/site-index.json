@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T03:56:55+00:00",
-  "totalLectures": 72,
+  "generatedAt": "2026-09-22T16:16:16+00:00",
+  "totalLectures": 73,
   "subjects": [
     {
       "code": "POL1101",
@@ -49,9 +49,10 @@
       "title": "หลักรัฐธรรมนูญและสถาบันทางการเมือง",
       "order": 2102,
       "noExam": true,
-      "lectureCount": 10,
+      "lectureCount": 11,
       "dates": [
         "2026-09-17",
+        "2026-09-10",
         "2026-09-03",
         "2026-08-27",
         "2026-08-20",
@@ -234,6 +235,28 @@
       "wordCount": 428,
       "importantCount": 26,
       "excerpt": "⚠️ อาจารย์เปิดคาบด้วยการย้ำว่านัดเก็บคะแนนวันที่ 22 กันยายน 2569 และอยากให้นักศึกษาที่มาเรียนเข้าสอบกัน รูปแบบเป็นข้อสอบอัตนัยหนึ่งข้อ เปิดตำราดูได้ เขาทวนประกาศนี้อีกครั้งเมื่อจบคาบและบอกว่า “คราวหน้าอย่าลืมมาสอบ” จึงเป..."
+    },
+    {
+      "id": "POL2102-2026-09-10-video-01",
+      "subject": "POL2102",
+      "courseTitle": "หลักรัฐธรรมนูญและสถาบันทางการเมือง",
+      "noExam": true,
+      "date": "2026-09-10",
+      "dateLabelTh": "วันพฤหัสบดีที่ 10 กันยายน 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2102/2026-09-10/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2102/2026-09-10/video-01/source.txt",
+      "transcriptPath": "classes/POL2102/2026-09-10/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2102.md",
+      "hintPath": "hint-POL2102.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=jzsRIEvn6P4",
+      "paragraphCount": 52,
+      "wordCount": 1025,
+      "importantCount": 36,
+      "excerpt": "ผู้สอนทบทวนพัฒนาการของพรรคการเมืองไทยตั้งแต่หลัง พ.ศ. 2475 ถึงช่วงทศวรรษ 2530 ว่าระบบพรรคในระยะแรกและระยะที่สองสะสมปัญหามุ้งการเมือง เครือข่ายผู้มีอิทธิพล การซื้อเสียง และการทุจริต จนการเลือกตั้งถูกมองว่าเป็น money polit..."
     },
     {
       "id": "POL2100-2026-09-10-video-01",

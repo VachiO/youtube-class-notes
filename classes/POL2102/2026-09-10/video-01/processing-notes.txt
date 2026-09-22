@@ -1,0 +1,27 @@
+URL: https://www.youtube.com/watch?v=jzsRIEvn6P4
+Video title: POL2102   10/9/69
+Subject: POL2102
+Class date: 2026-09-10
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2102\2026-09-10\video-01
+Created at: 2026-09-22T23:05:05
+Status: task folder created
+Video id: jzsRIEvn6P4
+yt-dlp exit code: 0
+yt-dlp stderr:
+WARNING: Your yt-dlp version (2026.06.09) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from PyPi; Use that to update.
+         To suppress this warning, add --no-update to your command/config.
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+Transcript method: yt-dlp (jzsRIEvn6P4.en.vtt)
+Raw transcript characters: 1017737
+Original transcript characters: 124356
+Replaced yt-dlp English auto-translation with Thai-original automatic captions (th-orig), preserving raw VTT and readable timestamp-free text.
+Processing: Thai-original th-orig captions fetched after initial English auto-translation; original split into 10 chunks before revision. Revised each chunk conservatively, preserving lecture order and detail while correcting clear technical terms and speech-to-text mistakes. Some caption-level uncertain words and historical dates remain; summary labels uncertain claims as teacher statements rather than independently verified facts.
+Summary: wrote 10 Thai lecture-note chunks from revised transcript; combined lecture-summary.txt, preserving political-party analysis, electoral formulas, classroom examples, direct/representative democracy, British parliamentary history, and full quiz instructions.
+Audit: used prompts/audit-summary-completeness.md sequentially. First pass identified and restored six categories of compressed side details in their source positions; second pass found no substantial remaining omission (chunks/audit-completeness-001.txt and 002.txt).
+Course updates: POL2102 readme/hint and canonical exam-and-events file updated with the 20-point quiz, three constitution prompts, 80-point exam split, and submission instructions. Quiz applicability to this learner with no-exam status remains unconfirmed.
+No production-side testing was possible; static index, project memory, local lifecycle verification, and Git push are checked separately.
