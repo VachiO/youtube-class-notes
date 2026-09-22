@@ -1,0 +1,24 @@
+URL: https://www.youtube.com/watch?v=Tq5QlMFzS50
+Video title: POL2102   17/9/69
+Subject: POL2102
+Class date: 2026-09-17
+Task folder: classes/POL2102/2026-09-17/video-01
+Status: complete
+
+Environment and source
+- Ran scripts/check_environment.py before processing; Python 3.12.7, youtube-transcript-api 1.2.4, and yt-dlp 2026.6.9 were available.
+- scripts/init_task.py verified the YouTube title against POL2102 and 17 September 2026, then created this new folder without replacing an existing video.
+- scripts/get_youtube_transcript.py obtained the Thai VTT captions through yt-dlp and wrote transcript-raw.txt and transcript-original.txt. The yt-dlp command exited with code 1 because the English subtitles returned HTTP 429, but the Thai VTT file was successfully saved and used. No transcript-access blocker remained.
+
+Processing
+- scripts/split_text.py divided transcript-original.txt into nine original chunks before revision.
+- Every original chunk has a matching revised chunk. Revision corrected identifiable names and technical terms, joined broken auto-caption lines, and kept the spoken order and detail. Ambiguous speech-to-text fragments were retained rather than filled with unsupported claims.
+- Wrote nine Thai lecture-note summary chunks from the revised transcript, combined them in order into lecture-summary.txt, and preserved the teacher's examples, side knowledge, class questions, anecdotes, and the announced next topic.
+- Audited all nine summary chunks sequentially against their revised transcript chunks using prompts/audit-summary-completeness.md. The first pass restored the teacher's stated impeachment threshold, the Singapore example, and the Ne Win anecdote with attribution and uncertainty. These recoveries are in the relevant summary positions and recorded in chunks/audit-completeness-001.txt. A second pass found no substantial omissions; chunks/audit-completeness-002.txt records COMPLETE.
+- Updated the POL2102 course logistics and exam preparation files. The recording did not announce a new exam date, Quiz rule, assignment, or confirmed exam topic. The next class topic is the pathways into hybrid regimes.
+- Rebuilt data/site-index.json and updated the shared exam/events record and project memory.
+
+Quality and limits
+- The summary is natural Thai prose, about 29,000 characters, retaining about 40 percent of revised transcript characters; the transcript contains substantial spoken filler. No Thai word segmentation or artificial spacing was used for a word-count claim.
+- Several historical or current-events claims in the teacher's speech are marked as teacher statements rather than independently verified facts, especially the claim about Ne Win and Aung San.
+- Production-only checks remain: confirm the current project announcement for the 8 October examination and Quiz hand-in, and confirm whether the student's personal no-exam status also exempts the Quiz.

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-21T07:28:46+00:00",
-  "totalLectures": 71,
+  "generatedAt": "2026-09-22T03:56:55+00:00",
+  "totalLectures": 72,
   "subjects": [
     {
       "code": "POL1101",
@@ -49,8 +49,9 @@
       "title": "หลักรัฐธรรมนูญและสถาบันทางการเมือง",
       "order": 2102,
       "noExam": true,
-      "lectureCount": 9,
+      "lectureCount": 10,
       "dates": [
+        "2026-09-17",
         "2026-09-03",
         "2026-08-27",
         "2026-08-20",
@@ -146,6 +147,28 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL2102-2026-09-17-video-01",
+      "subject": "POL2102",
+      "courseTitle": "หลักรัฐธรรมนูญและสถาบันทางการเมือง",
+      "noExam": true,
+      "date": "2026-09-17",
+      "dateLabelTh": "วันพฤหัสบดีที่ 17 กันยายน 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2102/2026-09-17/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2102/2026-09-17/video-01/source.txt",
+      "transcriptPath": "classes/POL2102/2026-09-17/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2102.md",
+      "hintPath": "hint-POL2102.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=Tq5QlMFzS50",
+      "paragraphCount": 45,
+      "wordCount": 1054,
+      "importantCount": 33,
+      "excerpt": "คาบนี้อาจารย์ทบทวนว่าประชาธิปไตยแบบตัวแทนมีสามระบบ ได้แก่ ระบบรัฐสภา ระบบประธานาธิบดี และระบบกึ่งประธานาธิบดี คาบก่อนศึกษาระบบรัฐสภาที่มีอังกฤษเป็นแม่แบบแล้ว จึงเริ่มระบบประธานาธิบดีที่สหรัฐอเมริกาเป็นแม่แบบ จุดต่างเบื้อ..."
+    },
     {
       "id": "POL2100-2026-09-17-video-01",
       "subject": "POL2100",
