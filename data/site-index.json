@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T16:16:16+00:00",
-  "totalLectures": 73,
+  "generatedAt": "2026-09-24T16:16:39+00:00",
+  "totalLectures": 74,
   "subjects": [
     {
       "code": "POL1101",
@@ -110,8 +110,9 @@
       "title": "แนววิเคราะห์ทฤษฎีการเมือง",
       "order": 3128,
       "noExam": true,
-      "lectureCount": 10,
+      "lectureCount": 11,
       "dates": [
+        "2026-09-07",
         "2026-08-31",
         "2026-08-24",
         "2026-08-17",
@@ -367,6 +368,28 @@
       "wordCount": 420,
       "importantCount": 23,
       "excerpt": "อาจารย์ทบทวนระบบพรรคการเมือง โดยแยก “ระบบสองพรรค” ออกจากการมีพรรคเพียงสองพรรคตามกฎหมาย อังกฤษและสหรัฐอเมริกาอาจมีพรรคอื่นอีกหลายพรรค แต่ประชาชนส่วนใหญ่มักเลือกและแข่งขันกันจริงระหว่างสองพรรคใหญ่ จึงทำให้ทางเลือกชัดเจนขึ้..."
+    },
+    {
+      "id": "POL3128-2026-09-07-video-01",
+      "subject": "POL3128",
+      "courseTitle": "แนววิเคราะห์ทฤษฎีการเมือง",
+      "noExam": true,
+      "date": "2026-09-07",
+      "dateLabelTh": "วันจันทร์ที่ 7 กันยายน 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL3128/2026-09-07/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL3128/2026-09-07/video-01/source.txt",
+      "transcriptPath": "classes/POL3128/2026-09-07/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL3128.md",
+      "hintPath": "hint-POL3128.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=jDBCIKekkqU",
+      "paragraphCount": 34,
+      "wordCount": 501,
+      "importantCount": 21,
+      "excerpt": "ช่วงต้นชั้นเรียนอาจารย์แจ้งว่า POL3128 ใกล้ปิดคอร์สแล้ว เหลือการเรียนอีกเพียงประมาณสามครั้งหลังจากวันนี้ เนื้อหาที่ยังค้างอยู่จึงต้องอธิบายให้กระชับและรวดเร็วขึ้นเพื่อให้ครอบคลุมสิ่งที่ต้องเรียนทั้งหมด ⚠️ นักศึกษาควรติดต..."
     },
     {
       "id": "POL2102-2026-09-03-video-01",

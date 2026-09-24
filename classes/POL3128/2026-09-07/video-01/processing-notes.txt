@@ -1,0 +1,35 @@
+URL: https://www.youtube.com/watch?v=jDBCIKekkqU
+Video title: POL3128 วันที่ 07/09/69
+Subject: POL3128
+Class date: 2026-09-07
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL3128\2026-09-07\video-01
+Created at: 2026-09-24T23:08:06
+Status: task folder created
+Video id: jDBCIKekkqU
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: Your yt-dlp version (2026.06.09) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from PyPi; Use that to update.
+         To suppress this warning, add --no-update to your command/config.
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (jDBCIKekkqU.th.vtt)
+Raw transcript characters: 277417
+Original transcript characters: 24049
+
+Processing completed by the daily automation directly in this task.
+Selected queue: new. This was the only attempted video in the run; no backlog item was eligible.
+The live archive exposed 47 date pages through 24/9/69 and 229 embedded videos; the 24/9/69 page was blank. The current POL3128 embed and live YouTube title/date were validated by automation_state.py upsert and independently by init_task.py before folder creation.
+Thai-original VTT fallback succeeded after the English subtitle request returned HTTP 429.
+The original transcript was split into three chunks before correction. All three chunks were corrected in sequence without summarizing; lecture order, examples, the teacher's institutional experience, course-closing logistics, and meaningful digressions were retained.
+Three detailed Thai lecture-note chunks were produced from the revised transcript and combined. The notes retain about 67% of the revised transcript by character count. No Thai tokenizer, artificial word spacing, or unsupported padding was used.
+Two sequential completeness audits were run against the corrected transcript and returned COMPLETE; results are recorded in chunks/audit-summary-pass-001.txt and chunks/audit-summary-pass-002.txt.
+The lecture announces no new exam date, quiz, score, assignment, submission deadline, or attendance condition. It confirms that roughly three meetings remain after this class, the next class will finish the institutional approach, and the closing classes will continue the remaining theoretical approaches. The POL3128 course readme, exam-preparation hints, and canonical exam/event file were updated accordingly.
+Some spoken contemporary examples contain incomplete or uncertain details, especially the brief Pam Bondi/Fox anecdote. The notes preserve the teacher's point and mark the unverified detail as such rather than inventing a position name.
+Final offline checks, site-index generation, project-memory rebuild, lifecycle verification, scoped commit, and push are recorded at the end of this file after completion.
+
+Final verification: environment check passed; six unit tests passed; all required files are non-empty; three original/revised/summary chunk sets match their combined outputs; both audits are COMPLETE; the generated site index contains this video; project memory was rebuilt. The existing incomplete POL3128 lock-collision folder from 31 August remains the only unrelated health issue and was not modified. The assigned folder, POL3128 readme/hint updates, and regenerated site index were staged in a clean checkout based on current origin/main for a scoped commit and push.
