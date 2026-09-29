@@ -1,0 +1,32 @@
+URL: https://www.youtube.com/watch?v=NUBoDmzugaw
+Video title: POL 2107  16/9/69
+Subject: POL2107
+Class date: 2026-09-16
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2107\2026-09-16\video-01
+Created at: 2026-09-29T23:06:36
+Status: task folder created
+Video id: NUBoDmzugaw
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: Your yt-dlp version (2026.06.09) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from PyPi; Use that to update.
+         To suppress this warning, add --no-update to your command/config.
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (NUBoDmzugaw.th.vtt)
+Raw transcript characters: 801170
+Original transcript characters: 70683
+
+Processing completed by scheduled automation on 2026-09-29 (Asia/Bangkok).
+Identity: live YouTube title/date validation passed for POL2107, class date 16/09/69, video NUBoDmzugaw.
+Transcript: yt-dlp's initial English subtitle request returned HTTP 429; the script successfully fell back to the Thai caption track (`th`) and produced non-empty raw and readable transcripts.
+Revision: `transcript-original.txt` was split before revision into 9 ordered chunks. Obvious speech-to-text errors, recurring political terms, abbreviations, and speaker fillers were normalized while the source order and amount of information were preserved; the 9 revised chunks were recombined into `transcript-revised.txt`.
+Summary: 9 ordered summary chunks were written and recombined into detailed Thai lecture notes. The final notes retain 40.1% of the revised transcript by character count and preserve the lecture sequence, examples, teacher opinions, side stories, class participation, and all explicit exam guidance.
+Completeness audit pass 1: compared the revised transcript sequentially from the opening score/schedule announcement through election systems, Duverger, party roles and systems, interest groups, social movements, lobbying, professional associations, and the final three interest-group systems. Restored the constitutional chronology, electoral-formula tradeoffs, party-discipline explanation, institutionalization cautions, tobacco-policy story, and class-end plan.
+Completeness audit pass 2: searched all transcript lines mentioning `ข้อสอบ`, `คะแนน`, `ครั้งหน้า`, `สัปดาห์หน้า`, `เลือกตั้ง`, `พรรค`, `กลุ่มผลประโยชน์`, and `สมาคมวิชาชีพ`, then checked each against the combined notes. No substantial omission remained; critical items are marked with `⚠️`.
+Course files: added the lecture link and next-class plan to `readme-POL2107.md`; added explicit exam topics to `hint-POL2107.md`; updated the canonical exam/event record with the three participation-score recipients and the remaining chapter plan.
+Production note: YouTube caption availability and static-site publication timing remain externally controlled; local output, index, lifecycle, tests, commit, and push checks are handled below.

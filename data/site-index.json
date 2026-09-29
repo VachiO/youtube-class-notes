@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-24T16:16:39+00:00",
-  "totalLectures": 74,
+  "generatedAt": "2026-09-29T16:16:18+00:00",
+  "totalLectures": 75,
   "subjects": [
     {
       "code": "POL1101",
@@ -71,8 +71,9 @@
       "title": "การเมืองเปรียบเทียบ",
       "order": 2107,
       "noExam": true,
-      "lectureCount": 10,
+      "lectureCount": 11,
       "dates": [
+        "2026-09-16",
         "2026-09-09",
         "2026-09-02",
         "2026-08-26",
@@ -214,6 +215,28 @@
       "wordCount": 1071,
       "importantCount": 37,
       "excerpt": "ก่อนเริ่มสอนอาจารย์เตรียมสไลด์เรื่องสถาบันประธานาธิบดีและพูดว่าไว้ข้างหน้าจะบอกเรื่องข้อสอบ แต่ในคาบนี้ยังไม่ให้คำถามหรือขอบเขตสอบใหม่อย่างชัดเจน เขาทวนจากคาบก่อนว่า Electoral College (คณะผู้เลือกตั้ง) ทำให้การเลือกประธา..."
+    },
+    {
+      "id": "POL2107-2026-09-16-video-01",
+      "subject": "POL2107",
+      "courseTitle": "การเมืองเปรียบเทียบ",
+      "noExam": true,
+      "date": "2026-09-16",
+      "dateLabelTh": "วันพุธที่ 16 กันยายน 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2107/2026-09-16/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2107/2026-09-16/video-01/source.txt",
+      "transcriptPath": "classes/POL2107/2026-09-16/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2107.md",
+      "hintPath": "hint-POL2107.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=NUBoDmzugaw",
+      "paragraphCount": 76,
+      "wordCount": 1115,
+      "importantCount": 60,
+      "excerpt": "บันทึกช่วงต้นเริ่มจากการจัดเวลาเรียนที่เหลือ ผู้สอนแจ้งว่าเหลืออีกประมาณ 3 ครั้งรวมครั้งนี้ และยังต้องเก็บเนื้อหาอีก 3 บท จึงตั้งใจให้บทเรื่องการเลือกตั้ง พรรคการเมือง และกลุ่มผลประโยชน์จบภายในวันนี้ ส่วนบทที่ 6 มีเนื้อห..."
     },
     {
       "id": "POL1101-2026-09-15-video-01",
