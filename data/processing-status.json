@@ -17,24 +17,16 @@
       "subject": "POL3128",
       "classDate": "2026-09-21",
       "startedAt": "2026-09-30T12:07:26+00:00",
-      "status": "running"
+      "status": "succeeded",
+      "finishedAt": "2026-09-30T12:34:05+00:00"
     }
   ],
   "scan": {
-    "checkedAt": "2026-09-30T12:04:11+00:00",
+    "checkedAt": "2026-09-30T12:34:04+00:00",
     "datePages": 47,
     "embeddedVideos": 232,
     "allowedVideos": 75,
     "remaining": [
-      {
-        "videoId": "qoDYh_8_Ls0",
-        "subject": "POL3128",
-        "classDate": "2026-09-21",
-        "title": "POL3128  วันที่ 21/09/69",
-        "url": "https://www.youtube.com/watch?v=qoDYh_8_Ls0",
-        "archiveUrl": "https://sites.google.com/rumail.ru.ac.th/1-2569/เทปการบรรยายยอนหลง/21969",
-        "archiveDateRaw": "21/9/69"
-      },
       {
         "videoId": "_EH4DiGtmA8",
         "subject": "POL2129",
@@ -75,5 +67,5 @@
     "sourceUrl": "https://sites.google.com/rumail.ru.ac.th/1-2569"
   },
   "scanError": null,
-  "updatedAt": "2026-09-30T12:07:26+00:00"
+  "updatedAt": "2026-09-30T12:34:05+00:00"
 }
