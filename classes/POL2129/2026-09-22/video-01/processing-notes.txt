@@ -1,0 +1,50 @@
+URL: https://www.youtube.com/watch?v=_EH4DiGtmA8
+Video title: POL2129   22/9/69
+Subject: POL2129
+Class date: 2026-09-22
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2129\2026-09-22\video-01
+Created at: 2026-09-30T20:07:45
+Status: task folder created
+Video id: _EH4DiGtmA8
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: Your yt-dlp version (2026.06.09) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from PyPi; Use that to update.
+         To suppress this warning, add --no-update to your command/config.
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (_EH4DiGtmA8.th.vtt)
+Raw transcript characters: 453709
+Original transcript characters: 39700
+
+Automation attempt: d021fddc68154629a77e6a121d75508e
+Processing result: completed locally; publication verification pending at this stage
+
+Transcript processing:
+- The English subtitle request returned HTTP 429, but the workflow automatically fell back to the Thai-original VTT track and produced both raw and readable transcripts.
+- Split transcript-original.txt into 5 ordered original chunks before revision.
+- Produced 5 matching revised chunks with recurring ASR corrections for Multitude, Michael Hardt, Antonio Negri, imperialism/capitalism terminology, nominee, exploitation, dispossession, fracking, proper names, and noise tags. The corrected transcript preserves lecture order, examples, repeated explanations with meaning, side comments, and the closing class announcement; it is not a summary.
+- Combined revised transcript length: 43,172 characters.
+
+Lecture notes:
+- Produced 5 ordered summary chunks and combined them into detailed Thai lecture notes.
+- Final summary length: 18,250 characters in 41 natural paragraphs, 42.3% of the revised transcript by raw character count. The source contains extensive filler and false starts, so the information-retention share is higher than the raw ratio.
+- Preserved the seminar-attendance thanks, the Multitude framework, Hardt/Negri background and date uncertainty, democracy/peace claim, old/new war and imperialism, friend/enemy world order, Afghanistan/Iraq/Russia–Ukraine examples as teacher explanations, nominee government, permanent-war warning, exploitation and wages, Gen Z/Harvard-poll anecdote, dispossession and transnational capital, China/Myanmar/Laos digression, fracking/food-security chain, theoretical limits, civil-society connection, and the next-class exam-preparation announcement.
+
+Completeness audits using prompts/audit-summary-completeness.md:
+- Round 1 compared all five revised chunks against the five summary chunks in lecture order. It found that several qualifications and mechanisms were too compressed. Restored the teacher's explanation that Multitude is one of several concepts; the scale of “world society”; visible colonial rule versus thought colonization; the special meaning of nominee; the worker's simulated reply and participation cost; the corporation–government–community benefit chain; the hypothetical punishment of alternative production systems; and the common-damage basis for global action.
+- Round 2 repeated the sequential comparison after recombination. Result: COMPLETE. No substantial concept, argument, example, anecdote, caution, or practical announcement remained omitted. Only empty filler, repeated false starts, pen handling, and slide-position interruptions were excluded.
+
+Course and agenda updates:
+- Updated readme-POL2129.md with the new lecture link and the next-class plan.
+- Updated hint-POL2129.md with the confirmed instruction to attend/follow the next class for exam guidance and with Multitude review points; did not invent a Final question or scope.
+- Updated exam-and-events-1-2569.md with the next-class review/exam-guidance announcement, clearly marking 29 September as an inference from the weekly schedule rather than a confirmed project announcement.
+- Site index and project memory are rebuilt during final verification.
+
+Warnings and assumptions:
+- yt-dlp reported an older-than-90-days warning, no supported JavaScript runtime, no ffmpeg, and no impersonation target. These did not block Thai-caption retrieval.
+- Biographical dates and geopolitical examples that the teacher marked uncertain are preserved as the teacher's qualified statements, not converted into externally verified facts.

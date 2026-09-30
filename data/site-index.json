@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-30T12:27:01+00:00",
-  "totalLectures": 76,
+  "generatedAt": "2026-09-30T13:31:53+00:00",
+  "totalLectures": 77,
   "subjects": [
     {
       "code": "POL1101",
@@ -92,8 +92,9 @@
       "title": "รัฐและประชาสังคมในระบบการเมือง",
       "order": 2129,
       "noExam": false,
-      "lectureCount": 9,
+      "lectureCount": 10,
       "dates": [
+        "2026-09-22",
         "2026-09-08",
         "2026-09-01",
         "2026-08-25",
@@ -151,6 +152,28 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL2129-2026-09-22-video-01",
+      "subject": "POL2129",
+      "courseTitle": "รัฐและประชาสังคมในระบบการเมือง",
+      "noExam": false,
+      "date": "2026-09-22",
+      "dateLabelTh": "วันอังคารที่ 22 กันยายน 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2129/2026-09-22/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2129/2026-09-22/video-01/source.txt",
+      "transcriptPath": "classes/POL2129/2026-09-22/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2129.md",
+      "hintPath": "hint-POL2129.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=_EH4DiGtmA8",
+      "paragraphCount": 41,
+      "wordCount": 616,
+      "importantCount": 17,
+      "excerpt": "อาจารย์เปิดคาบด้วยการขอบคุณนักศึกษา POL2129 ภาคพิเศษหลายคนที่ไปเข้าร่วมงานเสวนาและลงชื่อว่ามาจากรายวิชานี้ การมีนักศึกษากลุ่มนี้ช่วยให้งานไม่บางตา ผู้จัดงานซึ่งเชิญวิทยากรจากภายนอกย่อมอยากเห็นคนมาฟังมาก เพราะจำนวนผู้เข้า..."
+    },
     {
       "id": "POL3128-2026-09-21-video-01-v2",
       "subject": "POL3128",
