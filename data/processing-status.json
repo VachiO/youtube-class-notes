@@ -26,24 +26,16 @@
       "subject": "POL2129",
       "classDate": "2026-09-22",
       "startedAt": "2026-09-30T13:06:40+00:00",
-      "status": "running"
+      "status": "succeeded",
+      "finishedAt": "2026-09-30T13:38:34+00:00"
     }
   ],
   "scan": {
-    "checkedAt": "2026-09-30T13:05:13+00:00",
+    "checkedAt": "2026-09-30T13:38:34+00:00",
     "datePages": 47,
     "embeddedVideos": 232,
     "allowedVideos": 75,
     "remaining": [
-      {
-        "videoId": "_EH4DiGtmA8",
-        "subject": "POL2129",
-        "classDate": "2026-09-22",
-        "title": "POL2129   22/9/69",
-        "url": "https://www.youtube.com/watch?v=_EH4DiGtmA8",
-        "archiveUrl": "https://sites.google.com/rumail.ru.ac.th/1-2569/เทปการบรรยายยอนหลง/22969",
-        "archiveDateRaw": "22/9/69"
-      },
       {
         "videoId": "RxdRVoy_ZxU",
         "subject": "POL2107",
@@ -75,5 +67,5 @@
     "sourceUrl": "https://sites.google.com/rumail.ru.ac.th/1-2569"
   },
   "scanError": null,
-  "updatedAt": "2026-09-30T13:06:40+00:00"
+  "updatedAt": "2026-09-30T13:38:34+00:00"
 }

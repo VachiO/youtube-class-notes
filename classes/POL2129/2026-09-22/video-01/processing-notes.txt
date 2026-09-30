@@ -22,7 +22,7 @@ Raw transcript characters: 453709
 Original transcript characters: 39700
 
 Automation attempt: d021fddc68154629a77e6a121d75508e
-Processing result: completed locally; publication verification pending at this stage
+Processing result: succeeded; publication verified live
 
 Transcript processing:
 - The English subtitle request returned HTTP 429, but the workflow automatically fell back to the Thai-original VTT track and produced both raw and readable transcripts.
@@ -48,3 +48,10 @@ Course and agenda updates:
 Warnings and assumptions:
 - yt-dlp reported an older-than-90-days warning, no supported JavaScript runtime, no ffmpeg, and no impersonation target. These did not block Thai-caption retrieval.
 - Biographical dates and geopolitical examples that the teacher marked uncertain are preserved as the teacher's qualified statements, not converted into externally verified facts.
+
+Publication:
+- Running-attempt journal commit: abaf161d49bf47274234924976fb55407969218a.
+- Lecture commit: e5bd71d3fff1c05b509116962297e8c61c1c2a94, pushed to origin/main.
+- GitHub Pages deployment 36722749751 completed successfully.
+- Live data/site-index.json contains video _EH4DiGtmA8 and the published lecture-summary.txt is nonempty.
+- Final live scan: 47 date pages, 232 embeds, 75 allowed recordings, 3 remaining. Attempt finalized succeeded; lock released.
