@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-29T16:16:18+00:00",
-  "totalLectures": 75,
+  "generatedAt": "2026-09-30T12:27:01+00:00",
+  "totalLectures": 76,
   "subjects": [
     {
       "code": "POL1101",
@@ -111,8 +111,9 @@
       "title": "แนววิเคราะห์ทฤษฎีการเมือง",
       "order": 3128,
       "noExam": true,
-      "lectureCount": 11,
+      "lectureCount": 12,
       "dates": [
+        "2026-09-21",
         "2026-09-07",
         "2026-08-31",
         "2026-08-24",
@@ -150,6 +151,28 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL3128-2026-09-21-video-01-v2",
+      "subject": "POL3128",
+      "courseTitle": "แนววิเคราะห์ทฤษฎีการเมือง",
+      "noExam": true,
+      "date": "2026-09-21",
+      "dateLabelTh": "วันจันทร์ที่ 21 กันยายน 2569",
+      "buddhistYear": 2569,
+      "video": "video-01-v2",
+      "videoNumber": 1,
+      "version": 2,
+      "summaryPath": "classes/POL3128/2026-09-21/video-01-v2/lecture-summary.txt",
+      "sourcePath": "classes/POL3128/2026-09-21/video-01-v2/source.txt",
+      "transcriptPath": "classes/POL3128/2026-09-21/video-01-v2/transcript-revised.txt",
+      "readmePath": "readme-POL3128.md",
+      "hintPath": "hint-POL3128.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=qoDYh_8_Ls0",
+      "paragraphCount": 21,
+      "wordCount": 374,
+      "importantCount": 10,
+      "excerpt": "อาจารย์เปิดชั้นเรียน POL 3128 โดยแจ้งว่าจะบันทึกการบรรยายครั้งนี้เพียงประมาณ 40 นาที เพราะยังไอมากและเกรงว่าพูดนานแล้วอาการจะหนักขึ้น ⚠️ ครั้งถัดไปตรงกับวันที่ 28 กันยายน และอาจารย์เข้าใจว่าจะเป็นการบรรยายครั้งสุดท้ายของ..."
+    },
     {
       "id": "POL2102-2026-09-17-video-01",
       "subject": "POL2102",

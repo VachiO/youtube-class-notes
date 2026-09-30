@@ -1,0 +1,30 @@
+URL: https://www.youtube.com/watch?v=qoDYh_8_Ls0
+Video title: POL3128  วันที่ 21/09/69
+Subject: POL3128
+Class date: 2026-09-21
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL3128\2026-09-21\video-01-v2
+Created at: 2026-09-30T19:08:55
+Status: task folder created
+Video id: qoDYh_8_Ls0
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: Your yt-dlp version (2026.06.09) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from PyPi; Use that to update.
+         To suppress this warning, add --no-update to your command/config.
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (qoDYh_8_Ls0.th.vtt)
+Raw transcript characters: 193929
+Original transcript characters: 16581
+
+Transcript revision: split before revision into 2 original chunks; produced 2 matching revised chunks and combined them into transcript-revised.txt. Corrected obvious Thai speech-to-text errors and names while preserving lecture order, examples, announcements, side stories, and teacher qualifications.
+Summary: produced 2 summary chunks and combined them into detailed Thai lecture notes. Revised transcript characters: 13746. Summary characters: 9708. Summary/revised ratio: 70.6%.
+Length note: this was an explicitly shortened lecture of about 40 minutes and the revised transcript is only 13,746 characters. The notes remain natural Thai prose without artificial segmentation and retain 70.6% of the revised transcript rather than padding to an artificial word count.
+Completeness audit pass 1 (prompts/audit-summary-completeness.md): checked sequentially from schedule and health notice through the four analytical components, Senate-collusion witness example, Chamberlain, Mearsheimer, Easton systems theory, Canada/Quebec digression, interest-group approach, Suphanburi example, and final exam announcement; result COMPLETE.
+Completeness audit pass 2: rechecked every source paragraph against the combined notes, including details near both chunk endings, side stories, dates, practical advice, and the promise to announce exam scope next class; result COMPLETE.
+Course updates: updated readme-POL3128.md, hint-POL3128.md, and exam-and-events-1-2569.md with the expected final class on 28 September, the planned summary/exam-scope announcement, and the absence of a new quiz, assignment, score, or exam date in this recording.
+Status: processing complete; pending index rebuild, verification, commit, publication, and public-attempt finalization.
