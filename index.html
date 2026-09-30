@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="หน้ารวมสรุปคลาสเรียนจาก YouTube transcript สำหรับอ่านตามรายวิชาหรือตามวันที่เรียน">
     <title>RAM Class Notes</title>
-    <link rel="stylesheet" href="styles.css?v=no-exam">
+    <link rel="stylesheet" href="styles.css?v=processing-status">
   </head>
   <body>
     <header class="site-header">
@@ -74,6 +74,19 @@
         </div>
       </section>
 
+      <section class="processing-status" aria-labelledby="processingTitle" aria-live="polite">
+        <h2 id="processingTitle">สถานะการอัปเดตสรุป</h2>
+        <p id="processingCoverage">กำลังตรวจสอบสถานะ...</p>
+        <p id="processingToday"></p>
+        <p id="processingChecked" class="scope-note"></p>
+        <p class="scope-note">ตรวจและประมวลผลทุกชั่วโมง เวลา 16:00–23:00 น. (เวลาไทย) รอบละหนึ่งคลิป</p>
+        <p class="scope-note">ยอดรวมคือจำนวนครั้งที่เริ่มประมวลผลคลิป รวมการลองใหม่ ไม่ใช่จำนวนโทเคน และไม่นับการตรวจรายการหรือยืนยันงานเดิม</p>
+        <details id="processingPending" hidden>
+          <summary>คลิปที่ยังไม่มีสรุป</summary>
+          <ul id="processingPendingList"></ul>
+        </details>
+      </section>
+
       <section class="controls" aria-label="ตัวเลือกการดู">
         <label class="search-wrap">
           <span class="sr-only">ค้นหารายวิชา วันที่ หรือคำในคำอธิบาย</span>
@@ -93,6 +106,6 @@
       </section>
     </main>
 
-    <script src="app.js?v=no-exam"></script>
+    <script src="app.js?v=processing-status"></script>
   </body>
 </html>

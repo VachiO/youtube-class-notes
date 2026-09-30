@@ -23,9 +23,11 @@ init();
 async function init() {
   restoreTheme();
   bindEvents();
+  loadProcessingStatus();
+  setInterval(loadProcessingStatus, 60000);
 
   try {
-    const response = await fetch(INDEX_URL);
+    const response = await fetch(INDEX_URL, { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     state.index = await response.json();
     state.lectures = state.index.lectures || [];
@@ -34,6 +36,51 @@ async function init() {
   } catch (error) {
     el.catalogStatus.textContent = "โหลดรายการไม่สำเร็จ";
     el.catalogContent.innerHTML = `<p class="empty-state">ไม่พบไฟล์ ${INDEX_URL}</p>`;
+    console.error(error);
+  }
+}
+
+function thaiDay(value) {
+  return new Date(new Date(value).getTime() + 7 * 60 * 60 * 1000).toISOString().slice(0, 10);
+}
+
+function processingCounts(attempts, day) {
+  const today = attempts.filter((a) => thaiDay(a.startedAt) === day);
+  return {
+    succeeded: today.filter((a) => a.status === "succeeded").length,
+    failed: today.filter((a) => a.status === "failed").length,
+    running: today.filter((a) => a.status === "running").length,
+    total: today.length,
+  };
+}
+
+async function loadProcessingStatus() {
+  const coverage = document.querySelector("#processingCoverage");
+  const today = document.querySelector("#processingToday");
+  const checked = document.querySelector("#processingChecked");
+  const pending = document.querySelector("#processingPending");
+  try {
+    const response = await fetch("data/processing-status.json", { cache: "no-store" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = await response.json();
+    const scan = data.scan;
+    const count = processingCounts(data.attempts, thaiDay(new Date()));
+    const stale = !scan || Date.now() - new Date(scan.checkedAt).getTime() > 24 * 60 * 60 * 1000;
+    coverage.textContent = scan
+      ? `${data.scanError || stale ? "ผลตรวจครั้งล่าสุด: " : ""}เหลือ ${scan.remaining.length} คลิปที่ยังไม่มีสรุป จากการตรวจแหล่งวิดีโอจริง`
+      : "ยังไม่มีผลตรวจแหล่งวิดีโอที่ครบถ้วน";
+    today.textContent = `วันนี้ (เวลาไทย) สำเร็จ ${count.succeeded} · ล้มเหลว ${count.failed} · รวม ${count.total} ครั้ง${count.running ? ` · กำลังดำเนินการ ${count.running}` : ""}`;
+    const format = (value) => new Date(value).toLocaleString("th-TH", { timeZone: "Asia/Bangkok" });
+    checked.textContent = `${scan ? `ตรวจแหล่งวิดีโอ ${format(scan.checkedAt)} (${scan.datePages} หน้ารายวัน) · ` : ""}อัปเดตผลประมวลผล ${format(data.updatedAt)} · เริ่มนับ ${format(data.trackingStartedAt)}${data.scanError ? " · ตรวจครั้งล่าสุดไม่สำเร็จ ยังยืนยันจำนวนปัจจุบันไม่ได้" : stale ? " · ผลตรวจเกิน 24 ชั่วโมง รอการตรวจใหม่" : ""}`;
+    pending.hidden = !scan || !scan.remaining.length;
+    document.querySelector("#processingPendingList").innerHTML = (scan?.remaining || []).map((v) =>
+      `<li><a href="https://www.youtube.com/watch?v=${encodeURIComponent(v.videoId)}" target="_blank" rel="noopener">${escapeHtml(v.subject)} · ${escapeHtml(v.classDate)}</a></li>`
+    ).join("");
+  } catch (error) {
+    coverage.textContent = "โหลดสถานะไม่สำเร็จ ยังยืนยันจำนวนคลิปค้างไม่ได้";
+    today.textContent = "";
+    checked.textContent = "";
+    pending.hidden = true;
     console.error(error);
   }
 }
