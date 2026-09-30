@@ -8,11 +8,20 @@
       "subject": "POL3128",
       "classDate": "2026-09-21",
       "startedAt": "2026-09-30T09:06:18+00:00",
+      "status": "failed",
+      "finishedAt": "2026-09-30T12:03:42+00:00"
+    },
+    {
+      "id": "40f2668f30c54d95aeeded4a291614ca",
+      "videoId": "qoDYh_8_Ls0",
+      "subject": "POL3128",
+      "classDate": "2026-09-21",
+      "startedAt": "2026-09-30T12:07:26+00:00",
       "status": "running"
     }
   ],
   "scan": {
-    "checkedAt": "2026-09-30T09:05:04+00:00",
+    "checkedAt": "2026-09-30T12:04:11+00:00",
     "datePages": 47,
     "embeddedVideos": 232,
     "allowedVideos": 75,
@@ -66,5 +75,5 @@
     "sourceUrl": "https://sites.google.com/rumail.ru.ac.th/1-2569"
   },
   "scanError": null,
-  "updatedAt": "2026-09-30T09:06:18+00:00"
+  "updatedAt": "2026-09-30T12:07:26+00:00"
 }
