@@ -37,10 +37,18 @@
       "startedAt": "2026-09-30T14:03:47+00:00",
       "status": "succeeded",
       "finishedAt": "2026-10-01T09:10:49+00:00"
+    },
+    {
+      "id": "1981a45c95d643b48fe05fe77921af30",
+      "videoId": "o7go-eNAYtE",
+      "subject": "POL3179",
+      "classDate": "2026-09-23",
+      "startedAt": "2026-10-01T11:02:47+00:00",
+      "status": "running"
     }
   ],
   "scan": {
-    "checkedAt": "2026-10-01T09:10:49+00:00",
+    "checkedAt": "2026-10-01T11:02:10+00:00",
     "datePages": 47,
     "embeddedVideos": 232,
     "allowedVideos": 75,
@@ -66,9 +74,6 @@
     ],
     "sourceUrl": "https://sites.google.com/rumail.ru.ac.th/1-2569"
   },
-  "scanError": {
-    "at": "2026-10-01T10:03:29+00:00",
-    "message": "ตรวจแหล่งวิดีโอไม่ครบ กรุณาดูผลตรวจครั้งล่าสุด"
-  },
-  "updatedAt": "2026-10-01T10:03:29+00:00"
+  "scanError": null,
+  "updatedAt": "2026-10-01T11:02:47+00:00"
 }
