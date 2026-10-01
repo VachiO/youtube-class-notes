@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-30T13:31:53+00:00",
-  "totalLectures": 77,
+  "generatedAt": "2026-10-01T09:08:28+00:00",
+  "totalLectures": 78,
   "subjects": [
     {
       "code": "POL1101",
@@ -71,8 +71,9 @@
       "title": "การเมืองเปรียบเทียบ",
       "order": 2107,
       "noExam": true,
-      "lectureCount": 11,
+      "lectureCount": 12,
       "dates": [
+        "2026-09-23",
         "2026-09-16",
         "2026-09-09",
         "2026-09-02",
@@ -152,6 +153,28 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL2107-2026-09-23-video-01",
+      "subject": "POL2107",
+      "courseTitle": "การเมืองเปรียบเทียบ",
+      "noExam": true,
+      "date": "2026-09-23",
+      "dateLabelTh": "วันพุธที่ 23 กันยายน 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2107/2026-09-23/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2107/2026-09-23/video-01/source.txt",
+      "transcriptPath": "classes/POL2107/2026-09-23/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2107.md",
+      "hintPath": "hint-POL2107.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=RxdRVoy_ZxU",
+      "paragraphCount": 58,
+      "wordCount": 944,
+      "importantCount": 14,
+      "excerpt": "การบรรยายเริ่มจากทบทวนภาพหลังสงครามเย็น ปี 1989 สงครามเย็นสิ้นสุดและปี 1991 สหภาพโซเวียตล่มสลาย ช่วงหนึ่งฝ่ายเสรีนิยมเชื่อตาม Francis Fukuyama และแนวคิด “การสิ้นสุดของประวัติศาสตร์” ว่าการต่อสู้ทางอุดมการณ์จบแล้วและเสรีป..."
+    },
     {
       "id": "POL2129-2026-09-22-video-01",
       "subject": "POL2129",

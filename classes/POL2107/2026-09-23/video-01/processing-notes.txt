@@ -1,0 +1,41 @@
+URL: https://www.youtube.com/watch?v=RxdRVoy_ZxU
+Video title: POL2107  23/9/69
+Subject: POL2107
+Class date: 2026-09-23
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2107\2026-09-23\video-01
+Created at: 2026-09-30T21:04:05
+Status: task folder created
+Video id: RxdRVoy_ZxU
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: Your yt-dlp version (2026.06.09) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from PyPi; Use that to update.
+         To suppress this warning, add --no-update to your command/config.
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (RxdRVoy_ZxU.th.vtt)
+Raw transcript characters: 667249
+Original transcript characters: 59304
+
+Revision and summary:
+
+- Split the readable transcript into 7 original chunks before revision.
+- Corrected all 7 chunks in order and combined them into `transcript-revised.txt`; the result remains a transcript rather than a summary.
+- Produced 7 matching summary chunks and combined them into detailed Thai lecture notes.
+- Revised transcript length: 40,059 Unicode characters. Final summary length: 20,730 Unicode characters, or 51.7% of the revised transcript. The byte sizes are larger because the text is Thai UTF-8.
+- Preserved lecture order, examples, historical cases, side explanations, teacher opinions, exam emphasis, and the final class announcement.
+
+Completeness audits using `prompts/audit-summary-completeness.md`:
+
+- Round 1 checked the revised transcript sequentially across all 7 chunks against the corresponding summary chunks. Main concepts, separate causal steps, names, dates, examples, comparisons, anecdotes, and every exam or scheduling statement were present; result `COMPLETE`.
+- Round 2 repeated the comparison after recombination, including the start and end of every chunk. English concepts and proper names, numeric examples, all eight marked exam/class warnings, the Rustow sequence, and the 30 September closing-class notice were retained; result `COMPLETE`.
+
+Course files and agenda:
+
+- Updated `readme-POL2107.md` with the 30 September closing class and instruction to prepare questions.
+- Updated `hint-POL2107.md` with the explicit exam emphasis from this lecture.
+- Updated `exam-and-events-1-2569.md`; no new quiz, assignment, score rule, exam date, or submission deadline was announced.
