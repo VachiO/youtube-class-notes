@@ -66,6 +66,9 @@
     ],
     "sourceUrl": "https://sites.google.com/rumail.ru.ac.th/1-2569"
   },
-  "scanError": null,
-  "updatedAt": "2026-10-01T09:10:49+00:00"
+  "scanError": {
+    "at": "2026-10-01T10:03:29+00:00",
+    "message": "ตรวจแหล่งวิดีโอไม่ครบ กรุณาดูผลตรวจครั้งล่าสุด"
+  },
+  "updatedAt": "2026-10-01T10:03:29+00:00"
 }
