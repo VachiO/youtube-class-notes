@@ -53,27 +53,18 @@
       "subject": "POL2102",
       "classDate": "2026-09-24",
       "startedAt": "2026-10-02T09:02:57+00:00",
-      "status": "running"
+      "status": "succeeded",
+      "finishedAt": "2026-10-02T09:17:28+00:00"
     }
   ],
   "scan": {
-    "checkedAt": "2026-10-02T09:02:22+00:00",
+    "checkedAt": "2026-10-02T09:17:28+00:00",
     "datePages": 47,
     "embeddedVideos": 232,
     "allowedVideos": 75,
-    "remaining": [
-      {
-        "videoId": "QSxMefxZpIU",
-        "subject": "POL2102",
-        "classDate": "2026-09-24",
-        "title": "POL2102   24/9/69",
-        "url": "https://www.youtube.com/watch?v=QSxMefxZpIU",
-        "archiveUrl": "https://sites.google.com/rumail.ru.ac.th/1-2569/เทปการบรรยายยอนหลง/24969",
-        "archiveDateRaw": "24/9/69"
-      }
-    ],
+    "remaining": [],
     "sourceUrl": "https://sites.google.com/rumail.ru.ac.th/1-2569"
   },
   "scanError": null,
-  "updatedAt": "2026-10-02T09:02:57+00:00"
+  "updatedAt": "2026-10-02T09:17:28+00:00"
 }
