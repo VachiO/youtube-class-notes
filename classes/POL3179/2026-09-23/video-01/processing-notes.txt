@@ -1,0 +1,34 @@
+URL: https://www.youtube.com/watch?v=o7go-eNAYtE
+Video title: POL3179   23/9/69
+Subject: POL3179
+Class date: 2026-09-23
+Task folder: classes/POL3179/2026-09-23/video-01
+Created at: 2026-10-01T18:03:44
+Status: task folder created
+Video id: o7go-eNAYtE
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: Your yt-dlp version (2026.06.09) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from PyPi; Use that to update.
+         To suppress this warning, add --no-update to your command/config.
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (o7go-eNAYtE.th.vtt)
+Raw transcript characters: 787862
+Original transcript characters: 70060
+
+Status: complete
+Environment: scripts/check_environment.py passed before processing.
+Identity: the live YouTube title was validated against POL3179 and 2026-09-23 before task creation.
+Transcript: Thai VTT was obtained by yt-dlp despite exit code 1 from the attempted English subtitle request returning HTTP 429; raw and readable Thai transcripts were saved.
+Revision: transcript-original.txt was split before revision into 9 chunks. Every chunk has a matching revised chunk; conservative contextual corrections were applied to names, institutions, offices, and English political terms while preserving lecture order, line structure, examples, digressions, and uncertain claims.
+Summary: 9 detailed Thai lecture-note chunks were combined in source order. Exam rules and next-class instructions are marked with ⚠️; potentially uncertain factual anecdotes are attributed to the lecturer rather than converted into verified facts.
+Completeness audit 1 (prompts/audit-summary-completeness.md): compared the revised transcript and summary sequentially across all chunks. Restored details on the seven presidential powers, Open Internet exam rules and excluded Inauguration image, ratification/collective security, travel anecdote, associations and symposium, Washington's spirit-of-party warning, Shays Rebellion and the national bank, Hamiltonian/Jeffersonian organization, party branding, John Marshall, the 1824 election, spoils system/PAC distinction, Civil War expansion, and the New Deal transition.
+Completeness audit 2: repeated the sequential comparison after merging the recovered material. The initial audited notes retained 43.3% by characters but the site's conservative whitespace count was below the 2000-word floor, so additional supported explanations and examples were restored from every substantive chunk without artificial Thai word spacing. A final sequential check found no substantial lecture topic, example, story, meaningful digression, exam instruction, deadline, or next-class announcement omitted; result COMPLETE.
+Quality: original chunks=9, revised chunks=9, summary chunks=9; revised characters=72663; summary characters=49933; summary/revised character ratio=68.7% for this information-dense lecture; site-index word count=2192. Thai prose was not artificially segmented for word counting.
+Course files: readme-POL3179.md, hint-POL3179.md, and exam-and-events-1-2569.md were updated with the confirmed exam format and final-class notice.
+Blockers: none. The production video/audio and nuances beyond the acquired captions cannot be independently verified offline.
