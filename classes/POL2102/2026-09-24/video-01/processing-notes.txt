@@ -1,0 +1,34 @@
+URL: https://www.youtube.com/watch?v=QSxMefxZpIU
+Video title: POL2102   24/9/69
+Subject: POL2102
+Class date: 2026-09-24
+Task folder: C:\Users\Admin\youtube-class-notes-publish-9df9f453\classes\POL2102\2026-09-24\video-01
+Created at: 2026-10-02T16:03:35
+Status: task folder created
+Video id: QSxMefxZpIU
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: Your yt-dlp version (2026.06.09) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from PyPi; Use that to update.
+         To suppress this warning, add --no-update to your command/config.
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (QSxMefxZpIU.th.vtt)
+Raw transcript characters: 771257
+Original transcript characters: 69118
+
+Processing completed: 2026-10-02
+- Split transcript-original.txt into 8 original chunks before revision.
+- Created 8 revised chunks and combined them into transcript-revised.txt; the revised transcript remains a full corrected transcript, not a summary.
+- Corrected clear Thai ASR errors and technical terms, including Hybrid regime, Steven Levitsky, Lucan Way, Samuel Huntington, transformation, transplacement, replacement, democratic erosion, democratic consolidation, Juan Linz, Alfred Stepan, Almond, Verba, civic culture, and constitutional years.
+- The English subtitle request returned HTTP 429, but the Thai VTT fallback succeeded and produced complete raw and readable transcripts.
+- Created 4 summary chunks and combined detailed Thai lecture notes covering the complete lecture order, classroom examples, side comments, and practical guidance.
+- Completeness audit pass 1 restored causal steps, classroom examples, teacher digressions, and details about hybrid-regime mechanisms, institutionalization, transitions, coups, civic culture, and constitutional study.
+- Completeness audit pass 2 found no substantial topic, example, announcement, or end-of-lecture omission.
+- Final lecture-summary.txt is 29,969 characters versus 74,803 characters in transcript-revised.txt, retaining 40.1% by character count.
+- Updated POL2102 logistics and exam hints. Critical guidance: the teacher said the 20-constitution timeline details will not be tested; the next class will continue the four approaches to studying Thai constitutions. No exam date, quiz score, or submission deadline changed in this lecture.
+- Updated exam-and-events-1-2569.md, rebuilt the static site index, and rebuilt project memory.
