@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-10-02T09:14:55+00:00",
-  "totalLectures": 80,
+  "generatedAt": "2026-10-06T10:08:59+00:00",
+  "totalLectures": 81,
   "subjects": [
     {
       "code": "POL1101",
       "title": "การเมืองและการปกครองของไทย",
       "order": 1101,
       "noExam": true,
-      "lectureCount": 10,
+      "lectureCount": 11,
       "dates": [
+        "2026-10-06",
         "2026-09-15",
         "2026-09-08",
         "2026-09-01",
@@ -155,6 +156,28 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL1101-2026-10-06-video-01",
+      "subject": "POL1101",
+      "courseTitle": "การเมืองและการปกครองของไทย",
+      "noExam": true,
+      "date": "2026-10-06",
+      "dateLabelTh": "วันอังคารที่ 6 ตุลาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL1101/2026-10-06/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL1101/2026-10-06/video-01/source.txt",
+      "transcriptPath": "classes/POL1101/2026-10-06/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL1101.md",
+      "hintPath": "hint-POL1101.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=a4JenCSqu4g",
+      "paragraphCount": 29,
+      "wordCount": 689,
+      "importantCount": 19,
+      "excerpt": "คาบนี้เป็นการบรรยายครั้งสุดท้ายของภาค 1 ปีการศึกษา 2569 อาจารย์เริ่มจากทบทวนเนื้อหาก่อนเกิดอุทกภัยว่า การจัดระบบการเมืองการปกครองต้องมีทั้ง “ระบบการเมือง” และ “ระบบราชการ” ทำงานสัมพันธ์กัน ฝ่ายการเมืองเป็นผู้กำหนดนโยบาย ..."
+    },
     {
       "id": "POL2102-2026-09-24-video-01",
       "subject": "POL2102",

@@ -1,0 +1,35 @@
+URL: https://www.youtube.com/watch?v=a4JenCSqu4g
+Video title: POL 1101 6/10/69
+Subject: POL1101
+Class date: 2026-10-06
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL1101\2026-10-06\video-01
+Created at: 2026-10-06T16:59:27
+Status: task folder created
+Video id: a4JenCSqu4g
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: Your yt-dlp version (2026.06.09) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from PyPi; Use that to update.
+         To suppress this warning, add --no-update to your command/config.
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (a4JenCSqu4g.th.vtt)
+Raw transcript characters: 290483
+Original transcript characters: 24038
+
+Processing completed: 2026-10-06
+
+- Environment check passed before processing.
+- Live scan validated video ID a4JenCSqu4g as POL1101 dated 2026-10-06.
+- yt-dlp English-caption request received HTTP 429, then the existing script fallback successfully used the Thai VTT track; no transcript blocker remained.
+- Split transcript-original.txt into 3 original chunks before revision.
+- Corrected all 3 chunks without converting the transcript into a summary, then combined them into transcript-revised.txt.
+- Produced detailed Thai lecture notes preserving lecture order, examples, teacher comments, local-government comparisons, and every exam/scoring instruction.
+- Completeness audit pass 1 checked the revised transcript sequentially and restored or retained the decentralization definitions, legal-person explanation, corruption caveat, Bangkok history/duties, the teacher's personal director-of-district anecdote, Pattaya history, provincial/municipal/subdistrict structures, revenue examples, and exam instructions.
+- Completeness audit pass 2 found no substantial omission. The final notes contain 13,125 characters versus 19,960 characters in the revised transcript (65.8% retention); the lecture is information-dense, so exceeding the usual 40–60% range was intentional.
+- Updated POL1101 logistics, exam hints, and the canonical exam/event record with the final-exam structure and stated scope.
+- No unsupported facts were added; uncertain or time-sensitive statements remain attributed to the lecture.
