@@ -1,0 +1,36 @@
+URL: https://www.youtube.com/watch?v=2W_f9ctzba4
+Video title: POL2100   08/10/69
+Subject: POL2100
+Class date: 2026-10-08
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2100\2026-10-08\video-01
+Created at: 2026-10-09T16:05:54
+Status: task folder created
+Video id: 2W_f9ctzba4
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: Your yt-dlp version (2026.06.09) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from PyPi; Use that to update.
+         To suppress this warning, add --no-update to your command/config.
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (2W_f9ctzba4.th.vtt)
+Raw transcript characters: 248017
+Original transcript characters: 20874
+
+Processing completed: 2026-10-09
+
+- Environment check passed before processing.
+- The complete live archive scan validated video ID `2W_f9ctzba4` as POL2100 dated 2026-10-08.
+- The English subtitle request received HTTP 429; the existing fallback successfully used the Thai VTT track, so no transcript blocker remained.
+- Split `transcript-original.txt` into 3 original chunks before revision.
+- Revised all 3 chunks as transcript correction, preserving lecture order, examples, announcements, and exam guidance, then combined them into `transcript-revised.txt`.
+- Produced 3 ordered Thai lecture-note chunks and combined them into `lecture-summary.txt`.
+- Completeness audit pass 1 compared the revised transcript and summary sequentially. It restored the lecturer's stated count of Australian states and the road/rail resource-conservation example.
+- Completeness audit pass 2 repeated the sequential comparison and returned `COMPLETE`; no substantial omission remained.
+- Final `lecture-summary.txt` contains 16,795 characters versus 14,932 characters in `transcript-revised.txt` (112.5%). The extra length comes from explicit structure and `⚠️` exam guidance; no unsupported content was added.
+- Critical guidance preserved: closed-book essay exam; 2 required questions worth 30 points each; United States–England comparison across 5 specified topics; Thailand–Japan comparison using the same framework; approximately 5–7 lines per topic; draft short notes, manage time, write legibly, and do not copy; Australia will not be tested; a missed final requires a retake whose maximum grade is C.
+- The lecture did not state the final-exam date, time, or room, so none was inferred.
