@@ -73,16 +73,34 @@
       "startedAt": "2026-10-09T01:44:33+00:00",
       "status": "succeeded",
       "finishedAt": "2026-10-09T02:01:20+00:00"
+    },
+    {
+      "id": "1372a368fed049019b7e90e9746afb64",
+      "videoId": "2W_f9ctzba4",
+      "subject": "POL2100",
+      "classDate": "2026-10-08",
+      "startedAt": "2026-10-09T09:05:34+00:00",
+      "status": "running"
     }
   ],
   "scan": {
-    "checkedAt": "2026-10-09T02:01:20+00:00",
+    "checkedAt": "2026-10-09T09:05:25+00:00",
     "datePages": 51,
-    "embeddedVideos": 238,
-    "allowedVideos": 77,
-    "remaining": [],
+    "embeddedVideos": 240,
+    "allowedVideos": 78,
+    "remaining": [
+      {
+        "videoId": "2W_f9ctzba4",
+        "subject": "POL2100",
+        "classDate": "2026-10-08",
+        "title": "POL2100   08/10/69",
+        "url": "https://www.youtube.com/watch?v=2W_f9ctzba4",
+        "archiveUrl": "https://sites.google.com/rumail.ru.ac.th/1-2569/เทปการบรรยายยอนหลง/81069",
+        "archiveDateRaw": "8/10/69"
+      }
+    ],
     "sourceUrl": "https://sites.google.com/rumail.ru.ac.th/1-2569"
   },
   "scanError": null,
-  "updatedAt": "2026-10-09T02:01:20+00:00"
+  "updatedAt": "2026-10-09T09:05:34+00:00"
 }
