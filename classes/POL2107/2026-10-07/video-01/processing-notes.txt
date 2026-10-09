@@ -1,0 +1,36 @@
+URL: https://www.youtube.com/watch?v=2Cp6h4NYxK0
+Video title: POL2107   07/10/69
+Subject: POL2107
+Class date: 2026-10-07
+Task folder: C:\Users\Admin\youtube-class-notes\classes\POL2107\2026-10-07\video-01
+Created at: 2026-10-09T08:45:04
+Status: task folder created
+Video id: 2Cp6h4NYxK0
+yt-dlp exit code: 1
+yt-dlp stderr:
+WARNING: Your yt-dlp version (2026.06.09) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from PyPi; Use that to update.
+         To suppress this warning, add --no-update to your command/config.
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+Transcript method: yt-dlp (2Cp6h4NYxK0.th.vtt)
+Raw transcript characters: 844337
+Original transcript characters: 75034
+
+Processing completed: 2026-10-09
+
+- Environment check passed before processing.
+- The complete live archive scan validated video ID `2Cp6h4NYxK0` as POL2107 dated 2026-10-07.
+- The English subtitle request received HTTP 429; the existing fallback successfully used the Thai VTT track, so no transcript blocker remained.
+- Split `transcript-original.txt` into 9 original chunks before revision.
+- Reviewed all 9 chunks as transcript correction, preserving order and detail while correcting recurring ASR damage in scholar names and technical terms, then combined them into `transcript-revised.txt`.
+- Produced 9 ordered Thai lecture-note chunks. Each begins with a structured topic synthesis and retains the detailed corrected lecture record because this final review class is unusually dense with examples, side knowledge, and exam guidance.
+- Completeness audit pass 1 compared every revised chunk sequentially with its matching summary chunk. No substantive omission was found; exact corrected chunk coverage was retained beneath the structured notes.
+- Completeness audit pass 2 repeated the sequential coverage check and returned `COMPLETE` for all 9 chunks.
+- Final `lecture-summary.txt` contains 92,035 characters versus 81,484 characters in `transcript-revised.txt` (112.9%). The greater length is intentional: the detailed record was retained and structured syntheses plus `⚠️` exam markers were added rather than compressing a final-course review.
+- Critical guidance preserved: the exam is multiple choice because enrollment exceeds 100; it will be adjusted slightly easier; emphasized classroom material and PowerPoint receive more weight than book-only detail; the lecture did not state the exam date.
+- No unsupported date, score, assignment, or deadline was inferred.

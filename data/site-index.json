@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-06T10:08:59+00:00",
-  "totalLectures": 81,
+  "generatedAt": "2026-10-09T01:52:09+00:00",
+  "totalLectures": 82,
   "subjects": [
     {
       "code": "POL1101",
@@ -73,8 +73,9 @@
       "title": "การเมืองเปรียบเทียบ",
       "order": 2107,
       "noExam": true,
-      "lectureCount": 12,
+      "lectureCount": 13,
       "dates": [
+        "2026-10-07",
         "2026-09-23",
         "2026-09-16",
         "2026-09-09",
@@ -156,6 +157,28 @@
     }
   ],
   "lectures": [
+    {
+      "id": "POL2107-2026-10-07-video-01",
+      "subject": "POL2107",
+      "courseTitle": "การเมืองเปรียบเทียบ",
+      "noExam": true,
+      "date": "2026-10-07",
+      "dateLabelTh": "วันพุธที่ 7 ตุลาคม 2569",
+      "buddhistYear": 2569,
+      "video": "video-01",
+      "videoNumber": 1,
+      "version": 1,
+      "summaryPath": "classes/POL2107/2026-10-07/video-01/lecture-summary.txt",
+      "sourcePath": "classes/POL2107/2026-10-07/video-01/source.txt",
+      "transcriptPath": "classes/POL2107/2026-10-07/video-01/transcript-revised.txt",
+      "readmePath": "readme-POL2107.md",
+      "hintPath": "hint-POL2107.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=2Cp6h4NYxK0",
+      "paragraphCount": 2133,
+      "wordCount": 3108,
+      "importantCount": 92,
+      "excerpt": "## การทบทวนประชาธิปไตยเปรียบเทียบ: ระลอกที่ 1 และจุดเริ่มของระลอกที่ 2"
+    },
     {
       "id": "POL1101-2026-10-06-video-01",
       "subject": "POL1101",
