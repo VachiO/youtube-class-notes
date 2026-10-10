@@ -85,7 +85,7 @@
     }
   ],
   "scan": {
-    "checkedAt": "2026-10-10T13:01:13+00:00",
+    "checkedAt": "2026-10-10T13:59:34+00:00",
     "datePages": 51,
     "embeddedVideos": 240,
     "allowedVideos": 78,
@@ -93,5 +93,5 @@
     "sourceUrl": "https://sites.google.com/rumail.ru.ac.th/1-2569"
   },
   "scanError": null,
-  "updatedAt": "2026-10-10T13:01:13+00:00"
+  "updatedAt": "2026-10-10T13:59:34+00:00"
 }
