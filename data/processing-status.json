@@ -85,16 +85,13 @@
     }
   ],
   "scan": {
-    "checkedAt": "2026-10-13T12:05:10+00:00",
+    "checkedAt": "2026-10-13T14:02:11+00:00",
     "datePages": 52,
     "embeddedVideos": 241,
     "allowedVideos": 78,
     "remaining": [],
     "sourceUrl": "https://sites.google.com/rumail.ru.ac.th/1-2569"
   },
-  "scanError": {
-    "at": "2026-10-13T13:07:10+00:00",
-    "message": "ตรวจแหล่งวิดีโอไม่ครบ กรุณาดูผลตรวจครั้งล่าสุด"
-  },
-  "updatedAt": "2026-10-13T13:07:10+00:00"
+  "scanError": null,
+  "updatedAt": "2026-10-13T14:02:11+00:00"
 }
