@@ -758,10 +758,12 @@ h1 {
   overflow-wrap: anywhere;
 }
 
-#personalNotes .markdown-body > section + section {
+#personalNotes .markdown-body h4 {
   margin-top: 48px;
   padding-top: 32px;
   border-top: 1px solid var(--hairline);
+  font-size: 22px;
+  line-height: 1.45;
 }
 
 .section-head {

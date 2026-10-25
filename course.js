@@ -141,24 +141,9 @@ async function renderDossier() {
   el.courseReadme.innerHTML = markdownToHtml(readme || `# ${state.subject.code}\n\nยังไม่มีข้อมูลวิชา`);
   el.courseHints.innerHTML = markdownToHtml(hints || `# แนวสอบ ${state.subject.code}\n\nยังไม่มีแนวสอบที่บันทึกไว้`);
   if (state.subject.code === "POL2129") {
-    const parts = await Promise.all([
-      ["notes-POL2129-overview.md", "ภาพรวมวิชา"],
-      ["notes-POL2129-2026-06-30.md", "30 มิถุนายน 2569"],
-      ["notes-POL2129-2026-07-07.md", "7 กรกฎาคม 2569"],
-      ["notes-POL2129-2026-07-14.md", "14 กรกฎาคม 2569"],
-      ["notes-POL2129-2026-08-04.md", "4 สิงหาคม 2569"],
-      ["notes-POL2129-2026-08-11.md", "11 สิงหาคม 2569"],
-      ["notes-POL2129-2026-08-25.md", "25 สิงหาคม 2569"],
-      ["notes-POL2129-2026-09-01.md", "1 กันยายน 2569"],
-      ["notes-POL2129-2026-09-08.md", "8 กันยายน 2569"],
-      ["notes-POL2129-2026-09-22.md", "22 กันยายน 2569"],
-    ].map(async ([path, label]) => {
-      const notes = await fetchText(path);
-      const content = markdownToHtml(notes)
-        || `<h3>${escapeHtml(label)}</h3><p class="empty-state">โหลดบันทึกไม่สำเร็จ กรุณาลองใหม่อีกครั้ง</p>`;
-      return `<section aria-label="${escapeHtml(label)}">${content}</section>`;
-    }));
-    document.querySelector("#personalNotesContent").innerHTML = parts.join("");
+    const notes = await fetchText("notes-POL2129-narrative.md");
+    document.querySelector("#personalNotesContent").innerHTML = markdownToHtml(notes)
+      || '<p class="empty-state">โหลดบันทึกไม่สำเร็จ กรุณาลองใหม่อีกครั้ง</p>';
     const panel = document.querySelector("#personalNotes");
     panel.hidden = false;
     if (window.location.hash === "#personalNotes") panel.scrollIntoView({ block: "start" });
@@ -465,7 +450,9 @@ function restoreTheme() {
 }
 
 function escapeInlineMarkdown(value) {
-  return escapeHtml(value).replace(/`([^`]+)`/g, "<code>$1</code>");
+  return escapeHtml(value)
+    .replace(/`([^`]+)`/g, "<code>$1</code>")
+    .replace(/\[([^\]]+)\]\((https:\/\/[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
 }
 
 function escapeHtml(value) {
