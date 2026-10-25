@@ -6,19 +6,22 @@ const vm = require("node:vm");
 const root = path.resolve(__dirname, "..");
 const source = fs.readFileSync(path.join(root, "course.js"), "utf8");
 
-async function render(subject, missing = false) {
+async function render(subject, missing = false, hash = "") {
   const elements = new Map();
   const requested = [];
   const context = vm.createContext({
     URLSearchParams,
-    window: { location: { search: `?subject=${subject}` } },
+    window: { location: { search: `?subject=${subject}`, hash } },
     document: { querySelector(selector) {
-      if (!elements.has(selector)) elements.set(selector, { hidden: true, innerHTML: "" });
+      if (!elements.has(selector)) elements.set(selector, {
+        hidden: true, innerHTML: "", scrolled: false,
+        scrollIntoView() { this.scrolled = true; },
+      });
       return elements.get(selector);
     } },
     async fetch(file) {
       requested.push(file);
-      const exists = !missing && fs.existsSync(path.join(root, file));
+      const exists = missing !== true && missing !== file && fs.existsSync(path.join(root, file));
       return { ok: exists, text: async () => fs.readFileSync(path.join(root, file), "utf8") };
     },
   });
@@ -28,41 +31,48 @@ async function render(subject, missing = false) {
 }
 
 (async () => {
-  const { elements } = await render("POL2129");
+  const { elements, requested } = await render("POL2129");
   assert.equal(elements.get("#personalNotes").hidden, false);
-  const newNotes = [
-    ["#personalNotesOverviewContent", ["ภาพรวมวิชา", "9 วันเรียน", "Multitude", "Autonomy"]],
-    ["#personalNotesJune30Content", ["30 มิถุนายน 2569", "Political Economy", "ธนาคารแห่งประเทศไทย", "หนี้สาธารณะ"]],
-    ["#personalNotesJuly7Content", ["7 กรกฎาคม 2569", "Bank-based", "Market-based", "หุ้นกู้"]],
-    ["#personalNotesJuly14Content", ["14 กรกฎาคม 2569", "100 ล้านดอลลาร์", "2,500 ล้านบาท", "5,000 ล้านบาท", "NPL"]],
-    ["#personalNotesAugust4Content", ["4 สิงหาคม 2569", "Dual Track Policy", "Basel", "OTOP"]],
-    ["#personalNotesAugust11Content", ["11 สิงหาคม 2569", "FTA", "ACMECS", "CEO Diplomacy"]],
-    ["#personalNotesAugust25Content", ["25 สิงหาคม 2569", "10 ประเด็น", "Partnership", "Autonomy", "Horizontal"]],
+  const parts = [
+    ["ภาพรวมวิชา", ["9 วันเรียน", "Multitude", "Autonomy"]],
+    ["30 มิถุนายน 2569", ["Political Economy", "ธนาคารแห่งประเทศไทย", "หนี้สาธารณะ"]],
+    ["7 กรกฎาคม 2569", ["Bank-based", "Market-based", "หุ้นกู้"]],
+    ["14 กรกฎาคม 2569", ["100 ล้านดอลลาร์", "2,500 ล้านบาท", "5,000 ล้านบาท", "NPL"]],
+    ["4 สิงหาคม 2569", ["Dual Track Policy", "Basel", "OTOP"]],
+    ["11 สิงหาคม 2569", ["FTA", "ACMECS", "CEO Diplomacy"]],
+    ["25 สิงหาคม 2569", ["10 ประเด็น", "Partnership", "Autonomy", "Horizontal"]],
+    ["1 กันยายน 2569", ["Resistance", "Reform", "Revolution", "Expressive", "Division of Labour", "Bulmer", "อิสราเอล", "อินเดีย"]],
+    ["8 กันยายน 2569", ["Digital Activism", "Direct Democracy", "Misinformation", "Disinformation", "2546 (2003)", "2010", "Arab Spring", "โคลอมเบีย", "ปากีสถาน", "อินเดีย", "เนปาล", "ความย้อนแย้ง", "5.5", "Digital Literacy", "6.4 การตอบโต้อย่างรุนแรง"]],
+    ["22 กันยายน 2569", ["Multitude", "Hardt", "Negri", "Exploitation", "Dispossession"]],
   ];
-  const courseHtml = fs.readFileSync(path.join(root, "course.html"), "utf8");
-  for (const [selector, terms] of newNotes) {
-    assert.equal(courseHtml.split(`id="${selector.slice(1)}"`).length - 1, 1, `Missing or duplicate panel: ${selector}`);
-    const content = elements.get(selector)?.innerHTML || "";
-    for (const term of terms) assert.ok(content.includes(term), `Missing ${selector} content: ${term}`);
-  }
   const html = elements.get("#personalNotesContent").innerHTML;
-  for (const text of ["1 กันยายน 2569", "Resistance", "Reform", "Revolution", "Expressive", "Division of Labour", "Bulmer", "อิสราเอล", "อินเดีย"]) {
-    assert.ok(html.includes(text), `Missing note content: ${text}`);
+  let lastPosition = -1;
+  for (const [label, terms] of parts) {
+    const position = html.indexOf(`<section aria-label="${label}">`);
+    assert.ok(position > lastPosition, `Missing or out-of-order section: ${label}`);
+    lastPosition = position;
+    const end = html.indexOf("</section>", position);
+    const content = html.slice(position, end);
+    for (const term of terms) assert.ok(content.includes(term), `Missing ${label} content: ${term}`);
   }
+  const noteRequests = requested.filter(file => file.startsWith("notes-POL2129"));
+  assert.equal(noteRequests.length, 10);
+  assert.equal(new Set(noteRequests).size, 10, "Fetch each note once");
+  const courseHtml = fs.readFileSync(path.join(root, "course.html"), "utf8");
+  const panel = courseHtml.split('id="personalNotes"')[1].split('<section class="lecture-picker"')[0];
+  assert.ok(panel.includes("อ่านรวดเดียวก่อนสอบ"));
+  assert.ok(!panel.includes("<details"), "Read all notes without expanding each day");
+  assert.equal(courseHtml.split('id="personalNotesContent"').length - 1, 1);
   const other = await render("POL1101");
-  const september8 = elements.get("#personalNotesSeptember8Content").innerHTML;
-  for (const text of ["8 กันยายน 2569", "Digital Activism", "Direct Democracy", "Misinformation", "Disinformation", "2546 (2003)", "2010", "Arab Spring", "โคลอมเบีย", "ปากีสถาน", "อินเดีย", "เนปาล", "ความย้อนแย้ง", "5.5", "Digital Literacy", "6.4 การตอบโต้อย่างรุนแรง"]) {
-    assert.ok(september8.includes(text), `Missing September 8 note content: ${text}`);
-  }
-  assert.ok(!other.requested.includes("notes-POL2129-2026-09-08.md"));
-  assert.ok(!other.requested.includes("notes-POL2129-2026-09-01.md"));
   assert.ok(!other.requested.some(file => file.startsWith("notes-POL2129")));
   assert.ok(!other.elements.has("#personalNotes"));
   const missing = await render("POL2129", true);
-  assert.ok(missing.elements.get("#personalNotesContent").innerHTML.includes("โหลดบันทึกไม่สำเร็จ"));
-  assert.ok(missing.elements.get("#personalNotesSeptember8Content").innerHTML.includes("โหลดบันทึกไม่สำเร็จ"));
-  for (const [selector] of newNotes) {
-    assert.ok(missing.elements.get(selector).innerHTML.includes("โหลดบันทึกไม่สำเร็จ"), `Missing load error: ${selector}`);
-  }
-  console.log("Personal notes: content, course visibility, and load failure checks passed.");
+  assert.equal(missing.elements.get("#personalNotesContent").innerHTML.split("โหลดบันทึกไม่สำเร็จ").length - 1, 10);
+  const partial = await render("POL2129", "notes-POL2129-2026-08-11.md");
+  const partialHtml = partial.elements.get("#personalNotesContent").innerHTML;
+  assert.ok(partialHtml.includes('<h3>11 สิงหาคม 2569</h3><p class="empty-state">โหลดบันทึกไม่สำเร็จ'));
+  assert.ok(partialHtml.includes("Dispossession"), "A failed note must not hide later notes");
+  const direct = await render("POL2129", false, "#personalNotes");
+  assert.equal(direct.elements.get("#personalNotes").scrolled, true);
+  console.log("Read-through notes: all dates in order, single fetches, visibility, partial failures, and direct link passed.");
 })().catch(error => { console.error(error); process.exitCode = 1; });
