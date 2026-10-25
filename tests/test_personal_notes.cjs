@@ -30,6 +30,21 @@ async function render(subject, missing = false) {
 (async () => {
   const { elements } = await render("POL2129");
   assert.equal(elements.get("#personalNotes").hidden, false);
+  const newNotes = [
+    ["#personalNotesOverviewContent", ["ภาพรวมวิชา", "9 วันเรียน", "Multitude", "Autonomy"]],
+    ["#personalNotesJune30Content", ["30 มิถุนายน 2569", "Political Economy", "ธนาคารแห่งประเทศไทย", "หนี้สาธารณะ"]],
+    ["#personalNotesJuly7Content", ["7 กรกฎาคม 2569", "Bank-based", "Market-based", "หุ้นกู้"]],
+    ["#personalNotesJuly14Content", ["14 กรกฎาคม 2569", "100 ล้านดอลลาร์", "2,500 ล้านบาท", "5,000 ล้านบาท", "NPL"]],
+    ["#personalNotesAugust4Content", ["4 สิงหาคม 2569", "Dual Track Policy", "Basel", "OTOP"]],
+    ["#personalNotesAugust11Content", ["11 สิงหาคม 2569", "FTA", "ACMECS", "CEO Diplomacy"]],
+    ["#personalNotesAugust25Content", ["25 สิงหาคม 2569", "10 ประเด็น", "Partnership", "Autonomy", "Horizontal"]],
+  ];
+  const courseHtml = fs.readFileSync(path.join(root, "course.html"), "utf8");
+  for (const [selector, terms] of newNotes) {
+    assert.equal(courseHtml.split(`id="${selector.slice(1)}"`).length - 1, 1, `Missing or duplicate panel: ${selector}`);
+    const content = elements.get(selector)?.innerHTML || "";
+    for (const term of terms) assert.ok(content.includes(term), `Missing ${selector} content: ${term}`);
+  }
   const html = elements.get("#personalNotesContent").innerHTML;
   for (const text of ["1 กันยายน 2569", "Resistance", "Reform", "Revolution", "Expressive", "Division of Labour", "Bulmer", "อิสราเอล", "อินเดีย"]) {
     assert.ok(html.includes(text), `Missing note content: ${text}`);
@@ -41,9 +56,13 @@ async function render(subject, missing = false) {
   }
   assert.ok(!other.requested.includes("notes-POL2129-2026-09-08.md"));
   assert.ok(!other.requested.includes("notes-POL2129-2026-09-01.md"));
+  assert.ok(!other.requested.some(file => file.startsWith("notes-POL2129")));
   assert.ok(!other.elements.has("#personalNotes"));
   const missing = await render("POL2129", true);
   assert.ok(missing.elements.get("#personalNotesContent").innerHTML.includes("โหลดบันทึกไม่สำเร็จ"));
   assert.ok(missing.elements.get("#personalNotesSeptember8Content").innerHTML.includes("โหลดบันทึกไม่สำเร็จ"));
+  for (const [selector] of newNotes) {
+    assert.ok(missing.elements.get(selector).innerHTML.includes("โหลดบันทึกไม่สำเร็จ"), `Missing load error: ${selector}`);
+  }
   console.log("Personal notes: content, course visibility, and load failure checks passed.");
 })().catch(error => { console.error(error); process.exitCode = 1; });

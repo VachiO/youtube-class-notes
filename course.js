@@ -142,8 +142,16 @@ async function renderDossier() {
   el.courseHints.innerHTML = markdownToHtml(hints || `# แนวสอบ ${state.subject.code}\n\nยังไม่มีแนวสอบที่บันทึกไว้`);
   if (state.subject.code === "POL2129") {
     await Promise.all([
+      ["notes-POL2129-overview.md", "#personalNotesOverviewContent"],
+      ["notes-POL2129-2026-06-30.md", "#personalNotesJune30Content"],
+      ["notes-POL2129-2026-07-07.md", "#personalNotesJuly7Content"],
+      ["notes-POL2129-2026-07-14.md", "#personalNotesJuly14Content"],
+      ["notes-POL2129-2026-08-04.md", "#personalNotesAugust4Content"],
+      ["notes-POL2129-2026-08-11.md", "#personalNotesAugust11Content"],
+      ["notes-POL2129-2026-08-25.md", "#personalNotesAugust25Content"],
       ["notes-POL2129-2026-09-01.md", "#personalNotesContent"],
       ["notes-POL2129-2026-09-08.md", "#personalNotesSeptember8Content"],
+      ["notes-POL2129-2026-09-22.md", "#personalNotesSeptember22Content"],
     ].map(async ([path, selector]) => {
       const notes = await fetchText(path);
       document.querySelector(selector).innerHTML = markdownToHtml(notes)
