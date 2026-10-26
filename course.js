@@ -127,6 +127,7 @@ function renderCourseHeader() {
     <span class="count-pill">${state.lectures.length.toLocaleString("th-TH")} คาบ</span>
     <span class="count-pill">ล่าสุด ${escapeHtml(latest.dateLabelTh)}</span>
     ${state.subject.code === "POL2129" ? '<a class="open-button" href="#personalNotes">อ่านรวดเดียวก่อนสอบ</a><button class="open-button" id="openQuiz1" type="button">Quiz 1</button>' : ""}
+    ${state.subject.code === "POL2100" ? '<a class="open-button" href="#examPreparation">คำตอบอัตนัยและสรุปช่วยจำ</a>' : ""}
   `;
   el.examStatus.hidden = !state.subject.noExam;
   el.readingExamStatus.hidden = !state.subject.noExam;
@@ -140,6 +141,7 @@ async function renderDossier() {
   ]);
   el.courseReadme.innerHTML = markdownToHtml(readme || `# ${state.subject.code}\n\nยังไม่มีข้อมูลวิชา`);
   el.courseHints.innerHTML = markdownToHtml(hints || `# แนวสอบ ${state.subject.code}\n\nยังไม่มีแนวสอบที่บันทึกไว้`);
+  if (state.subject.code === "POL2100") await renderExamPreparation();
   if (state.subject.code === "POL2129") {
     const notes = await fetchText("notes-POL2129-narrative.md");
     document.querySelector("#personalNotesContent").innerHTML = markdownToHtml(notes)
@@ -148,6 +150,49 @@ async function renderDossier() {
     panel.hidden = false;
     if (window.location.hash === "#personalNotes") panel.scrollIntoView({ block: "start" });
   }
+}
+
+async function renderExamPreparation() {
+  const questions = [
+    { number: 1, title: "สหรัฐอเมริกา กับ อังกฤษ" },
+    { number: 2, title: "ประเทศไทย กับ ญี่ปุ่น" },
+  ];
+  const documents = await Promise.all(questions.flatMap(({ number }) => [
+    fetchText(`exam-answer-${number}-POL2100.md`),
+    fetchText(`exam-outline-${number}-POL2100.md`),
+  ]));
+  const content = document.querySelector("#examPreparationContent");
+  content.innerHTML = questions.map(({ number, title }, index) => `
+    <article class="exam-question" id="exam-question-${number}">
+      <h3>ข้อ ${number} · ${title}</h3>
+      ${["คำตอบอัตนัย", "สรุปช่วยจำตามย่อหน้า"].map((label, version) => {
+        const documentIndex = index * 2 + version;
+        const text = documents[documentIndex];
+        return `
+          <details class="exam-version" ${version === 0 ? "open" : ""}>
+            <summary>${label}</summary>
+            ${text ? `<button class="open-button is-secondary" type="button" data-copy-exam="${documentIndex}">คัดลอก${label}</button>` : ""}
+            <div class="markdown-body">${text ? markdownToHtml(text) : '<p class="empty-state">โหลดเนื้อหาไม่สำเร็จ กรุณาลองใหม่อีกครั้ง</p>'}</div>
+          </details>
+        `;
+      }).join("")}
+    </article>
+  `).join("");
+  content.querySelectorAll("[data-copy-exam]").forEach((button) => {
+    button.addEventListener("click", async () => {
+      const label = button.textContent;
+      try {
+        await writeClipboard(documents[Number(button.dataset.copyExam)].replace(/^#{1,2} /gm, ""));
+        button.textContent = "คัดลอกแล้ว";
+      } catch {
+        button.textContent = "คัดลอกไม่สำเร็จ";
+      }
+      window.setTimeout(() => { button.textContent = label; }, 1800);
+    });
+  });
+  const panel = document.querySelector("#examPreparation");
+  panel.hidden = false;
+  if (window.location.hash === "#examPreparation") panel.scrollIntoView({ block: "start" });
 }
 
 function renderLectureList() {
@@ -223,7 +268,7 @@ async function openLecture(lecture, scrollToReader, view = "summary") {
   el.summaryContent.innerHTML = "";
   renderLectureList();
   const viewParam = isScript ? "&view=script" : "";
-  const notesAnchor = !scrollToReader && window.location.hash === "#personalNotes" ? "#personalNotes" : "";
+  const notesAnchor = !scrollToReader && ["#personalNotes", "#examPreparation"].includes(window.location.hash) ? window.location.hash : "";
   window.history.replaceState(null, "", `course.html?subject=${encodeURIComponent(lecture.subject)}&lecture=${encodeURIComponent(lecture.id)}${viewParam}${notesAnchor}`);
 
   try {

@@ -774,6 +774,49 @@ h1 {
   margin-bottom: 16px;
 }
 
+#examPreparation {
+  margin-bottom: 48px;
+  scroll-margin-top: 96px;
+}
+
+.exam-question + .exam-question {
+  margin-top: 40px;
+  padding-top: 32px;
+  border-top: 1px solid var(--hairline);
+}
+
+.exam-question > h3 {
+  color: var(--ink);
+  font-size: 24px;
+}
+
+.exam-version {
+  padding: 16px 0;
+  border-top: 1px solid var(--hairline);
+}
+
+.exam-version > summary {
+  color: var(--ink);
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.exam-version > button {
+  margin-top: 16px;
+}
+
+.exam-version .markdown-body {
+  max-width: 80ch;
+  margin: 24px auto 0;
+  font-size: 17px;
+  line-height: 1.9;
+  overflow-wrap: anywhere;
+}
+
+@media print {
+  .exam-version > button { display: none; }
+}
+
 .section-head p {
   margin: 0;
   color: var(--muted);
